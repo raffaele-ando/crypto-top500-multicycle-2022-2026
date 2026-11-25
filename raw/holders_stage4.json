@@ -1,0 +1,112 @@
+{
+  "10407": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 1963913,
+    "top10_pct": 78.28,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "36066": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 139059,
+    "top10_pct": 65.8,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "1698": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 106346,
+    "top10_pct": 62.76,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "39071": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 13028,
+    "top10_pct": 85.15,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "40008": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 306,
+    "top10_pct": 97.84,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "13769": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 10796,
+    "top10_pct": 65.02,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "3992": {
+    "source": "GoPlus Ethereum (Nov 2026)",
+    "chain": "Ethereum",
+    "updatedate": "2026-11-24",
+    "holderCount": 26173,
+    "top10_pct": 64.88,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "34332": {
+    "source": "Hypurrscan Hyperliquid (Nov 2026)",
+    "chain": "Hyperliquid",
+    "updatedate": "2026-11-24",
+    "holderCount": 17893,
+    "top10_pct": 47.8,
+    "top20_pct": 56.32,
+    "top50_pct": 68.67,
+    "top100_pct": 78.22
+  },
+  "3701": {
+    "source": "Blockscout Rootstock (Nov 2026)",
+    "chain": "Rootstock",
+    "updatedate": "2026-11-24",
+    "holderCount": 18934,
+    "top10_pct": 80.58,
+    "top20_pct": 89.46,
+    "top50_pct": 95.42,
+    "top100_pct": null
+  },
+  "4558": {
+    "source": "Blockscout Flow EVM (Nov 2026)",
+    "chain": "Flow EVM",
+    "updatedate": "2026-11-24",
+    "holderCount": null,
+    "top10_pct": 6.69,
+    "top20_pct": 6.92,
+    "top50_pct": 7.03,
+    "top100_pct": null
+  },
+  "32196": {
+    "source": "Hypurrscan Hyperliquid (Nov 2026)",
+    "chain": "Hyperliquid",
+    "updatedate": "2026-11-24",
+    "holderCount": 270448,
+    "top10_pct": 11.54,
+    "top20_pct": 11.81,
+    "top50_pct": 12.17,
+    "top100_pct": 12.51
+  }
+}

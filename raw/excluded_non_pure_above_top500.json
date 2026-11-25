@@ -1,0 +1,2063 @@
+[
+  {
+    "cmc_id": 825,
+    "cmc_rank_jul1": 3,
+    "name": "Tether USDt",
+    "symbol": "USDT",
+    "mcap_jul1_usd": 184470505034.96216,
+    "price_jul1_usd": 0.99892933,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 3408,
+    "cmc_rank_jul1": 5,
+    "name": "USDC",
+    "symbol": "USDC",
+    "mcap_jul1_usd": 73180293794.16951,
+    "price_jul1_usd": 0.99967527,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 8085,
+    "cmc_rank_jul1": 201,
+    "name": "Lido Staked ETH",
+    "symbol": "stETH",
+    "mcap_jul1_usd": 14709263228.326796,
+    "price_jul1_usd": 1609.63209712,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 33039,
+    "cmc_rank_jul1": 203,
+    "name": "USDS",
+    "symbol": "USDS",
+    "mcap_jul1_usd": 10012656004.159208,
+    "price_jul1_usd": 0.999518,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 12409,
+    "cmc_rank_jul1": 204,
+    "name": "Lido wstETH",
+    "symbol": "WSTETH",
+    "mcap_jul1_usd": 7618343739.810375,
+    "price_jul1_usd": 2002.34617397,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 3717,
+    "cmc_rank_jul1": 205,
+    "name": "Wrapped Bitcoin",
+    "symbol": "WBTC",
+    "mcap_jul1_usd": 7000964773.149072,
+    "price_jul1_usd": 60094.52960482,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 24760,
+    "cmc_rank_jul1": 206,
+    "name": "Wrapped Beacon ETH",
+    "symbol": "WBETH",
+    "mcap_jul1_usd": 5954253356.852146,
+    "price_jul1_usd": 1769.08028246,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 2396,
+    "cmc_rank_jul1": 207,
+    "name": "WETH",
+    "symbol": "WETH",
+    "mcap_jul1_usd": 5448634725.704897,
+    "price_jul1_usd": 1614.25838492,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 4943,
+    "cmc_rank_jul1": 17,
+    "name": "Dai",
+    "symbol": "DAI",
+    "mcap_jul1_usd": 5362676814.711167,
+    "price_jul1_usd": 0.99949568,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 32994,
+    "cmc_rank_jul1": 208,
+    "name": "Coinbase Wrapped BTC",
+    "symbol": "CBBTC",
+    "mcap_jul1_usd": 5299096736.047089,
+    "price_jul1_usd": 60206.17434754,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 36148,
+    "cmc_rank_jul1": 19,
+    "name": "World Liberty Financial USD",
+    "symbol": "USD1",
+    "mcap_jul1_usd": 4617854854.171517,
+    "price_jul1_usd": 0.99891996,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 29470,
+    "cmc_rank_jul1": 20,
+    "name": "Ethena USDe",
+    "symbol": "USDe",
+    "mcap_jul1_usd": 4442016723.556802,
+    "price_jul1_usd": 0.99847521,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 38517,
+    "cmc_rank_jul1": 209,
+    "name": "USDT0",
+    "symbol": "USDT0",
+    "mcap_jul1_usd": 4061289057.758251,
+    "price_jul1_usd": 0.99916667,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 4023,
+    "cmc_rank_jul1": 210,
+    "name": "Bitcoin BEP2",
+    "symbol": "BTCB",
+    "mcap_jul1_usd": 3913387942.33432,
+    "price_jul1_usd": 60006.35472767,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 36458,
+    "cmc_rank_jul1": 211,
+    "name": "Aave Ethereum WETH",
+    "symbol": "AETHWETH",
+    "mcap_jul1_usd": 3268395567.361904,
+    "price_jul1_usd": 1606.92046557,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 33793,
+    "cmc_rank_jul1": 25,
+    "name": "Global Dollar",
+    "symbol": "USDG",
+    "mcap_jul1_usd": 3001209203.219133,
+    "price_jul1_usd": 0.99990114,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 28695,
+    "cmc_rank_jul1": 212,
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "mcap_jul1_usd": 2853407634.849562,
+    "price_jul1_usd": 1768.88675849,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 27772,
+    "cmc_rank_jul1": 28,
+    "name": "PayPal USD",
+    "symbol": "PYUSD",
+    "mcap_jul1_usd": 2772706775.804064,
+    "price_jul1_usd": 0.99976812,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 36457,
+    "cmc_rank_jul1": 214,
+    "name": "Aave Ethereum USDT",
+    "symbol": "AETHUSDT",
+    "mcap_jul1_usd": 2636844106.504061,
+    "price_jul1_usd": 0.99908876,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 5176,
+    "cmc_rank_jul1": 31,
+    "name": "Tether Gold",
+    "symbol": "XAUt",
+    "mcap_jul1_usd": 2467893416.8991833,
+    "price_jul1_usd": 4027.08573423,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 29256,
+    "cmc_rank_jul1": 215,
+    "name": "Ondo US Dollar Yield",
+    "symbol": "USDY",
+    "mcap_jul1_usd": 2160322075.9490156,
+    "price_jul1_usd": 1.137532,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 4705,
+    "cmc_rank_jul1": 36,
+    "name": "PAX Gold",
+    "symbol": "PAXG",
+    "mcap_jul1_usd": 1821914440.9653091,
+    "price_jul1_usd": 4029.44221131,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 29471,
+    "cmc_rank_jul1": 216,
+    "name": "Ethena Staked USDe",
+    "symbol": "sUSDe",
+    "mcap_jul1_usd": 1678232742.8058712,
+    "price_jul1_usd": 1.23514419,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 34387,
+    "cmc_rank_jul1": 42,
+    "name": "Ripple USD",
+    "symbol": "RLUSD",
+    "mcap_jul1_usd": 1580387864.5667946,
+    "price_jul1_usd": 0.99982406,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 38779,
+    "cmc_rank_jul1": 217,
+    "name": "syrupUSDC",
+    "symbol": "syrupUSDC",
+    "mcap_jul1_usd": 1576418113.4516559,
+    "price_jul1_usd": 1.17099702,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 19891,
+    "cmc_rank_jul1": 45,
+    "name": "USDD",
+    "symbol": "USDD",
+    "mcap_jul1_usd": 1390588010.2541444,
+    "price_jul1_usd": 0.99883642,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 18579,
+    "cmc_rank_jul1": 219,
+    "name": "Wrapped TRON",
+    "symbol": "WTRX",
+    "mcap_jul1_usd": 1337084490.3101656,
+    "price_jul1_usd": 0.31578681,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 18852,
+    "cmc_rank_jul1": 220,
+    "name": "USD Coin Bridged",
+    "symbol": "USDC.e",
+    "mcap_jul1_usd": 1274031836.882469,
+    "price_jul1_usd": 1.00084473,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 35721,
+    "cmc_rank_jul1": 221,
+    "name": "Falcon USD",
+    "symbol": "USDf",
+    "mcap_jul1_usd": 1256808582.354987,
+    "price_jul1_usd": 0.99569578,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37760,
+    "cmc_rank_jul1": 222,
+    "name": "BFUSD",
+    "symbol": "BFUSD",
+    "mcap_jul1_usd": 1256762297.4127364,
+    "price_jul1_usd": 0.99848877,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 9486,
+    "cmc_rank_jul1": 223,
+    "name": "Bitcoin TRC20",
+    "symbol": "BTCT",
+    "mcap_jul1_usd": 1054611135.1358804,
+    "price_jul1_usd": 60107.68114811,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 39120,
+    "cmc_rank_jul1": 54,
+    "name": "United Stables",
+    "symbol": "U",
+    "mcap_jul1_usd": 1019884452.5912842,
+    "price_jul1_usd": 0.99933919,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 39072,
+    "cmc_rank_jul1": 224,
+    "name": "Kinetiq Staked HYPE",
+    "symbol": "KHYPE",
+    "mcap_jul1_usd": 902832131.5757388,
+    "price_jul1_usd": 63.83910991,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 7192,
+    "cmc_rank_jul1": 225,
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "mcap_jul1_usd": 871680590.6831312,
+    "price_jul1_usd": 550.69120251,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 39683,
+    "cmc_rank_jul1": 226,
+    "name": "USDGO",
+    "symbol": "USDGO",
+    "mcap_jul1_usd": 862183475.4933292,
+    "price_jul1_usd": 0.9999519,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 29242,
+    "cmc_rank_jul1": 227,
+    "name": "Kelp DAO Restaked ETH",
+    "symbol": "RSETH",
+    "mcap_jul1_usd": 843241972.9320012,
+    "price_jul1_usd": 1679.00675633,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 28853,
+    "cmc_rank_jul1": 228,
+    "name": "Jupiter Perps LP",
+    "symbol": "JLP",
+    "mcap_jul1_usd": 798813609.8844644,
+    "price_jul1_usd": 3.57080336,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 22533,
+    "cmc_rank_jul1": 229,
+    "name": "Jito Staked SOL",
+    "symbol": "JITOSOL",
+    "mcap_jul1_usd": 779116820.891569,
+    "price_jul1_usd": 99.6690461,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 32882,
+    "cmc_rank_jul1": 230,
+    "name": "Binance Staked SOL",
+    "symbol": "BNSOL",
+    "mcap_jul1_usd": 775911452.7772532,
+    "price_jul1_usd": 86.56395542,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 34691,
+    "cmc_rank_jul1": 232,
+    "name": "Ethena Labs (USDtb)",
+    "symbol": "USDtb",
+    "mcap_jul1_usd": 727207081.1027513,
+    "price_jul1_usd": 1.00036505,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 33652,
+    "cmc_rank_jul1": 233,
+    "name": "Lombard Staked BTC",
+    "symbol": "LBTC",
+    "mcap_jul1_usd": 712437464.0096834,
+    "price_jul1_usd": 60456.70541343,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 32306,
+    "cmc_rank_jul1": 235,
+    "name": "Function",
+    "symbol": "FBTC",
+    "mcap_jul1_usd": 645644170.3612494,
+    "price_jul1_usd": 60382.73717694,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 15060,
+    "cmc_rank_jul1": 236,
+    "name": "Rocket Pool ETH",
+    "symbol": "RETH",
+    "mcap_jul1_usd": 611020439.9191803,
+    "price_jul1_usd": 1876.30704724,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 23508,
+    "cmc_rank_jul1": 237,
+    "name": "GHO",
+    "symbol": "GHO",
+    "mcap_jul1_usd": 597746006.7121537,
+    "price_jul1_usd": 0.99790652,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 23782,
+    "cmc_rank_jul1": 238,
+    "name": "Liquid Staked ETH",
+    "symbol": "LSETH",
+    "mcap_jul1_usd": 586574256.3854734,
+    "price_jul1_usd": 1871.72944751,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 38786,
+    "cmc_rank_jul1": 239,
+    "name": "syrupUSDT",
+    "symbol": "syrupUSDT",
+    "mcap_jul1_usd": 574675282.9020355,
+    "price_jul1_usd": 1.13211106,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37741,
+    "cmc_rank_jul1": 240,
+    "name": "TBLL tokenized ETF (xStock)",
+    "symbol": "TBLLX",
+    "mcap_jul1_usd": 572234078.575746,
+    "price_jul1_usd": 105.82,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39925,
+    "cmc_rank_jul1": 241,
+    "name": "Polymarket USD",
+    "symbol": "PUSD",
+    "mcap_jul1_usd": 564666111.8681759,
+    "price_jul1_usd": 1.00046755,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 32307,
+    "cmc_rank_jul1": 242,
+    "name": "Usual USD",
+    "symbol": "USD0",
+    "mcap_jul1_usd": 556564286.1421379,
+    "price_jul1_usd": 0.99851021,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 28183,
+    "cmc_rank_jul1": 243,
+    "name": "Wrapped Flare",
+    "symbol": "WFLR",
+    "mcap_jul1_usd": 550865583.1560494,
+    "price_jul1_usd": 0.00644328,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 38948,
+    "cmc_rank_jul1": 244,
+    "name": "Solstice USX",
+    "symbol": "USX",
+    "mcap_jul1_usd": 511672531.1662367,
+    "price_jul1_usd": 1.00209443,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 33981,
+    "cmc_rank_jul1": 245,
+    "name": "Bond USD0",
+    "symbol": "bUSD0",
+    "mcap_jul1_usd": 505671803.5136918,
+    "price_jul1_usd": 0.96417653,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 38562,
+    "cmc_rank_jul1": 246,
+    "name": "USDai",
+    "symbol": "USDAI",
+    "mcap_jul1_usd": 501216409.86615926,
+    "price_jul1_usd": 0.99973129,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 27568,
+    "cmc_rank_jul1": 247,
+    "name": "Lista Staked BNB",
+    "symbol": "slisBNB",
+    "mcap_jul1_usd": 496332489.5881859,
+    "price_jul1_usd": 569.55013295,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 2563,
+    "cmc_rank_jul1": 78,
+    "name": "TrueUSD",
+    "symbol": "TUSD",
+    "mcap_jul1_usd": 493515396.60247535,
+    "price_jul1_usd": 0.99797845,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 20641,
+    "cmc_rank_jul1": 84,
+    "name": "EURC",
+    "symbol": "EURC",
+    "mcap_jul1_usd": 433747516.6018836,
+    "price_jul1_usd": 1.13797622,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 38192,
+    "cmc_rank_jul1": 248,
+    "name": "Jupiter Staked SOL",
+    "symbol": "JUPSOL",
+    "mcap_jul1_usd": 414257985.4912935,
+    "price_jul1_usd": 92.91051811,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 29035,
+    "cmc_rank_jul1": 249,
+    "name": "Mantle Staked Ether",
+    "symbol": "METH",
+    "mcap_jul1_usd": 412889852.3848381,
+    "price_jul1_usd": 1761.71480033,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 26133,
+    "cmc_rank_jul1": 250,
+    "name": "tBTC",
+    "symbol": "tBTC",
+    "mcap_jul1_usd": 411551401.924548,
+    "price_jul1_usd": 60390.76371495,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 33055,
+    "cmc_rank_jul1": 251,
+    "name": "slisBNBx",
+    "symbol": "slisBNBx",
+    "mcap_jul1_usd": 405424283.53983706,
+    "price_jul1_usd": 550.2276,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 33312,
+    "cmc_rank_jul1": 252,
+    "name": "SolvBTC",
+    "symbol": "SolvBTC",
+    "mcap_jul1_usd": 386076564.435777,
+    "price_jul1_usd": 59976.49304256,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 35881,
+    "cmc_rank_jul1": 253,
+    "name": "Wrapped HYPE",
+    "symbol": "WHYPE",
+    "mcap_jul1_usd": 357602932.8426151,
+    "price_jul1_usd": 62.41356561,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 26081,
+    "cmc_rank_jul1": 94,
+    "name": "First Digital USD",
+    "symbol": "FDUSD",
+    "mcap_jul1_usd": 348964143.0029639,
+    "price_jul1_usd": 0.99670856,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 7962,
+    "cmc_rank_jul1": 254,
+    "name": "Venus BTC",
+    "symbol": "vBTC",
+    "mcap_jul1_usd": 343045540.23647046,
+    "price_jul1_usd": 1222.12716761,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 7961,
+    "cmc_rank_jul1": 255,
+    "name": "Venus BNB",
+    "symbol": "vBNB",
+    "mcap_jul1_usd": 312618129.8215991,
+    "price_jul1_usd": 13.72122406,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 21535,
+    "cmc_rank_jul1": 256,
+    "name": "Coinbase Wrapped Staked ETH",
+    "symbol": "cbETH",
+    "mcap_jul1_usd": 264975719.6269348,
+    "price_jul1_usd": 1828.86171635,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 6952,
+    "cmc_rank_jul1": 258,
+    "name": "Legacy Frax Dollar",
+    "symbol": "FRAX",
+    "mcap_jul1_usd": 237146866.99055457,
+    "price_jul1_usd": 0.9898853,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 28476,
+    "cmc_rank_jul1": 259,
+    "name": "StakeWise Staked ETH",
+    "symbol": "osETH",
+    "mcap_jul1_usd": 233682128.0808204,
+    "price_jul1_usd": 1721.14825886,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 36175,
+    "cmc_rank_jul1": 260,
+    "name": "Universal BTC",
+    "symbol": "UNIBTC",
+    "mcap_jul1_usd": 229157317.28403857,
+    "price_jul1_usd": 59522.18489537,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 28568,
+    "cmc_rank_jul1": 263,
+    "name": "ether.fi Staked ETH",
+    "symbol": "EETH",
+    "mcap_jul1_usd": 218944493.15929508,
+    "price_jul1_usd": 1615.34492411,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 35930,
+    "cmc_rank_jul1": 264,
+    "name": "Wrapped XTZ",
+    "symbol": "WXTZ",
+    "mcap_jul1_usd": 218640325.9467007,
+    "price_jul1_usd": 0.21168566,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 39711,
+    "cmc_rank_jul1": 265,
+    "name": "Strategy PP Variable tokenized stock (xStock)",
+    "symbol": "STRCX",
+    "mcap_jul1_usd": 212127100.29452026,
+    "price_jul1_usd": 89.02142053,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39090,
+    "cmc_rank_jul1": 267,
+    "name": "GTBTC",
+    "symbol": "GTBTC",
+    "mcap_jul1_usd": 207608686.39539254,
+    "price_jul1_usd": 60209.9656166,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 24875,
+    "cmc_rank_jul1": 268,
+    "name": "Staked TRX",
+    "symbol": "STRX",
+    "mcap_jul1_usd": 197896415.61113185,
+    "price_jul1_usd": 0.40705725,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 7957,
+    "cmc_rank_jul1": 269,
+    "name": "Venus USDT",
+    "symbol": "vUSDT",
+    "mcap_jul1_usd": 192943952.24316472,
+    "price_jul1_usd": 0.02633633,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 11461,
+    "cmc_rank_jul1": 270,
+    "name": "Marinade Staked SOL",
+    "symbol": "MSOL",
+    "mcap_jul1_usd": 188912179.47734633,
+    "price_jul1_usd": 107.78573616,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37028,
+    "cmc_rank_jul1": 271,
+    "name": "Intel tokenized stock (xStock)",
+    "symbol": "INTCX",
+    "mcap_jul1_usd": 188200265.364307,
+    "price_jul1_usd": 129.75646021,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38386,
+    "cmc_rank_jul1": 272,
+    "name": "USAT",
+    "symbol": "USAT",
+    "mcap_jul1_usd": 187200348.1338019,
+    "price_jul1_usd": 0.99848044,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 36246,
+    "cmc_rank_jul1": 273,
+    "name": "Staked Aave",
+    "symbol": "stkAAVE",
+    "mcap_jul1_usd": 185071397.98871446,
+    "price_jul1_usd": 82.96763182,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 27566,
+    "cmc_rank_jul1": 275,
+    "name": "Stader ETHx",
+    "symbol": "ETHX",
+    "mcap_jul1_usd": 181854726.00571066,
+    "price_jul1_usd": 1770.21084852,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37574,
+    "cmc_rank_jul1": 276,
+    "name": "Treehouse ETH",
+    "symbol": "TETH",
+    "mcap_jul1_usd": 180873265.56480107,
+    "price_jul1_usd": 2021.06583195,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 20721,
+    "cmc_rank_jul1": 278,
+    "name": "Bitcoin Avalanche Bridged",
+    "symbol": "BTC.b",
+    "mcap_jul1_usd": 175948521.39341468,
+    "price_jul1_usd": 59999.99047658,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 32864,
+    "cmc_rank_jul1": 279,
+    "name": "AUSD",
+    "symbol": "AUSD",
+    "mcap_jul1_usd": 173327253.34889874,
+    "price_jul1_usd": 0.99964582,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 24927,
+    "cmc_rank_jul1": 281,
+    "name": "crvUSD",
+    "symbol": "CRVUSD",
+    "mcap_jul1_usd": 172275613.0340908,
+    "price_jul1_usd": 0.99904636,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 3626,
+    "cmc_rank_jul1": 282,
+    "name": "Bitcoin on Rootstock",
+    "symbol": "rBTC",
+    "mcap_jul1_usd": 169907402.4758514,
+    "price_jul1_usd": 60813.04797584,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 23177,
+    "cmc_rank_jul1": 283,
+    "name": "Frax Staked Ether",
+    "symbol": "SFRXETH",
+    "mcap_jul1_usd": 165491771.62546524,
+    "price_jul1_usd": 1861.29461822,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37004,
+    "cmc_rank_jul1": 284,
+    "name": "Tesla tokenized stock (xStock)",
+    "symbol": "TSLAX",
+    "mcap_jul1_usd": 164803084.9936593,
+    "price_jul1_usd": 422.83792867,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 33469,
+    "cmc_rank_jul1": 285,
+    "name": "Wrapped Chiliz",
+    "symbol": "WCHZ",
+    "mcap_jul1_usd": 164571419.11176446,
+    "price_jul1_usd": 0.017875,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 8353,
+    "cmc_rank_jul1": 286,
+    "name": "Beacon ETH",
+    "symbol": "BETH",
+    "mcap_jul1_usd": 162623119.99657026,
+    "price_jul1_usd": 1610.56044682,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37006,
+    "cmc_rank_jul1": 287,
+    "name": "SP500 tokenized ETF (xStock)",
+    "symbol": "SPYX",
+    "mcap_jul1_usd": 162344104.98706236,
+    "price_jul1_usd": 749.47871469,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37654,
+    "cmc_rank_jul1": 288,
+    "name": "Lorenzo staked USD1+",
+    "symbol": "SUSD1+",
+    "mcap_jul1_usd": 159527738.63789976,
+    "price_jul1_usd": 1.02838366,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37041,
+    "cmc_rank_jul1": 290,
+    "name": "Robinhood tokenized stock (xStock)",
+    "symbol": "HOODX",
+    "mcap_jul1_usd": 158796158.87643737,
+    "price_jul1_usd": 108.04627389,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 12760,
+    "cmc_rank_jul1": 291,
+    "name": "Sanctum Infinity",
+    "symbol": "INF",
+    "mcap_jul1_usd": 156934393.6951611,
+    "price_jul1_usd": 110.67654717,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37050,
+    "cmc_rank_jul1": 292,
+    "name": "Marvell tokenized stock (xStock)",
+    "symbol": "MRVLX",
+    "mcap_jul1_usd": 154175736.2745894,
+    "price_jul1_usd": 276.28,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 18523,
+    "cmc_rank_jul1": 293,
+    "name": "BENQI Liquid Staked AVAX",
+    "symbol": "sAVAX",
+    "mcap_jul1_usd": 153593681.34235266,
+    "price_jul1_usd": 8.43440594,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37057,
+    "cmc_rank_jul1": 295,
+    "name": "Nasdaq tokenized ETF (xStock)",
+    "symbol": "QQQX",
+    "mcap_jul1_usd": 152205648.36977553,
+    "price_jul1_usd": 725.40674525,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38330,
+    "cmc_rank_jul1": 296,
+    "name": "GUSD",
+    "symbol": "GUSD",
+    "mcap_jul1_usd": 149229187.06678146,
+    "price_jul1_usd": 0.99858931,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 36994,
+    "cmc_rank_jul1": 298,
+    "name": "Apple tokenized stock (xStock)",
+    "symbol": "AAPLX",
+    "mcap_jul1_usd": 147737786.76760897,
+    "price_jul1_usd": 294.96320244,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 32796,
+    "cmc_rank_jul1": 299,
+    "name": "EUR CoinVertible",
+    "symbol": "EURCV",
+    "mcap_jul1_usd": 142188087.23871666,
+    "price_jul1_usd": 1.13706733,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 16116,
+    "cmc_rank_jul1": 300,
+    "name": "Wrapped Solana",
+    "symbol": "SOL",
+    "mcap_jul1_usd": 140730143.9782881,
+    "price_jul1_usd": 77.41724741,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37013,
+    "cmc_rank_jul1": 302,
+    "name": "Alphabet tokenized stock (xStock)",
+    "symbol": "GOOGLX",
+    "mcap_jul1_usd": 139153630.82432935,
+    "price_jul1_usd": 360.76268089,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 36992,
+    "cmc_rank_jul1": 303,
+    "name": "NVIDIA tokenized stock (xStock)",
+    "symbol": "NVDAX",
+    "mcap_jul1_usd": 129027591.09858179,
+    "price_jul1_usd": 197.25460366,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37005,
+    "cmc_rank_jul1": 306,
+    "name": "Circle tokenized stock (xStock)",
+    "symbol": "CRCLX",
+    "mcap_jul1_usd": 121347692.51626202,
+    "price_jul1_usd": 62.40381784,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 36039,
+    "cmc_rank_jul1": 310,
+    "name": "Frax USD",
+    "symbol": "FRXUSD",
+    "mcap_jul1_usd": 113859469.02652803,
+    "price_jul1_usd": 0.99968684,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 35437,
+    "cmc_rank_jul1": 311,
+    "name": "Aster USDF",
+    "symbol": "USDF",
+    "mcap_jul1_usd": 113004456.06373866,
+    "price_jul1_usd": 0.99826591,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 14926,
+    "cmc_rank_jul1": 313,
+    "name": "JPool Staked SOL (JSOL)",
+    "symbol": "JSOL",
+    "mcap_jul1_usd": 107092389.90274122,
+    "price_jul1_usd": 105.09066479,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 36762,
+    "cmc_rank_jul1": 314,
+    "name": "StandX DUSD",
+    "symbol": "DUSD",
+    "mcap_jul1_usd": 105851784.39993021,
+    "price_jul1_usd": 0.99818593,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 35293,
+    "cmc_rank_jul1": 316,
+    "name": "Aster asBNB",
+    "symbol": "asBNB",
+    "mcap_jul1_usd": 102861342.98310587,
+    "price_jul1_usd": 585.19302191,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 38947,
+    "cmc_rank_jul1": 319,
+    "name": "Solstice eUSX",
+    "symbol": "EUSX",
+    "mcap_jul1_usd": 101254207.0939476,
+    "price_jul1_usd": 1.04376431,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 36707,
+    "cmc_rank_jul1": 321,
+    "name": "Coinbase Wrapped XRP",
+    "symbol": "CBXRP",
+    "mcap_jul1_usd": 99370780.05147062,
+    "price_jul1_usd": 1.05601127,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 39699,
+    "cmc_rank_jul1": 323,
+    "name": "AMD Tokenised Stock (xStock)",
+    "symbol": "AMDx",
+    "mcap_jul1_usd": 97304275.68064548,
+    "price_jul1_usd": 549.41023512,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37024,
+    "cmc_rank_jul1": 325,
+    "name": "Gold tokenized ETF (xStock)",
+    "symbol": "GLDX",
+    "mcap_jul1_usd": 96324495.55500044,
+    "price_jul1_usd": 370.11549226,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 33834,
+    "cmc_rank_jul1": 326,
+    "name": "Bybit Staked SOL",
+    "symbol": "BBSOL",
+    "mcap_jul1_usd": 94108933.40603833,
+    "price_jul1_usd": 89.38383402,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 38273,
+    "cmc_rank_jul1": 328,
+    "name": "U.S. Dollar Tokenized Currency (Ondo)",
+    "symbol": "USDon",
+    "mcap_jul1_usd": 92085409.23659171,
+    "price_jul1_usd": 0.99936988,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38056,
+    "cmc_rank_jul1": 331,
+    "name": "Circle Internet Group Tokenized Stock (Ondo)",
+    "symbol": "CRCLon",
+    "mcap_jul1_usd": 90434217.39665215,
+    "price_jul1_usd": 62.40441839,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 9462,
+    "cmc_rank_jul1": 332,
+    "name": "Wrapped AVAX",
+    "symbol": "WAVAX",
+    "mcap_jul1_usd": 90311233.53086843,
+    "price_jul1_usd": 6.66804869,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37055,
+    "cmc_rank_jul1": 333,
+    "name": "Meta tokenized stock (xStock)",
+    "symbol": "METAX",
+    "mcap_jul1_usd": 87371993.3302805,
+    "price_jul1_usd": 612.87340111,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37056,
+    "cmc_rank_jul1": 334,
+    "name": "Microsoft tokenized stock (xStock)",
+    "symbol": "MSFTX",
+    "mcap_jul1_usd": 84972046.33588675,
+    "price_jul1_usd": 386.67683675,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 40217,
+    "cmc_rank_jul1": 339,
+    "name": "SpaceX Tokenized bStocks",
+    "symbol": "SPCXB",
+    "mcap_jul1_usd": 81768005.30356212,
+    "price_jul1_usd": 157.91216119,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 29520,
+    "cmc_rank_jul1": 340,
+    "name": "Renzo Restaked ETH",
+    "symbol": "EZETH",
+    "mcap_jul1_usd": 80559722.57922313,
+    "price_jul1_usd": 1739.03280942,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37032,
+    "cmc_rank_jul1": 343,
+    "name": "Cisco tokenized stock (xStock)",
+    "symbol": "CSCOX",
+    "mcap_jul1_usd": 79252307.82103162,
+    "price_jul1_usd": 118.84970235,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 21330,
+    "cmc_rank_jul1": 345,
+    "name": "lisUSD",
+    "symbol": "lisUSD",
+    "mcap_jul1_usd": 75162578.68525712,
+    "price_jul1_usd": 0.99801725,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37049,
+    "cmc_rank_jul1": 346,
+    "name": "Linde tokenized stock (xStock)",
+    "symbol": "LINX",
+    "mcap_jul1_usd": 74891808.54927455,
+    "price_jul1_usd": 536.28,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 40643,
+    "cmc_rank_jul1": 347,
+    "name": "SpaceX  Pre-IPO stock (Republic)",
+    "symbol": "preSPCX",
+    "mcap_jul1_usd": 74750735.65939556,
+    "price_jul1_usd": 157.45283972,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39703,
+    "cmc_rank_jul1": 351,
+    "name": "Vanguard Total World Tokenised ETF (xStock)",
+    "symbol": "VTx",
+    "mcap_jul1_usd": 73842995.56885152,
+    "price_jul1_usd": 155.06,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 36989,
+    "cmc_rank_jul1": 355,
+    "name": "Coinbase tokenized stock (xStock)",
+    "symbol": "COINX",
+    "mcap_jul1_usd": 72741976.11479945,
+    "price_jul1_usd": 159.563533,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37033,
+    "cmc_rank_jul1": 358,
+    "name": "Coca-Cola tokenized stock (xStock)",
+    "symbol": "KOX",
+    "mcap_jul1_usd": 72279317.77753662,
+    "price_jul1_usd": 84.75108726,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 6941,
+    "cmc_rank_jul1": 362,
+    "name": "Huobi BTC",
+    "symbol": "HBTC",
+    "mcap_jul1_usd": 71899569.4232405,
+    "price_jul1_usd": 49293.18887002,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 28862,
+    "cmc_rank_jul1": 371,
+    "name": "BlazeStake Staked SOL",
+    "symbol": "BSOL",
+    "mcap_jul1_usd": 70779470.9323502,
+    "price_jul1_usd": 100.6037269,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37062,
+    "cmc_rank_jul1": 374,
+    "name": "Palantir tokenized stock (xStock)",
+    "symbol": "PLTRX",
+    "mcap_jul1_usd": 69508040.07697766,
+    "price_jul1_usd": 127.31041529,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38051,
+    "cmc_rank_jul1": 376,
+    "name": "iShares Core S&P 500 Tokenized ETF (Ondo)",
+    "symbol": "IVVon",
+    "mcap_jul1_usd": 67901275.66262777,
+    "price_jul1_usd": 754.29479395,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38942,
+    "cmc_rank_jul1": 379,
+    "name": "USDsui",
+    "symbol": "USDsui",
+    "mcap_jul1_usd": 66828178.03908232,
+    "price_jul1_usd": 0.99943918,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37003,
+    "cmc_rank_jul1": 383,
+    "name": "MicroStrategy tokenized stock (xStock)",
+    "symbol": "MSTRX",
+    "mcap_jul1_usd": 66106537.98754487,
+    "price_jul1_usd": 94.67148084,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39707,
+    "cmc_rank_jul1": 386,
+    "name": "Core MSCI Emerging Markets Tokenised ETF (xStock)",
+    "symbol": "IEMGx",
+    "mcap_jul1_usd": 65587173.92380711,
+    "price_jul1_usd": 81.42,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 30030,
+    "cmc_rank_jul1": 388,
+    "name": "Edgevana Staked SOL",
+    "symbol": "EDGESOL",
+    "mcap_jul1_usd": 65141929.68934007,
+    "price_jul1_usd": 99.59579032,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37051,
+    "cmc_rank_jul1": 390,
+    "name": "Mastercard tokenized stock (xStock)",
+    "symbol": "MAX",
+    "mcap_jul1_usd": 63917042.84561471,
+    "price_jul1_usd": 524.23691479,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38014,
+    "cmc_rank_jul1": 392,
+    "name": "Micron Technology Tokenized Stock (Ondo)",
+    "symbol": "MUon",
+    "mcap_jul1_usd": 63626204.82738534,
+    "price_jul1_usd": 1023.85522319,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39549,
+    "cmc_rank_jul1": 394,
+    "name": "Fidelity Digital Dollar",
+    "symbol": "FIDD",
+    "mcap_jul1_usd": 62524602.74161047,
+    "price_jul1_usd": 0.99877866,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37046,
+    "cmc_rank_jul1": 400,
+    "name": "Visa tokenized stock (xStock)",
+    "symbol": "VX",
+    "mcap_jul1_usd": 61238508.31587445,
+    "price_jul1_usd": 355.59532223,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37035,
+    "cmc_rank_jul1": 401,
+    "name": "CrowdStrike tokenized stock (xStock)",
+    "symbol": "CRWDX",
+    "mcap_jul1_usd": 60359187.99271675,
+    "price_jul1_usd": 772.43278868,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 7959,
+    "cmc_rank_jul1": 402,
+    "name": "Venus BUSD",
+    "symbol": "vBUSD",
+    "mcap_jul1_usd": 60107907.5689938,
+    "price_jul1_usd": 0.02230539,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 27793,
+    "cmc_rank_jul1": 405,
+    "name": "Staked USDT",
+    "symbol": "STUSDT",
+    "mcap_jul1_usd": 59612528.9872156,
+    "price_jul1_usd": 0.990571,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37018,
+    "cmc_rank_jul1": 406,
+    "name": "AstraZeneca tokenized stock (xStock)",
+    "symbol": "AZNX",
+    "mcap_jul1_usd": 59595796.51188028,
+    "price_jul1_usd": 105.26007237,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 33310,
+    "cmc_rank_jul1": 409,
+    "name": "xSolvBTC",
+    "symbol": "xSolvBTC",
+    "mcap_jul1_usd": 58921122.24403923,
+    "price_jul1_usd": 59846.39539395,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37011,
+    "cmc_rank_jul1": 410,
+    "name": "AbbVie tokenized stock (xStock)",
+    "symbol": "ABBVX",
+    "mcap_jul1_usd": 58848774.18597033,
+    "price_jul1_usd": 257.1292626,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37063,
+    "cmc_rank_jul1": 414,
+    "name": "Pfizer tokenized stock (xStock)",
+    "symbol": "PFEX",
+    "mcap_jul1_usd": 58300240.32579395,
+    "price_jul1_usd": 23.92,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37025,
+    "cmc_rank_jul1": 415,
+    "name": "Goldman Sachs tokenized stock (xStock)",
+    "symbol": "GSX",
+    "mcap_jul1_usd": 58038447.08360904,
+    "price_jul1_usd": 1028.71,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37022,
+    "cmc_rank_jul1": 416,
+    "name": "Chevron tokenized stock (xStock)",
+    "symbol": "CVXX",
+    "mcap_jul1_usd": 57822016.80445029,
+    "price_jul1_usd": 166.39,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37017,
+    "cmc_rank_jul1": 420,
+    "name": "AppLovin tokenized stock (xStock)",
+    "symbol": "APPX",
+    "mcap_jul1_usd": 57692687.83215473,
+    "price_jul1_usd": 574.41,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39702,
+    "cmc_rank_jul1": 421,
+    "name": "Schwab International Equity Tokenised ETF (xStock)",
+    "symbol": "SCHFx",
+    "mcap_jul1_usd": 57432392.82000147,
+    "price_jul1_usd": 27.47,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 40137,
+    "cmc_rank_jul1": 424,
+    "name": "iShares Semiconductor tokenized ETF (xStock)",
+    "symbol": "SOXXx",
+    "mcap_jul1_usd": 56960760.52424165,
+    "price_jul1_usd": 614.99,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37040,
+    "cmc_rank_jul1": 425,
+    "name": "Procter & Gamble tokenized stock (xStock)",
+    "symbol": "PGX",
+    "mcap_jul1_usd": 56690378.93461206,
+    "price_jul1_usd": 147.78573967,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37047,
+    "cmc_rank_jul1": 433,
+    "name": "Vanguard tokenized ETF (xStock)",
+    "symbol": "VTIX",
+    "mcap_jul1_usd": 55356803.17835067,
+    "price_jul1_usd": 372.8362173,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37026,
+    "cmc_rank_jul1": 441,
+    "name": "Home Depot tokenized stock (xStock)",
+    "symbol": "HDX",
+    "mcap_jul1_usd": 53807064.98828052,
+    "price_jul1_usd": 357.98183286,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37023,
+    "cmc_rank_jul1": 448,
+    "name": "Gamestop tokenized stock (xStock)",
+    "symbol": "GMEX",
+    "mcap_jul1_usd": 52045517.62391777,
+    "price_jul1_usd": 23.04582142,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37027,
+    "cmc_rank_jul1": 449,
+    "name": "Honeywell tokenized stock (xStock)",
+    "symbol": "HONX",
+    "mcap_jul1_usd": 51650371.91264304,
+    "price_jul1_usd": 235.73572877,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37044,
+    "cmc_rank_jul1": 450,
+    "name": "TQQQ tokenized ETF (xStock)",
+    "symbol": "TQQQX",
+    "mcap_jul1_usd": 51599537.21034373,
+    "price_jul1_usd": 78.62597717,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37020,
+    "cmc_rank_jul1": 453,
+    "name": "Berkshire Hathaway tokenized stock (xStock)",
+    "symbol": "BRK.BX",
+    "mcap_jul1_usd": 51480541.27018354,
+    "price_jul1_usd": 500.15906985,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 10240,
+    "cmc_rank_jul1": 456,
+    "name": "Wrapped Fantom",
+    "symbol": "WFTM",
+    "mcap_jul1_usd": 50286756.19507224,
+    "price_jul1_usd": 0.02304254,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37045,
+    "cmc_rank_jul1": 458,
+    "name": "UnitedHealth tokenized stock (xStock)",
+    "symbol": "UNHX",
+    "mcap_jul1_usd": 49774208.21972581,
+    "price_jul1_usd": 429.26173973,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37039,
+    "cmc_rank_jul1": 464,
+    "name": "Exxon Mobil tokenized stock (xStock)",
+    "symbol": "XOMX",
+    "mcap_jul1_usd": 48360052.00620978,
+    "price_jul1_usd": 136.41458447,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 40166,
+    "cmc_rank_jul1": 468,
+    "name": "VanEck Uranium and Nuclear tokenized ETF (xStock)",
+    "symbol": "NLRx",
+    "mcap_jul1_usd": 47813995.72904359,
+    "price_jul1_usd": 120.6,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39369,
+    "cmc_rank_jul1": 476,
+    "name": "Wrapped peaq",
+    "symbol": "WPEAQ",
+    "mcap_jul1_usd": 47124571.43396578,
+    "price_jul1_usd": 0.02130392,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 32372,
+    "cmc_rank_jul1": 480,
+    "name": "StraitsX USD",
+    "symbol": "XUSD",
+    "mcap_jul1_usd": 46622613.24591921,
+    "price_jul1_usd": 1.00002097,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 7958,
+    "cmc_rank_jul1": 483,
+    "name": "Venus USDC",
+    "symbol": "vUSDC",
+    "mcap_jul1_usd": 46497816.9771861,
+    "price_jul1_usd": 0.02651826,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 39701,
+    "cmc_rank_jul1": 486,
+    "name": "Global X Copper Miners Tokenised ETF (xStock)",
+    "symbol": "COPXx",
+    "mcap_jul1_usd": 46050936.47432578,
+    "price_jul1_usd": 75.67,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 34212,
+    "cmc_rank_jul1": 497,
+    "name": "Matrixdock Gold",
+    "symbol": "XAUM",
+    "mcap_jul1_usd": 44077688.66884269,
+    "price_jul1_usd": 3998.36077018,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 29325,
+    "cmc_rank_jul1": 505,
+    "name": "pufETH",
+    "symbol": "PUFETH",
+    "mcap_jul1_usd": 43347719.30557437,
+    "price_jul1_usd": 1746.32347317,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 38408,
+    "cmc_rank_jul1": 511,
+    "name": "Lombard",
+    "symbol": "BARD",
+    "mcap_jul1_usd": 42881297.91707954,
+    "price_jul1_usd": 0.12884521,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 40132,
+    "cmc_rank_jul1": 513,
+    "name": "Strive, Inc. Series A Preferred tokenized stock (xStock)",
+    "symbol": "SATAx",
+    "mcap_jul1_usd": 42530947.14891861,
+    "price_jul1_usd": 87.05,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38781,
+    "cmc_rank_jul1": 514,
+    "name": "Ton Strategy tokenized stock (xStock)",
+    "symbol": "TONXX",
+    "mcap_jul1_usd": 42473765.71007664,
+    "price_jul1_usd": 2.73,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37054,
+    "cmc_rank_jul1": 517,
+    "name": "Merck tokenized stock (xStock)",
+    "symbol": "MRKX",
+    "mcap_jul1_usd": 42325092.65873881,
+    "price_jul1_usd": 129.63,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 31379,
+    "cmc_rank_jul1": 519,
+    "name": "Frankencoin",
+    "symbol": "ZCHF",
+    "mcap_jul1_usd": 42059478.33033356,
+    "price_jul1_usd": 1.23583832,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 29402,
+    "cmc_rank_jul1": 520,
+    "name": "Haedal Staked SUI",
+    "symbol": "HASUI",
+    "mcap_jul1_usd": 41984974.96870274,
+    "price_jul1_usd": 0.77168318,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37038,
+    "cmc_rank_jul1": 522,
+    "name": "Eli Lilly tokenized stock (xStock)",
+    "symbol": "LLYX",
+    "mcap_jul1_usd": 41945739.98480298,
+    "price_jul1_usd": 1216.27435585,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38067,
+    "cmc_rank_jul1": 523,
+    "name": "SPDR S&P 500 Tokenized ETF (Ondo)",
+    "symbol": "SPYon",
+    "mcap_jul1_usd": 41914659.30451153,
+    "price_jul1_usd": 750.21986378,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37030,
+    "cmc_rank_jul1": 525,
+    "name": "Johnson & Johnson tokenized stock (xStock)",
+    "symbol": "JNJX",
+    "mcap_jul1_usd": 41785603.3724135,
+    "price_jul1_usd": 252.62,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38093,
+    "cmc_rank_jul1": 526,
+    "name": "NVIDIA Tokenized Stock (Ondo)",
+    "symbol": "NVDAon",
+    "mcap_jul1_usd": 41562578.88299569,
+    "price_jul1_usd": 197.21133591,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37059,
+    "cmc_rank_jul1": 530,
+    "name": "Oracle tokenized stock (xStock)",
+    "symbol": "ORCLX",
+    "mcap_jul1_usd": 41093548.69449227,
+    "price_jul1_usd": 145.02272439,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 35976,
+    "cmc_rank_jul1": 535,
+    "name": "Aegis YUSD",
+    "symbol": "YUSD",
+    "mcap_jul1_usd": 40601012.10493529,
+    "price_jul1_usd": 0.99856812,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37036,
+    "cmc_rank_jul1": 539,
+    "name": "Danaher tokenized stock (xStock)",
+    "symbol": "DHRX",
+    "mcap_jul1_usd": 40025288.24841567,
+    "price_jul1_usd": 192.94788974,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 14532,
+    "cmc_rank_jul1": 542,
+    "name": "Wrapped CRO",
+    "symbol": "WCRO",
+    "mcap_jul1_usd": 39803577.49313415,
+    "price_jul1_usd": 0.05583992,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 3306,
+    "cmc_rank_jul1": 546,
+    "name": "Gemini Dollar",
+    "symbol": "GUSD",
+    "mcap_jul1_usd": 39124514.15769246,
+    "price_jul1_usd": 0.99874869,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 39769,
+    "cmc_rank_jul1": 547,
+    "name": "iShares Bitcoin Trust Tokenized Stock (Ondo)",
+    "symbol": "IBITon",
+    "mcap_jul1_usd": 39098387.04296234,
+    "price_jul1_usd": 33.83372637,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37021,
+    "cmc_rank_jul1": 549,
+    "name": "Broadcom tokenized stock (xStock)",
+    "symbol": "AVGOX",
+    "mcap_jul1_usd": 38823303.65247262,
+    "price_jul1_usd": 369.87385402,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37014,
+    "cmc_rank_jul1": 553,
+    "name": "Amazon tokenized stock (xStock)",
+    "symbol": "AMZNX",
+    "mcap_jul1_usd": 38441027.85497882,
+    "price_jul1_usd": 242.33897978,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37065,
+    "cmc_rank_jul1": 557,
+    "name": "Philip Morris tokenized stock (xStock)",
+    "symbol": "PMX",
+    "mcap_jul1_usd": 38080568.33597697,
+    "price_jul1_usd": 181.03143905,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37031,
+    "cmc_rank_jul1": 558,
+    "name": "JPMorgan Chase tokenized stock (xStock)",
+    "symbol": "JPMX",
+    "mcap_jul1_usd": 38056608.50420364,
+    "price_jul1_usd": 336.71,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37019,
+    "cmc_rank_jul1": 559,
+    "name": "Bank of America tokenized stock (xStock)",
+    "symbol": "BACX",
+    "mcap_jul1_usd": 37983928.42457675,
+    "price_jul1_usd": 58.37,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38034,
+    "cmc_rank_jul1": 562,
+    "name": "Hims & Hers Health Tokenized Stock (Ondo)",
+    "symbol": "HIMSon",
+    "mcap_jul1_usd": 37860741.12224912,
+    "price_jul1_usd": 37.33678974,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 4687,
+    "cmc_rank_jul1": 564,
+    "name": "BUSD",
+    "symbol": "BUSD",
+    "mcap_jul1_usd": 37838192.40685844,
+    "price_jul1_usd": 0.99989248,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37015,
+    "cmc_rank_jul1": 565,
+    "name": "Amber tokenized stock (xStock)",
+    "symbol": "AMBRX",
+    "mcap_jul1_usd": 37822490.15238009,
+    "price_jul1_usd": 1.45,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38094,
+    "cmc_rank_jul1": 573,
+    "name": "Invesco QQQ Tokenized ETF (Ondo)",
+    "symbol": "QQQon",
+    "mcap_jul1_usd": 36906840.72288558,
+    "price_jul1_usd": 726.70057059,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37060,
+    "cmc_rank_jul1": 577,
+    "name": "Netflix tokenized stock (xStock)",
+    "symbol": "NFLXX",
+    "mcap_jul1_usd": 36670641.17957487,
+    "price_jul1_usd": 73.974,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 32644,
+    "cmc_rank_jul1": 583,
+    "name": "Eurite",
+    "symbol": "EURI",
+    "mcap_jul1_usd": 36252594.527746,
+    "price_jul1_usd": 1.13808424,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 7236,
+    "cmc_rank_jul1": 587,
+    "name": "Celo Dollar",
+    "symbol": "CUSD",
+    "mcap_jul1_usd": 35551074.4199757,
+    "price_jul1_usd": 0.99991306,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 36038,
+    "cmc_rank_jul1": 588,
+    "name": "Staked Frax USD",
+    "symbol": "SFRXUSD",
+    "mcap_jul1_usd": 35521053.66107969,
+    "price_jul1_usd": 1.20054952,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37048,
+    "cmc_rank_jul1": 590,
+    "name": "Walmart tokenized stock (xStock)",
+    "symbol": "WMTX",
+    "mcap_jul1_usd": 35490293.37178623,
+    "price_jul1_usd": 115.45634207,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37029,
+    "cmc_rank_jul1": 593,
+    "name": "International Business Machines tokenized stock (xStock)",
+    "symbol": "IBMX",
+    "mcap_jul1_usd": 35289357.63955291,
+    "price_jul1_usd": 292.4,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 4056,
+    "cmc_rank_jul1": 596,
+    "name": "Ampleforth",
+    "symbol": "AMPL",
+    "mcap_jul1_usd": 35220417.39434992,
+    "price_jul1_usd": 1.24566041,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 33978,
+    "cmc_rank_jul1": 598,
+    "name": "Mantle Restaked Ether",
+    "symbol": "CMETH",
+    "mcap_jul1_usd": 34744474.90857634,
+    "price_jul1_usd": 1774.67433802,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37064,
+    "cmc_rank_jul1": 608,
+    "name": "PepsiCo tokenized stock (xStock)",
+    "symbol": "PEPX",
+    "mcap_jul1_usd": 34047821.97083727,
+    "price_jul1_usd": 140.80073224,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37058,
+    "cmc_rank_jul1": 612,
+    "name": "Novo Nordisk tokenized stock (xStock)",
+    "symbol": "NVOX",
+    "mcap_jul1_usd": 33778595.60956477,
+    "price_jul1_usd": 49.12,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37043,
+    "cmc_rank_jul1": 613,
+    "name": "Thermo Fisher tokenized stock (xStock)",
+    "symbol": "TMOX",
+    "mcap_jul1_usd": 33615075.19053078,
+    "price_jul1_usd": 517.28,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37037,
+    "cmc_rank_jul1": 614,
+    "name": "DFDV tokenized stock (xStock)",
+    "symbol": "DFDVx",
+    "mcap_jul1_usd": 33533619.93343277,
+    "price_jul1_usd": 3.27347355,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 40212,
+    "cmc_rank_jul1": 629,
+    "name": "Micron Technology Tokenized bStocks",
+    "symbol": "MUB",
+    "mcap_jul1_usd": 32600758.96054103,
+    "price_jul1_usd": 1020.02676705,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37740,
+    "cmc_rank_jul1": 630,
+    "name": "OPEN tokenized stock (xStock)",
+    "symbol": "OPENX",
+    "mcap_jul1_usd": 32560388.07305842,
+    "price_jul1_usd": 5.09,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37034,
+    "cmc_rank_jul1": 632,
+    "name": "Comcast tokenized stock (xStock)",
+    "symbol": "CMCSAX",
+    "mcap_jul1_usd": 31946649.44497291,
+    "price_jul1_usd": 25.77833632,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 3330,
+    "cmc_rank_jul1": 633,
+    "name": "Pax Dollar",
+    "symbol": "USDP",
+    "mcap_jul1_usd": 31882042.79797859,
+    "price_jul1_usd": 0.99774726,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 7963,
+    "cmc_rank_jul1": 636,
+    "name": "Venus ETH",
+    "symbol": "vETH",
+    "mcap_jul1_usd": 31485219.67428229,
+    "price_jul1_usd": 33.8199827,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 38935,
+    "cmc_rank_jul1": 639,
+    "name": "Tokenised GBP",
+    "symbol": "TGBP",
+    "mcap_jul1_usd": 31310604.49094688,
+    "price_jul1_usd": 1.32712939,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 7129,
+    "cmc_rank_jul1": 643,
+    "name": "TerraClassicUSD",
+    "symbol": "USTC",
+    "mcap_jul1_usd": 30953668.14856567,
+    "price_jul1_usd": 0.00555115,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 36552,
+    "cmc_rank_jul1": 644,
+    "name": "LUSD",
+    "symbol": "LUSD",
+    "mcap_jul1_usd": 30740025.95192992,
+    "price_jul1_usd": 0.99880449,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 38407,
+    "cmc_rank_jul1": 649,
+    "name": "Liquity BOLD",
+    "symbol": "BOLD",
+    "mcap_jul1_usd": 30267262.28815718,
+    "price_jul1_usd": 0.99946165,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37052,
+    "cmc_rank_jul1": 657,
+    "name": "McDonald's tokenized stock (xStock)",
+    "symbol": "MCDX",
+    "mcap_jul1_usd": 29497734.09936354,
+    "price_jul1_usd": 274.26664198,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37010,
+    "cmc_rank_jul1": 662,
+    "name": "Abbott tokenized stock (xStock)",
+    "symbol": "ABTX",
+    "mcap_jul1_usd": 28529082.62358091,
+    "price_jul1_usd": 91.09526216,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 4064,
+    "cmc_rank_jul1": 664,
+    "name": "USDK",
+    "symbol": "USDK",
+    "mcap_jul1_usd": 28455485.94928389,
+    "price_jul1_usd": 0.99494456,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 38167,
+    "cmc_rank_jul1": 667,
+    "name": "MetaMask USD",
+    "symbol": "mUSD",
+    "mcap_jul1_usd": 28219246.25032329,
+    "price_jul1_usd": 1.00757433,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 9566,
+    "cmc_rank_jul1": 668,
+    "name": "Liquity USD",
+    "symbol": "LUSD",
+    "mcap_jul1_usd": 28111453.37466963,
+    "price_jul1_usd": 1.00868838,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 37012,
+    "cmc_rank_jul1": 669,
+    "name": "Accenture tokenized stock (xStock)",
+    "symbol": "ACNX",
+    "mcap_jul1_usd": 28107067.54692332,
+    "price_jul1_usd": 130.22946033,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38089,
+    "cmc_rank_jul1": 672,
+    "name": "Marvell Technology Tokenized Stock (Ondo)",
+    "symbol": "MRVLon",
+    "mcap_jul1_usd": 27976720.65028981,
+    "price_jul1_usd": 271.18136818,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 39700,
+    "cmc_rank_jul1": 674,
+    "name": "Bitmine Tokenised Stock (xStock)",
+    "symbol": "BMNRx",
+    "mcap_jul1_usd": 27912451.43479041,
+    "price_jul1_usd": 14.18961662,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 22933,
+    "cmc_rank_jul1": 677,
+    "name": "Electronic USD",
+    "symbol": "eUSD",
+    "mcap_jul1_usd": 27452073.95355963,
+    "price_jul1_usd": 0.99844926,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 29318,
+    "cmc_rank_jul1": 692,
+    "name": "Worldwide USD",
+    "symbol": "WUSD",
+    "mcap_jul1_usd": 26337150.14564353,
+    "price_jul1_usd": 0.99414096,
+    "reason": "STABLECOIN"
+  },
+  {
+    "cmc_id": 29401,
+    "cmc_rank_jul1": 702,
+    "name": "Volo Staked SUI",
+    "symbol": "VSUI",
+    "mcap_jul1_usd": 25605945.66884404,
+    "price_jul1_usd": 0.7622705,
+    "reason": "WRAPPED_LST_LRT_RECEIPT"
+  },
+  {
+    "cmc_id": 37042,
+    "cmc_rank_jul1": 706,
+    "name": "Salesforce tokenized stock (xStock)",
+    "symbol": "CRMX",
+    "mcap_jul1_usd": 25133062.63236418,
+    "price_jul1_usd": 164.96,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 38001,
+    "cmc_rank_jul1": 710,
+    "name": "Alphabet Class A Tokenized Stock (Ondo)",
+    "symbol": "GOOGLon",
+    "mcap_jul1_usd": 24992797.98847992,
+    "price_jul1_usd": 360.25311143,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 40659,
+    "cmc_rank_jul1": 713,
+    "name": "OpenAI Pre-IPO stock (Republic)",
+    "symbol": "preOPAI",
+    "mcap_jul1_usd": 24722244.73542446,
+    "price_jul1_usd": 850.08750208,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  },
+  {
+    "cmc_id": 37053,
+    "cmc_rank_jul1": 716,
+    "name": "Medtronic tokenized stock (xStock)",
+    "symbol": "MDTX",
+    "mcap_jul1_usd": 24605879.90538926,
+    "price_jul1_usd": 79.67,
+    "reason": "TOKENIZED_ETF_STOCK_RWA_COMMODITY"
+  }
+]

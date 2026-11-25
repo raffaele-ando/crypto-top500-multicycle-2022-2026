@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-11-24T15:35:34.047797",
+  "documents": [
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\report_curva_N1_to_N500.md",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\report_curva_N1_to_N500.md",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_rendimento_N1_to_N500.html"
+  ],
+  "overall_pass": true,
+  "source_checks": {
+    "curve_steps@report_curva_N1_to_N500.md": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.json",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\report_curva_N1_to_N500.md",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    },
+    "curve_steps@curva_rendimento_N1_to_N500.html": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.json",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_rendimento_N1_to_N500.html",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    },
+    "curve_coins@report_curva_N1_to_N500.md": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.csv",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\report_curva_N1_to_N500.md",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    },
+    "curve_coins@curva_rendimento_N1_to_N500.html": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.csv",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_rendimento_N1_to_N500.html",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    }
+  },
+  "proof_file_checks": {
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.json": true,
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.csv": true,
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_rendimento_N1_to_N500.html": true
+  },
+  "lexical_checks": {
+    "report_curva_N1_to_N500.md": {
+      "pass": true,
+      "violations_count": 0,
+      "violations": []
+    },
+    "curva_rendimento_N1_to_N500.html": {
+      "pass": true,
+      "violations_count": 0,
+      "violations": []
+    }
+  },
+  "violations": []
+}

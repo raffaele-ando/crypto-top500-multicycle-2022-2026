@@ -1,0 +1,633 @@
+{
+  "XLM": [
+    {
+      "url": "https://stellar.expert/explorer/public/asset/XLM",
+      "status": "NO_DATA",
+      "n_json": 10,
+      "n_tables": 1,
+      "xhr_urls": [
+        "https://api.stellar.expert/explorer/public/asset/XLM",
+        "https://api.stellar.expert/explorer/public/asset/meta?asset[]=XLM",
+        "https://api.stellar.expert/explorer/public/asset/XLM/candles?from=1480201500&to=1795561500",
+        "https://api.stellar.expert/explorer/public/asset/XLM/stats-history",
+        "https://api.stellar.expert/explorer/public/tx?asset[]=XLM&limit=40&order=desc",
+        "https://api.stellar.expert/explorer/directory?address[]=CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNU"
+      ]
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/stellar/richlist/",
+      "status": "NO_DATA",
+      "n_json": 8,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/"
+      ]
+    }
+  ],
+  "NEAR": [
+    {
+      "url": "https://nearblocks.io/ranking",
+      "status": "CAPTCHA_SKIPPED"
+    }
+  ],
+  "TAO": [
+    {
+      "url": "https://taostats.io/accounts",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "M": [
+    {
+      "url": "https://memecorescan.io/accounts",
+      "status": "OK_DOM",
+      "n": 25,
+      "top10": 84.3366,
+      "cnt": null
+    }
+  ],
+  "OKB": [
+    {
+      "url": "https://www.oklink.com/x-layer/address-list",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/okb/richlist/",
+      "status": "OK_DOM",
+      "n": 86,
+      "top10": 69.2515,
+      "cnt": null
+    }
+  ],
+  "DOT": [
+    {
+      "url": "https://assethub-polkadot.subscan.io/account",
+      "status": "OK_DOM",
+      "n": 10,
+      "top10": 15.2487,
+      "cnt": 1859377
+    }
+  ],
+  "PI": [
+    {
+      "url": "https://piscan.io/rich-list",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    },
+    {
+      "url": "https://explorepi.info/en/richlist",
+      "status": "NO_DATA",
+      "n_json": 1,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://explorepi.info/client/b"
+      ]
+    }
+  ],
+  "SEI": [
+    {
+      "url": "https://seitrace.com/accounts?chain=pacific-1",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    },
+    {
+      "url": "https://seiscan.io/accounts",
+      "status": "OK_DOM",
+      "n": 25,
+      "top10": 27.4646,
+      "cnt": null
+    }
+  ],
+  "STX": [
+    {
+      "url": "https://stxscan.co/richlist",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/stacks/richlist/",
+      "status": "OK_DOM",
+      "n": 100,
+      "top10": 75.39,
+      "cnt": null
+    }
+  ],
+  "MON": [
+    {
+      "url": "https://monadscan.com/accounts",
+      "status": "OK_DOM",
+      "n": 25,
+      "top10": 58.6051,
+      "cnt": null
+    }
+  ],
+  "KAIA": [
+    {
+      "url": "https://kaiascan.io/accounts",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "AKT": [
+    {
+      "url": "https://www.mintscan.io/akash/accounts",
+      "status": "NO_DATA",
+      "n_json": 1,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://syndication.twitter.com/settings?session_id=23699362895d4edeab0291b79c51e57e5a16cd"
+      ]
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/akash-network/richlist/",
+      "status": "NO_DATA",
+      "n_json": 4,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/cpa-bcgame/desktop_bottom.json?v=1794",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/"
+      ]
+    }
+  ],
+  "XPL": [
+    {
+      "url": "https://plasmascan.to/accounts",
+      "status": "OK_DOM",
+      "n": 25,
+      "top10": 56.0284,
+      "cnt": null
+    }
+  ],
+  "RUNE": [
+    {
+      "url": "https://runescan.io/holders",
+      "status": "CAPTCHA_SKIPPED"
+    },
+    {
+      "url": "https://viewblock.io/thorchain/addresses",
+      "status": "CAPTCHA_SKIPPED"
+    }
+  ],
+  "AR": [
+    {
+      "url": "https://viewblock.io/arweave/addresses",
+      "status": "CAPTCHA_SKIPPED"
+    }
+  ],
+  "DYDX": [
+    {
+      "url": "https://www.mintscan.io/dydx/accounts",
+      "status": "NO_DATA",
+      "n_json": 2,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://go.skip.build/api/skip/v2/info/chains",
+        "https://syndication.twitter.com/settings?session_id=996ef53b57c1259b81d68a8d7bfd475ed7fcd6"
+      ]
+    }
+  ],
+  "WEMIX": [
+    {
+      "url": "https://wemixscan.com/accounts",
+      "status": "CAPTCHA_SKIPPED"
+    },
+    {
+      "url": "https://scan.wemix.com/accounts",
+      "status": "CAPTCHA_SKIPPED"
+    }
+  ],
+  "LBT": [
+    {
+      "url": "https://xdcscan.com/token/0x05940b2df33d6371201e7ae099ced4c363855dfe",
+      "status": "NO_DATA",
+      "n_json": 1,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://xdcscan.com/searchHandler?trending=1"
+      ]
+    }
+  ],
+  "S": [
+    {
+      "url": "https://sonicscan.org/accounts",
+      "status": "OK_DOM",
+      "n": 25,
+      "top10": 68.4701,
+      "cnt": null
+    }
+  ],
+  "KSM": [
+    {
+      "url": "https://assethub-kusama.subscan.io/account",
+      "status": "OK_DOM",
+      "n": 9,
+      "top10": 36.1667,
+      "cnt": 413956
+    }
+  ],
+  "BABY": [
+    {
+      "url": "https://www.mintscan.io/babylon/accounts",
+      "status": "NO_DATA",
+      "n_json": 2,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://syndication.twitter.com/settings?session_id=70a62161303d446147b6bb0bdee8204959d2be",
+        "https://go.skip.build/api/skip/v2/info/chains"
+      ]
+    }
+  ],
+  "LINEA": [
+    {
+      "url": "https://lineascan.build/token/0x1789e0043623282D5DCc7F213d703C6D8BAfBB04#balances",
+      "status": "CAPTCHA_SKIPPED"
+    }
+  ],
+  "MINA": [
+    {
+      "url": "https://minascan.io/mainnet/accounts",
+      "status": "NO_DATA",
+      "n_json": 2,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://minascan.io/mainnet/api/api/widgets/get-economics-data",
+        "https://minascan.io/mainnet/api/api/widgets/get-info"
+      ]
+    },
+    {
+      "url": "https://minataur.net/accounts",
+      "status": "OK_DOM",
+      "n": 50,
+      "top10": 63.5697,
+      "cnt": null
+    }
+  ],
+  "CCD": [
+    {
+      "url": "https://ccdexplorer.io/mainnet/accounts",
+      "status": "NO_DATA",
+      "n_json": 2,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://ccdexplorer.io/mainnet/ajax_last_accounts_own_page?page=1&size=25",
+        "https://ccdexplorer.io/mainnet/ajax_last_accounts_own_page?page=2&size=25"
+      ]
+    },
+    {
+      "url": "https://ccdscan.io/accounts",
+      "status": "OK_XHR",
+      "xhr": "https://api-ccdscan-fungy.mainnet.concordium.software/api/graphql",
+      "n": 25,
+      "top10": 36.9944,
+      "cnt": null
+    }
+  ],
+  "XP": [
+    {
+      "url": "https://xp.tamsa.io/accounts",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "KAVA": [
+    {
+      "url": "https://www.mintscan.io/kava/accounts",
+      "status": "NO_DATA",
+      "n_json": 2,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://syndication.twitter.com/settings?session_id=1884e086ee3a6de2fcae129e904a0018ccc904",
+        "https://go.skip.build/api/skip/v2/info/chains"
+      ]
+    },
+    {
+      "url": "https://kavascan.com/accounts",
+      "status": "NO_DATA",
+      "n_json": 2,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://ee74f8693f27.10012807.us-east-1.token.awswaf.com/ee74f8693f27/9615cdf5e777/2604694",
+        "https://ee74f8693f27.10012807.us-east-1.token.awswaf.com/ee74f8693f27/9615cdf5e777/2604694"
+      ]
+    }
+  ],
+  "PEAQ": [
+    {
+      "url": "https://peaq.subscan.io/account",
+      "status": "OK_DOM",
+      "n": 10,
+      "top10": 39.7684,
+      "cnt": 2765070
+    }
+  ],
+  "RON": [
+    {
+      "url": "https://app.roninchain.com/addresses",
+      "status": "CAPTCHA_SKIPPED"
+    }
+  ],
+  "FLOW": [
+    {
+      "url": "https://www.flowscan.io/ft/token/A.1654653399040a61.FlowToken.Vault",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "SRX": [
+    {
+      "url": "https://xdcscan.com/token/0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "0G": [
+    {
+      "url": "https://chainscan.0g.ai/accounts",
+      "status": "NO_DATA",
+      "n_json": 3,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://chainscan.0g.ai/v1/frontend",
+        "https://chainscan.0g.ai/stat/gasprice/tracker",
+        "https://api.web3modal.org/appkit/v1/config?projectId=10f3962cf2d750ad41ae02e973cabd54&st=a"
+      ]
+    }
+  ],
+  "XNO": [
+    {
+      "url": "https://blocklattice.io/accounts",
+      "status": "NO_DATA",
+      "n_json": 7,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://blocklattice.io/api/rpc",
+        "https://blocklattice.io/api/rpc",
+        "https://blocklattice.io/api/rpc",
+        "https://blocklattice.io/api/market-statistics?fiat=usd&cryptocurrency=false&is24Hours=true",
+        "https://blocklattice.io/api/known-accounts",
+        "https://blocklattice.io/api/rpc"
+      ]
+    },
+    {
+      "url": "https://nanolooker.com/accounts",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "PCI": [
+    {
+      "url": "https://scan.payprotocol.io/#/accounts",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "FB": [
+    {
+      "url": "https://explorer.unisat.io/fractal-mainnet/",
+      "status": "NO_DATA",
+      "n_json": 6,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://uniscan.cc/fractal-api/explorer-v1/block/list?start=0&limit=10&mempool=false&sort=",
+        "https://uniscan.cc/fractal-api/bitcoin-info-v1/fractalbitcoin/price",
+        "https://uniscan.cc/fractal-api/explorer-v1/block/list?start=0&limit=60&mempool=true&sort=",
+        "https://uniscan.cc/fractal-api/explorer-v1/block/active/info",
+        "https://uniscan.cc/fractal-api/explorer-v1/statistics/info?days=7",
+        "https://uniscan.cc/fractal-api/explorer-v1/mempool/latest-txs"
+      ]
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/fractal-bitcoin/richlist/",
+      "status": "NO_DATA",
+      "n_json": 8,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/"
+      ]
+    }
+  ],
+  "POLYX": [
+    {
+      "url": "https://polymesh.subscan.io/account",
+      "status": "OK_DOM",
+      "n": 10,
+      "top10": 75.6691,
+      "cnt": 6482
+    }
+  ],
+  "XVG": [
+    {
+      "url": "https://bitinfocharts.com/top-100-richest-verge-addresses.html",
+      "status": "CAPTCHA_SKIPPED"
+    },
+    {
+      "url": "https://verge-blockchain.info/richlist",
+      "status": "OK_XHR",
+      "xhr": "https://verge-blockchain.info/api/richlist",
+      "n": 50,
+      "top10": 63.4785,
+      "cnt": null
+    }
+  ],
+  "SC": [
+    {
+      "url": "https://siascan.com/top-addresses",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/siacoin/richlist/",
+      "status": "NO_DATA",
+      "n_json": 8,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/"
+      ]
+    }
+  ],
+  "FOGO": [
+    {
+      "url": "https://explorer.fogo.io/",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "WAVES": [
+    {
+      "url": "https://wscan.io/richlist",
+      "status": "NO_DATA",
+      "n_json": 6,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://wavescap.com/api/gatewayAddresses.json",
+        "https://wavescap.com/api/exchangeAddresses.json",
+        "https://wavescap.com/api/nodeAddresses.json",
+        "https://wavescap.com/api/smartContractAddresses.json",
+        "https://wscan.io/api.php?endpoint=transactions&address=richlist&hideSentMassSubTx=1&enable",
+        "https://wscan.io/api.php?endpoint=transactions&address=richlist&hideSentMassSubTx=1&enable"
+      ]
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/waves/richlist/",
+      "status": "NO_DATA",
+      "n_json": 8,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/"
+      ]
+    }
+  ],
+  "CSPR": [
+    {
+      "url": "https://cspr.live/accounts",
+      "status": "OK_XHR",
+      "xhr": "https://api.mainnet.cspr.live/accounts?page=1&page_size=10&includes=account_info,centralized_account_info,staked_balance",
+      "n": 10,
+      "top10": 24.8706,
+      "cnt": 20235653331
+    }
+  ],
+  "OSMO": [
+    {
+      "url": "https://www.mintscan.io/osmosis/accounts",
+      "status": "NO_DATA",
+      "n_json": 1,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://syndication.twitter.com/settings?session_id=3b8cce5e9d5a8ccc242846c9ae2f78791f30a6"
+      ]
+    }
+  ],
+  "HIVE": [
+    {
+      "url": "https://hivescan.info/richlist",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    },
+    {
+      "url": "https://hiveblocks.com/richlist",
+      "status": "ERR",
+      "err": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://hiveblocks.com/richlist\nCall"
+    }
+  ],
+  "BORA": [
+    {
+      "url": "https://kaiascan.io/token/0x02cbe46fb8a1f579254a9b485788f2d86cad51aa",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "XCH": [
+    {
+      "url": "https://www.spacescan.io/xch/rich-list",
+      "status": "CAPTCHA_SKIPPED"
+    },
+    {
+      "url": "https://xchscan.com/rich-list",
+      "status": "NO_DATA",
+      "n_json": 1,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://xchscan.com/_next/data/WI9HDNKtgIYDpjuF7dxIf/en.json"
+      ]
+    }
+  ],
+  "SNEK": [
+    {
+      "url": "https://cardanoscan.io/token/279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b?tab=topholders",
+      "status": "CAPTCHA_SKIPPED"
+    },
+    {
+      "url": "https://cexplorer.io/asset/asset108xu02ckwrfc8qs9d97mgyh4kn8gdu9w8f5sxk/holder",
+      "status": "CAPTCHA_SKIPPED"
+    }
+  ],
+  "ARDR": [
+    {
+      "url": "https://ardor.tools/richlist",
+      "status": "NO_DATA",
+      "n_json": 0,
+      "n_tables": 0,
+      "xhr_urls": []
+    }
+  ],
+  "STEEM": [
+    {
+      "url": "https://steemdb.io/accounts",
+      "status": "NO_DATA",
+      "n_json": 2,
+      "n_tables": 1,
+      "xhr_urls": [
+        "https://steemdb.io/api/v1/meta",
+        "https://steemdb.io/api/v1/accounts?page=1&page_size=20&sort_by=name&sort_order=asc"
+      ]
+    },
+    {
+      "url": "https://www.coincarp.com/currencies/steem/richlist/",
+      "status": "NO_DATA",
+      "n_json": 8,
+      "n_tables": 0,
+      "xhr_urls": [
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/",
+        "https://www.coincarp.com/stenprinzea_tailprirleal_23/"
+      ]
+    }
+  ]
+}

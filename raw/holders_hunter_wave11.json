@@ -1,0 +1,817 @@
+{
+  "4157": {
+    "cmc_id": 4157,
+    "symbol": "RUNE",
+    "source": "THORChain.net Official Explorer (Nov 2026)",
+    "chain": "THORChain",
+    "holder_count": null,
+    "base_supply": 353811421.0,
+    "top10_pct": 85.4724,
+    "top20_pct": 91.5937,
+    "top50_pct": 98.9775,
+    "top100_pct": 100.0,
+    "wallets": [
+      {
+        "address": "thor17gw75axcnr8747pkanye45pnrwk7p9c3cqncsv",
+        "balance": 100187779.0,
+        "pct": 28.3167,
+        "label": "Bond Module",
+        "is_contract": true,
+        "is_locked": true
+      },
+      {
+        "address": "thor1v8ppstuf6e3x0r4glqc68d5jqcs2tf38cg2q6y",
+        "balance": 59975573.0,
+        "pct": 16.9513,
+        "label": "Synth Module",
+        "is_contract": true,
+        "is_locked": true
+      },
+      {
+        "address": "thor1g98cy3n9mmjrpn0sxmn63lztelera37n8n67c0",
+        "balance": 50191590.0,
+        "pct": 14.186,
+        "label": "Pool Module",
+        "is_contract": true,
+        "is_locked": true
+      },
+      {
+        "address": "thor1cqg8pyxnq03d88cl3xfn5wzjkguw5kh9enwte4",
+        "balance": 31644175.0,
+        "pct": 8.9438,
+        "label": "Binance Cold",
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1dheycdevq39qlkxs2a6wuuzyn4aqxhve4qxtxt",
+        "balance": 24750593.0,
+        "pct": 6.9954,
+        "label": "Reserve Module",
+        "is_contract": true,
+        "is_locked": true
+      },
+      {
+        "address": "thor1lsmt5a8vqqus5fwslx8pyyemgjtg4y6uv3hcn6",
+        "balance": 16627448.0,
+        "pct": 4.6995,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1a9k6d7q0dq5mmc2en3ezca4q4fuvygtt8czxew",
+        "balance": 6881306.0,
+        "pct": 1.9449,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor16desyyz0u8j8ujzpqtt3uqlny468yh8yjs3gkp",
+        "balance": 4877951.0,
+        "pct": 1.3787,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1lhufh0mwasa0lk9udppdegmvnkgqt08f0m9p5g",
+        "balance": 4005206.0,
+        "pct": 1.132,
+        "label": "Treasury Vultisig 2",
+        "is_contract": true,
+        "is_locked": true
+      },
+      {
+        "address": "thor1v579c34nenttmcy4c9wwmdtu0a66uz7xds3mhz",
+        "balance": 3269516.0,
+        "pct": 0.9241,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1edmfyr2jh4f8yaywz9342ez6jwhzeykzmakrre",
+        "balance": 3226017.0,
+        "pct": 0.9118,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1zvhcn83lwgtrdmxarfnmllaku0a3frn90gch74",
+        "balance": 2561172.0,
+        "pct": 0.7239,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor17vnpcnk620vgvp8hxdt73a4357llr7lqutjyqs",
+        "balance": 2553644.0,
+        "pct": 0.7218,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1mtqtupwgjwn397w3dx9fqmqgzrfzq3240frash",
+        "balance": 2314427.0,
+        "pct": 0.6541,
+        "label": "Bybit",
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1xngk03ck0u960nlepy9256e0q7r7l43mnd5thk",
+        "balance": 2080009.0,
+        "pct": 0.5879,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1xpxjq73gyy2y6yfh6a5l32ygrw23n4feanzr6z",
+        "balance": 1989189.0,
+        "pct": 0.5622,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1ldvrd87k2dsg760gp9y3a4krntg0gta2t27r80",
+        "balance": 1966047.0,
+        "pct": 0.5557,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1mj00yfzusk6djwa6kh9dps3a0wuuydkrz4klud",
+        "balance": 1960548.0,
+        "pct": 0.5541,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1gwtmrgkxkulacxrav36uuawfegcewy09a9ewgh",
+        "balance": 1550587.0,
+        "pct": 0.4383,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1ctpu5ssl0hys60ukglv9pwzmqtys3x9gxwghxm",
+        "balance": 1456063.0,
+        "pct": 0.4115,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1zphegzz94l3mr9w56yq6845wfcfllmrdny9en8",
+        "balance": 1283085.0,
+        "pct": 0.3626,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor18zg6y8ylus8n3tpzu5xxge3yyquj03vylstrl3",
+        "balance": 1234658.0,
+        "pct": 0.349,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1fzyryj70awtkg8c0dzdgkvmugpp9yug5fjw5x3",
+        "balance": 1218256.0,
+        "pct": 0.3443,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1eja5l46cf4vs3xumvhmy7vv9whm88dppkua7h4",
+        "balance": 1166148.0,
+        "pct": 0.3296,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1nfgdnvdk8y0qn9g5vuu3xq0apnkhtwf8j07kem",
+        "balance": 1146696.0,
+        "pct": 0.3241,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor16v0rx2q0r5yxneyl28tvxz6fwmakl658rx96gy",
+        "balance": 1144332.0,
+        "pct": 0.3234,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1uz4fpyd5f5d6p9pzk8lxyj4qxnwq6f9utg0e7k",
+        "balance": 1136947.0,
+        "pct": 0.3213,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1p266sdxxnjfnax7rltaru2qk7k62jkfxkpyks4",
+        "balance": 1119324.0,
+        "pct": 0.3164,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1l6ekcjdhq46qsy0wevgkzdgc5vuyrekgktfh5z",
+        "balance": 1086322.0,
+        "pct": 0.307,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor10afkwx5heh26fjwum682neq7wkkre5md0wp8vc",
+        "balance": 1063482.0,
+        "pct": 0.3006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor16lszj7ums8scwxd5yn0w2wy8puhnyjf9vcp9z3",
+        "balance": 975948.0,
+        "pct": 0.2758,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1y0tksvjjwhvc7ltzce8k80t7sj8pt2zhpx2ku2",
+        "balance": 970504.0,
+        "pct": 0.2743,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1q7j92kupg67zp3tsjdkzgatk3f9clgvfaplwj3",
+        "balance": 938872.0,
+        "pct": 0.2654,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1yt2nl46duqpw3e4ew6vm6yk6qlwqgckmndsdhv",
+        "balance": 936131.0,
+        "pct": 0.2646,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor146wfr7693eg9235nhjuyd3ktr6xchj9c3gfaw8",
+        "balance": 900000.0,
+        "pct": 0.2544,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1xrmuh88880p2d2urkypfp6pjysamuspctv4390",
+        "balance": 871166.0,
+        "pct": 0.2462,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor159q7zggg3epj56thypucsps986kl6q3l4zkqrv",
+        "balance": 836022.0,
+        "pct": 0.2363,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1v5u9az2zlpd95p8en94fz5qj8s6eldmf5y2al3",
+        "balance": 793945.0,
+        "pct": 0.2244,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1fd2288t5cgmzp9arc8lgk43acqyjx2lfe893u4",
+        "balance": 761601.0,
+        "pct": 0.2153,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1ye3jyw5nfnjrch4wk7zxuuxvx3wjuv9nsyumpr",
+        "balance": 689881.0,
+        "pct": 0.195,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1y8gxlz2wncmacslvhhzqgq3668kpfqmuykdsyp",
+        "balance": 663255.0,
+        "pct": 0.1875,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1f6y9552q40w8ued7u50vmc00w9mwqwx380mhnh",
+        "balance": 660531.0,
+        "pct": 0.1867,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor170w4t38t3pw56w3de4vz7s7u27x82e53kzykda",
+        "balance": 635162.0,
+        "pct": 0.1795,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1ys423heve0l3qva0jqczprym937rkyjn8gtx7z",
+        "balance": 625499.0,
+        "pct": 0.1768,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1afjgh806pc5g7we0yj7rwvpz4xqu3jewun2eu9",
+        "balance": 625099.0,
+        "pct": 0.1767,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor12uyl4cqx4q0h0s39q7sn0vxdvrc9hmgvqw2hu3",
+        "balance": 580944.0,
+        "pct": 0.1642,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1r8ce4zns5cjmrhanal0x6fw87yyp44rt2chp5e",
+        "balance": 535636.0,
+        "pct": 0.1514,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1tng26mayfpk9wwemv029pwszyv4m2tzh64f3g7",
+        "balance": 517304.0,
+        "pct": 0.1462,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1k0tse73dcd3hvk7ctv48ldzydsz884pyvlckzj",
+        "balance": 507191.0,
+        "pct": 0.1434,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1yehj60n9zfd5dy2p5qllwmv8gmys5melc4lfjr",
+        "balance": 500217.0,
+        "pct": 0.1414,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1j82t8zu0ht8ha8u53f5h4yhvz326f2yj8h073r",
+        "balance": 500002.0,
+        "pct": 0.1413,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1u26xr0s6sx2l4rgt8793nqxl95x2y37sqagwdx",
+        "balance": 450137.0,
+        "pct": 0.1272,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor14quzplervjrfuhekc49muq6xsgql9kjwwukz3p",
+        "balance": 441861.0,
+        "pct": 0.1249,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1sgnuptp32y2fht3258vlx68mq8wsk2uz4wrshu",
+        "balance": 439167.0,
+        "pct": 0.1241,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor16349yacym5yxuedqrgw860dg283nygdmzzsy7u",
+        "balance": 418130.0,
+        "pct": 0.1182,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1mcktr3a5977le0dw632ka3agj53eclxgj290dx",
+        "balance": 414366.0,
+        "pct": 0.1171,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1re2fa5pqnhplnvqlqk8mzzzelveeyx7jjhzz8z",
+        "balance": 406877.0,
+        "pct": 0.115,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor158yr3xlnvx5qfmfzmtkmwc6rl72tp3uvc89fsl",
+        "balance": 400399.0,
+        "pct": 0.1132,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor17nswsvke389v582ec9navcpyylfdssds67u6ul",
+        "balance": 400009.0,
+        "pct": 0.1131,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1n0zvkd6gv94mapp0ev3k8fjgtjyf5gx2n4ds5y",
+        "balance": 398253.0,
+        "pct": 0.1126,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1xx2dgc2m9r8kga032ae9xgz5qppqrk5wraalrp",
+        "balance": 384076.0,
+        "pct": 0.1086,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1enhmz57mpn4umspa8hqgqwwqpe02q4hpqmqr0k2zftxr8fu3nxmqjy3tqx",
+        "balance": 365783.0,
+        "pct": 0.1034,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor12sj00sl4mv2ht260kll4tqcj6afqymzvs97u90",
+        "balance": 360221.0,
+        "pct": 0.1018,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1yu9a4r0dsdsuqvnj8k2dllkhw28vcuam0vc4er",
+        "balance": 360064.0,
+        "pct": 0.1018,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor188274heq5kayyjdj84aghgmd3u4vqf83gup8vv",
+        "balance": 348392.0,
+        "pct": 0.0985,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor12yzvcmh9tmc4tc2sy56qwpqx99v53vkuwrvckt",
+        "balance": 345532.0,
+        "pct": 0.0977,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1hlhgntnvk005x99sfrga8n68q3q7tj5cffgvns",
+        "balance": 344934.0,
+        "pct": 0.0975,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1r8x66w3q08p6ztwy7lte59st6yvs6mhl4mmh8x",
+        "balance": 342026.0,
+        "pct": 0.0967,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1z0xfsf96sn432apzm4neaj2ywsa3c35r5ymhxd",
+        "balance": 340938.0,
+        "pct": 0.0964,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor135ke4azc0jywsny3nvs667dthh9n22yyghtp5j",
+        "balance": 332994.0,
+        "pct": 0.0941,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1hxrydan0eypp5eutah2dt63swnqwzuvc0elgmd",
+        "balance": 329116.0,
+        "pct": 0.093,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1eftvlx5glrrcnjqj2lvlyz4l5a0teradh4dvfz",
+        "balance": 328518.0,
+        "pct": 0.0929,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor154hyyqfqvxct5fyfhrxvmd8v7zh5kqzhve0t27",
+        "balance": 327768.0,
+        "pct": 0.0926,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor10pj502jcuf8v3gzd3cgsv4z8jhjsfvlzyfrk9h",
+        "balance": 325334.0,
+        "pct": 0.092,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1znr6yhhmmxrjfwfc5wch8axapfugcxjtgu63nv",
+        "balance": 318470.0,
+        "pct": 0.09,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor182z78vgjrlgc6nqrfva7fwyj06g4edfvvhae5n",
+        "balance": 314326.0,
+        "pct": 0.0888,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1usj8cqjmjea32csxn5fma96ffeulln40gyrahn",
+        "balance": 305473.0,
+        "pct": 0.0863,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1t0f2erckj9q32w7pcv433wtgl82ggetg0gfts6",
+        "balance": 300117.0,
+        "pct": 0.0848,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor17vw8f6ff9a3a9ednv99r57tl00eta52cyqc3pg",
+        "balance": 274055.0,
+        "pct": 0.0775,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor19v9chmj6wg44y55szhr96hvn4cmvtdfqncaaz0",
+        "balance": 273069.0,
+        "pct": 0.0772,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor155svs6sgxe55rnvs6ghprtqu0mh69keh95kk4u",
+        "balance": 270607.0,
+        "pct": 0.0765,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1je69q7dy0ttka3ss8r47uq094m2lh4fd0d4n6q",
+        "balance": 264120.0,
+        "pct": 0.0746,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor14w7ms5zntxk9u9ckvrj528lv5q0xd32pt094yw",
+        "balance": 262263.0,
+        "pct": 0.0741,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1q4p5gq9xp52jyqma0tvgn5dt47trs8um8zcr35",
+        "balance": 257781.0,
+        "pct": 0.0729,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1504ut9l5208k20ppjdax4edp7vg0kyrqqaxz2e",
+        "balance": 255774.0,
+        "pct": 0.0723,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1xw65trpq6f5fuw4s97syn2wxhfsdrxg7ccuk69",
+        "balance": 254734.0,
+        "pct": 0.072,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1arvg9xqz2uj8v7psegunu38f8p65c8reg8qmdv",
+        "balance": 250054.0,
+        "pct": 0.0707,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor124tfrmd963kn4qry7hl0az4eukukw3yds658ev",
+        "balance": 250003.0,
+        "pct": 0.0707,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1vlgagytj2tyjqdg5eqr3qmdeag8ty5rp6l7wgg",
+        "balance": 250000.0,
+        "pct": 0.0707,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor13nktzsw547379rygf644mwnvf9eqsjg8vxpvjk",
+        "balance": 244305.0,
+        "pct": 0.069,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor10ugnd7vk29g887ymycw9wu3m242fp84u35803v",
+        "balance": 242130.0,
+        "pct": 0.0684,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1sr5da2e66z6zr2rxfmxn9u288z5kna0pqplp78",
+        "balance": 239868.0,
+        "pct": 0.0678,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1f90dzsntwk4y07czrwptwfjm52ez697qk6qhh5",
+        "balance": 237334.0,
+        "pct": 0.0671,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1g4p7u7m46czxny999akzwlz6w5avgzp77hnh0s",
+        "balance": 234363.0,
+        "pct": 0.0662,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1g54g0vvxeszmw659z4ew0rhq24wnljpcsvk6gj",
+        "balance": 233201.0,
+        "pct": 0.0659,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1fdzkfyf9p4f32kwgn70cfs4555m6lu8n5n5yka",
+        "balance": 231711.0,
+        "pct": 0.0655,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1aanjn7u07pty3f3lne5j76rrk6h453zsqd5aju",
+        "balance": 231100.0,
+        "pct": 0.0653,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1h4rdr7y2mxr9f7mrnl40kx7s8wjx99kk0nfu0r",
+        "balance": 228384.0,
+        "pct": 0.0645,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor12ydwcq4atmqfnvqgpekpv0acvaau2pkcp9zecm",
+        "balance": 227061.0,
+        "pct": 0.0642,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "thor1ua6kr396ts8a6q5psf3cygunp2mzm59vntqvjj",
+        "balance": 221670.0,
+        "pct": 0.0627,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  }
+}

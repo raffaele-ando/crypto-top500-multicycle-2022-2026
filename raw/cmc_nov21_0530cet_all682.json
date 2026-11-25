@@ -1,0 +1,5505 @@
+{
+  "target_local": "2026-11-21T05:30:00+01:00",
+  "target_utc": "2026-11-21T04:30:00Z",
+  "target_unix": 1795235400,
+  "fx_eur_usd_cmc": 1.0,
+  "fx_eur_usd_binance": 1.096,
+  "fx_eur_usd_ecb_prev_close": 1.099,
+  "binance_verification": [
+    {
+      "symbol": "BTC",
+      "cmc": 55659.469474617676,
+      "binance_0430_open": 55762.46,
+      "diff_pct": 0.185
+    },
+    {
+      "symbol": "ETH",
+      "cmc": 1546.7653248007905,
+      "binance_0430_open": 1548.98,
+      "diff_pct": 0.1432
+    },
+    {
+      "symbol": "BNB",
+      "cmc": 511.12797943574793,
+      "binance_0430_open": 512.02,
+      "diff_pct": 0.1745
+    },
+    {
+      "symbol": "SOL",
+      "cmc": 65.27314450724782,
+      "binance_0430_open": 65.35,
+      "diff_pct": 0.1177
+    },
+    {
+      "symbol": "XRP",
+      "cmc": 0.8714692495170251,
+      "binance_0430_open": 0.8712,
+      "diff_pct": 0.0309
+    },
+    {
+      "symbol": "DOGE",
+      "cmc": 0.051279310674158474,
+      "binance_0430_open": 0.05127,
+      "diff_pct": 0.0182
+    },
+    {
+      "symbol": "ADA",
+      "cmc": 0.13420045461357016,
+      "binance_0430_open": 0.1342,
+      "diff_pct": 0.0003
+    },
+    {
+      "symbol": "TRX",
+      "cmc": 0.299083582662799,
+      "binance_0430_open": 0.2993,
+      "diff_pct": 0.0724
+    },
+    {
+      "symbol": "AVAX",
+      "cmc": 6.113670646289839,
+      "binance_0430_open": 6.114,
+      "diff_pct": 0.0054
+    },
+    {
+      "symbol": "LINK",
+      "cmc": 8.07706566761384,
+      "binance_0430_open": 8.075,
+      "diff_pct": 0.0256
+    },
+    {
+      "symbol": "UNI",
+      "cmc": 4.23747289366979,
+      "binance_0430_open": 4.232,
+      "diff_pct": 0.1292
+    },
+    {
+      "symbol": "ZEC",
+      "cmc": 695.5908072525777,
+      "binance_0430_open": 694.4,
+      "diff_pct": 0.1712
+    },
+    {
+      "symbol": "ENA",
+      "cmc": 0.0913550524187059,
+      "binance_0430_open": 0.0914,
+      "diff_pct": 0.0492
+    },
+    {
+      "symbol": "NEAR",
+      "cmc": 2.6347108155563763,
+      "binance_0430_open": 2.622,
+      "diff_pct": 0.4824
+    },
+    {
+      "symbol": "PEPE",
+      "cmc": 3.228265655616e-06,
+      "binance_0430_open": 3.23e-06,
+      "diff_pct": 0.0537
+    }
+  ],
+  "missing_ids": [
+    6941,
+    33249,
+    33852,
+    36912,
+    37654,
+    37986,
+    39703,
+    40166
+  ],
+  "errors": [],
+  "coins": {
+    "1": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55659.469474617676,
+      "volume24h_usd": 67439013046.17,
+      "marketCap_usd": 1119595794428.882
+    },
+    "328": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 424.9507932673763,
+      "volume24h_usd": 168997272.45,
+      "marketCap_usd": 8003417478.644337
+    },
+    "2": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 38.04561740469759,
+      "volume24h_usd": 321441102.01,
+      "marketCap_usd": 2961935932.9742894
+    },
+    "52": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.8714692495170251,
+      "volume24h_usd": 3314717474.76,
+      "marketCap_usd": 55352769793.19877
+    },
+    "74": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.051279310674158474,
+      "volume24h_usd": 904252114.06,
+      "marketCap_usd": 8042443141.146078
+    },
+    "109": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002482228243222493,
+      "volume24h_usd": 2286664.94,
+      "marketCap_usd": 46092299.44257409
+    },
+    "131": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 31.085097305024295,
+      "volume24h_usd": 51515136.38,
+      "marketCap_usd": 401178963.63359624
+    },
+    "825": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9984118386221323,
+      "volume24h_usd": 102821954239.58,
+      "marketCap_usd": 174526234138.76617
+    },
+    "1168": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 9.938332948199445,
+      "volume24h_usd": 596143.77,
+      "marketCap_usd": 175918270.71385127
+    },
+    "1042": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000558696000582488,
+      "volume24h_usd": 7347603.87,
+      "marketCap_usd": 31301299.05497427
+    },
+    "1230": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04006771241594282,
+      "volume24h_usd": 6791872.18,
+      "marketCap_usd": 22583721.974691283
+    },
+    "693": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001371753420712706,
+      "volume24h_usd": 1849591.66,
+      "marketCap_usd": 22664043.12324029
+    },
+    "1027": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1546.7653248007905,
+      "volume24h_usd": 23599667399.19,
+      "marketCap_usd": 189075034164.20123
+    },
+    "512": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.12084099249239784,
+      "volume24h_usd": 198469055.47,
+      "marketCap_usd": 4283255627.078536
+    },
+    "1437": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 695.5908072525777,
+      "volume24h_usd": 1457867109.4,
+      "marketCap_usd": 11808013900.487535
+    },
+    "1376": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.4339710355356554,
+      "volume24h_usd": 4330245.76,
+      "marketCap_usd": 101150640.53454459
+    },
+    "1274": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.15706622637918358,
+      "volume24h_usd": 7132890.55,
+      "marketCap_usd": 21829950.93809307
+    },
+    "1659": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 84.9197187488366,
+      "volume24h_usd": 1035501.15,
+      "marketCap_usd": 224146387.39093858
+    },
+    "1320": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01784470811023695,
+      "volume24h_usd": 2764926.28,
+      "marketCap_usd": 17817338.454763044
+    },
+    "1321": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 5.190022973587322,
+      "volume24h_usd": 35844478.41,
+      "marketCap_usd": 825691722.0612532
+    },
+    "1684": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.5870071841910719,
+      "volume24h_usd": 11433352.27,
+      "marketCap_usd": 62312479.1152782
+    },
+    "1567": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.28989870169178455,
+      "volume24h_usd": 302020.26,
+      "marketCap_usd": 38628508.30294131
+    },
+    "1698": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.38282301517108,
+      "volume24h_usd": 11016221.09,
+      "marketCap_usd": 62781870.38780301
+    },
+    "1637": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.29283380428624983,
+      "volume24h_usd": 3791506.83,
+      "marketCap_usd": 25476478.010707475
+    },
+    "1455": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.08241674685123435,
+      "volume24h_usd": 2103424.68,
+      "marketCap_usd": 82416746.85123435
+    },
+    "1697": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07772323972359284,
+      "volume24h_usd": 13092043.77,
+      "marketCap_usd": 116252566.07261351
+    },
+    "1720": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0287710767617963,
+      "volume24h_usd": 5907104.72,
+      "marketCap_usd": 136603513.56175664
+    },
+    "1727": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.200486344199937,
+      "volume24h_usd": 1487008.36,
+      "marketCap_usd": 20345439.60857278
+    },
+    "1732": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 7.1967433747919305,
+      "volume24h_usd": 10084743.47,
+      "marketCap_usd": 54989515.129247524
+    },
+    "1759": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.005626473678664447,
+      "volume24h_usd": 13320729.91,
+      "marketCap_usd": 27076253.86359763
+    },
+    "1757": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002022650145889776,
+      "volume24h_usd": 6612847.36,
+      "marketCap_usd": 21857165.3608771
+    },
+    "1975": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 8.07706566761384,
+      "volume24h_usd": 380023720.86,
+      "marketCap_usd": 6042452587.022311
+    },
+    "1958": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.299083582662799,
+      "volume24h_usd": 584862227.92,
+      "marketCap_usd": 28427808718.30176
+    },
+    "1839": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 511.12797943574793,
+      "volume24h_usd": 1944353017.81,
+      "marketCap_usd": 67218561411.36083
+    },
+    "1788": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.18854796575615929,
+      "volume24h_usd": 483161.78,
+      "marketCap_usd": 17739248.953808263
+    },
+    "1816": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.016557401875423882,
+      "volume24h_usd": 1666865.79,
+      "marketCap_usd": 16557401.875423882
+    },
+    "1966": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.053155776542697195,
+      "volume24h_usd": 10149139.58,
+      "marketCap_usd": 105562565.15247333
+    },
+    "1831": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 183.4391551722952,
+      "volume24h_usd": 183771487.02,
+      "marketCap_usd": 3690710961.457312
+    },
+    "1974": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.23050069701659512,
+      "volume24h_usd": 411322.08,
+      "marketCap_usd": 23050069.70165951
+    },
+    "1896": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07132811698377368,
+      "volume24h_usd": 5237083.71,
+      "marketCap_usd": 60514529.287162706
+    },
+    "2071": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.040007254773878974,
+      "volume24h_usd": 2008491.34,
+      "marketCap_usd": 31873573.100052934
+    },
+    "2011": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1884024887882071,
+      "volume24h_usd": 7455088.71,
+      "marketCap_usd": 207613968.5346585
+    },
+    "2130": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.016876136862481086,
+      "volume24h_usd": 3826726.53,
+      "marketCap_usd": 34068443.43236926
+    },
+    "2087": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 5.527561106814599,
+      "volume24h_usd": 4340049.65,
+      "marketCap_usd": 771951663.9986932
+    },
+    "2280": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.4951933004492698,
+      "volume24h_usd": 113484698.7,
+      "marketCap_usd": 423056210.0269029
+    },
+    "2099": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.10685437346311201,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 117356981.81064661
+    },
+    "2299": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.037102519619848964,
+      "volume24h_usd": 3913240.29,
+      "marketCap_usd": 30838157.159245968
+    },
+    "2396": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1553.1859982402689,
+      "volume24h_usd": 1768622742.28,
+      "marketCap_usd": 5242496020.402089
+    },
+    "2132": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0376983606601596,
+      "volume24h_usd": 934702.18,
+      "marketCap_usd": 21607468.477282487
+    },
+    "2010": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.13420045461357016,
+      "volume24h_usd": 452792013.13,
+      "marketCap_usd": 4941874812.953559
+    },
+    "2394": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001337762092734387,
+      "volume24h_usd": 1300633.31,
+      "marketCap_usd": 125209102.46813981
+    },
+    "2341": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00219584862732595,
+      "volume24h_usd": 393991.39,
+      "marketCap_usd": 21958486.2732595
+    },
+    "2405": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000515492044391145,
+      "volume24h_usd": 4134091.35,
+      "marketCap_usd": 18914583.93190342
+    },
+    "2416": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.12103844844471127,
+      "volume24h_usd": 6947256.27,
+      "marketCap_usd": 121038448.44471127
+    },
+    "2467": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.25695081967272215,
+      "volume24h_usd": 5926954.99,
+      "marketCap_usd": 128475409.83636108
+    },
+    "2499": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.13091980796728253,
+      "volume24h_usd": 298709.06,
+      "marketCap_usd": 128596301.27055885
+    },
+    "2563": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9979524391564341,
+      "volume24h_usd": 48817287.31,
+      "marketCap_usd": 493502533.27949643
+    },
+    "2469": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000786277454519863,
+      "volume24h_usd": 7737020.64,
+      "marketCap_usd": 16238527.511450272
+    },
+    "2586": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.14092988172237036,
+      "volume24h_usd": 9271004.33,
+      "marketCap_usd": 48552632.17388421
+    },
+    "2566": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0324572160070831,
+      "volume24h_usd": 3486665.52,
+      "marketCap_usd": 32457216.0070831
+    },
+    "2577": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000899563013109744,
+      "volume24h_usd": 2372810.11,
+      "marketCap_usd": 14912219.091816185
+    },
+    "2634": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02607453741922096,
+      "volume24h_usd": 13745682.56,
+      "marketCap_usd": 560259118.3744712
+    },
+    "1785": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.8714494624222736,
+      "volume24h_usd": 1296465.2,
+      "marketCap_usd": 56637531.911520466
+    },
+    "2694": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.5879733565759897,
+      "volume24h_usd": 11244025.21,
+      "marketCap_usd": 379916538.12958384
+    },
+    "2765": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002326866999599601,
+      "volume24h_usd": 4894213.16,
+      "marketCap_usd": 32269024.582721
+    },
+    "2682": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000325445275525694,
+      "volume24h_usd": 16374948.82,
+      "marketCap_usd": 57805404.96176042
+    },
+    "2777": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002216751095144512,
+      "volume24h_usd": 1010717.7,
+      "marketCap_usd": 20929163.956606857
+    },
+    "2982": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000734854807678506,
+      "volume24h_usd": 59130.29,
+      "marketCap_usd": 20431137.988236763
+    },
+    "2933": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.05771534070470055,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 18716023.949402258
+    },
+    "1772": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.012854558758714201,
+      "volume24h_usd": 1580745.71,
+      "marketCap_usd": 5463187.446744418
+    },
+    "2943": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0621646587654452,
+      "volume24h_usd": 7169783.79,
+      "marketCap_usd": 24479546.05010338
+    },
+    "3155": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 131.34890612513547,
+      "volume24h_usd": 77323873.7,
+      "marketCap_usd": 1585740930.2353559
+    },
+    "3602": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 13.58015879770908,
+      "volume24h_usd": 14619073.22,
+      "marketCap_usd": 273149064.9112204
+    },
+    "3408": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9999705117653935,
+      "volume24h_usd": 24776163529.67,
+      "marketCap_usd": 68391465527.607475
+    },
+    "3077": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004313288707353141,
+      "volume24h_usd": 11443567.76,
+      "marketCap_usd": 370878307.11004895
+    },
+    "3661": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003249842894689538,
+      "volume24h_usd": 905852.17,
+      "marketCap_usd": 57192932.13293184
+    },
+    "3635": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.03822395452007347,
+      "volume24h_usd": 6243675.36,
+      "marketCap_usd": 1985897140.2345028
+    },
+    "3773": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1063431507764858,
+      "volume24h_usd": 136266534.26,
+      "marketCap_usd": 262568706.10468423
+    },
+    "3794": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.1496675527760105,
+      "volume24h_usd": 27564525.66,
+      "marketCap_usd": 621309727.838226
+    },
+    "3717": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55873.051707593,
+      "volume24h_usd": 550909008.17,
+      "marketCap_usd": 6506930344.694398
+    },
+    "3701": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.045147020429812224,
+      "volume24h_usd": 6539635.72,
+      "marketCap_usd": 45147020.42981222
+    },
+    "3783": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002784919508691304,
+      "volume24h_usd": 4875958.13,
+      "marketCap_usd": 27849195.08691304
+    },
+    "3801": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.018918305387604726,
+      "volume24h_usd": 1609040.73,
+      "marketCap_usd": 20805406.350018296
+    },
+    "3640": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9640079499728578,
+      "volume24h_usd": 5441495.13,
+      "marketCap_usd": 57149670.096790776
+    },
+    "3871": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000525489875948411,
+      "volume24h_usd": 1819950.54,
+      "marketCap_usd": 51930833.49705241
+    },
+    "3855": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003390845853014207,
+      "volume24h_usd": 64581.45,
+      "marketCap_usd": 19644238.28994817
+    },
+    "3822": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.006189862116114034,
+      "volume24h_usd": 1138373.51,
+      "marketCap_usd": 46651512.54960994
+    },
+    "3835": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.005993901177208727,
+      "volume24h_usd": 1505301.41,
+      "marketCap_usd": 26370945.604246937
+    },
+    "3626": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 57013.70231124937,
+      "volume24h_usd": 13494.45,
+      "marketCap_usd": 159292293.29846895
+    },
+    "3951": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.08697686750316609,
+      "volume24h_usd": 67964.06,
+      "marketCap_usd": 17066061.50832969
+    },
+    "3897": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 73.91291523673321,
+      "volume24h_usd": 44334268.94,
+      "marketCap_usd": 1552171219.9713974
+    },
+    "4030": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07015408222836557,
+      "volume24h_usd": 58234640.98,
+      "marketCap_usd": 637131905.0873907
+    },
+    "3957": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 9.15887460632409,
+      "volume24h_usd": 988336.3,
+      "marketCap_usd": 8424862721.194736
+    },
+    "3987": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06837970670528976,
+      "volume24h_usd": 7664953.78,
+      "marketCap_usd": 538287903.8862542
+    },
+    "3964": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001186887949219867,
+      "volume24h_usd": 5783545.48,
+      "marketCap_usd": 74243608.5140603
+    },
+    "4006": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.052192429442866305,
+      "volume24h_usd": 1872904.18,
+      "marketCap_usd": 101379633.54381754
+    },
+    "3992": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.007418017445904365,
+      "volume24h_usd": 4528366.43,
+      "marketCap_usd": 22444843.993590098
+    },
+    "4023": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55744.18672433086,
+      "volume24h_usd": 140803114.57,
+      "marketCap_usd": 3635425702.576908
+    },
+    "4041": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.404291060749688,
+      "volume24h_usd": 10940844.81,
+      "marketCap_usd": 128966347.17928338
+    },
+    "4092": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.054059936296707786,
+      "volume24h_usd": 4365787.92,
+      "marketCap_usd": 33275006.35741348
+    },
+    "4157": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.465253047704443,
+      "volume24h_usd": 4512240.57,
+      "marketCap_usd": 153110952.2237209
+    },
+    "4172": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.9439789575464e-05,
+      "volume24h_usd": 21794012.89,
+      "marketCap_usd": 217514948.69525528
+    },
+    "4066": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.008638540719145046,
+      "volume24h_usd": 20074294.96,
+      "marketCap_usd": 91758265.179539
+    },
+    "4206": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 5.3217844726228e-05,
+      "volume24h_usd": 14865806.19,
+      "marketCap_usd": 52882670.97854786
+    },
+    "4195": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1652391135232813,
+      "volume24h_usd": 1890983.47,
+      "marketCap_usd": 54346335.39571198
+    },
+    "4642": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.048504296202374585,
+      "volume24h_usd": 88847293.49,
+      "marketCap_usd": 2150079553.7423487
+    },
+    "4558": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.013484132149774142,
+      "volume24h_usd": 2784450.41,
+      "marketCap_usd": 22982383.81077821
+    },
+    "4846": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.026437009763632134,
+      "volume24h_usd": 8984566.9,
+      "marketCap_usd": 28627232.7459683
+    },
+    "4691": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.9403816986930913,
+      "volume24h_usd": 633602.71,
+      "marketCap_usd": 61113884.15342739
+    },
+    "4269": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 6.023456751664057,
+      "volume24h_usd": 11495160.81,
+      "marketCap_usd": 630763142.6218385
+    },
+    "4847": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.22965577043969124,
+      "volume24h_usd": 16044906.24,
+      "marketCap_usd": 432752610.7568795
+    },
+    "4943": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9999069299563836,
+      "volume24h_usd": 34237709.09,
+      "marketCap_usd": 4362229761.586529
+    },
+    "4948": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000757032701667447,
+      "volume24h_usd": 2761579.78,
+      "marketCap_usd": 37805517.40884024
+    },
+    "4944": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 11.394010010296224,
+      "volume24h_usd": 10147631.83,
+      "marketCap_usd": 32299899.09332788
+    },
+    "5034": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.3440034142701047,
+      "volume24h_usd": 1866951.73,
+      "marketCap_usd": 44959153.31508166
+    },
+    "4705": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3498.870445591614,
+      "volume24h_usd": 220052108.64,
+      "marketCap_usd": 1565290790.882863
+    },
+    "4679": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1300364267152755,
+      "volume24h_usd": 1362073.93,
+      "marketCap_usd": 24187162.42246536
+    },
+    "5176": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3499.581257965008,
+      "volume24h_usd": 411663226.41,
+      "marketCap_usd": 2622668644.8534145
+    },
+    "5198": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.05949290695728347,
+      "volume24h_usd": 4793373.7,
+      "marketCap_usd": 32695175.62519997
+    },
+    "5350": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00148190950454665,
+      "volume24h_usd": 1763742.14,
+      "marketCap_usd": 45179702.70539812
+    },
+    "5429": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000993704936333486,
+      "volume24h_usd": 71489.1,
+      "marketCap_usd": 29664972.638420116
+    },
+    "5275": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.029143764198441682,
+      "volume24h_usd": 309796.95,
+      "marketCap_usd": 31244622.073482912
+    },
+    "5370": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.032932696757356134,
+      "volume24h_usd": 504580.52,
+      "marketCap_usd": 19664656.69214318
+    },
+    "5468": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.032345989924151115,
+      "volume24h_usd": 16596.16,
+      "marketCap_usd": 3234598.9924151115
+    },
+    "5227": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.6554686758398027,
+      "volume24h_usd": 2728439.53,
+      "marketCap_usd": 6105959.287183001
+    },
+    "5444": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.019476141537018342,
+      "volume24h_usd": 1201159.46,
+      "marketCap_usd": 18646253.648001287
+    },
+    "5426": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 65.27314450724782,
+      "volume24h_usd": 4158573545.72,
+      "marketCap_usd": 38635592706.496735
+    },
+    "5567": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.05176785130365512,
+      "volume24h_usd": 4696776.03,
+      "marketCap_usd": 31577113.062391434
+    },
+    "5632": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.053900814258865,
+      "volume24h_usd": 12900538.07,
+      "marketCap_usd": 134843653.37550244
+    },
+    "5665": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1989437335957816,
+      "volume24h_usd": 2413138.66,
+      "marketCap_usd": 37067482.58433806
+    },
+    "5617": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.22648068137562644,
+      "volume24h_usd": 4920013.91,
+      "marketCap_usd": 20853660.774982374
+    },
+    "5488": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.14142929701574214,
+      "volume24h_usd": 46480387.86,
+      "marketCap_usd": 1133982916.8318827
+    },
+    "5691": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002732385648366508,
+      "volume24h_usd": 3540596.78,
+      "marketCap_usd": 16919326.319032747
+    },
+    "5864": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1549.8872218323786,
+      "volume24h_usd": 8936608.97,
+      "marketCap_usd": 55595028.1053995
+    },
+    "5690": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.2028845341391916,
+      "volume24h_usd": 38554350.44,
+      "marketCap_usd": 669287004.546379
+    },
+    "5805": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 6.113670646289839,
+      "volume24h_usd": 255194030.11,
+      "marketCap_usd": 2730792383.4192333
+    },
+    "5692": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 16.135930032379648,
+      "volume24h_usd": 15785674.36,
+      "marketCap_usd": 161359300.32379648
+    },
+    "5899": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001540656223395964,
+      "volume24h_usd": 3760812.67,
+      "marketCap_usd": 26940258.99271954
+    },
+    "5964": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.29052091859675466,
+      "volume24h_usd": 10772801.29,
+      "marketCap_usd": 124883471.81991366
+    },
+    "5908": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002474707801463815,
+      "volume24h_usd": 4086256.91,
+      "marketCap_usd": 12373539.007319074
+    },
+    "5994": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.405837204897e-06,
+      "volume24h_usd": 75138372.85,
+      "marketCap_usd": 2006848546.7100801
+    },
+    "6535": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.6347108155563763,
+      "volume24h_usd": 815489804.83,
+      "marketCap_usd": 3457449698.7135754
+    },
+    "6210": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.031636851274364795,
+      "volume24h_usd": 20775941.77,
+      "marketCap_usd": 92937670.36154895
+    },
+    "6538": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1665935763928893,
+      "volume24h_usd": 42418494.65,
+      "marketCap_usd": 264358491.9126314
+    },
+    "6636": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.6256281358385792,
+      "volume24h_usd": 96015547.83,
+      "marketCap_usd": 1071754651.0921996
+    },
+    "6719": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.015105768488218785,
+      "volume24h_usd": 16611629.45,
+      "marketCap_usd": 167108596.95512202
+    },
+    "6758": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.14137820223508185,
+      "volume24h_usd": 11212024.62,
+      "marketCap_usd": 40552238.02720792
+    },
+    "6783": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.5800758807001529,
+      "volume24h_usd": 18611598.21,
+      "marketCap_usd": 101859932.27740812
+    },
+    "6748": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.05362789041620428,
+      "volume24h_usd": 8872618.34,
+      "marketCap_usd": 30951449.357770614
+    },
+    "6841": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.026678428498682506,
+      "volume24h_usd": 15308337.48,
+      "marketCap_usd": 23185550.854088895
+    },
+    "6892": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.2020700488346607,
+      "volume24h_usd": 7633287.36,
+      "marketCap_usd": 68743437.79058942
+    },
+    "6953": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.18560696306571328,
+      "volume24h_usd": 334988.51,
+      "marketCap_usd": 21330076.9753609
+    },
+    "6952": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.993394410288661,
+      "volume24h_usd": 2133420.84,
+      "marketCap_usd": 217624571.6060848
+    },
+    "7127": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002047774045929103,
+      "volume24h_usd": 5442765.11,
+      "marketCap_usd": 35966849.65421108
+    },
+    "7083": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 4.23747289366979,
+      "volume24h_usd": 462596634.48,
+      "marketCap_usd": 2641557642.7034216
+    },
+    "7080": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001192810161009595,
+      "volume24h_usd": 40400853.06,
+      "marketCap_usd": 61316048.546355955
+    },
+    "7186": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.397033524948743,
+      "volume24h_usd": 38642199.93,
+      "marketCap_usd": 464125582.24416286
+    },
+    "7226": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 5.993138062435256,
+      "volume24h_usd": 130900312.82,
+      "marketCap_usd": 599139732.5519332
+    },
+    "6958": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003378360366390468,
+      "volume24h_usd": 2668225.94,
+      "marketCap_usd": 34774091.33297599
+    },
+    "7192": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 511.56894874031656,
+      "volume24h_usd": 619208176.04,
+      "marketCap_usd": 809754580.1050996
+    },
+    "7184": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 48.92642100911826,
+      "volume24h_usd": 66192.66,
+      "marketCap_usd": 165773890.6412438
+    },
+    "7278": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 91.86906629442268,
+      "volume24h_usd": 255611232.06,
+      "marketCap_usd": 1418579727.0047197
+    },
+    "7288": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.069428051231173,
+      "volume24h_usd": 2390892.68,
+      "marketCap_usd": 34121717.0535171
+    },
+    "6945": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000458464596113594,
+      "volume24h_usd": 3349554.01,
+      "marketCap_usd": 41161498.43464601
+    },
+    "7334": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.028690260318841043,
+      "volume24h_usd": 10840642.69,
+      "marketCap_usd": 150815264.56991357
+    },
+    "7653": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004070788069732401,
+      "volume24h_usd": 2991038.83,
+      "marketCap_usd": 33221197.530514125
+    },
+    "7548": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1087901842258179,
+      "volume24h_usd": 459281.94,
+      "marketCap_usd": 54469307.229591385
+    },
+    "7431": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.4793456543347769,
+      "volume24h_usd": 6058546.4,
+      "marketCap_usd": 143832904.54720914
+    },
+    "7326": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0672267493315941,
+      "volume24h_usd": 7685708.93,
+      "marketCap_usd": 89363001.28947772
+    },
+    "7950": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004649427725466941,
+      "volume24h_usd": 3839182.49,
+      "marketCap_usd": 408624541.212842
+    },
+    "7958": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.026873621872150328,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 32500800.897943817
+    },
+    "7957": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.026625241675286047,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 166895508.55022237
+    },
+    "7501": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.008094795477825599,
+      "volume24h_usd": 1080539.06,
+      "marketCap_usd": 15289256.416737877
+    },
+    "7959": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02233438748081329,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 60186047.848833345
+    },
+    "7961": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 12.746680416296575,
+      "volume24h_usd": 283548073.99,
+      "marketCap_usd": 283617115.6647487
+    },
+    "8104": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.057499743478799666,
+      "volume24h_usd": 6686538.8,
+      "marketCap_usd": 82031887.34444743
+    },
+    "8290": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.10835166895842499,
+      "volume24h_usd": 3540645.34,
+      "marketCap_usd": 71096315.68075053
+    },
+    "8085": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1547.0251140722885,
+      "volume24h_usd": 51395534.64,
+      "marketCap_usd": 15092811604.370798
+    },
+    "7962": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1137.4486769666066,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 285606083.11478233
+    },
+    "8119": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.15409313478016626,
+      "volume24h_usd": 759205.48,
+      "marketCap_usd": 77046567.39008313
+    },
+    "8353": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1546.207383289438,
+      "volume24h_usd": 12877115.06,
+      "marketCap_usd": 156125198.11288443
+    },
+    "7978": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01230076085187366,
+      "volume24h_usd": 8620891.95,
+      "marketCap_usd": 12188956.944982242
+    },
+    "8000": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.22229476069723686,
+      "volume24h_usd": 45505922.72,
+      "marketCap_usd": 182943952.0543556
+    },
+    "8602": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.3591505071596495,
+      "volume24h_usd": 5166741.44,
+      "marketCap_usd": 16304506.465113549
+    },
+    "8526": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.2061151163214114,
+      "volume24h_usd": 32267507.63,
+      "marketCap_usd": 325607134.16616535
+    },
+    "8425": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002939365059803779,
+      "volume24h_usd": 12297469.23,
+      "marketCap_usd": 145336904.43308264
+    },
+    "8646": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0393179861756493,
+      "volume24h_usd": 5995971.94,
+      "marketCap_usd": 51538013.599127166
+    },
+    "8916": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.8800272995669605,
+      "volume24h_usd": 70942905.82,
+      "marketCap_usd": 1051041101.9528378
+    },
+    "9436": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.4592072947e-08,
+      "volume24h_usd": 3993172.18,
+      "marketCap_usd": 14571336.32221405
+    },
+    "9444": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0901219825687521,
+      "volume24h_usd": 1658954.6,
+      "marketCap_usd": 18861190.25737345
+    },
+    "9260": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.027706907349827545,
+      "volume24h_usd": 18627176.82,
+      "marketCap_usd": 39037392.07510702
+    },
+    "8719": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.088497865593301,
+      "volume24h_usd": 1348448.27,
+      "marketCap_usd": 15360144.929812238
+    },
+    "9462": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 6.116405703747064,
+      "volume24h_usd": 9839615.91,
+      "marketCap_usd": 107759699.08044492
+    },
+    "9481": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.208930337448599,
+      "volume24h_usd": 37065767.43,
+      "marketCap_usd": 210562433.9240376
+    },
+    "9104": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0680856395010795,
+      "volume24h_usd": 2505373.96,
+      "marketCap_usd": 87963928.69105221
+    },
+    "8536": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.2536194041353211,
+      "volume24h_usd": 2983844.44,
+      "marketCap_usd": 25361940.41353211
+    },
+    "9486": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 56010.38289449311,
+      "volume24h_usd": 2159738.97,
+      "marketCap_usd": 982722331.6217237
+    },
+    "9816": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.89636626539e-07,
+      "volume24h_usd": 15593322.24,
+      "marketCap_usd": 187760284.57066855
+    },
+    "9903": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.1088374710932343,
+      "volume24h_usd": 9280915.74,
+      "marketCap_usd": 110867513.9616025
+    },
+    "9258": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9118468103649496,
+      "volume24h_usd": 781040.72,
+      "marketCap_usd": 13141286.384953614
+    },
+    "9640": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.0128007375025683,
+      "volume24h_usd": 2585271.61,
+      "marketCap_usd": 16475453.316451414
+    },
+    "10186": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 4.798489896e-09,
+      "volume24h_usd": 2.52,
+      "marketCap_usd": 9399.76695329946
+    },
+    "10180": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3455713605630055,
+      "volume24h_usd": 15999239.56,
+      "marketCap_usd": 139056229.93859655
+    },
+    "10240": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.025478148850395323,
+      "volume24h_usd": 22.8,
+      "marketCap_usd": 55562750.83364532
+    },
+    "10407": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.25364658e-10,
+      "volume24h_usd": 2019074.53,
+      "marketCap_usd": 41100668.371236145
+    },
+    "10791": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 4.799222997345e-06,
+      "volume24h_usd": 3203145.31,
+      "marketCap_usd": 96530603.95360751
+    },
+    "10804": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.5213596206146e-05,
+      "volume24h_usd": 21984769.33,
+      "marketCap_usd": 145526504.86543396
+    },
+    "10894": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.05054308909754417,
+      "volume24h_usd": 1105352.22,
+      "marketCap_usd": 42152936.307351835
+    },
+    "10529": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.014472049416979813,
+      "volume24h_usd": 9539093.85,
+      "marketCap_usd": 278079691.63497853
+    },
+    "10603": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.08506795081144294,
+      "volume24h_usd": 17461954.93,
+      "marketCap_usd": 170135901.62288588
+    },
+    "11092": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.5187557209337028,
+      "volume24h_usd": 17911578.76,
+      "marketCap_usd": 1063116899.6389316
+    },
+    "10508": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.566491235872712,
+      "volume24h_usd": 1501350.52,
+      "marketCap_usd": 131110611.98739624
+    },
+    "10312": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.28523114019918244,
+      "volume24h_usd": 691076.33,
+      "marketCap_usd": 44820436.691475905
+    },
+    "11165": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0616010974526395,
+      "volume24h_usd": 11722742.63,
+      "marketCap_usd": 64543996.86747704
+    },
+    "11419": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9111610884248809,
+      "volume24h_usd": 98444422.09,
+      "marketCap_usd": 2616551324.767048
+    },
+    "11461": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 92.37146784487432,
+      "volume24h_usd": 1405168.6,
+      "marketCap_usd": 143733329.33946687
+    },
+    "11841": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.10691153584485387,
+      "volume24h_usd": 115543870.62,
+      "marketCap_usd": 748131688.5171345
+    },
+    "11840": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06550123183149123,
+      "volume24h_usd": 41288131.71,
+      "marketCap_usd": 150048328.43547156
+    },
+    "11857": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 6.711989065985227,
+      "volume24h_usd": 3689964.58,
+      "marketCap_usd": 72155734.29712449
+    },
+    "12760": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 95.251255030257,
+      "volume24h_usd": 337378.35,
+      "marketCap_usd": 121713292.89649034
+    },
+    "12220": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02997491104377173,
+      "volume24h_usd": 6587240.21,
+      "marketCap_usd": 20753110.157679737
+    },
+    "12999": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.509687286897561,
+      "volume24h_usd": 10245569.24,
+      "marketCap_usd": 24641193.222924825
+    },
+    "13502": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.21303893492835974,
+      "volume24h_usd": 304067079.99,
+      "marketCap_usd": 808591236.8631082
+    },
+    "12885": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004034606055391,
+      "volume24h_usd": 1479954.04,
+      "marketCap_usd": 35636449.52956841
+    },
+    "12147": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.11012444201307899,
+      "volume24h_usd": 4291199.54,
+      "marketCap_usd": 26594514.73539961
+    },
+    "12409": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1943.5967534793579,
+      "volume24h_usd": 22590481.16,
+      "marketCap_usd": 7445054184.2802515
+    },
+    "13631": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.03837071851795371,
+      "volume24h_usd": 3576972.94,
+      "marketCap_usd": 18495334.47040114
+    },
+    "13855": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.3874415539195017,
+      "volume24h_usd": 13877153.22,
+      "marketCap_usd": 143342343.81832886
+    },
+    "13769": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.014931625032533202,
+      "volume24h_usd": 105279.9,
+      "marketCap_usd": 13082146.353983035
+    },
+    "14101": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.032596556901382676,
+      "volume24h_usd": 571750.25,
+      "marketCap_usd": 25177635.294263534
+    },
+    "14588": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01911245809663852,
+      "volume24h_usd": 2916222.06,
+      "marketCap_usd": 50092032.290131435
+    },
+    "14721": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.006483129489536016,
+      "volume24h_usd": 100173.37,
+      "marketCap_usd": 8908090.602244932
+    },
+    "15060": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1853.8317101183839,
+      "volume24h_usd": 2066920.37,
+      "marketCap_usd": 565498905.422521
+    },
+    "14806": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004466401036666001,
+      "volume24h_usd": 8857095.64,
+      "marketCap_usd": 22600602.637376416
+    },
+    "14822": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001661747916623678,
+      "volume24h_usd": 763910.93,
+      "marketCap_usd": 27917364.99927779
+    },
+    "15271": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06133370785454615,
+      "volume24h_usd": 508444.7,
+      "marketCap_usd": 94004794.11837009
+    },
+    "16086": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.92554030491e-07,
+      "volume24h_usd": 28803779.23,
+      "marketCap_usd": 282436422.1568304
+    },
+    "14926": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 90.05384879022685,
+      "volume24h_usd": 17192.09,
+      "marketCap_usd": 83053829.8440663
+    },
+    "16093": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.4091906938566322,
+      "volume24h_usd": 362142.7,
+      "marketCap_usd": 28223836.450045783
+    },
+    "14280": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.7395814335251127,
+      "volume24h_usd": 2271471.9,
+      "marketCap_usd": 19597259.587129004
+    },
+    "16116": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 65.33744410119662,
+      "volume24h_usd": 359771291.81,
+      "marketCap_usd": 119610667.6330276
+    },
+    "17799": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.029487899104650776,
+      "volume24h_usd": 6263348.24,
+      "marketCap_usd": 37058169.75760634
+    },
+    "18876": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06883897767584293,
+      "volume24h_usd": 14124792.68,
+      "marketCap_usd": 68838977.67584293
+    },
+    "18579": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.2992866794452445,
+      "volume24h_usd": 42371953.66,
+      "marketCap_usd": 1019402485.308262
+    },
+    "18679": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002812650234392844,
+      "volume24h_usd": 7763795.82,
+      "marketCap_usd": 113634379.9095754
+    },
+    "18852": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0018636072798468,
+      "volume24h_usd": 24955250.86,
+      "marketCap_usd": 1149064552.3600585
+    },
+    "18934": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1010659730421446,
+      "volume24h_usd": 5860.4,
+      "marketCap_usd": 9016655.052329155
+    },
+    "18523": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 8.01645683893581,
+      "volume24h_usd": 22758.01,
+      "marketCap_usd": 148501658.44282907
+    },
+    "18031": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003072219393225594,
+      "volume24h_usd": 622075.1,
+      "marketCap_usd": 39298910.17927713
+    },
+    "18069": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004943159318160913,
+      "volume24h_usd": 5234417.21,
+      "marketCap_usd": 15380146.669209875
+    },
+    "19075": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000144147721973831,
+      "volume24h_usd": 1702243.75,
+      "marketCap_usd": 40730421.25248145
+    },
+    "17751": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003450640283285685,
+      "volume24h_usd": 2676955.42,
+      "marketCap_usd": 38491892.36005182
+    },
+    "19269": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.08169829633803231,
+      "volume24h_usd": 3138845.71,
+      "marketCap_usd": 47244007.48413809
+    },
+    "19843": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.12760307794314696,
+      "volume24h_usd": 1824344.79,
+      "marketCap_usd": 20150186.378473103
+    },
+    "20396": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.024760808561447512,
+      "volume24h_usd": 13862625.13,
+      "marketCap_usd": 688864655.0182147
+    },
+    "21159": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.25987247844893596,
+      "volume24h_usd": 138600086.14,
+      "marketCap_usd": 1265405023.623251
+    },
+    "21259": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.025616497784610903,
+      "volume24h_usd": 3656491.98,
+      "marketCap_usd": 43659584.74314786
+    },
+    "19891": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0013371019900268,
+      "volume24h_usd": 8658708.12,
+      "marketCap_usd": 1445953537.668601
+    },
+    "12894": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.012832127290080507,
+      "volume24h_usd": 1082524.44,
+      "marketCap_usd": 15584707.50876766
+    },
+    "20969": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.17955143665514917,
+      "volume24h_usd": 1604256.74,
+      "marketCap_usd": 86406908.63084094
+    },
+    "20362": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.022886862243362106,
+      "volume24h_usd": 1015010.98,
+      "marketCap_usd": 30698369.021601178
+    },
+    "20964": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3157515257290919,
+      "volume24h_usd": 697380.31,
+      "marketCap_usd": 77358488.51155774
+    },
+    "20279": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 465.42486171033397,
+      "volume24h_usd": 9372131.55,
+      "marketCap_usd": 698137292.565501
+    },
+    "20641": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0957127945705256,
+      "volume24h_usd": 79598533.49,
+      "marketCap_usd": 443469096.6002607
+    },
+    "20947": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.6011721751804174,
+      "volume24h_usd": 469023138.9,
+      "marketCap_usd": 2488277810.591096
+    },
+    "20721": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55773.80851774926,
+      "volume24h_usd": 2010804.12,
+      "marketCap_usd": 112969849.15270112
+    },
+    "21330": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9917900013420523,
+      "volume24h_usd": 5204.22,
+      "marketCap_usd": 73690036.77131455
+    },
+    "21794": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3423835505582685,
+      "volume24h_usd": 56569106.47,
+      "marketCap_usd": 304483462.4869596
+    },
+    "22533": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 85.58180234617424,
+      "volume24h_usd": 20815099.28,
+      "marketCap_usd": 669199621.2903478
+    },
+    "23095": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.972303316528e-06,
+      "volume24h_usd": 42618220.46,
+      "marketCap_usd": 173551430.95046607
+    },
+    "23121": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.007055225949930095,
+      "volume24h_usd": 145074379.75,
+      "marketCap_usd": 20721214.36439613
+    },
+    "22620": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04287150560491176,
+      "volume24h_usd": 62146.44,
+      "marketCap_usd": 31188323.773214705
+    },
+    "22691": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02803071543357267,
+      "volume24h_usd": 74503114.11,
+      "marketCap_usd": 219595975.30800268
+    },
+    "21707": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.09751020637249225,
+      "volume24h_usd": 2548934.15,
+      "marketCap_usd": 56831089.11046939
+    },
+    "21585": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07040794049537984,
+      "volume24h_usd": 1852894.87,
+      "marketCap_usd": 55675099.85787994
+    },
+    "21846": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01902019694271932,
+      "volume24h_usd": 4827625.96,
+      "marketCap_usd": 29616984.692040987
+    },
+    "20700": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 4.1415452154e-08,
+      "volume24h_usd": 189846.16,
+      "marketCap_usd": 22079607.005171195
+    },
+    "23149": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.03308492209462739,
+      "volume24h_usd": 29824131.23,
+      "marketCap_usd": 258710305.3847518
+    },
+    "23254": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.009878536727941386,
+      "volume24h_usd": 5348494.78,
+      "marketCap_usd": 14818678.48011503
+    },
+    "23177": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1900.5940455507275,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 168985978.89087495
+    },
+    "23508": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9989625441319011,
+      "volume24h_usd": 4882578.64,
+      "marketCap_usd": 698274818.3481989
+    },
+    "21535": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1775.3056106246986,
+      "volume24h_usd": 11448134.87,
+      "marketCap_usd": 316192847.3817642
+    },
+    "22974": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 167.4551149993586,
+      "volume24h_usd": 175332885.96,
+      "marketCap_usd": 1964780902.386003
+    },
+    "24613": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0436313142705552,
+      "volume24h_usd": 1383098.02,
+      "marketCap_usd": 37555502.27045724
+    },
+    "24091": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.006499982642994593,
+      "volume24h_usd": 9690360.88,
+      "marketCap_usd": 74014098.49139413
+    },
+    "23635": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.13573839706166616,
+      "volume24h_usd": 3871977.56,
+      "marketCap_usd": 51834049.103041895
+    },
+    "24478": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.228265655616e-06,
+      "volume24h_usd": 335332381.29,
+      "marketCap_usd": 1335767067.0572433
+    },
+    "23782": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1763.2490467109833,
+      "volume24h_usd": 9844.87,
+      "marketCap_usd": 443551081.15702105
+    },
+    "24647": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07392492567589662,
+      "volume24h_usd": 74395915.67,
+      "marketCap_usd": 27077502.282480143
+    },
+    "24875": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.39592610528895583,
+      "volume24h_usd": 319392.02,
+      "marketCap_usd": 192484859.01440892
+    },
+    "24877": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0190127443728703,
+      "volume24h_usd": 150969.83,
+      "marketCap_usd": 30570382.33118611
+    },
+    "25028": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.349849406262507,
+      "volume24h_usd": 13402304.63,
+      "marketCap_usd": 49346837.53151265
+    },
+    "24911": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000514069503101077,
+      "volume24h_usd": 7510729.28,
+      "marketCap_usd": 35470795.70883362
+    },
+    "24927": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9957317400773126,
+      "volume24h_usd": 62629318.81,
+      "marketCap_usd": 137859347.1104756
+    },
+    "24781": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.21489443236142325,
+      "volume24h_usd": 107912199.03,
+      "marketCap_usd": 17656059.649184693
+    },
+    "22861": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.30816030754973717,
+      "volume24h_usd": 33481769.97,
+      "marketCap_usd": 306058211.19784737
+    },
+    "26081": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9945017986437378,
+      "volume24h_usd": 173764857.68,
+      "marketCap_usd": 276303362.7464881
+    },
+    "26997": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0679055818789303,
+      "volume24h_usd": 87944773.01,
+      "marketCap_usd": 435723541.7129806
+    },
+    "25264": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000374349030002213,
+      "volume24h_usd": 1453034.16,
+      "marketCap_usd": 27966615.467634454
+    },
+    "26133": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55377.51335748211,
+      "volume24h_usd": 28927191.74,
+      "marketCap_usd": 377387231.80370265
+    },
+    "25194": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000370881714554389,
+      "volume24h_usd": 60756.06,
+      "marketCap_usd": 117372936.20502749
+    },
+    "27048": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.480019367143e-06,
+      "volume24h_usd": 37668920.59,
+      "marketCap_usd": 310804067.10003
+    },
+    "27565": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07291299396336189,
+      "volume24h_usd": 97820792.1,
+      "marketCap_usd": 16412714.94115276
+    },
+    "27568": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 531.2580590216278,
+      "volume24h_usd": 106871.19,
+      "marketCap_usd": 503209046.65172285
+    },
+    "27657": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001632944697465937,
+      "volume24h_usd": 13681304.84,
+      "marketCap_usd": 36511418.59825352
+    },
+    "28081": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.2531528297658382,
+      "volume24h_usd": 14768065.06,
+      "marketCap_usd": 235683535.2436624
+    },
+    "27960": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00828506135460794,
+      "volume24h_usd": 4591238.95,
+      "marketCap_usd": 63792075.06548595
+    },
+    "27772": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9997083063516017,
+      "volume24h_usd": 152779502.74,
+      "marketCap_usd": 2360407260.390224
+    },
+    "27075": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.35582563178726423,
+      "volume24h_usd": 38724713.76,
+      "marketCap_usd": 1178495696.0738516
+    },
+    "27750": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 7.2057308504439e-05,
+      "volume24h_usd": 3013858.68,
+      "marketCap_usd": 30311368.379264064
+    },
+    "28177": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0450365341698531,
+      "volume24h_usd": 30057380.36,
+      "marketCap_usd": 354660845.01686496
+    },
+    "27793": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0329518257266113,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 48980430.13501387
+    },
+    "28183": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004664621061906653,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 398799817.7931538
+    },
+    "27566": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1780.9065868136113,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 101336345.19490404
+    },
+    "28298": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003158367178859573,
+      "volume24h_usd": 5686440.81,
+      "marketCap_usd": 158916198.64725038
+    },
+    "28301": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000277686564878075,
+      "volume24h_usd": 5069133.12,
+      "marketCap_usd": 17984555.155577082
+    },
+    "28324": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06679598479312755,
+      "volume24h_usd": 6651992.92,
+      "marketCap_usd": 56515696.41421145
+    },
+    "28321": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0725372354218886,
+      "volume24h_usd": 110157666.21,
+      "marketCap_usd": 772790229.8620951
+    },
+    "28541": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.21289573168929543,
+      "volume24h_usd": 21174855.84,
+      "marketCap_usd": 116302296.27099012
+    },
+    "28568": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1606.7906472215598,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 118694332.0981414
+    },
+    "28656": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 18.108464806797844,
+      "volume24h_usd": 729249.47,
+      "marketCap_usd": 110264466.37278818
+    },
+    "28476": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1738.5083713215934,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 258165520.29194167
+    },
+    "28695": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1724.5371388882593,
+      "volume24h_usd": 5123862.11,
+      "marketCap_usd": 3458458777.7520638
+    },
+    "28654": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07444991953803666,
+      "volume24h_usd": 4225225.82,
+      "marketCap_usd": 10687792.849407328
+    },
+    "28340": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003700858688261786,
+      "volume24h_usd": 186969.96,
+      "marketCap_usd": 24871362.15404789
+    },
+    "28735": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0998369756359742,
+      "volume24h_usd": 467460.34,
+      "marketCap_usd": 21887260.168674625
+    },
+    "28688": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.36271001816485426,
+      "volume24h_usd": 385331.38,
+      "marketCap_usd": 53096924.52997625
+    },
+    "24760": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1717.2538535536762,
+      "volume24h_usd": 17072396.36,
+      "marketCap_usd": 6003889213.950861
+    },
+    "28752": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.11363392787049106,
+      "volume24h_usd": 58782303.44,
+      "marketCap_usd": 113501713.94770464
+    },
+    "28782": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.023098565595764394,
+      "volume24h_usd": 5467419.87,
+      "marketCap_usd": 22635000.350006245
+    },
+    "28862": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 86.90779479436516,
+      "volume24h_usd": 176358.18,
+      "marketCap_usd": 57317099.44223744
+    },
+    "28853": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.4545692383378226,
+      "volume24h_usd": 4081055.34,
+      "marketCap_usd": 635771424.5847981
+    },
+    "29073": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004043026723949983,
+      "volume24h_usd": 12774896.19,
+      "marketCap_usd": 30758963.4699244
+    },
+    "29160": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.44625617392e-06,
+      "volume24h_usd": 102327873.19,
+      "marketCap_usd": 1285499551.0572443
+    },
+    "29035": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1722.9622172820418,
+      "volume24h_usd": 1377679.52,
+      "marketCap_usd": 363879127.450064
+    },
+    "28850": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000273001551192594,
+      "volume24h_usd": 3819134.0,
+      "marketCap_usd": 27144368.385746878
+    },
+    "29210": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.21109310045567833,
+      "volume24h_usd": 63254515.8,
+      "marketCap_usd": 700695936.9075614
+    },
+    "27659": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 7.2038180119e-08,
+      "volume24h_usd": 7709983.13,
+      "marketCap_usd": 28135773.817828357
+    },
+    "29169": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3.05206629206e-07,
+      "volume24h_usd": 1079413.18,
+      "marketCap_usd": 44926429.77064684
+    },
+    "29420": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3527764912249379,
+      "volume24h_usd": 44669737.69,
+      "marketCap_usd": 232497971.0937676
+    },
+    "29470": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9992726496053016,
+      "volume24h_usd": 92378883.37,
+      "marketCap_usd": 4886849868.175543
+    },
+    "29242": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1755.1376135734106,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 580810297.0460982
+    },
+    "29587": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00749508824210546,
+      "volume24h_usd": 169512247.48,
+      "marketCap_usd": 51029050.860410824
+    },
+    "29520": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1758.8169660043598,
+      "volume24h_usd": 12726.52,
+      "marketCap_usd": 69387598.18275814
+    },
+    "29471": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.257533014545456,
+      "volume24h_usd": 24512315.62,
+      "marketCap_usd": 1154180118.1964083
+    },
+    "29743": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003011064837583127,
+      "volume24h_usd": 3573386.87,
+      "marketCap_usd": 30110640.982823994
+    },
+    "29933": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06263703623085817,
+      "volume24h_usd": 132397.93,
+      "marketCap_usd": 7812598.497409509
+    },
+    "29960": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.33492644375052566,
+      "volume24h_usd": 1641274.08,
+      "marketCap_usd": 169798428.91280776
+    },
+    "29814": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.42006920942328707,
+      "volume24h_usd": 31751234.14,
+      "marketCap_usd": 405513811.3167702
+    },
+    "29835": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.09292301883614154,
+      "volume24h_usd": 62113389.97,
+      "marketCap_usd": 39882929.74574831
+    },
+    "29870": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00042760351717726,
+      "volume24h_usd": 8856240.88,
+      "marketCap_usd": 29447685.586469542
+    },
+    "30030": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 84.74792606930777,
+      "volume24h_usd": 50.95,
+      "marketCap_usd": 35051.7422222657
+    },
+    "30126": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000268902636145963,
+      "volume24h_usd": 2747716.6,
+      "marketCap_usd": 23901516.887052782
+    },
+    "30063": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001409672643076707,
+      "volume24h_usd": 1595387.77,
+      "marketCap_usd": 13113355.55314514
+    },
+    "30083": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003426359728585719,
+      "volume24h_usd": 7933356.68,
+      "marketCap_usd": 68968388.38763732
+    },
+    "30096": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000659276637369831,
+      "volume24h_usd": 4644587.79,
+      "marketCap_usd": 16156565.711370545
+    },
+    "30168": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.007194851425684649,
+      "volume24h_usd": 2384233.57,
+      "marketCap_usd": 16039312.470539335
+    },
+    "30140": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.29147704459133883,
+      "volume24h_usd": 10366781.33,
+      "marketCap_usd": 87023411.41277285
+    },
+    "30636": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001521652515174755,
+      "volume24h_usd": 12044815.66,
+      "marketCap_usd": 152163377.3122087
+    },
+    "30651": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 5.471191100165159,
+      "volume24h_usd": 17.98,
+      "marketCap_usd": 5471191.100165159
+    },
+    "30605": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.25583429715601885,
+      "volume24h_usd": 31560.15,
+      "marketCap_usd": 141277384.09558856
+    },
+    "30495": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.012324003245387587,
+      "volume24h_usd": 30550614.57,
+      "marketCap_usd": 145733371.8372437
+    },
+    "30843": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002312778995099848,
+      "volume24h_usd": 4996079.51,
+      "marketCap_usd": 21448813.628163528
+    },
+    "30712": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.024001373578900555,
+      "volume24h_usd": 2468212.79,
+      "marketCap_usd": 35244672.159645595
+    },
+    "30746": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004708571634781763,
+      "volume24h_usd": 2100682.71,
+      "marketCap_usd": 5869137.823985518
+    },
+    "30986": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.022409732406967284,
+      "volume24h_usd": 11472761.79,
+      "marketCap_usd": 135287256.16087693
+    },
+    "30933": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000659056047591897,
+      "volume24h_usd": 1153534.96,
+      "marketCap_usd": 65905604.7591897
+    },
+    "31525": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.055452742463783664,
+      "volume24h_usd": 3857099.34,
+      "marketCap_usd": 13442157.09430586
+    },
+    "31528": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.012540401640876747,
+      "volume24h_usd": 5614850.13,
+      "marketCap_usd": 24136316.900237672
+    },
+    "32120": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002417638817557773,
+      "volume24h_usd": 3493479.47,
+      "marketCap_usd": 27086258.256390266
+    },
+    "29270": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3712965223636072,
+      "volume24h_usd": 44112281.11,
+      "marketCap_usd": 294039939.2193724
+    },
+    "31526": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.005166349764903418,
+      "volume24h_usd": 3612245.8,
+      "marketCap_usd": 24558831.535333477
+    },
+    "32193": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.027652295262851772,
+      "volume24h_usd": 2390704.81,
+      "marketCap_usd": 43796332.30563908
+    },
+    "29256": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.1523505973849693,
+      "volume24h_usd": 6809172.1,
+      "marketCap_usd": 2369217730.5177693
+    },
+    "32196": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 56.21178946554199,
+      "volume24h_usd": 1413979555.56,
+      "marketCap_usd": 14181820584.632288
+    },
+    "32197": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.03378035468758513,
+      "volume24h_usd": 208077258.72,
+      "marketCap_usd": 22997257.93598831
+    },
+    "32372": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9990934103303243,
+      "volume24h_usd": 14908527.81,
+      "marketCap_usd": 41094514.67109023
+    },
+    "32521": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 4.4031390023671e-05,
+      "volume24h_usd": 4885273.79,
+      "marketCap_usd": 18523313.251751292
+    },
+    "32452": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004295499371612764,
+      "volume24h_usd": 50558430.04,
+      "marketCap_usd": 20725784.468031585
+    },
+    "32684": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.025470582525986475,
+      "volume24h_usd": 12100508.96,
+      "marketCap_usd": 73355277.67484105
+    },
+    "32796": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0945285930662734,
+      "volume24h_usd": 50372928.07,
+      "marketCap_usd": 185923980.1021217
+    },
+    "32782": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 66.91953579940969,
+      "volume24h_usd": 953049.78,
+      "marketCap_usd": 33248007.051425833
+    },
+    "32864": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9996491270906328,
+      "volume24h_usd": 293626.13,
+      "marketCap_usd": 150173292.05551392
+    },
+    "32880": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02652532029917306,
+      "volume24h_usd": 6378784.84,
+      "marketCap_usd": 171625372.2396225
+    },
+    "30171": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0913550524187059,
+      "volume24h_usd": 382733170.03,
+      "marketCap_usd": 1233293207.6525297
+    },
+    "32882": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 74.24431258595426,
+      "volume24h_usd": 2060725.24,
+      "marketCap_usd": 670936475.0401459
+    },
+    "30494": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1070380677927685,
+      "volume24h_usd": 14151433.6,
+      "marketCap_usd": 109537273.78368695
+    },
+    "32941": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.225812515176023,
+      "volume24h_usd": 338787.11,
+      "marketCap_usd": 24915467.147720665
+    },
+    "32994": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55889.55148169618,
+      "volume24h_usd": 684458299.82,
+      "marketCap_usd": 5790887451.046075
+    },
+    "33039": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9998847180996608,
+      "volume24h_usd": 376289238.09,
+      "marketCap_usd": 6337139462.760254
+    },
+    "33038": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04275783705640071,
+      "volume24h_usd": 38824917.95,
+      "marketCap_usd": 1000101829.826756
+    },
+    "32966": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.030154038526508272,
+      "volume24h_usd": 3152043.94,
+      "marketCap_usd": 17052317.814535495
+    },
+    "32956": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3419081402886604,
+      "volume24h_usd": 20163232.34,
+      "marketCap_usd": 83393136.07074648
+    },
+    "33223": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.030754668208407537,
+      "volume24h_usd": 111646256.04,
+      "marketCap_usd": 22912260.440123197
+    },
+    "33280": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.63602800077e-07,
+      "volume24h_usd": 933370.8,
+      "marketCap_usd": 49424216.1673294
+    },
+    "33055": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 510.9446,
+      "volume24h_usd": 1743392.39,
+      "marketCap_usd": 397089828.658922
+    },
+    "33093": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.024073954158148222,
+      "volume24h_usd": 8200414.93,
+      "marketCap_usd": 23832535.518486466
+    },
+    "33251": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04372260747655777,
+      "volume24h_usd": 58179965.11,
+      "marketCap_usd": 1385158906.384904
+    },
+    "33310": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55835.890259300024,
+      "volume24h_usd": 1137.64,
+      "marketCap_usd": 53571744.90928541
+    },
+    "32306": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55602.36723678049,
+      "volume24h_usd": 480032.96,
+      "marketCap_usd": 454603842.4805725
+    },
+    "33312": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 58440.583071180496,
+      "volume24h_usd": 20494.83,
+      "marketCap_usd": 339726797.5093865
+    },
+    "33834": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 76.87192443032185,
+      "volume24h_usd": 18492431.39,
+      "marketCap_usd": 79151614.3909309
+    },
+    "33849": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07636899977294354,
+      "volume24h_usd": 2203805.58,
+      "marketCap_usd": 26344250.8489956
+    },
+    "33391": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.010975041933100912,
+      "volume24h_usd": 4844864.59,
+      "marketCap_usd": 66004907.05743527
+    },
+    "33469": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00870708183788922,
+      "volume24h_usd": 48785.81,
+      "marketCap_usd": 80164284.5907787
+    },
+    "33793": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9999217785663325,
+      "volume24h_usd": 554542290.81,
+      "marketCap_usd": 2608050857.763979
+    },
+    "32307": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9986280716955347,
+      "volume24h_usd": 700181.59,
+      "marketCap_usd": 539026892.076535
+    },
+    "33652": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55864.71327151392,
+      "volume24h_usd": 6905451.8,
+      "marketCap_usd": 658324306.0169706
+    },
+    "33372": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.022210611040682983,
+      "volume24h_usd": 20313677.58,
+      "marketCap_usd": 16560801.627265591
+    },
+    "33597": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0727238109495021,
+      "volume24h_usd": 15929580.39,
+      "marketCap_usd": 72723684.1191758
+    },
+    "32198": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.007387030105741132,
+      "volume24h_usd": 5355828.96,
+      "marketCap_usd": 38470392.21602562
+    },
+    "33788": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.024998134615295632,
+      "volume24h_usd": 8750837.1,
+      "marketCap_usd": 24994150.389852345
+    },
+    "33881": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04071469518278071,
+      "volume24h_usd": 5607305.95,
+      "marketCap_usd": 40713142.28359175
+    },
+    "34261": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.038940514704096,
+      "volume24h_usd": 3467347.64,
+      "marketCap_usd": 177614295.81515202
+    },
+    "33983": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.21765521845244237,
+      "volume24h_usd": 128409.58,
+      "marketCap_usd": 41007055.445715405
+    },
+    "34387": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0000112542580648,
+      "volume24h_usd": 614732382.95,
+      "marketCap_usd": 2873817644.911418
+    },
+    "34104": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.456996428496264,
+      "volume24h_usd": 18435942.6,
+      "marketCap_usd": 825745811.9505355
+    },
+    "34332": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06702041977249738,
+      "volume24h_usd": 1581831.73,
+      "marketCap_usd": 39900121.1475538
+    },
+    "34212": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 3533.701687967997,
+      "volume24h_usd": 508339.87,
+      "marketCap_usd": 61344743.26997251
+    },
+    "34330": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001412587390443121,
+      "volume24h_usd": 1906127.83,
+      "marketCap_usd": 11568666.951512028
+    },
+    "34118": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004471419827279923,
+      "volume24h_usd": 6700621.69,
+      "marketCap_usd": 44714198.27279923
+    },
+    "34083": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01967593108070051,
+      "volume24h_usd": 6584646.58,
+      "marketCap_usd": 19674856.18793048
+    },
+    "34619": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.5213112085643813,
+      "volume24h_usd": 4401252.77,
+      "marketCap_usd": 15683126.398450848
+    },
+    "35268": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.008399557854697287,
+      "volume24h_usd": 3970610.14,
+      "marketCap_usd": 50057045.76621869
+    },
+    "34880": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02791882060093397,
+      "volume24h_usd": 5414855.13,
+      "marketCap_usd": 23730997.510793876
+    },
+    "34958": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000412719657538858,
+      "volume24h_usd": 2135992.11,
+      "marketCap_usd": 44740698.076641954
+    },
+    "35114": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.030705734625524464,
+      "volume24h_usd": 8680121.01,
+      "marketCap_usd": 16649605.898921873
+    },
+    "34691": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9990805143538327,
+      "volume24h_usd": 6325903.87,
+      "marketCap_usd": 314598582.20598483
+    },
+    "34466": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004078140464771639,
+      "volume24h_usd": 88173844.55,
+      "marketCap_usd": 256353524.92636505
+    },
+    "34926": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.024433217897806985,
+      "volume24h_usd": 1046131.29,
+      "marketCap_usd": 24432774.293189477
+    },
+    "34812": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.014099356600283948,
+      "volume24h_usd": 17035771.18,
+      "marketCap_usd": 35813478.64991964
+    },
+    "35014": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.2514415291997694,
+      "volume24h_usd": 18052814.78,
+      "marketCap_usd": 239933138.9760602
+    },
+    "33964": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.009518630519646507,
+      "volume24h_usd": 611273.49,
+      "marketCap_usd": 9382919.884909458
+    },
+    "33981": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9759470547619489,
+      "volume24h_usd": 644328.29,
+      "marketCap_usd": 511844968.8876141
+    },
+    "35347": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0416522184036648,
+      "volume24h_usd": 4420505.77,
+      "marketCap_usd": 41652025.79714254
+    },
+    "35293": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 545.6734999771099,
+      "volume24h_usd": 3606.19,
+      "marketCap_usd": 41240568.006965026
+    },
+    "35429": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.040127126330105456,
+      "volume24h_usd": 8813926.91,
+      "marketCap_usd": 20116645.917566925
+    },
+    "35537": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0365514825963596,
+      "volume24h_usd": 3457362.67,
+      "marketCap_usd": 36551449.66347378
+    },
+    "35491": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.8057047215980359,
+      "volume24h_usd": 2856407.75,
+      "marketCap_usd": 1853226933.2803361
+    },
+    "35336": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.815032647686257,
+      "volume24h_usd": 409701272.32,
+      "marketCap_usd": 229730573.92078355
+    },
+    "35509": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 19.78757356586022,
+      "volume24h_usd": 64810086.8,
+      "marketCap_usd": 977240817.8159819
+    },
+    "35437": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9973602996849339,
+      "volume24h_usd": 23723.63,
+      "marketCap_usd": 114109467.82061917
+    },
+    "35364": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.010260705582574544,
+      "volume24h_usd": 16969255.39,
+      "marketCap_usd": 72136601.81262633
+    },
+    "35269": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.014121481357767137,
+      "volume24h_usd": 30707.99,
+      "marketCap_usd": 13933265.556861257
+    },
+    "35626": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07821490895082785,
+      "volume24h_usd": 11964834.63,
+      "marketCap_usd": 28285976.85744987
+    },
+    "35721": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.99568725982309,
+      "volume24h_usd": 902692.85,
+      "marketCap_usd": 1555169059.9127164
+    },
+    "35697": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04871056944903971,
+      "volume24h_usd": 9201166.05,
+      "marketCap_usd": 555474871.4674537
+    },
+    "35837": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.006799661969604175,
+      "volume24h_usd": 5479.68,
+      "marketCap_usd": 6795939.7822846165
+    },
+    "35763": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1485136360097177,
+      "volume24h_usd": 12388410.32,
+      "marketCap_usd": 35849541.59773615
+    },
+    "35881": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55.97093720662103,
+      "volume24h_usd": 81396099.21,
+      "marketCap_usd": 189321366.55199423
+    },
+    "35818": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.25734107795474354,
+      "volume24h_usd": 3973103.17,
+      "marketCap_usd": 92171394.27988526
+    },
+    "35766": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.025864127148276288,
+      "volume24h_usd": 2036175.66,
+      "marketCap_usd": 18688205.647312827
+    },
+    "35701": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 67.32161606120818,
+      "volume24h_usd": 236680.05,
+      "marketCap_usd": 33653739.26091766
+    },
+    "35931": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004296473234604871,
+      "volume24h_usd": 16319074.21,
+      "marketCap_usd": 19205235.354387302
+    },
+    "35930": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.19562310116465023,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 202050050.00355476
+    },
+    "35690": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000407463935314946,
+      "volume24h_usd": 3492555.73,
+      "marketCap_usd": 18919195.667768035
+    },
+    "35954": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000816978430733377,
+      "volume24h_usd": 41921.49,
+      "marketCap_usd": 25199879.991672978
+    },
+    "36044": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.12706079483737887,
+      "volume24h_usd": 2975757.53,
+      "marketCap_usd": 40954348.29312382
+    },
+    "33824": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.08432059813249765,
+      "volume24h_usd": 9924178.25,
+      "marketCap_usd": 100426617.13496344
+    },
+    "36039": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9998961069665311,
+      "volume24h_usd": 8311195.66,
+      "marketCap_usd": 88597193.77238573
+    },
+    "36066": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.039091916309095746,
+      "volume24h_usd": 975008.81,
+      "marketCap_usd": 25019516.426171817
+    },
+    "36063": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3454136590002459,
+      "volume24h_usd": 4359845.04,
+      "marketCap_usd": 104199786.90146507
+    },
+    "36119": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02076999764051766,
+      "volume24h_usd": 3962223.88,
+      "marketCap_usd": 55473202.02462592
+    },
+    "36056": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.006254645360108445,
+      "volume24h_usd": 3777388.77,
+      "marketCap_usd": 19456052.081815057
+    },
+    "36102": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.03491217158080684,
+      "volume24h_usd": 13755257.51,
+      "marketCap_usd": 23741439.983417895
+    },
+    "36148": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9987862542955905,
+      "volume24h_usd": 1637054599.41,
+      "marketCap_usd": 2854904948.8459086
+    },
+    "36175": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 55353.159092691145,
+      "volume24h_usd": 5074.29,
+      "marketCap_usd": 213001170.31503925
+    },
+    "36195": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.021121754559883247,
+      "volume24h_usd": 6380383.9,
+      "marketCap_usd": 68855067.66012044
+    },
+    "36133": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003840454927592294,
+      "volume24h_usd": 3302191.89,
+      "marketCap_usd": 16801280.98632996
+    },
+    "36281": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.039961480269409926,
+      "volume24h_usd": 5463615.86,
+      "marketCap_usd": 17911225.29298584
+    },
+    "36246": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 95.33494747555784,
+      "volume24h_usd": 12815.75,
+      "marketCap_usd": 236378328.94652042
+    },
+    "35637": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.20797868092217045,
+      "volume24h_usd": 71644.23,
+      "marketCap_usd": 17049561.04493251
+    },
+    "36341": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.47691964210441345,
+      "volume24h_usd": 110766922.23,
+      "marketCap_usd": 1321142993.9254684
+    },
+    "36300": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0269459128135713,
+      "volume24h_usd": 9432403.03,
+      "marketCap_usd": 26945912.8135713
+    },
+    "36319": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07226984532777112,
+      "volume24h_usd": 1647769.41,
+      "marketCap_usd": 37959736.18614194
+    },
+    "36410": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.031718009721980765,
+      "volume24h_usd": 3721211.42,
+      "marketCap_usd": 13277764.379113944
+    },
+    "36296": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.015764669031384217,
+      "volume24h_usd": 10855121.55,
+      "marketCap_usd": 12233054.743004221
+    },
+    "36313": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.019919109158498954,
+      "volume24h_usd": 1378808.63,
+      "marketCap_usd": 19894081.254984856
+    },
+    "36352": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.338985669761536,
+      "volume24h_usd": 6994425.73,
+      "marketCap_usd": 22831827.240146548
+    },
+    "36080": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1009507231692782,
+      "volume24h_usd": 5182382.43,
+      "marketCap_usd": 33232706.63304094
+    },
+    "36238": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00066603737565795,
+      "volume24h_usd": 1297725.78,
+      "marketCap_usd": 31134966.544276558
+    },
+    "36458": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1560.1626529806756,
+      "volume24h_usd": 571.02,
+      "marketCap_usd": 3313107131.8110657
+    },
+    "36462": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06156037444667677,
+      "volume24h_usd": 6851681.12,
+      "marketCap_usd": 103485458.70966439
+    },
+    "36302": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06565443372460938,
+      "volume24h_usd": 325292.46,
+      "marketCap_usd": 55331336.08364442
+    },
+    "36457": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9988318400247228,
+      "volume24h_usd": 194776.77,
+      "marketCap_usd": 2948593965.5257454
+    },
+    "36542": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.24178398228129028,
+      "volume24h_usd": 21320210.0,
+      "marketCap_usd": 156849276.77866572
+    },
+    "36539": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002354498072199244,
+      "volume24h_usd": 41037.61,
+      "marketCap_usd": 4640200.368509795
+    },
+    "36532": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.08319878995186919,
+      "volume24h_usd": 5110640.94,
+      "marketCap_usd": 83198789.95186919
+    },
+    "36645": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04381372338129818,
+      "volume24h_usd": 42858146.2,
+      "marketCap_usd": 208602005.20979875
+    },
+    "36507": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002244795396764178,
+      "volume24h_usd": 116003089.52,
+      "marketCap_usd": 1026238035.970285
+    },
+    "36569": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.011736963615991742,
+      "volume24h_usd": 6506871.78,
+      "marketCap_usd": 40892597.7839283
+    },
+    "36671": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.004941507387695008,
+      "volume24h_usd": 5990284.59,
+      "marketCap_usd": 21560929.162936836
+    },
+    "36707": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.8737175808710249,
+      "volume24h_usd": 5336773.12,
+      "marketCap_usd": 137595407.43002295
+    },
+    "36576": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.00847208467209297,
+      "volume24h_usd": 40854437.19,
+      "marketCap_usd": 30026634.49857668
+    },
+    "36743": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.11299424009097471,
+      "volume24h_usd": 1258982.65,
+      "marketCap_usd": 112994240.0909747
+    },
+    "36989": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 96.7944713980454,
+      "volume24h_usd": 6522422.01,
+      "marketCap_usd": 9851496.408880424
+    },
+    "36828": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06970026137695898,
+      "volume24h_usd": 14012344.24,
+      "marketCap_usd": 69635975.60753044
+    },
+    "36804": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.3296692267326627,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 1288903.1900577475
+    },
+    "36992": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 127.6913537076872,
+      "volume24h_usd": 107831379.77,
+      "marketCap_usd": 108554722.98552483
+    },
+    "36994": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 344.8037885535025,
+      "volume24h_usd": 19993985.8,
+      "marketCap_usd": 12318539.454733798
+    },
+    "36770": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.10561291014132641,
+      "volume24h_usd": 1313573.89,
+      "marketCap_usd": 33687019.00444431
+    },
+    "36762": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9938677808016786,
+      "volume24h_usd": 64717.07,
+      "marketCap_usd": 4907698.091233803
+    },
+    "36922": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.010454402568166947,
+      "volume24h_usd": 6862485.15,
+      "marketCap_usd": 22103374.48217145
+    },
+    "37006": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 693.9426116964285,
+      "volume24h_usd": 12440183.44,
+      "marketCap_usd": 73726898.80519561
+    },
+    "37005": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 45.5940669707076,
+      "volume24h_usd": 25178659.82,
+      "marketCap_usd": 86607571.59727003
+    },
+    "37003": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 73.26020246465323,
+      "volume24h_usd": 15453853.58,
+      "marketCap_usd": 74599483.94754195
+    },
+    "37013": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 264.9489163111024,
+      "volume24h_usd": 28232898.08,
+      "marketCap_usd": 61313667.46903141
+    },
+    "37018": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 176.09254420151302,
+      "volume24h_usd": 53941.35,
+      "marketCap_usd": 114222.42879631142
+    },
+    "37025": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 795.0,
+      "volume24h_usd": 201.99,
+      "marketCap_usd": 390901.5
+    },
+    "37022": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 213.0269850980257,
+      "volume24h_usd": 729.42,
+      "marketCap_usd": 797061.767442773
+    },
+    "37020": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 568.8677972552786,
+      "volume24h_usd": 284268.54,
+      "marketCap_usd": 2213948.136747956
+    },
+    "37017": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 360.05,
+      "volume24h_usd": 6338.81,
+      "marketCap_usd": 963288.5715
+    },
+    "37023": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 26.080447079350225,
+      "volume24h_usd": 1362668.62,
+      "marketCap_usd": 2228585.15671825
+    },
+    "37024": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 321.37071993469846,
+      "volume24h_usd": 3078931.27,
+      "marketCap_usd": 9642975.907094978
+    },
+    "37004": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 346.8124240796596,
+      "volume24h_usd": 21187673.87,
+      "marketCap_usd": 60917810.37704666
+    },
+    "37026": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 338.4655824149376,
+      "volume24h_usd": 44156.19,
+      "marketCap_usd": 75352.59261303756
+    },
+    "37028": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 51.120724191016954,
+      "volume24h_usd": 3480195.13,
+      "marketCap_usd": 24790214.071768034
+    },
+    "37033": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 98.86933063716724,
+      "volume24h_usd": 134968.4,
+      "marketCap_usd": 1183371.9618627864
+    },
+    "37040": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 168.78447416635103,
+      "volume24h_usd": 29653.36,
+      "marketCap_usd": 359575.0680745109
+    },
+    "37032": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 92.51461930600728,
+      "volume24h_usd": 25259.16,
+      "marketCap_usd": 538463.7638929472
+    },
+    "37041": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 61.877828934502006,
+      "volume24h_usd": 10758862.88,
+      "marketCap_usd": 7199123.411230042
+    },
+    "37035": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 75.20613057797033,
+      "volume24h_usd": 81853.33,
+      "marketCap_usd": 266907.3094825225
+    },
+    "37044": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 24.268284836456818,
+      "volume24h_usd": 94528.38,
+      "marketCap_usd": 3251662.346227053
+    },
+    "37045": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 333.64383178278973,
+      "volume24h_usd": 76297.95,
+      "marketCap_usd": 519186.5030755169
+    },
+    "37046": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 410.4138211145408,
+      "volume24h_usd": 1489.12,
+      "marketCap_usd": 411714.8329274739
+    },
+    "37047": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 348.1089718097937,
+      "volume24h_usd": 65512.22,
+      "marketCap_usd": 1721927.9912365808
+    },
+    "37027": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 216.89091628654288,
+      "volume24h_usd": 29511.71,
+      "marketCap_usd": 85528.76392843532
+    },
+    "37049": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 515.08,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 98303.018
+    },
+    "37050": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 122.72310950016026,
+      "volume24h_usd": 971437.5,
+      "marketCap_usd": 4825030.862352101
+    },
+    "37039": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 164.2887737656863,
+      "volume24h_usd": 1067.63,
+      "marketCap_usd": 650606.544540445
+    },
+    "37051": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 620.7839732655732,
+      "volume24h_usd": 40905.65,
+      "marketCap_usd": 146051.84539019142
+    },
+    "37057": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 611.2006977662242,
+      "volume24h_usd": 13195062.24,
+      "marketCap_usd": 71151395.1167036
+    },
+    "37056": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 485.433714660314,
+      "volume24h_usd": 1172377.89,
+      "marketCap_usd": 7305636.629860474
+    },
+    "37055": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 561.8504714615431,
+      "volume24h_usd": 4474377.87,
+      "marketCap_usd": 9029133.724052008
+    },
+    "37063": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 27.268288016932082,
+      "volume24h_usd": 314702.08,
+      "marketCap_usd": 336218.53661453293
+    },
+    "37062": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 143.86804865362237,
+      "volume24h_usd": 139817.11,
+      "marketCap_usd": 2444815.9300733856
+    },
+    "37263": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07128273980666723,
+      "volume24h_usd": 16254278.72,
+      "marketCap_usd": 2858095733.4436164
+    },
+    "37166": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.14033975252338554,
+      "volume24h_usd": 7143250.81,
+      "marketCap_usd": 79440563.53283308
+    },
+    "37298": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06261518897156654,
+      "volume24h_usd": 4967414.04,
+      "marketCap_usd": 29670598.480691448
+    },
+    "37387": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01098356828854915,
+      "volume24h_usd": 1397962.41,
+      "marketCap_usd": 27458920.721372876
+    },
+    "37340": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.05412720015515125,
+      "volume24h_usd": 2886803.93,
+      "marketCap_usd": 24924286.843271535
+    },
+    "37070": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.36778199175564014,
+      "volume24h_usd": 21881492.22,
+      "marketCap_usd": 93051098.05000442
+    },
+    "37448": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0338928384948,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 39654.621038916
+    },
+    "37430": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1002753564785617,
+      "volume24h_usd": 2891075.78,
+      "marketCap_usd": 42728476.04421648
+    },
+    "37456": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07266725563032028,
+      "volume24h_usd": 7429145.12,
+      "marketCap_usd": 25231036.757340018
+    },
+    "37545": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000197796256443309,
+      "volume24h_usd": 1125320.95,
+      "marketCap_usd": 19658969.927900482
+    },
+    "37562": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.028694230730784222,
+      "volume24h_usd": 1185381.46,
+      "marketCap_usd": 6606846.625763067
+    },
+    "37011": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 287.10853426795563,
+      "volume24h_usd": 88324.2,
+      "marketCap_usd": 324567.5847338958
+    },
+    "37534": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.007620102908361458,
+      "volume24h_usd": 714859.73,
+      "marketCap_usd": 8930335.990862029
+    },
+    "37322": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.029706549563855673,
+      "volume24h_usd": 3428110.13,
+      "marketCap_usd": 110859452.1895203
+    },
+    "37574": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2037.795371594035,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 182370458.98543656
+    },
+    "37593": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.12891341350055963,
+      "volume24h_usd": 8521987.8,
+      "marketCap_usd": 25138115.63260913
+    },
+    "37609": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.022346121088551267,
+      "volume24h_usd": 5643220.93,
+      "marketCap_usd": 7710946.574184912
+    },
+    "37741": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 106.06,
+      "volume24h_usd": 299.03,
+      "marketCap_usd": 512327.0724
+    },
+    "37745": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1877490648450906,
+      "volume24h_usd": 4446097.01,
+      "marketCap_usd": 837052199.0353528
+    },
+    "37743": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.030210379941194455,
+      "volume24h_usd": 1933234.0,
+      "marketCap_usd": 5679821.956854855
+    },
+    "37637": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.11361298811233228,
+      "volume24h_usd": 3219205.04,
+      "marketCap_usd": 32606092.191937774
+    },
+    "37760": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9980421862202193,
+      "volume24h_usd": 6250795.61,
+      "marketCap_usd": 2137882843.5351086
+    },
+    "38051": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 707.9500480797753,
+      "volume24h_usd": 23049.83,
+      "marketCap_usd": 55116190.84216532
+    },
+    "38014": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 591.5490004617435,
+      "volume24h_usd": 8882329.69,
+      "marketCap_usd": 21481303.360617593
+    },
+    "38056": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 45.678342904957226,
+      "volume24h_usd": 6515882.77,
+      "marketCap_usd": 55846627.068460435
+    },
+    "38151": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.2885884259747517,
+      "volume24h_usd": 1385.51,
+      "marketCap_usd": 87435227.43293771
+    },
+    "38178": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.014831422821542734,
+      "volume24h_usd": 861203.77,
+      "marketCap_usd": 30928044.616304018
+    },
+    "38186": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1617.6260942479896,
+      "volume24h_usd": 1572745.53,
+      "marketCap_usd": 62143257.85324187
+    },
+    "38231": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.25000102457959,
+      "volume24h_usd": 114329898.53,
+      "marketCap_usd": 51024065.112005845
+    },
+    "38192": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 79.46800791477794,
+      "volume24h_usd": 1587919.49,
+      "marketCap_usd": 335961052.18932456
+    },
+    "38236": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.023762225642426433,
+      "volume24h_usd": 9812520.97,
+      "marketCap_usd": 117208264.04210815
+    },
+    "38270": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 5.9231522887118e-05,
+      "volume24h_usd": 23761.0,
+      "marketCap_usd": 113668.2539965238
+    },
+    "38273": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9993547743488392,
+      "volume24h_usd": 49410314.15,
+      "marketCap_usd": 81300592.97335699
+    },
+    "38299": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.057531021933650874,
+      "volume24h_usd": 6933328.64,
+      "marketCap_usd": 22799447.70205912
+    },
+    "38283": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.13909094904457175,
+      "volume24h_usd": 5732162.47,
+      "marketCap_usd": 57735005.356301196
+    },
+    "38309": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.039559966115436086,
+      "volume24h_usd": 950574.87,
+      "marketCap_usd": 34285543.03009197
+    },
+    "38330": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9967966652401808,
+      "volume24h_usd": 132935.17,
+      "marketCap_usd": 148961293.65349263
+    },
+    "37338": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001212103488333806,
+      "volume24h_usd": 4379331.3,
+      "marketCap_usd": 7861284.328428015
+    },
+    "38337": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.10387673076350407,
+      "volume24h_usd": 37873884.93,
+      "marketCap_usd": 62333690.434636176
+    },
+    "38341": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003669398857837327,
+      "volume24h_usd": 20389743.0,
+      "marketCap_usd": 2621453830.651319
+    },
+    "38353": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.2243598898384591,
+      "volume24h_usd": 14642125.4,
+      "marketCap_usd": 125243153.36825958
+    },
+    "38356": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001499056064386405,
+      "volume24h_usd": 2873365.76,
+      "marketCap_usd": 8068258.695071217
+    },
+    "38386": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9980474433190922,
+      "volume24h_usd": 16011471.49,
+      "marketCap_usd": 188947921.20509675
+    },
+    "38417": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.5752779740201454,
+      "volume24h_usd": 6820977.73,
+      "marketCap_usd": 21396345.90329781
+    },
+    "38339": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.09362688762505894,
+      "volume24h_usd": 3706452.89,
+      "marketCap_usd": 234067219.06264734
+    },
+    "38427": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.046679974933013894,
+      "volume24h_usd": 2901365.98,
+      "marketCap_usd": 15073741.59425257
+    },
+    "38468": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.011166942474035718,
+      "volume24h_usd": 2771816.43,
+      "marketCap_usd": 9802322.215830686
+    },
+    "38481": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.006767334741447757,
+      "volume24h_usd": 3368734.97,
+      "marketCap_usd": 16918336.853619393
+    },
+    "38482": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.09980072423534056,
+      "volume24h_usd": 7373137.51,
+      "marketCap_usd": 353904456.9969874
+    },
+    "38489": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.15920945158364141,
+      "volume24h_usd": 3471056.04,
+      "marketCap_usd": 29931392.50025084
+    },
+    "38515": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.014892859562797272,
+      "volume24h_usd": 5049544.37,
+      "marketCap_usd": 51699333.3113368
+    },
+    "38554": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07774310628642103,
+      "volume24h_usd": 4181495.62,
+      "marketCap_usd": 20653128.53691329
+    },
+    "38569": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02505708303715164,
+      "volume24h_usd": 2803802.72,
+      "marketCap_usd": 10075035.471104532
+    },
+    "38562": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.999710908930553,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 501206189.8668162
+    },
+    "38517": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9979576608260367,
+      "volume24h_usd": 14654083.42,
+      "marketCap_usd": 4056374808.452893
+    },
+    "38757": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.07688467407484385,
+      "volume24h_usd": 3936752.5,
+      "marketCap_usd": 20502579.778919917
+    },
+    "38470": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 19.357899794434253,
+      "volume24h_usd": 7954218.51,
+      "marketCap_usd": 19087184.792442035
+    },
+    "38779": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.1933513404542724,
+      "volume24h_usd": 4803661.11,
+      "marketCap_usd": 1606511923.149972
+    },
+    "38786": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.150795017206687,
+      "volume24h_usd": 0.0,
+      "marketCap_usd": 584159517.6812475
+    },
+    "38767": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.012885573249788118,
+      "volume24h_usd": 934523.24,
+      "marketCap_usd": 30801865.62128513
+    },
+    "38770": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04528851977011777,
+      "volume24h_usd": 20328578.96,
+      "marketCap_usd": 51166643.015474476
+    },
+    "38837": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06535307342450629,
+      "volume24h_usd": 6352564.18,
+      "marketCap_usd": 23805946.16919811
+    },
+    "38838": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.022808921407944712,
+      "volume24h_usd": 523202.87,
+      "marketCap_usd": 4709788.84081482
+    },
+    "38841": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02838659240313664,
+      "volume24h_usd": 6599651.64,
+      "marketCap_usd": 6784395.584349657
+    },
+    "38849": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.811917788221377,
+      "volume24h_usd": 108195394.92,
+      "marketCap_usd": 844565750.1497804
+    },
+    "38136": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.002929533452358636,
+      "volume24h_usd": 2543417.19,
+      "marketCap_usd": 19090700.554811582
+    },
+    "38868": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01934957890884952,
+      "volume24h_usd": 22418510.44,
+      "marketCap_usd": 140049908.65670243
+    },
+    "38892": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.022007284558208315,
+      "volume24h_usd": 8524362.69,
+      "marketCap_usd": 396131122.0477497
+    },
+    "38889": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0631298506661209,
+      "volume24h_usd": 8963634.87,
+      "marketCap_usd": 16210693.528968645
+    },
+    "38908": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.11976540609086546,
+      "volume24h_usd": 6570221.32,
+      "marketCap_usd": 24012963.921218526
+    },
+    "38909": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001453103556178291,
+      "volume24h_usd": 15762525.25,
+      "marketCap_usd": 15428730.653938482
+    },
+    "38864": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.4440344464918784,
+      "volume24h_usd": 3650555.36,
+      "marketCap_usd": 44791844.54773249
+    },
+    "38869": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003326612428446184,
+      "volume24h_usd": 2600818.34,
+      "marketCap_usd": 9562937.739597209
+    },
+    "38978": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02062021406421534,
+      "volume24h_usd": 67622259.42,
+      "marketCap_usd": 52928236.863285445
+    },
+    "38947": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0490763152739655,
+      "volume24h_usd": 38836718.3,
+      "marketCap_usd": 79478587.09728956
+    },
+    "39064": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.04063705023002311,
+      "volume24h_usd": 47843849.79,
+      "marketCap_usd": 674875723.6484927
+    },
+    "38948": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9985036402715084,
+      "volume24h_usd": 13539868.01,
+      "marketCap_usd": 200925965.9101842
+    },
+    "39072": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 57.8486555077901,
+      "volume24h_usd": 426886.61,
+      "marketCap_usd": 533809124.4204777
+    },
+    "39090": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 56038.447282603986,
+      "volume24h_usd": 65681.04,
+      "marketCap_usd": 193225049.30620116
+    },
+    "39094": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.01055956995202598,
+      "volume24h_usd": 1025103.67,
+      "marketCap_usd": 19934739.74237272
+    },
+    "39070": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.17601586690270024,
+      "volume24h_usd": 427616826.35,
+      "marketCap_usd": 74722897.53090139
+    },
+    "39071": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.043195908817056,
+      "volume24h_usd": 5193612.55,
+      "marketCap_usd": 6945902.137782604
+    },
+    "38967": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.10620481006973338,
+      "volume24h_usd": 6486902.73,
+      "marketCap_usd": 28699194.694888894
+    },
+    "39120": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9988823936991809,
+      "volume24h_usd": 6033590710.9,
+      "marketCap_usd": 1639310681.8211432
+    },
+    "38942": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 1.0007206383071308,
+      "volume24h_usd": 24082481.92,
+      "marketCap_usd": 71433274.34391277
+    },
+    "38590": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.41641566419117576,
+      "volume24h_usd": 5581367.97,
+      "marketCap_usd": 416415664.19117576
+    },
+    "39158": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.6494329043872854,
+      "volume24h_usd": 10929685.89,
+      "marketCap_usd": 1890758433.091356
+    },
+    "39125": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.168476954925204,
+      "volume24h_usd": 61193232.7,
+      "marketCap_usd": 542119238.731301
+    },
+    "39121": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.21116903895826336,
+      "volume24h_usd": 1391162.36,
+      "marketCap_usd": 64802498.830317065
+    },
+    "39377": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.009721833712551095,
+      "volume24h_usd": 9337431.71,
+      "marketCap_usd": 48488407.97923081
+    },
+    "39332": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.053929661020488656,
+      "volume24h_usd": 17597108.12,
+      "marketCap_usd": 137474465.36080718
+    },
+    "39379": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.010848483432093704,
+      "volume24h_usd": 8591577.15,
+      "marketCap_usd": 18984846.00616398
+    },
+    "39177": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.029126042983345056,
+      "volume24h_usd": 396275.25,
+      "marketCap_usd": 8383729.264037421
+    },
+    "39369": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.019319855123051708,
+      "volume24h_usd": 67844.91,
+      "marketCap_usd": 50635601.227807425
+    },
+    "38828": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.13346695114288898,
+      "volume24h_usd": 19831463.48,
+      "marketCap_usd": 383994616.38089454
+    },
+    "39394": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000216622065293102,
+      "volume24h_usd": 260784.51,
+      "marketCap_usd": 21662206.5293102
+    },
+    "39382": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001997957150556401,
+      "volume24h_usd": 2849654.66,
+      "marketCap_usd": 5702689.030696241
+    },
+    "39459": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 2.5477149619e-08,
+      "volume24h_usd": 734823.97,
+      "marketCap_usd": 7793800.272614612
+    },
+    "39521": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.0084716404324808,
+      "volume24h_usd": 3147583.56,
+      "marketCap_usd": 24394932.400715537
+    },
+    "39545": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003709366536254807,
+      "volume24h_usd": 5785028.6,
+      "marketCap_usd": 9007063.214093447
+    },
+    "39151": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000394457686479782,
+      "volume24h_usd": 1278933.15,
+      "marketCap_usd": 16205636.61980735
+    },
+    "39665": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.22873020572662506,
+      "volume24h_usd": 780192826.43,
+      "marketCap_usd": 33394610.03608726
+    },
+    "39682": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.5345330656201372,
+      "volume24h_usd": 28081395.54,
+      "marketCap_usd": 72482683.6980906
+    },
+    "39611": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.001749937647375327,
+      "volume24h_usd": 5738614.4,
+      "marketCap_usd": 11940634.2051484
+    },
+    "39595": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.003158814525717706,
+      "volume24h_usd": 4881943.09,
+      "marketCap_usd": 7047315.2068762025
+    },
+    "39689": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.000726771352877664,
+      "volume24h_usd": 37247.53,
+      "marketCap_usd": 18188179.87711642
+    },
+    "39683": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9997616916857188,
+      "volume24h_usd": 54454158.67,
+      "marketCap_usd": 983847429.3707441
+    },
+    "39699": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 428.5220652088382,
+      "volume24h_usd": 2729137.45,
+      "marketCap_usd": 6192538.082567704
+    },
+    "39702": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 25.73,
+      "volume24h_usd": 504.38,
+      "marketCap_usd": 212737.4411
+    },
+    "39701": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 57.25266747401913,
+      "volume24h_usd": 19373.83,
+      "marketCap_usd": 284408.92347061215
+    },
+    "39548": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06419255465768957,
+      "volume24h_usd": 2214883.93,
+      "marketCap_usd": 33415434.327060305
+    },
+    "39707": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 67.18,
+      "volume24h_usd": 555.55,
+      "marketCap_usd": 243411.9504
+    },
+    "39711": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 99.54653545443678,
+      "volume24h_usd": 737963.6,
+      "marketCap_usd": 100966952.02778652
+    },
+    "39720": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.2222269957881867,
+      "volume24h_usd": 3577390.18,
+      "marketCap_usd": 77779448.52586535
+    },
+    "39797": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.06486192851184026,
+      "volume24h_usd": 8601118.11,
+      "marketCap_usd": 11350837.489572046
+    },
+    "39800": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.13020013241114678,
+      "volume24h_usd": 5080312.46,
+      "marketCap_usd": 30995768.984370593
+    },
+    "39812": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.037799153563476615,
+      "volume24h_usd": 7126134.41,
+      "marketCap_usd": 8882801.087417005
+    },
+    "39172": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.09279035673138188,
+      "volume24h_usd": 537207.49,
+      "marketCap_usd": 31522635.135681946
+    },
+    "39870": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.025053302747758414,
+      "volume24h_usd": 13569054.09,
+      "marketCap_usd": 50106605.49551683
+    },
+    "39880": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 6.666602481337e-06,
+      "volume24h_usd": 120959.83,
+      "marketCap_usd": 2804572.9978736625
+    },
+    "39883": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.014043086833857257,
+      "volume24h_usd": 18422970.94,
+      "marketCap_usd": 18321668.710448895
+    },
+    "39970": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.16043905708721715,
+      "volume24h_usd": 6700053.99,
+      "marketCap_usd": 33504703.600738168
+    },
+    "39965": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 5.00949702896e-07,
+      "volume24h_usd": 371253.27,
+      "marketCap_usd": 30056982.17376
+    },
+    "39925": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9998850221133374,
+      "volume24h_usd": 15946.2,
+      "marketCap_usd": 480203395.8993935
+    },
+    "40008": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1091418616423419,
+      "volume24h_usd": 3356945.61,
+      "marketCap_usd": 15934711.799781917
+    },
+    "39922": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1512877869822848,
+      "volume24h_usd": 126560.22,
+      "marketCap_usd": 26632313.059461083
+    },
+    "40137": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 135.15,
+      "volume24h_usd": 1.06,
+      "marketCap_usd": 192969.873
+    },
+    "40092": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.5513621191035476,
+      "volume24h_usd": 4003309.99,
+      "marketCap_usd": 88217939.05656761
+    },
+    "40217": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 127.6562342030307,
+      "volume24h_usd": 45409713.44,
+      "marketCap_usd": 107322207.11616355
+    },
+    "39549": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.9997558115320798,
+      "volume24h_usd": 37373587.46,
+      "marketCap_usd": 62585773.54306842
+    },
+    "39686": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.7058147796054666,
+      "volume24h_usd": 8017862.11,
+      "marketCap_usd": 176452584.96527684
+    },
+    "40224": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.1985689726713445,
+      "volume24h_usd": 5996181.19,
+      "marketCap_usd": 31691608.03834658
+    },
+    "40531": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.09410108224761328,
+      "volume24h_usd": 9545838.37,
+      "marketCap_usd": 146797688.3062767
+    },
+    "40588": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.03092754190906927,
+      "volume24h_usd": 2938962.32,
+      "marketCap_usd": 12954667.966724224
+    },
+    "40047": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.029021166852604877,
+      "volume24h_usd": 7658283.21,
+      "marketCap_usd": 7047912.926542713
+    },
+    "40643": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 128.67708760993108,
+      "volume24h_usd": 44210.13,
+      "marketCap_usd": 61089447.34281478
+    },
+    "39841": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.28622807489660484,
+      "volume24h_usd": 4323844.88,
+      "marketCap_usd": 95994329.96205506
+    },
+    "39856": {
+      "ts_actual": 1795235400,
+      "ts_utc": "2026-11-21 04:30:00 UTC",
+      "offset_sec": 0,
+      "price_usd": 0.02123371450375756,
+      "volume24h_usd": 1163476.43,
+      "marketCap_usd": 21228746.32417283
+    }
+  }
+}

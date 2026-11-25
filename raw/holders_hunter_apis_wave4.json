@@ -1,0 +1,2906 @@
+{
+  "7334": {
+    "cmc_id": 7334,
+    "symbol": "CFX",
+    "source": "ConfluxScan Official Mainnet API (Nov 2026)",
+    "chain": "Conflux",
+    "holder_count": null,
+    "base_supply": 5257464000.84,
+    "top10_pct": 82.8998,
+    "top20_pct": 94.8458,
+    "top50_pct": 100.0,
+    "top100_pct": 100.0,
+    "wallets": [
+      {
+        "address": "cfx:ach5tf6c6fgaum951enkft2hcgd2p2ah4ja8phm0m7",
+        "balance": 1346977413.0095618,
+        "pct": 25.6203,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:ach1y8a2n12c75jn7gf5vgz7hcrynk3y1y5f6ke49k",
+        "balance": 664976795.4313806,
+        "pct": 12.6482,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0sfbnjm2",
+        "balance": 572964410.566453,
+        "pct": 10.8981,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:achkr3pgrub5fyktzv0wg8fjtuma8pab8ygzf31gu9",
+        "balance": 545657382.325,
+        "pct": 10.3787,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aatx4z91eg536e55vhcr1gfuewnc34v26ajab18ngb",
+        "balance": 347334087.51046866,
+        "pct": 6.6065,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:accpg3kwdd97tm4ewgh1ajyncvfm89pa8yk3xpf5xs",
+        "balance": 296995279.1680861,
+        "pct": 5.649,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aar4dfefttxs068397s13rg1kfc6y01wnu4d5139dy",
+        "balance": 267237324.85584882,
+        "pct": 5.083,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aakzu631g89ucyba9agsvb2gyuwxanrw6je31zxxx3",
+        "balance": 110458077.81806248,
+        "pct": 2.101,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acbbztv6byta40mdzxnfez97tjum4mnvs298d9yr58",
+        "balance": 104683520.4326662,
+        "pct": 1.9911,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:achwujk8b3vgpk0nndhgfv29u0j0shfv4p0pa5j7su",
+        "balance": 101145779.77774456,
+        "pct": 1.9239,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:accpx9uxky39pg1hzav757vdej95w1kbcp13d0hvm7",
+        "balance": 100200940.55683565,
+        "pct": 1.9059,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aapb65v6sxrtawet097v8t3k4f2smf1wsuzkfbp0ed",
+        "balance": 98048499.3022206,
+        "pct": 1.8649,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aceeh5c3tjf2f5k681y7cs64ghxk21h2723aacaa8z",
+        "balance": 67225768.1251691,
+        "pct": 1.2787,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acg1nmhw967t0nsuhnhkwzrahz0efgrg2apfjy804p",
+        "balance": 58335365.73262234,
+        "pct": 1.1096,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aceexnncytr9cpbb5kkhed7ahd8btg6td2shscj7yc",
+        "balance": 58086447.85702345,
+        "pct": 1.1048,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acg785w75pbb47vhxj3u034vvkp758bcne01wm6gja",
+        "balance": 57459544.49061304,
+        "pct": 1.0929,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aanbgky96z1ktdmrx77uyd59ky4f5snf3jp4v0h6u2",
+        "balance": 55371649.312978074,
+        "pct": 1.0532,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acauhatacjmpzkmx0xcuut6f1a284s6fujcu5hf8m4",
+        "balance": 45776737.31224704,
+        "pct": 0.8707,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acb24p2mdhtyvmj8cjeu8fpyt7caeh629pjku96xa4",
+        "balance": 44125726.42210289,
+        "pct": 0.8393,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acdu1m46uwf9gpyr2hb34b5s36sd916v9j2xt99khb",
+        "balance": 43424970.17518041,
+        "pct": 0.826,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aasusb60hfktf87fx1jg8m4cnnhebrew92f4swayt0",
+        "balance": 26316647.923211493,
+        "pct": 0.5006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aam0nuzv9bu14e68xb390bjcc3t6du0bn2tcy8rde0",
+        "balance": 26290912.710431345,
+        "pct": 0.5001,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aaj8y7pphxhnj4ryeaef7jcspv2r1fhumy168zszfc",
+        "balance": 25722530.617980067,
+        "pct": 0.4893,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acfa64e311xkmwesypaky6tnwkzau4mnzp79zczg2v",
+        "balance": 20670000.0,
+        "pct": 0.3932,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acgwgh4h5pu04zr9yg8p03acsf10sfrv4umctj7skd",
+        "balance": 20325537.40108267,
+        "pct": 0.3866,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aam5xn1e71juzwgs4e94t3yghj1ayw1b56zxk7bv8u",
+        "balance": 19805428.093473293,
+        "pct": 0.3767,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acdj1y1r00mzvuw9s831rj1t5amst2405jv582syu0",
+        "balance": 17540922.52624417,
+        "pct": 0.3336,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aapjva9ghfp0scg5g31519bpt2nuwzdbhpem483ux6",
+        "balance": 16489675.989185909,
+        "pct": 0.3136,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acdrd6ahf4fmdj6rgw4n9k4wdxrzfe6ex6jc7pw50m",
+        "balance": 13325566.585301202,
+        "pct": 0.2535,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aansses5s4z9texyfz2jtz1yptznkgz1naddjdazz8",
+        "balance": 13192083.660324944,
+        "pct": 0.2509,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:accvn0sakfx8zv2r0192au3khy7bh9c5f2w5cp18mt",
+        "balance": 12785000.0,
+        "pct": 0.2432,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acft67ujdfha90hbpxr5puyrsuzct3k8cuagztc3se",
+        "balance": 12313439.91149886,
+        "pct": 0.2342,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aaku2ba0vjt35zn1kdahfsdz4vf5susfhywme3r72n",
+        "balance": 12000000.252851702,
+        "pct": 0.2282,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aaprbgcd6ycy6rnavxj6nc3f3eyn9a5bja10t8s1ec",
+        "balance": 11799786.4874,
+        "pct": 0.2244,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:accrdadjnxbx75x5mx6523fajwx3k81b12eugec37v",
+        "balance": 11007000.0,
+        "pct": 0.2094,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aapt9vugthzh1feawrkxdp9e2k88f02v5pcj68wf0c",
+        "balance": 10720673.157524927,
+        "pct": 0.2039,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:ach0mer9u6ypy8yb30p5d0vutep09g4p5jk4tn1b9v",
+        "balance": 10039255.359356806,
+        "pct": 0.191,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acc4yuwdtfx69d9hsxuk49dvxf2m5n6ct6ddd44pvn",
+        "balance": 9729279.107090374,
+        "pct": 0.1851,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acfgmctw40vy2a608uey5g9t32b8m4kp1268zwhrh1",
+        "balance": 9321962.17507895,
+        "pct": 0.1773,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aangrrj9n0w6pmwf6uxpg6srpz7rffa8xuku4hkszz",
+        "balance": 7192114.019919558,
+        "pct": 0.1368,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamj74duv3nmv9u63undunzts8u7e3uc3y81265z48",
+        "balance": 6997675.448053467,
+        "pct": 0.1331,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aarrdn6xb9x5c573xcrettwmnwhk49vz964t2r3u78",
+        "balance": 6768353.16697716,
+        "pct": 0.1287,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acgx4fjs0knk1yfughrbyxgb3g1f0rgz82e7xnvm10",
+        "balance": 6155321.431453526,
+        "pct": 0.1171,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acd0evj1a2mgmpvt6abrn13m6esbg2bfspw3k6hsjn",
+        "balance": 6095222.245163987,
+        "pct": 0.1159,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aakxu9sr26zhxsg2y7egb2xjf0d0hhaakja4uen4dx",
+        "balance": 5625000.000051002,
+        "pct": 0.107,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aaj0tvwmknv0wpb4faaru1nmg2fwscd21267ac8tys",
+        "balance": 5473374.74792,
+        "pct": 0.1041,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:achduvbt35zb7ge3fwsjm6ryc6gk76ab5uk4nsc8u9",
+        "balance": 5070868.713591777,
+        "pct": 0.0965,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aak53kbd2z23gh2jfzddrs29yhfwc0e822y36uhgyv",
+        "balance": 4956480.61437539,
+        "pct": 0.0943,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aatjy24981wyudkp7yswv2pz7ur1g0zzbjn8s0wm11",
+        "balance": 4521501.671356815,
+        "pct": 0.086,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aarsm58z1px700kz3e36r10zacnw09dfzu33tzusx6",
+        "balance": 4099154.5948105045,
+        "pct": 0.078,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamt749s41exa6bntce0efvvtfmwm8w3zpdwmrhk11",
+        "balance": 3707342.9995989,
+        "pct": 0.0705,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aak4cyc7mhsxry1rmnwmjva2jft0zs8av63rpxrhkr",
+        "balance": 3210502.66504292,
+        "pct": 0.0611,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aaja5z1cfzmdtyn0eyza0y40wsc7augne21ry7e4pg",
+        "balance": 3062538.798340877,
+        "pct": 0.0583,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:accgywhw52gk86z5ejzdzag4jdusrnp0xer9js5fjf",
+        "balance": 3032664.254015346,
+        "pct": 0.0577,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aarrbgu3kujez89xw626pfh46ctu68a8gpv84ukdm9",
+        "balance": 2931249.0,
+        "pct": 0.0558,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acgwp9vmrp7rfd5keg2x69a8y88aw84uc2paasu7cu",
+        "balance": 2887495.6218595137,
+        "pct": 0.0549,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aarupjjhhw4r59x9tccz8wc0k4y5jhy7c26ufnggxv",
+        "balance": 2834874.4372226903,
+        "pct": 0.0539,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aajanfh2xdh4u3uf0s9rbkss5f4h3271aaegpu0ewt",
+        "balance": 2637500.0098590003,
+        "pct": 0.0502,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aakv3cdfthsr50efcwcun77jpkcg1287ypdrmhfbb2",
+        "balance": 2164209.53749226,
+        "pct": 0.0412,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aaj8kegkt4pj5yjybbf8sxu3zjv7er8xzybp7n9ymj",
+        "balance": 1944800.0,
+        "pct": 0.037,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aapxbgg4r4zap592pp88c0cykee73sjz5y5x14wmtm",
+        "balance": 1562500.0000255,
+        "pct": 0.0297,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aajgxtevv4dkk65d55hdaum12ynrtf2pu65drtbwj4",
+        "balance": 1544358.56570351,
+        "pct": 0.0294,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aapuvtm6s6eaf0yv88r8uk55640g78d062mnz9cpj4",
+        "balance": 1408725.560916931,
+        "pct": 0.0268,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acg0zctacp58wmsy39vpwxkn1f2ufxdbx69nev5ubk",
+        "balance": 1296733.1965667277,
+        "pct": 0.0247,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aajussx5z6y8ubvh9w2n265jek8e0ztfyy8yzjufa1",
+        "balance": 1235618.819919558,
+        "pct": 0.0235,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aatu6e2ej85j3dyy85g4nmu7rw6r75xm9e4745pxja",
+        "balance": 1169002.4154174668,
+        "pct": 0.0222,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aajnaajhtyzczmmcpbxs4xcehc6519858jxhtkwkfz",
+        "balance": 1168302.6377306795,
+        "pct": 0.0222,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acfans039gayf6avksxj0rd817ssvzvc4js5kxm4a7",
+        "balance": 1134138.2723827125,
+        "pct": 0.0216,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acg158kvr8zanb1bs048ryb6rtrhr283ma70vz70tx",
+        "balance": 1105855.4324885372,
+        "pct": 0.021,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aasm3g72tdx0mr4hr484gjkjv53k8mg54u2m7mpbyg",
+        "balance": 1098934.05193713,
+        "pct": 0.0209,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aak39ue4h0ssj299ccug7f8rxee2vysgseh9u7hbch",
+        "balance": 1074634.98,
+        "pct": 0.0204,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamjy3abae3j0ud8ys0npt38ggnunk5r4ps2pg8vcc",
+        "balance": 1041480.585902255,
+        "pct": 0.0198,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamj66fx109mkp4aahj4wxx00c9tps0bwp4yfyrh8n",
+        "balance": 1020564.9798486388,
+        "pct": 0.0194,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamts66saemun8puc136txub6mhm4kadayssd2995a",
+        "balance": 1016415.146368088,
+        "pct": 0.0193,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aarecwtjtcyvfzfb4h57cmy27my9jbkfs6r2sjzggm",
+        "balance": 1013944.0592927029,
+        "pct": 0.0193,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acbcra8jpk1w5jby2e55vcwah8udpxhdbp4rtcmux4",
+        "balance": 1013089.6555666567,
+        "pct": 0.0193,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acbvy83g850bua7r62rgpzft7ctz0farz2pshga998",
+        "balance": 1012003.8409717175,
+        "pct": 0.0192,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acgvy92s85sct93tks3g1egv66v0mppatashkbug9w",
+        "balance": 1003276.5274494003,
+        "pct": 0.0191,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aca6rkkr2mnrhz6fvnec7pd1vu2zf3mnaaw7bahnsd",
+        "balance": 1003004.0741921272,
+        "pct": 0.0191,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aar5z23zan8wgm794jdtru5z3vy8rpugppurppe2p2",
+        "balance": 1000932.0183729096,
+        "pct": 0.019,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aap248f8a6dnx0fcmzu6zu4092dm6pe4keswfaf6xj",
+        "balance": 991220.7986337729,
+        "pct": 0.0189,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acc5086t6uyww6barn1a2b6z8wdmdg376yeu9gczpz",
+        "balance": 971835.1926363531,
+        "pct": 0.0185,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aampx35e3hf4ujyxb81n59wxy2nsdhn0zy6khw503n",
+        "balance": 966420.5993805325,
+        "pct": 0.0184,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aatbkp0r4c97etvd253xhtdcgfvyx6r3ejh855mw6j",
+        "balance": 862847.4150954903,
+        "pct": 0.0164,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aanrd3yu4tbn36efhzpx3ke93wxv7yhzzangb65dcw",
+        "balance": 828936.26153678,
+        "pct": 0.0158,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aar27cw0e1yykb68vpk7f5xwu66jbu39a25bx56pwk",
+        "balance": 800000.0000004731,
+        "pct": 0.0152,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aakc7bmnjp613fzsbtydwz81jed2e0sn16z8cmnc5j",
+        "balance": 791821.166620052,
+        "pct": 0.0151,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamrjmam5n7sca1v1g55mevk0pw8pv4cgefwtp13we",
+        "balance": 749401.3540572316,
+        "pct": 0.0143,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aatye0562ys3exrvns23czfgw4a4s085huat2uv21j",
+        "balance": 737790.6446206054,
+        "pct": 0.014,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aajtj5uc6p0jdarsm6t76c4g0xuc8kzduau1x67e2x",
+        "balance": 653414.1005869382,
+        "pct": 0.0124,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aakk6ym6ebdam1y9u8xke3z114y9twht7enymkg4s8",
+        "balance": 645876.2604852282,
+        "pct": 0.0123,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:acbkxbtruayaf2he1899e1533x4wg2a07eyjjrzu31",
+        "balance": 640190.2802251832,
+        "pct": 0.0122,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aatd0wzv4f7f6j33kh5e182z4nscsp59vye32h4yz6",
+        "balance": 590496.5651180587,
+        "pct": 0.0112,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamgx7a2v1xh5w0t892ss7ggtescr5rg3ju4kf22k2",
+        "balance": 552958.627854563,
+        "pct": 0.0105,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aamrxczfx2770vv73424bu7m87xcpztbwykydjksm9",
+        "balance": 520833.33000001,
+        "pct": 0.0099,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aakgkkbnyw7tws3dd2yx1yvnfubsgyt4kpe2hg0fb7",
+        "balance": 506619.16826851224,
+        "pct": 0.0096,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aam97hxspu7p0nef4tmgkhvmtya115xjnjc7nf2yfb",
+        "balance": 504071.971180712,
+        "pct": 0.0096,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aasyxwe1m6mt1481bk2b7jewpa7dv39b3uk3gjx79r",
+        "balance": 500004.9976,
+        "pct": 0.0095,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aan6ybrzpb5xpxys8pfrrnt5vzesda4nhp24jh1kv8",
+        "balance": 500001.00989665,
+        "pct": 0.0095,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "cfx:aakpyku5y8zp3bjvf6tt0j4z8yhnpfha4pk6g0evj9",
+        "balance": 500000.0,
+        "pct": 0.0095,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  },
+  "28340": {
+    "cmc_id": 28340,
+    "symbol": "SMART",
+    "source": "SmartExplorer Official API (Nov 2026)",
+    "chain": "SMART",
+    "holder_count": 10,
+    "base_supply": 836732311077.0,
+    "top10_pct": 88.324,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null,
+    "wallets": [
+      {
+        "address": "sfFprPjszb4YxLLKHt1XCvrCyRJKMxFCQh",
+        "balance": 537868441962.952,
+        "pct": 64.282,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sLbzsnGnscy1HWYs7Unnzx6LBQsEZYZGmJ",
+        "balance": 50000000002.0,
+        "pct": 5.9756,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sdvURGQkFnV3yiR4F8hx7XDHm6BrnkcLcL",
+        "balance": 50000000001.0,
+        "pct": 5.9756,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sbTUVhxW1369DYwsM1NET26kRep7oy7ogc",
+        "balance": 49999998007.0,
+        "pct": 5.9756,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sUwU6JK9py1kVYnhMPVqTdgGrwT315J7Eg",
+        "balance": 40070858950.23895,
+        "pct": 4.789,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sfNdvr4cyS1M8kU72GbGvai61ToJjUg4Qg",
+        "balance": 5198993996.182,
+        "pct": 0.6213,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sPYaqZwBPD6fR1junadtqp5jzzqrD98ZfQ",
+        "balance": 5000000000.0,
+        "pct": 0.5976,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sVygz3g3qN5GNRkBi4JLZhpk3antzWLZvB",
+        "balance": 399070207.47932,
+        "pct": 0.0477,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sN9hpxBx2k1hXy3oPGTa2oJUT1YuXw2mm2",
+        "balance": 256866912.732347,
+        "pct": 0.0307,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "sWwiYtubb3mV2WK7zgWHPDRAj3WimKYB8t",
+        "balance": 241559039.319164,
+        "pct": 0.0289,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  },
+  "38837": {
+    "cmc_id": 38837,
+    "symbol": "BEAT",
+    "source": "OKX Web3 Explorer BSC (Nov 2026)",
+    "chain": "BSC",
+    "holder_count": null,
+    "base_supply": 1000000000.0,
+    "top10_pct": 87.1856,
+    "top20_pct": 97.1764,
+    "top50_pct": 99.59,
+    "top100_pct": 99.997,
+    "wallets": [
+      {
+        "address": "0x75552f8f6785946172527cbfef84a08086a4ede7",
+        "balance": 300000004.0,
+        "pct": 30.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1830834fe3742b7e0988968dd50f321250157561",
+        "balance": 104999996.0,
+        "pct": 10.5,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+        "balance": 97649261.19153726,
+        "pct": 9.7649,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x05b7721d66e83f8fb236d2ace995f710fd59e718",
+        "balance": 80000000.0,
+        "pct": 8.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x34d5d4c15ff9a1417411787c1eb26f4c3c35149f",
+        "balance": 68700000.0,
+        "pct": 6.87,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0793b14b0beb04caf55c5fd48e0e3e7358bf6bb2",
+        "balance": 60000000.0,
+        "pct": 6.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6f8a2e8fe3dc9867ab3ff3351fc5b2ab7fe93a7e",
+        "balance": 59172265.73,
+        "pct": 5.9172,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000000000000000000dead",
+        "balance": 36334968.13529287,
+        "pct": 3.6335,
+        "label": [
+          "tradingBot_Gmgn Bot"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x56705ec68deb49f49daa6c6dee1eab4b1c9b2830",
+        "balance": 35000004.0,
+        "pct": 3.5,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc6ff829cde48848b02c19b3af54b1de73c40a669",
+        "balance": 30000000.0,
+        "pct": 3.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x73d8bd54f7cf5fab43fe4ef40a62d390644946db",
+        "balance": 21538272.67010874,
+        "pct": 2.1547,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xcaf2023e372169b89318888f3c6fecea7197c891",
+        "balance": 20000000.0,
+        "pct": 2.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x543714f349970cd3b02d6dc6a85ac8641f2bb3a3",
+        "balance": 19223157.0,
+        "pct": 1.9223,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x68b7b67d7f545922e1538431a711c54cdbfe52f3",
+        "balance": 10000000.0,
+        "pct": 1.0,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x87f234dcc1ffbd97034d4c6e1310cfea237aa3b8",
+        "balance": 6100000.0,
+        "pct": 0.61,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x91dca37856240e5e1906222ec79278b16420dc92",
+        "balance": 6067444.018096098,
+        "pct": 0.6067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "",
+        "balance": 5721021.098291144,
+        "pct": 0.5721,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x238a358808379702088667322f80ac48bad5e6c4",
+        "balance": 4138740.0547024165,
+        "pct": 0.4141,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4982085c9e2f89f2ecb8131eca71afad896e89cb",
+        "balance": 3624393.7175125214,
+        "pct": 0.3624,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x69be413d648ae00f0fbd9856f1355e22b36ee5e0",
+        "balance": 3485159.1727296715,
+        "pct": 0.3485,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8dac80ce96f69f9762bc450faa4d7fbd5891ae18",
+        "balance": 2816458.062625432,
+        "pct": 0.2816,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xcd89bdcc2e64dcbc0a3c5ac9a85a8c611dd3e7c3",
+        "balance": 2195060.406,
+        "pct": 0.2195,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x73237e12c419d582121de95e8abd2cf9ec42821a",
+        "balance": 2033334.0,
+        "pct": 0.2033,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x53f78a071d04224b8e254e243fffc6d9f2f3fa23",
+        "balance": 2085847.8737221754,
+        "pct": 0.1918,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8f5a3fdd6a96dde921f7638d948fcf65d3e71597",
+        "balance": 1650000.1,
+        "pct": 0.165,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x75c198a12998949f6e4c6b08586b7a817dd1c88b",
+        "balance": 1272216.8278752118,
+        "pct": 0.1272,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x919e397834c349bd890a552ba035dcdefc4cde42",
+        "balance": 1271550.0,
+        "pct": 0.1272,
+        "label": [
+          "suspicious"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x17a30350771d02409046a683b18fe1c13ccfc4a8",
+        "balance": 1266067.15,
+        "pct": 0.1266,
+        "label": [
+          "exchange",
+          {
+            "name": "KuCoin",
+            "attr": "Hot Wallet",
+            "logoUrl": "https://static.coinall.ltd/cdn/web3/tag_library/logo/1776215639734.png/type=png_350_0"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+        "balance": 1055055.96,
+        "pct": 0.1055,
+        "label": [
+          "exchange",
+          {
+            "name": "KuCoin",
+            "attr": "Cold Wallet",
+            "logoUrl": "https://static.coinall.ltd/cdn/web3/tag_library/logo/1776215639734.png/type=png_350_0"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "balance": 643372.3803764823,
+        "pct": 0.0814,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x504161890a1b353c7136a5a43dd9537671ca898f",
+        "balance": 785382.8351536817,
+        "pct": 0.0785,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf09541b6bd516f3436291b399245e5e48cb14e9f",
+        "balance": 718256.0784432999,
+        "pct": 0.072,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd97107064b8c7520aae6c6e6ca75bb2aa73b670d",
+        "balance": 658794.1527380085,
+        "pct": 0.0659,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd4acd38de8f461cba9d7f5742ca115da4ad3d96f",
+        "balance": 645130.0,
+        "pct": 0.0645,
+        "label": [
+          "diamondHands"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc725869161d5f9f3ae13110653ac73101cd150d9",
+        "balance": 608243.024011683,
+        "pct": 0.0608,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe3043b669291aa3df37b9eb414ce443c80e630e2",
+        "balance": 478455.9154574287,
+        "pct": 0.0478,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x96e5e1254ce728f3113555cc01b31361bea34795",
+        "balance": 368508.125397,
+        "pct": 0.0369,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc037a180b8e0355d31ae342c23e39daea82a013e",
+        "balance": 356632.0364668969,
+        "pct": 0.0357,
+        "label": [
+          "diamondHands"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe5f1395efce39a2ac238b63f79dbc5d524c85dcc",
+        "balance": 350159.84785696864,
+        "pct": 0.035,
+        "label": [
+          "liquidityPool",
+          {
+            "name": "Uniswap V3"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xdaa4393013f359fd63a133a3b893d311aba4e471",
+        "balance": 310000.0,
+        "pct": 0.031,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd86bad51a164aabaa5ad6feab5782cf9a3dcccbf",
+        "balance": 300000.0,
+        "pct": 0.03,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x10b430bdfa4c91285907224cd3bb80eeb5796e77",
+        "balance": 289995.12,
+        "pct": 0.029,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8dbe31388bec5b2950c393818109031e0672c30d",
+        "balance": 272627.0,
+        "pct": 0.0273,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x124d9bf2fecbc16b54ec4accdb14d44c2144f012",
+        "balance": 267035.6446636568,
+        "pct": 0.0263,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe13a989f1c1f416827a3b91829f1a7f2ef0f0063",
+        "balance": 260766.8780599177,
+        "pct": 0.0261,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe458cbd22ea4e73369e52903804832aa287e9356",
+        "balance": 257789.1967263024,
+        "pct": 0.0258,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6990e7e90ab50c12111f99b84183d3fe298bb3e4",
+        "balance": 244466.3643952166,
+        "pct": 0.0244,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd62e4abfffd6ad9a28eaa2144c6bac65c618f97a",
+        "balance": 235934.07482302844,
+        "pct": 0.0238,
+        "label": [
+          "diamondHands"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x422965b9514fff24ef2f2f42205779a40ef6284f",
+        "balance": 222039.21380791996,
+        "pct": 0.0222,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x39bf577b0d2d2e2ae5c2ebd1fba86fcf3249c763",
+        "balance": 214594.5475169229,
+        "pct": 0.0215,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb079fa51a09caf6a3cc9ccddb75a7d95d0ce20ec",
+        "balance": 200000.0,
+        "pct": 0.02,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x61604b8d06d9426f3dea9cb22993cd5a0c732302",
+        "balance": 182986.5907101,
+        "pct": 0.0183,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x78d90d9fec8717d788b152351552c81bfc067cb9",
+        "balance": 170168.8778490606,
+        "pct": 0.017,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0ce67ec894d939f45890be9da213b33c46654ded",
+        "balance": 168774.47618729412,
+        "pct": 0.0169,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa43ca96c32fa3f2c93012b564c39b9e56533386d",
+        "balance": 161222.38704180645,
+        "pct": 0.0161,
+        "label": [
+          "exchange",
+          {
+            "name": "XT.COM",
+            "attr": "Deposit",
+            "logoUrl": "https://static.coinall.ltd/cdn/web3/tag_library/logo/1775037883158.png/type=png_350_0"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe3581b98a72583a3556451b3e5281d971c32aecf",
+        "balance": 151342.99999970137,
+        "pct": 0.0151,
+        "label": [
+          "bundle"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x81bd39b8ddabbaa823f100c14291e7fcc3e3bf11",
+        "balance": 147013.78902985645,
+        "pct": 0.0147,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
+        "balance": 141746.86543249694,
+        "pct": 0.0142,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x84fbb35b1e3852f6df15f27da5be652523dd3914",
+        "balance": 135522.49633744897,
+        "pct": 0.0136,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0faeb60e1b406c2f84454f169a2512a5792e1aa8",
+        "balance": 123783.1445631636,
+        "pct": 0.0118,
+        "label": [
+          "diamondHands"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x23e302d76a4ec6bd8a0a889d8028a918cfb87d54",
+        "balance": 105804.97243716854,
+        "pct": 0.0106,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x94de616ecc187afbad790b8866e8b5c9d6452dbd",
+        "balance": 100192.00777764527,
+        "pct": 0.01,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb6a3d914125951f89a4513b53a353e67990e414b",
+        "balance": 100000.0,
+        "pct": 0.01,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x79ce9dc0e5dbe4b2d2a4751d481387dada30a1a5",
+        "balance": 99325.939212657,
+        "pct": 0.0099,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1d44bf774783a59a1ab6417907ea763291a97c82",
+        "balance": 92780.265,
+        "pct": 0.0093,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2925c3a039e354f1667b75ef4fd4aa4bcccd98d6",
+        "balance": 90938.57668102087,
+        "pct": 0.0091,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xdb3ded7731c781224ec292e2163d9554c094fd7c",
+        "balance": 90719.59775703259,
+        "pct": 0.0091,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x30b0e1d1796ef2bc3e838f8047886690d17e93dd",
+        "balance": 87360.72751855192,
+        "pct": 0.0087,
+        "label": [
+          "suspicious"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4a420e0878b63775ff4f4db22b4cef3439714693",
+        "balance": 84929.88544703172,
+        "pct": 0.0085,
+        "label": [
+          "diamondHands"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd7ef8152f49940bc91741c6a7f0260b439b26587",
+        "balance": 84868.99145454548,
+        "pct": 0.0085,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe9a1a34c14e3e5f24ee9c47e1e9151657f34aa1f",
+        "balance": 83734.40458400732,
+        "pct": 0.0084,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe8f6ae5e13b8a7993d3e974a313ab5078a9705f0",
+        "balance": 77371.95517641975,
+        "pct": 0.0077,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x485e6ee53b2aed841b93bf57602cbb2fdf95648b",
+        "balance": 73812.00503091529,
+        "pct": 0.0074,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2c188c446d8dee30c1426fad27c2dea32ce0fbe1",
+        "balance": 69140.42235411267,
+        "pct": 0.0069,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5278cdf362876971ee72646c1f41d3d55f9ccae8",
+        "balance": 60869.16789670826,
+        "pct": 0.0061,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6066a57f9d57e7ef8ae825ab040d8cac020bef00",
+        "balance": 58900.566159574686,
+        "pct": 0.0059,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2fb66a53b6bcf84477cc8188ec82738a72ad532a",
+        "balance": 58843.35403144704,
+        "pct": 0.0059,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xceb4b9e17f3d4d2dc66a670782bde7c76a02b2cd",
+        "balance": 58753.60493,
+        "pct": 0.0059,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x137aea171207cc4f0131f24ad546f355cb9451cd",
+        "balance": 57956.55459485175,
+        "pct": 0.0058,
+        "label": [
+          "fresh"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x52bec350fa65b5a211703a9bae93b38fb4960f3b",
+        "balance": 57259.03908822015,
+        "pct": 0.0057,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x342bd0b04b7165e42e3a17762a70ca54b727f2c4",
+        "balance": 55528.98610486,
+        "pct": 0.0056,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x611e28b2245f270097a8ae25cef481dce255fd78",
+        "balance": 52982.02951341718,
+        "pct": 0.0053,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8fd84674f46ede947a619286bd0f877c17590de3",
+        "balance": 52466.62862798074,
+        "pct": 0.0052,
+        "label": [
+          "diamondHands"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xea28fcd2ff08702a06c85079c9bc56bf98b0129a",
+        "balance": 51928.68564,
+        "pct": 0.0052,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x3f394d9b1f2064193fd6246b060223d6c0877ace",
+        "balance": 50208.06920920066,
+        "pct": 0.005,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc5663d5499337aa791b8793a698bf16072b1e0ed",
+        "balance": 49886.76416086,
+        "pct": 0.005,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8c56e7b23aa64feb256e6e431891ae60f2c435ce",
+        "balance": 48573.23538952502,
+        "pct": 0.0049,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xdd339591642476f2120819f460b3cc742e08a1bb",
+        "balance": 46868.61802533678,
+        "pct": 0.0047,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd14dac9c4308fb169c5e1fa56d66010775bc22b0",
+        "balance": 43780.05037904693,
+        "pct": 0.0044,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x257849a8f461e387d11b42c543495deece0ea21d",
+        "balance": 43704.29,
+        "pct": 0.0044,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe38faa86e8fe3e58116aa64d118f8e0037ee7b6f",
+        "balance": 43696.11632130676,
+        "pct": 0.0044,
+        "label": [
+          "diamondHands"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2ea1a2719a104432da97b788ef9afcd912120f7a",
+        "balance": 43530.8688941698,
+        "pct": 0.0044,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa9832c0f580a90b74f32cd28736382d0456b03f0",
+        "balance": 43107.435285861146,
+        "pct": 0.0043,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xee068c32019bee41c0dbeebf922a45b588c7e0bc",
+        "balance": 40070.96294183825,
+        "pct": 0.004,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xfaf637ef31005a59e4248d0c8d55f7a4bd74d953",
+        "balance": 39332.64314932,
+        "pct": 0.0039,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa7c83627c5b774d6e1880bf1ae919d8f9e689196",
+        "balance": 38579.06352650826,
+        "pct": 0.0039,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb8beb660027393683f982b9701c484cf0136c6e4",
+        "balance": 38528.13917949822,
+        "pct": 0.0039,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xdbf7122c0b7af893580df087eabac0b3be3e9483",
+        "balance": 38418.15188681822,
+        "pct": 0.0038,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x87b74eb75b2187739fad14caf0bb0e6281755664",
+        "balance": 38402.62163573994,
+        "pct": 0.0038,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x11556333c3fc776913f41e864053eef80e51d416",
+        "balance": 38000.75523669345,
+        "pct": 0.0038,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  },
+  "38838": {
+    "cmc_id": 38838,
+    "symbol": "SENTIS",
+    "source": "OKX Web3 Explorer BSC (Nov 2026)",
+    "chain": "BSC",
+    "holder_count": null,
+    "base_supply": 1000000000.0,
+    "top10_pct": 83.7438,
+    "top20_pct": 96.5651,
+    "top50_pct": 99.5629,
+    "top100_pct": 99.9938,
+    "wallets": [
+      {
+        "address": "0x0eabc4b6170d970705f9468677496099cf2e191a",
+        "balance": 222222228.0,
+        "pct": 22.2222,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa1bc0224829166d2c8661815cc64cc3d7bd49c65",
+        "balance": 180000000.0,
+        "pct": 18.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x3208adec5e6d50e3e443fc7737f24431b2f78a78",
+        "balance": 116000000.0,
+        "pct": 11.6,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xeac3df3caf2ac7c8f81df90110b48c8e8486925c",
+        "balance": 80000000.0,
+        "pct": 8.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x272b8cebe01b19bcb6b55132c040a91ed5b3e501",
+        "balance": 70000000.0,
+        "pct": 7.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa3c135aad214873d84ebcc58e5da4f6c082aac56",
+        "balance": 50000000.0,
+        "pct": 5.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xafaa1a219eb2e911603a9209127834c8a1a2379b",
+        "balance": 33928321.48844533,
+        "pct": 3.3928,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xded33ec07f19f631255833e74548eedc745a543c",
+        "balance": 32209629.45,
+        "pct": 3.221,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x543714f349970cd3b02d6dc6a85ac8641f2bb3a3",
+        "balance": 30908160.0,
+        "pct": 3.0908,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1bd8926f7f4ff3ea4f847842ff889722cbb1ef3b",
+        "balance": 22169515.61568165,
+        "pct": 2.217,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x14924da1eddd2fa0e14c05367162e7c68a5922cf",
+        "balance": 20668177.18,
+        "pct": 2.0668,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa8204530a32dcacac2c779dcbb59ad3fe60cc884",
+        "balance": 20000000.0,
+        "pct": 2.0,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "",
+        "balance": 16010813.742189227,
+        "pct": 1.6011,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x238a358808379702088667322f80ac48bad5e6c4",
+        "balance": 14266769.054338936,
+        "pct": 1.4267,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa18ca3eda81d2c366240a6e94506c5acabb7c354",
+        "balance": 12000000.0,
+        "pct": 1.2,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x54c34e30680265d26a1da459be3d549b51fbaa5f",
+        "balance": 10702379.66766064,
+        "pct": 1.0702,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe68c523415dd84dff4bfe0d36accc7288c771f93",
+        "balance": 10146067.227424914,
+        "pct": 1.0146,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x122180cd6152caca2df204d293e1442d9e322b9f",
+        "balance": 9785426.212470734,
+        "pct": 0.9785,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x110f8d1d41654ccc6f5a607a4a7ab2ad4833adf7",
+        "balance": 7935705.031942589,
+        "pct": 0.7936,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4d1dc6b6c6639c07d257c8132caf4c2132e5629d",
+        "balance": 6697978.259049273,
+        "pct": 0.6698,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x73d8bd54f7cf5fab43fe4ef40a62d390644946db",
+        "balance": 5815396.155841632,
+        "pct": 0.5815,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb9356af17ac309359fcc1cd0432ca7de507188a3",
+        "balance": 5000000.0,
+        "pct": 0.5,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x47fbd0d09c17a0013727ed01b1b853667c681c47",
+        "balance": 4924202.849265792,
+        "pct": 0.4924,
+        "label": [
+          "whales"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x128463a60784c4d3f46c23af3f65ed859ba87974",
+        "balance": 2454259.492303762,
+        "pct": 0.2454,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xace96e377aa6bb8c6afa1fbeac8c14f6ed2ab6d9",
+        "balance": 1999995.659,
+        "pct": 0.2,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xbabb827ca4e78b0d942a6716ae6ddccaa418bf60",
+        "balance": 1799820.2957034952,
+        "pct": 0.18,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1d650a7164ca02e2120ff6175672c2002a5418d4",
+        "balance": 1168138.3215,
+        "pct": 0.1168,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb4a3d21f45982d6f2df8d806a0aa26e8f86258e6",
+        "balance": 794301.3545946125,
+        "pct": 0.0794,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xac4cee09bb66948badb2f6196750d70703372242",
+        "balance": 701087.509321967,
+        "pct": 0.0701,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "balance": 665174.0653399909,
+        "pct": 0.0665,
+        "label": [
+          "exchange",
+          {
+            "name": "Gate.io",
+            "attr": "DepositAndWithdraw",
+            "logoUrl": "https://static.coinall.ltd/cdn/web3/tag_library/logo/1763723118645.png/type=png_350_0"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1d102c83a0fca49011faef0b1afc9d32c864e0b2",
+        "balance": 640522.6600002083,
+        "pct": 0.0641,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x83711f3f32a191054cb7db08f2f4f53c4c534abc",
+        "balance": 606379.811891152,
+        "pct": 0.0606,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2267ab95a2625fa34eb26f60e66c1ab661e08075",
+        "balance": 246406.01318195154,
+        "pct": 0.0246,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd32570538cfcebd2b52541d219beaf1e663dcec6",
+        "balance": 236600.0,
+        "pct": 0.0237,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa0e13fdfb2d2e67447a67a295ad2f6ebe48d662e",
+        "balance": 227248.24131274645,
+        "pct": 0.0227,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x16f7c5757d22bd5ccb6afb1752ed6d8c860d06af",
+        "balance": 225501.9412571587,
+        "pct": 0.0226,
+        "label": [
+          "protocol",
+          {
+            "name": "ShareX"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x54591dca79732ce8c2b465634e94d82537926c6e",
+        "balance": 223137.81799919723,
+        "pct": 0.0223,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x89e427a52177afff4efe34433830b435ed2e1cb0",
+        "balance": 215726.2994515816,
+        "pct": 0.0216,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8c6f7f2573f2cabc69e631069440b1e9fb932294",
+        "balance": 212137.78243670095,
+        "pct": 0.0212,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8fd0d741e09a98e82256c63f25f90301ea71a83e",
+        "balance": 211585.02105281033,
+        "pct": 0.0212,
+        "label": [
+          "suspicious"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x170e731587cce0e1e57724a6a30532e2c34ef908",
+        "balance": 200000.0,
+        "pct": 0.02,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xdbd06eb1b0bce918986e1eddcc1118ebee794aca",
+        "balance": 187000.0,
+        "pct": 0.0187,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x952167622713f1fccc1b1cbec68a6843bd54f1b4",
+        "balance": 185013.91888652343,
+        "pct": 0.0185,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1ccb58c0f74ddcfdc9f57027563964c3958c6eb5",
+        "balance": 175765.30615348194,
+        "pct": 0.0176,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4a9f27661704a9c7e9bbd1f89d9e4f893808a3e2",
+        "balance": 157779.1589534738,
+        "pct": 0.0158,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8b317f17d039b87f92d81a1adf09c49961fb1080",
+        "balance": 153143.28387813532,
+        "pct": 0.0153,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf2038074204c2e7d0159a5e440ffbffcc8c583d5",
+        "balance": 149671.88648294588,
+        "pct": 0.015,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc096faa740bcb1e129496ce976ba1f011c863300",
+        "balance": 142231.88266985962,
+        "pct": 0.0142,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa4942abac488e8a7756456c370076cbb8e316f91",
+        "balance": 130370.72065203557,
+        "pct": 0.013,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x01b254cc04bc4c5bfbb12a343273e38166c03710",
+        "balance": 130350.0,
+        "pct": 0.013,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb7c91752d5823dfb926ccc8d857c78c53b1b0d86",
+        "balance": 125237.96053184097,
+        "pct": 0.0125,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x52dbb1a4bc16d1fa4bac99efb82ad2a401b0ec13",
+        "balance": 123388.11621712036,
+        "pct": 0.0123,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x9ba768daa9fedc3c1327a6c7b61ae7d6e5630a20",
+        "balance": 119500.90620367843,
+        "pct": 0.012,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xfd2723ad02e853912ba28db8eedaed4920977525",
+        "balance": 117838.65387434559,
+        "pct": 0.0118,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x03f730fd2605e69761017c290214c5565615e3d5",
+        "balance": 115071.47102189755,
+        "pct": 0.0115,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb7e01fc54dabac00bffd5596314a62ec060ef96f",
+        "balance": 113624.73065637323,
+        "pct": 0.0114,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xdd7f7a7ce280a9e3fc5cfa3a92eea6845798d318",
+        "balance": 112181.89948934491,
+        "pct": 0.0112,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x93bd45598a68eddb5ad476ae7244399922072db9",
+        "balance": 112024.3209164351,
+        "pct": 0.0112,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x958bb40f9e710cb30f0b4919bc8e06cd04449de0",
+        "balance": 112013.82907775884,
+        "pct": 0.0112,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xcbfc0bedc1f71ccc8c878b678d6dd7d8757638da",
+        "balance": 109390.42449457753,
+        "pct": 0.0109,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc02bec871fa4b6b2e623a2498ea8b492ad3b77d7",
+        "balance": 109001.02128860024,
+        "pct": 0.0109,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xbc740b35177e2a951f40f42047b7e7cdf819c4eb",
+        "balance": 108946.50460615988,
+        "pct": 0.0109,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6829640f112f097d062952f5de858109639f9980",
+        "balance": 105144.83658,
+        "pct": 0.0105,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x38e507410005274031091e8ce943bf809330c7b8",
+        "balance": 102751.27985672,
+        "pct": 0.0103,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa03ee18659b643f5a8072d4cfb91eb56b453b813",
+        "balance": 96541.43627449598,
+        "pct": 0.0097,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x708010512380464dfbd52cce70fc906c78fbab94",
+        "balance": 96330.79878725145,
+        "pct": 0.0096,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa95ce33ebcbfc47ee86e520033eea93fed2a4241",
+        "balance": 91824.45885600022,
+        "pct": 0.0092,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa16cb2fc7a523f9340e7b6f3001458ad4b3a6c95",
+        "balance": 90369.2392392154,
+        "pct": 0.009,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xcbefdac5b3b88a064bf8ee89fddc78a5395c2f50",
+        "balance": 89376.95408733652,
+        "pct": 0.0089,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x47d8809694b4b8e9b2530c8fcf1bc9f76be47381",
+        "balance": 88297.18353542603,
+        "pct": 0.0088,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xafaba07a9847e3613eb8778eae4f9e0939abcd1d",
+        "balance": 87635.86810853149,
+        "pct": 0.0088,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x04eb5b1c94201ac89c8bb0640d0192f90a9949e0",
+        "balance": 84407.0454487002,
+        "pct": 0.0084,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x73caf179a0d705f75f132857c1fd3041177c823f",
+        "balance": 83556.7547245393,
+        "pct": 0.0084,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf975e7e240c59146e67971e2aa5497f0f22441ff",
+        "balance": 80447.87597526684,
+        "pct": 0.008,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf2e77d5f0e0bb5bbf3996d8f9e25cba4c6b26edf",
+        "balance": 80041.57136377625,
+        "pct": 0.008,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4982085c9e2f89f2ecb8131eca71afad896e89cb",
+        "balance": 78620.82039051443,
+        "pct": 0.0079,
+        "label": [
+          "exchange",
+          {
+            "name": "MEXC",
+            "attr": "DepositAndWithdraw",
+            "logoUrl": "https://static.coinall.ltd/cdn/web3/tag_library/logo/1775036572485.png/type=png_350_0"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7ba1a3c4a8b9686e1ccbfa0e864fb862f432d3e4",
+        "balance": 78605.54903846755,
+        "pct": 0.0079,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa23ef2319ba4c933ebfdba80c332664a6cb13f1a",
+        "balance": 76448.85138162469,
+        "pct": 0.0076,
+        "label": [
+          "exchange",
+          {
+            "name": "BitMart",
+            "attr": "DepositAndWithdraw",
+            "logoUrl": "https://static.coinall.ltd/cdn/web3/tag_library/logo/1775036911852.png/type=png_350_0"
+          }
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xdff157b47b0e1b2ae18bd60c3f61f06093b6514a",
+        "balance": 75849.82008479668,
+        "pct": 0.0076,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x44aaf50fd79a0430a324f3ab3cdc37166f6e8f77",
+        "balance": 75072.88103354402,
+        "pct": 0.0075,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x110ab7cbdaae98bc2bd93ab1c202dc3debfd592b",
+        "balance": 75058.93704701935,
+        "pct": 0.0075,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x01435f355f4e67fdc5266d43310a9d40bb53b7c6",
+        "balance": 74866.69232632263,
+        "pct": 0.0075,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7e6c293a4060d6f636e90356abcd2c299f60c94a",
+        "balance": 71294.96126473714,
+        "pct": 0.0071,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x979658584b6e4157816387be31977e14db1c58a5",
+        "balance": 71275.08898828572,
+        "pct": 0.0071,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6f384cb853eb8e26c0abfd481b2f912fcf7acd2a",
+        "balance": 70834.11980150343,
+        "pct": 0.0071,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8e2e29e2a2c9daf4146f2c8dcc8e4eb345cbe5f8",
+        "balance": 69537.80750405253,
+        "pct": 0.007,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf8f9b26cf3f8c62f2cbeeaff3e9ff51dee8ff65b",
+        "balance": 69162.85538267776,
+        "pct": 0.0069,
+        "label": [
+          "fresh"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1fa07054a92cecba60b000fdf049e08951096e02",
+        "balance": 68426.35368288786,
+        "pct": 0.0068,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6e7e661335258b03681c60f9b41ccbb7ea4b2db2",
+        "balance": 68114.11488724836,
+        "pct": 0.0068,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd1821fa7c11e1b68a43c8dbed401e488919029ea",
+        "balance": 68060.90463416821,
+        "pct": 0.0068,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb9c8be8bde8ef2f530e4d567cd08e928a464bbee",
+        "balance": 67687.08818284863,
+        "pct": 0.0068,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc80d2262a600c53aaf9617831462d3fd9ed037a6",
+        "balance": 67489.475928,
+        "pct": 0.0067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa1a54ce775028167d01f8f30c3b9a74d4c052aa0",
+        "balance": 67295.96391229886,
+        "pct": 0.0067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x3aeb7cbf31c14e3e40b74741ca7ac7532d00ca61",
+        "balance": 66663.32557660449,
+        "pct": 0.0067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xfd3090dd00c50cee43819d63602bbf81a776ac0c",
+        "balance": 66600.0,
+        "pct": 0.0067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd490016d1909f7751c9347bc0e9b72fe15745fd4",
+        "balance": 66600.0,
+        "pct": 0.0067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa8395e62f32f659834a3aea0b664507ce936e97f",
+        "balance": 66600.0,
+        "pct": 0.0067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5b018e65e09d0f810e589ef8fa2cd399c1bf9ccd",
+        "balance": 66600.0,
+        "pct": 0.0067,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xbe8a5154463405faf6e651ec34a52cb24f60ed72",
+        "balance": 65181.85473485964,
+        "pct": 0.0065,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x27ac217c47f2b8c525c9cabad8a9995cf9711952",
+        "balance": 61678.299761044334,
+        "pct": 0.0062,
+        "label": [
+          "suspectedPhishingWallet"
+        ],
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  }
+}

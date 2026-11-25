@@ -1,0 +1,580 @@
+001 | CMC#001 | ID=    1 | Bitcoin                                | BTC        | P=$     60003.8 | MCap=$1,203,130,405,285 | Vol=$37,904,450,118 | 
+002 | CMC#002 | ID= 1027 | Ethereum                               | ETH        | P=$     1608.96 | MCap=$194,174,764,119 | Vol=$11,666,600,557 | 
+003 | CMC#004 | ID= 1839 | BNB                                    | BNB        | P=$      550.11 | MCap=$ 74,145,223,949 | Vol=$1,369,626,811 | 
+004 | CMC#006 | ID=   52 | XRP                                    | XRP        | P=$     1.05215 | MCap=$ 65,487,268,448 | Vol=$1,703,110,348 | 
+005 | CMC#007 | ID= 5426 | Solana                                 | SOL        | P=$     77.3837 | MCap=$ 44,951,996,942 | Vol=$3,886,778,163 | 
+006 | CMC#008 | ID= 1958 | TRON                                   | TRX        | P=$    0.315706 | MCap=$ 29,945,136,382 | Vol=$  558,077,237 | 
+007 | CMC#009 | ID=32196 | Hyperliquid                            | HYPE       | P=$     62.3857 | MCap=$ 15,774,799,943 | Vol=$  616,272,712 | derivatives
+008 | CMC#010 | ID=   74 | Dogecoin                               | DOGE       | P=$   0.0721773 | MCap=$ 11,180,024,296 | Vol=$  634,691,110 | memes,animal-memes
+009 | CMC#202 | ID=38341 | Rain                                   | RAIN       | P=$   0.0155373 | MCap=$ 10,283,166,117 | Vol=$   41,603,539 | 
+010 | CMC#011 | ID= 3957 | UNUS SED LEO                           | LEO        | P=$      9.2462 | MCap=$  8,509,084,747 | Vol=$    1,237,597 | 
+011 | CMC#012 | ID= 1437 | Zcash                                  | ZEC        | P=$     416.634 | MCap=$  6,979,238,027 | Vol=$  450,720,773 | 
+012 | CMC#013 | ID=  512 | Stellar                                | XLM        | P=$    0.197589 | MCap=$  6,713,867,828 | Vol=$  513,647,545 | real-world-assets-protocols
+013 | CMC#014 | ID=  328 | Monero                                 | XMR        | P=$     309.012 | MCap=$  5,800,906,335 | Vol=$  121,790,710 | 
+014 | CMC#015 | ID= 2010 | Cardano                                | ADA        | P=$     0.15404 | MCap=$  5,607,029,294 | Vol=$  600,280,916 | staking
+015 | CMC#016 | ID=37263 | Canton                                 | CC         | P=$    0.140784 | MCap=$  5,485,744,370 | Vol=$   17,565,259 | 
+016 | CMC#018 | ID= 1975 | Chainlink                              | LINK       | P=$     7.35012 | MCap=$  5,344,269,456 | Vol=$  265,353,984 | fantom-ecosystem,real-world-assets-protocols
+017 | CMC#021 | ID=11419 | Gram (prev. Toncoin)                   | GRAM       | P=$     1.55935 | MCap=$  4,216,980,730 | Vol=$   42,296,473 | 
+018 | CMC#022 | ID= 1831 | Bitcoin Cash                           | BCH        | P=$     210.235 | MCap=$  4,216,388,659 | Vol=$  186,435,496 | 
+019 | CMC#210 | ID= 4023 | Bitcoin BEP2                           | BTCB       | P=$     60006.4 | MCap=$  3,913,387,942 | Vol=$   81,563,104 | 
+020 | CMC#023 | ID=    2 | Litecoin                               | LTC        | P=$     42.6555 | MCap=$  3,299,010,080 | Vol=$  245,030,399 | 
+021 | CMC#024 | ID= 4642 | Hedera                                 | HBAR       | P=$   0.0718165 | MCap=$  3,123,294,677 | Vol=$   61,001,969 | real-world-assets-protocols
+022 | CMC#026 | ID=20947 | Sui                                    | SUI        | P=$    0.715459 | MCap=$  2,899,278,994 | Vol=$  312,967,456 | 
+023 | CMC#027 | ID= 5805 | Avalanche                              | AVAX       | P=$     6.66294 | MCap=$  2,876,871,232 | Vol=$  251,548,704 | real-world-assets-protocols
+024 | CMC#213 | ID=33223 | LAB                                    | LAB        | P=$     8.89911 | MCap=$  2,777,370,760 | Vol=$   45,998,073 | 
+025 | CMC#029 | ID= 3635 | Cronos                                 | CRO        | P=$   0.0557785 | MCap=$  2,568,891,028 | Vol=$    7,036,025 | 
+026 | CMC#030 | ID= 5994 | Shiba Inu                              | SHIB       | P=$    4.28e-06 | MCap=$  2,520,786,712 | Vol=$   70,220,088 | memes,animal-memes
+027 | CMC#032 | ID= 6535 | NEAR Protocol                          | NEAR       | P=$     1.80348 | MCap=$  2,344,060,270 | Vol=$  270,538,342 | staking
+028 | CMC#033 | ID=22974 | Bittensor                              | TAO        | P=$     202.544 | MCap=$  2,243,717,134 | Vol=$  184,875,529 | 
+029 | CMC#034 | ID= 7326 | DeXe                                   | DEXE       | P=$     23.0824 | MCap=$  1,932,771,567 | Vol=$   17,217,186 | asset-management
+030 | CMC#035 | ID=33251 | World Liberty Financial                | WLFI       | P=$    0.057425 | MCap=$  1,824,635,960 | Vol=$   30,870,656 | 
+031 | CMC#037 | ID= 7083 | Uniswap                                | UNI        | P=$     2.78843 | MCap=$  1,732,102,857 | Vol=$  170,703,860 | yield-farming
+032 | CMC#038 | ID=36341 | Aster                                  | ASTER      | P=$    0.629448 | MCap=$  1,698,110,487 | Vol=$   54,557,147 | derivatives
+033 | CMC#039 | ID=35491 | MemeCore                               | M          | P=$     1.27701 | MCap=$  1,684,623,410 | Vol=$   29,075,117 | memes
+034 | CMC#040 | ID= 3897 | OKB                                    | OKB        | P=$     79.9362 | MCap=$  1,678,660,531 | Vol=$   30,548,470 | 
+035 | CMC#041 | ID=21159 | Ondo                                   | ONDO       | P=$    0.324611 | MCap=$  1,580,636,879 | Vol=$   74,097,939 | real-world-assets-protocols
+036 | CMC#217 | ID=38779 | syrupUSDC                              | syrupUSDC  | P=$       1.171 | MCap=$  1,576,418,113 | Vol=$    6,113,990 | 
+037 | CMC#218 | ID=29160 | HTX                                    | HTX        | P=$    1.65e-06 | MCap=$  1,496,209,337 | Vol=$   69,346,073 | 
+038 | CMC#043 | ID= 6636 | Polkadot                               | DOT        | P=$    0.827668 | MCap=$  1,399,859,055 | Vol=$   78,254,621 | 
+039 | CMC#044 | ID=27075 | Mantle                                 | MNT        | P=$    0.422862 | MCap=$  1,396,414,058 | Vol=$   39,877,802 | 
+040 | CMC#046 | ID= 7278 | Aave                                   | AAVE       | P=$     83.1547 | MCap=$  1,281,586,451 | Vol=$  229,735,695 | yield-farming,lending-borowing,fantom-ecosystem
+041 | CMC#047 | ID=13502 | Worldcoin                              | WLD        | P=$    0.361497 | MCap=$  1,267,924,706 | Vol=$  379,471,336 | 
+042 | CMC#048 | ID=35697 | Pi                                     | PI         | P=$    0.114836 | MCap=$  1,250,769,958 | Vol=$   10,542,590 | 
+043 | CMC#049 | ID=33038 | Sky                                    | SKY        | P=$   0.0527889 | MCap=$  1,230,752,830 | Vol=$   16,193,867 | lending-borowing,real-world-assets-protocols
+044 | CMC#050 | ID= 8916 | Internet Computer                      | ICP        | P=$     2.14715 | MCap=$  1,190,071,513 | Vol=$   50,454,704 | 
+045 | CMC#051 | ID=11092 | Bitget Token                           | BGB        | P=$     1.60258 | MCap=$  1,119,909,187 | Vol=$   10,737,808 | 
+046 | CMC#052 | ID= 1321 | Ethereum Classic                       | ETC        | P=$     7.00535 | MCap=$  1,102,160,329 | Vol=$   38,822,864 | 
+047 | CMC#053 | ID=34104 | Morpho                                 | MORPHO     | P=$      2.0667 | MCap=$  1,057,327,485 | Vol=$   48,706,396 | lending-borowing
+048 | CMC#223 | ID= 9486 | Bitcoin TRC20                          | BTCT       | P=$     60107.7 | MCap=$  1,054,611,135 | Vol=$      106,531 | 
+049 | CMC#055 | ID=24478 | Pepe                                   | PEPE       | P=$    2.32e-06 | MCap=$    961,535,740 | Vol=$  221,030,414 | memes
+050 | CMC#056 | ID= 2087 | KuCoin Token                           | KCS        | P=$     6.83985 | MCap=$    938,119,708 | Vol=$    2,809,981 | 
+051 | CMC#057 | ID=38837 | Audiera                                | BEAT       | P=$     2.88198 | MCap=$    891,301,721 | Vol=$   68,829,226 | 
+052 | CMC#058 | ID=20396 | Kaspa                                  | KAS        | P=$   0.0308196 | MCap=$    849,008,988 | Vol=$   17,750,031 | 
+053 | CMC#059 | ID=38892 | Stable                                 | STABLE     | P=$   0.0346564 | MCap=$    835,432,722 | Vol=$  112,411,313 | staking
+054 | CMC#060 | ID= 3155 | Quant                                  | QNT        | P=$     66.8474 | MCap=$    807,030,909 | Vol=$    6,818,002 | real-world-assets-protocols
+055 | CMC#228 | ID=28853 | Jupiter Perps LP                       | JLP        | P=$      3.5708 | MCap=$    798,813,610 | Vol=$    5,601,402 | 
+056 | CMC#061 | ID= 3794 | Cosmos                                 | ATOM       | P=$     1.53945 | MCap=$    795,549,048 | Vol=$   30,833,565 | 
+057 | CMC#062 | ID= 5690 | Render                                 | RENDER     | P=$     1.50101 | MCap=$    778,680,784 | Vol=$   31,251,776 | 
+058 | CMC#063 | ID=29210 | Jupiter                                | JUP        | P=$    0.234037 | MCap=$    777,075,113 | Vol=$   70,055,456 | derivatives
+059 | CMC#231 | ID=37745 | c8ntinuum                              | CTM        | P=$    0.172717 | MCap=$    770,037,363 | Vol=$   18,331,732 | 
+060 | CMC#064 | ID=28321 | Polygon (prev. MATIC)                  | POL        | P=$   0.0712878 | MCap=$    760,724,158 | Vol=$   45,164,607 | 
+061 | CMC#065 | ID= 4030 | Algorand                               | ALGO       | P=$   0.0843368 | MCap=$    754,053,452 | Vol=$   30,321,146 | real-world-assets-protocols
+062 | CMC#066 | ID= 5488 | JUST                                   | JST        | P=$   0.0881805 | MCap=$    753,393,688 | Vol=$   28,721,507 | 
+063 | CMC#067 | ID=38590 | 币安人生                                   | 币安人生       | P=$    0.700675 | MCap=$    700,674,881 | Vol=$   27,425,608 | memes,four-meme-ecosystem,chinese-meme
+064 | CMC#068 | ID= 4269 | GateToken                              | GT         | P=$     6.54735 | MCap=$    697,571,658 | Vol=$    2,765,690 | 
+065 | CMC#234 | ID= 3987 | Beldex                                 | BDX        | P=$    0.086888 | MCap=$    672,388,398 | Vol=$   14,092,446 | 
+066 | CMC#069 | ID=30171 | Ethena                                 | ENA        | P=$   0.0712492 | MCap=$    662,171,983 | Vol=$  151,796,245 | 
+067 | CMC#070 | ID=37298 | Velvet                                 | VELVET     | P=$      1.5231 | MCap=$    640,976,984 | Vol=$   21,481,451 | 
+068 | CMC#071 | ID=35509 | Venice Token                           | VVV        | P=$     13.3507 | MCap=$    629,699,570 | Vol=$   72,707,530 | 
+069 | CMC#072 | ID= 2634 | XDC Network                            | XDC        | P=$   0.0279235 | MCap=$    586,682,642 | Vol=$    8,073,868 | real-world-assets-protocols
+070 | CMC#073 | ID= 2280 | Filecoin                               | FIL        | P=$    0.735966 | MCap=$    584,830,333 | Vol=$   72,294,116 | 
+071 | CMC#074 | ID=36507 | Pump.fun                               | PUMP       | P=$  0.00138491 | MCap=$    560,935,951 | Vol=$   70,321,496 | 
+072 | CMC#075 | ID= 7950 | Flare                                  | FLR        | P=$  0.00643346 | MCap=$    557,803,817 | Vol=$    2,749,483 | 
+073 | CMC#076 | ID=39064 | Midnight                               | NIGHT      | P=$   0.0311434 | MCap=$    517,210,944 | Vol=$   19,291,994 | 
+074 | CMC#077 | ID=39125 | Lighter                                | LIT        | P=$     2.05416 | MCap=$    513,540,527 | Vol=$  155,721,907 | derivatives
+075 | CMC#244 | ID=38948 | Solstice USX                           | USX        | P=$     1.00209 | MCap=$    511,672,531 | Vol=$    8,317,810 | 
+076 | CMC#079 | ID=11841 | Arbitrum                               | ARB        | P=$   0.0766832 | MCap=$    487,923,264 | Vol=$   58,367,401 | 
+077 | CMC#080 | ID=21794 | Aptos                                  | APT        | P=$    0.585845 | MCap=$    487,808,035 | Vol=$   58,204,168 | 
+078 | CMC#081 | ID= 2694 | Nexo                                   | NEXO       | P=$    0.751634 | MCap=$    485,665,132 | Vol=$   12,779,108 | 
+079 | CMC#082 | ID=29270 | Aerodrome Finance                      | AERO       | P=$    0.470141 | MCap=$    452,435,352 | Vol=$   26,560,952 | 
+080 | CMC#083 | ID= 7226 | Injective                              | INJ        | P=$     4.48525 | MCap=$    448,394,987 | Vol=$  100,009,027 | real-world-assets-protocols
+081 | CMC#085 | ID= 7186 | PancakeSwap                            | CAKE       | P=$     1.33658 | MCap=$    432,311,044 | Vol=$   31,249,861 | derivatives,yield-farming
+082 | CMC#086 | ID=  131 | Dash                                   | DASH       | P=$     33.1041 | MCap=$    422,204,557 | Vol=$   52,321,951 | 
+083 | CMC#250 | ID=26133 | tBTC                                   | tBTC       | P=$     60390.8 | MCap=$    411,551,402 | Vol=$    1,772,906 | 
+084 | CMC#251 | ID=33055 | slisBNBx                               | slisBNBx   | P=$     550.228 | MCap=$    405,424,284 | Vol=$    1,108,965 | 
+085 | CMC#087 | ID= 3773 | Artificial Superintelligence Alliance  | FET        | P=$    0.177767 | MCap=$    401,017,511 | Vol=$  141,324,712 | 
+086 | CMC#088 | ID=35336 | OFFICIAL TRUMP                         | TRUMP      | P=$     1.68277 | MCap=$    399,511,188 | Vol=$  231,275,060 | memes,political-memes,celebrity-memes
+087 | CMC#089 | ID=34466 | Pudgy Penguins                         | PENGU      | P=$  0.00613411 | MCap=$    385,592,306 | Vol=$   69,967,619 | memes,animal-memes,ip-memes
+088 | CMC#090 | ID= 3077 | VeChain                                | VET        | P=$  0.00446946 | MCap=$    384,306,860 | Vol=$   16,049,089 | real-world-assets-protocols
+089 | CMC#091 | ID=28541 | Jito                                   | JTO        | P=$    0.766371 | MCap=$    375,247,290 | Vol=$   69,194,458 | staking,liquid-staking-derivatives
+090 | CMC#092 | ID=23095 | Bonk                                   | BONK       | P=$    4.25e-06 | MCap=$    374,023,839 | Vol=$   32,163,096 | memes,animal-memes
+091 | CMC#093 | ID=29420 | Virtuals Protocol                      | VIRTUAL    | P=$     0.54675 | MCap=$    359,261,523 | Vol=$   51,020,215 | 
+092 | CMC#095 | ID=23149 | Sei                                    | SEI        | P=$   0.0473318 | MCap=$    341,630,299 | Vol=$   40,324,586 | 
+093 | CMC#096 | ID= 4172 | Terra Classic                          | LUNC       | P=$   6.023e-05 | MCap=$    332,875,693 | Vol=$   16,458,260 | 
+094 | CMC#097 | ID=22861 | Celestia                               | TIA        | P=$    0.357352 | MCap=$    328,739,634 | Vol=$   32,981,646 | 
+095 | CMC#098 | ID=28081 | SPX6900                                | SPX        | P=$    0.350466 | MCap=$    326,281,528 | Vol=$   10,567,751 | memes
+096 | CMC#099 | ID=10529 | Sun [New]                              | SUN        | P=$   0.0165049 | MCap=$    317,408,097 | Vol=$   52,872,222 | 
+097 | CMC#100 | ID= 6538 | Curve DAO Token                        | CRV        | P=$    0.204981 | MCap=$    311,767,228 | Vol=$   40,472,092 | yield-farming,fantom-ecosystem
+098 | CMC#101 | ID= 4847 | Stacks                                 | STX        | P=$    0.165538 | MCap=$    300,386,583 | Vol=$    6,496,274 | 
+099 | CMC#102 | ID=29814 | ether.fi                               | ETHFI      | P=$    0.319831 | MCap=$    296,600,184 | Vol=$   36,353,658 | staking
+100 | CMC#103 | ID=28177 | Pyth Network                           | PYTH       | P=$   0.0375954 | MCap=$    296,063,262 | Vol=$   43,970,083 | 
+101 | CMC#104 | ID=26997 | LayerZero                              | ZRO        | P=$    0.814169 | MCap=$    287,364,063 | Vol=$   32,312,405 | 
+102 | CMC#105 | ID= 1659 | Gnosis                                 | GNO        | P=$     108.543 | MCap=$    286,501,584 | Vol=$    5,931,343 | 
+103 | CMC#106 | ID= 3602 | Bitcoin SV                             | BSV        | P=$     13.8596 | MCap=$    277,887,012 | Vol=$   21,102,523 | 
+104 | CMC#107 | ID= 9816 | AINFT                                  | NFT        | P=$     2.6e-07 | MCap=$    261,163,356 | Vol=$    8,685,246 | 
+105 | CMC#108 | ID=16086 | BitTorrent [New]                       | BTT        | P=$     2.6e-07 | MCap=$    261,048,261 | Vol=$    7,011,363 | staking
+106 | CMC#257 | ID=33852 | Ducky                                  | DUCKY      | P=$  0.00060104 | MCap=$    249,072,240 | Vol=$            0 | memes
+107 | CMC#109 | ID= 9481 | Pendle                                 | PENDLE     | P=$     1.42435 | MCap=$    243,829,919 | Vol=$   40,140,497 | real-world-assets-protocols,restaking
+108 | CMC#110 | ID=10603 | Immutable                              | IMX        | P=$    0.118777 | MCap=$    237,554,182 | Vol=$   17,209,327 | 
+109 | CMC#111 | ID=30495 | Monad                                  | MON        | P=$   0.0200221 | MCap=$    236,764,121 | Vol=$   49,681,438 | 
+110 | CMC#112 | ID=36532 | BUILDon                                | B          | P=$    0.236473 | MCap=$    236,473,258 | Vol=$    7,090,793 | memes,ai-memes,four-meme-ecosystem
+111 | CMC#113 | ID= 7334 | Conflux                                | CFX        | P=$   0.0438842 | MCap=$    229,105,592 | Vol=$    7,492,736 | staking
+112 | CMC#114 | ID= 2011 | Tezos                                  | XTZ        | P=$    0.210052 | MCap=$    228,830,674 | Vol=$   11,101,833 | 
+113 | CMC#115 | ID=38515 | DoubleZero                             | 2Z         | P=$   0.0643371 | MCap=$    223,341,039 | Vol=$    7,345,255 | 
+114 | CMC#116 | ID=32880 | Kaia                                   | KAIA       | P=$   0.0348277 | MCap=$    221,419,906 | Vol=$    7,891,496 | 
+115 | CMC#117 | ID= 8425 | JasmyCoin                              | JASMY      | P=$  0.00445726 | MCap=$    220,389,264 | Vol=$    9,599,851 | 
+116 | CMC#118 | ID= 2394 | Telcoin                                | TEL        | P=$  0.00229204 | MCap=$    220,206,107 | Vol=$      842,708 | real-world-assets-protocols
+117 | CMC#261 | ID=38339 | Unibase                                | UB         | P=$   0.0878931 | MCap=$    219,732,718 | Vol=$   22,697,251 | 
+118 | CMC#262 | ID= 7184 | 48 Club Token                          | KOGE       | P=$      64.702 | MCap=$    219,225,251 | Vol=$      260,351 | 
+119 | CMC#119 | ID=30636 | Zebec Network                          | ZBCN       | P=$  0.00219096 | MCap=$    219,093,357 | Vol=$   11,619,738 | real-world-assets-protocols
+120 | CMC#120 | ID=36922 | Humanity                               | H          | P=$   0.0702647 | MCap=$    217,722,939 | Vol=$   29,193,874 | 
+121 | CMC#266 | ID=27048 | Ape and Pepe                           | APEPE      | P=$       1e-06 | MCap=$    209,913,079 | Vol=$   18,191,876 | memes
+122 | CMC#121 | ID= 8000 | Lido DAO                               | LDO        | P=$    0.246305 | MCap=$    207,594,164 | Vol=$   38,915,394 | liquid-staking-derivatives
+123 | CMC#122 | ID=10804 | FLOKI                                  | FLOKI      | P=$   2.166e-05 | MCap=$    207,229,629 | Vol=$   17,205,182 | memes,animal-memes
+124 | CMC#123 | ID=39379 | ETHGas                                 | GWEI       | P=$    0.117295 | MCap=$    205,266,105 | Vol=$   14,863,081 | 
+125 | CMC#124 | ID=11840 | Optimism                               | OP         | P=$   0.0945751 | MCap=$    204,233,579 | Vol=$   42,239,992 | 
+126 | CMC#125 | ID=22691 | Starknet                               | STRK       | P=$   0.0297696 | MCap=$    195,994,187 | Vol=$   22,453,948 | 
+127 | CMC#126 | ID= 6719 | The Graph                              | GRT        | P=$   0.0177364 | MCap=$    193,002,129 | Vol=$   15,300,299 | fantom-ecosystem
+128 | CMC#127 | ID= 1168 | Decred                                 | DCR        | P=$     10.9352 | MCap=$    191,288,744 | Vol=$    1,781,622 | 
+129 | CMC#128 | ID= 4066 | Chiliz                                 | CHZ        | P=$   0.0177441 | MCap=$    185,283,205 | Vol=$   41,740,867 | 
+130 | CMC#274 | ID=37338 | TAC Protocol                           | TAC        | P=$   0.0394384 | MCap=$    184,615,500 | Vol=$   29,391,749 | staking
+131 | CMC#129 | ID=38828 | Kite                                   | KITE       | P=$    0.102039 | MCap=$    183,670,287 | Vol=$   43,975,343 | 
+132 | CMC#130 | ID=38482 | Falcon Finance                         | FF         | P=$   0.0633055 | MCap=$    182,003,247 | Vol=$   25,067,783 | 
+133 | CMC#277 | ID=38270 | Union                                  | U          | P=$   0.0932141 | MCap=$    178,882,603 | Vol=$    2,319,625 | 
+134 | CMC#131 | ID=33824 | Maple Finance                          | SYRUP      | P=$    0.149614 | MCap=$    178,192,160 | Vol=$   23,047,603 | real-world-assets-protocols
+135 | CMC#132 | ID=38849 | Pieverse                               | PIEVERSE   | P=$    0.669424 | MCap=$    177,800,542 | Vol=$   23,545,681 | 
+136 | CMC#133 | ID= 6783 | Axie Infinity                          | AXS        | P=$     1.00967 | MCap=$    175,569,759 | Vol=$   28,069,865 | 
+137 | CMC#134 | ID= 7431 | Akash Network                          | AKT        | P=$    0.591551 | MCap=$    174,714,976 | Vol=$    4,303,007 | 
+138 | CMC#135 | ID= 8526 | Raydium                                | RAY        | P=$    0.647306 | MCap=$    174,328,615 | Vol=$   20,008,801 | derivatives
+139 | CMC#280 | ID=34261 | WeFi                                   | WFI        | P=$     2.03417 | MCap=$    172,878,655 | Vol=$    2,592,783 | 
+140 | CMC#136 | ID= 1720 | IOTA                                   | IOTA       | P=$   0.0375019 | MCap=$    169,334,839 | Vol=$   16,953,463 | real-world-assets-protocols
+141 | CMC#137 | ID=28752 | dogwifhat                              | WIF        | P=$      0.1678 | MCap=$    167,605,368 | Vol=$   78,567,341 | memes,animal-memes
+142 | CMC#138 | ID=13855 | Ethereum Name Service                  | ENS        | P=$     4.09236 | MCap=$    167,363,630 | Vol=$   12,203,099 | 
+143 | CMC#139 | ID=30494 | EigenCloud                             | EIGEN      | P=$    0.195636 | MCap=$    163,514,667 | Vol=$   17,586,200 | restaking
+144 | CMC#140 | ID=36645 | Plasma                                 | XPL        | P=$   0.0907962 | MCap=$    163,433,237 | Vol=$   92,409,508 | 
+145 | CMC#286 | ID= 8353 | Beacon ETH                             | BETH       | P=$     1610.56 | MCap=$    162,623,120 | Vol=$    1,918,796 | eth-staking
+146 | CMC#289 | ID= 2499 | SwissBorg                              | BORG       | P=$    0.162265 | MCap=$    159,385,557 | Vol=$      244,497 | asset-management,staking
+147 | CMC#141 | ID= 5692 | Compound                               | COMP       | P=$      15.621 | MCap=$    156,210,085 | Vol=$   11,331,146 | yield-farming,lending-borowing
+148 | CMC#142 | ID= 5964 | Trust Wallet Token                     | TWT        | P=$    0.357887 | MCap=$    153,841,512 | Vol=$    8,787,558 | 
+149 | CMC#294 | ID=39686 | Backpack                               | BP         | P=$    0.611568 | MCap=$    152,891,927 | Vol=$    5,801,968 | 
+150 | CMC#143 | ID= 4041 | MX Token                               | MX         | P=$     1.65812 | MCap=$    152,277,134 | Vol=$    6,190,870 | 
+151 | CMC#144 | ID=18679 | Onyxcoin                               | XCN        | P=$  0.00389132 | MCap=$    150,972,026 | Vol=$   11,033,560 | 
+152 | CMC#145 | ID=35763 | KAITO                                  | KAITO      | P=$    0.621117 | MCap=$    149,930,763 | Vol=$   18,324,477 | 
+153 | CMC#297 | ID=39158 | Bitway                                 | BTW        | P=$    0.067195 | MCap=$    147,828,974 | Vol=$   20,451,596 | 
+154 | CMC#146 | ID= 6210 | The Sandbox                            | SAND       | P=$   0.0475237 | MCap=$    139,607,528 | Vol=$   19,184,927 | 
+155 | CMC#147 | ID=18876 | ApeCoin                                | APE        | P=$    0.139484 | MCap=$    139,483,975 | Vol=$   20,613,339 | memes,ip-memes
+156 | CMC#301 | ID= 4691 | Zano                                   | ZANO       | P=$     9.08069 | MCap=$    139,405,731 | Vol=$    1,520,974 | 
+157 | CMC#148 | ID=33597 | Fartcoin                               | FARTCOIN   | P=$    0.135758 | MCap=$    135,758,009 | Vol=$   23,712,464 | memes,ai-memes
+158 | CMC#149 | ID= 1376 | Neo                                    | NEO        | P=$     1.91722 | MCap=$    135,238,319 | Vol=$   17,155,691 | 
+159 | CMC#150 | ID=39841 | Genius Terminal                        | GENIUS     | P=$    0.393758 | MCap=$    132,057,318 | Vol=$   18,083,641 | derivatives
+160 | CMC#151 | ID= 4157 | THORChain                              | RUNE       | P=$    0.389172 | MCap=$    131,666,768 | Vol=$    4,068,863 | 
+161 | CMC#152 | ID= 2416 | Theta Network                          | THETA      | P=$    0.131297 | MCap=$    131,296,757 | Vol=$    6,393,663 | 
+162 | CMC#153 | ID= 2467 | OriginTrail                            | TRAC       | P=$    0.257888 | MCap=$    128,944,211 | Vol=$    4,270,006 | real-world-assets-protocols
+163 | CMC#154 | ID= 5632 | Arweave                                | AR         | P=$       1.956 | MCap=$    128,416,298 | Vol=$   17,950,840 | 
+164 | CMC#155 | ID= 1966 | Decentraland                           | MANA       | P=$   0.0631827 | MCap=$    125,475,219 | Vol=$   11,246,943 | 
+165 | CMC#304 | ID=30605 | Ailey                                  | ALE        | P=$    0.257278 | MCap=$    125,173,079 | Vol=$      112,902 | 
+166 | CMC#156 | ID=12147 | Synapse                                | SYN        | P=$    0.527028 | MCap=$    122,889,331 | Vol=$  104,391,174 | fantom-ecosystem
+167 | CMC#157 | ID=28324 | dYdX                                   | DYDX       | P=$    0.144543 | MCap=$    122,006,727 | Vol=$  125,425,340 | derivatives
+168 | CMC#305 | ID=40047 | Solstice                               | SLX        | P=$    0.500274 | MCap=$    121,493,696 | Vol=$   97,309,928 | 
+169 | CMC#158 | ID=37322 | Vision                                 | VSN        | P=$    0.032619 | MCap=$    118,786,333 | Vol=$    4,774,365 | 
+170 | CMC#307 | ID=29960 | Shuffle                                | SHFL       | P=$    0.278578 | MCap=$    118,460,868 | Vol=$      534,865 | 
+171 | CMC#159 | ID= 1697 | Basic Attention Token                  | BAT        | P=$   0.0791749 | MCap=$    118,423,774 | Vol=$    8,375,959 | staking
+172 | CMC#160 | ID= 7548 | WEMIX                                  | WEMIX      | P=$    0.254308 | MCap=$    117,561,176 | Vol=$    1,509,789 | 
+173 | CMC#308 | ID=39177 | TronBank                               | TBK        | P=$    0.630149 | MCap=$    116,787,628 | Vol=$      620,226 | 
+174 | CMC#161 | ID= 3701 | Rootstock Infrastructure Framework     | RIF        | P=$    0.116231 | MCap=$    116,230,651 | Vol=$   18,846,146 | 
+175 | CMC#309 | ID=29933 | Undeads Games                          | UDS        | P=$     1.14421 | MCap=$    113,995,668 | Vol=$      350,677 | 
+176 | CMC#162 | ID=32956 | Grass                                  | GRASS      | P=$    0.466624 | MCap=$    113,811,900 | Vol=$   35,648,751 | 
+177 | CMC#163 | ID= 7080 | Gala                                   | GALA       | P=$   0.0023047 | MCap=$    111,809,606 | Vol=$   32,144,107 | 
+178 | CMC#164 | ID= 8119 | SafePal                                | SFP        | P=$    0.223336 | MCap=$    111,668,176 | Vol=$   11,346,124 | 
+179 | CMC#165 | ID= 9903 | Convex Finance                         | CVX        | P=$     1.13146 | MCap=$    111,441,084 | Vol=$    6,531,538 | yield-aggregator
+180 | CMC#166 | ID=39965 | Nexus                                  | NEX        | P=$    1.84e-06 | MCap=$    110,669,821 | Vol=$    1,212,576 | 
+181 | CMC#167 | ID= 6748 | Centrifuge                             | CFG        | P=$    0.189728 | MCap=$    109,503,375 | Vol=$   10,881,056 | real-world-assets-protocols
+182 | CMC#168 | ID=10180 | GoМining                               | GOMINING   | P=$    0.270963 | MCap=$    109,477,498 | Vol=$   10,737,726 | 
+183 | CMC#312 | ID= 2933 | BitMart Token                          | BMX        | P=$     0.33357 | MCap=$    108,170,626 | Vol=$    9,721,076 | 
+184 | CMC#169 | ID=35626 | Data Network                           | DATA       | P=$    0.299304 | MCap=$    106,692,761 | Vol=$    6,592,922 | 
+185 | CMC#170 | ID=36462 | Vaulta                                 | A          | P=$   0.0639539 | MCap=$    105,612,568 | Vol=$   10,762,751 | 
+186 | CMC#171 | ID=39545 | Billions Network                       | BILL       | P=$   0.0433561 | MCap=$    105,277,035 | Vol=$   30,432,847 | 
+187 | CMC#315 | ID=36743 | Ribbita by Virtuals                    | TIBBIR     | P=$    0.104281 | MCap=$    104,280,594 | Vol=$    1,254,755 | memes,ai-memes
+188 | CMC#172 | ID=10791 | eCash                                  | XEC        | P=$    5.15e-06 | MCap=$    103,184,186 | Vol=$    4,337,944 | 
+189 | CMC#317 | ID=15271 | Rollbit Coin                           | RLB        | P=$   0.0628758 | MCap=$    102,637,038 | Vol=$      152,560 | 
+190 | CMC#173 | ID=34958 | Tagger                                 | TAG        | P=$  0.00094377 | MCap=$    102,308,920 | Vol=$    2,600,323 | 
+191 | CMC#318 | ID=33249 | Wibegram                               | WIBE       | P=$     4.99224 | MCap=$    101,770,106 | Vol=$            0 | 
+192 | CMC#174 | ID=36300 | SKYAI                                  | SKYAI      | P=$    0.101544 | MCap=$    101,543,778 | Vol=$   29,585,351 | memes,four-meme-ecosystem
+193 | CMC#319 | ID=38947 | Solstice eUSX                          | EUSX       | P=$     1.04376 | MCap=$    101,254,207 | Vol=$   13,071,358 | 
+194 | CMC#175 | ID= 1455 | Golem                                  | GLM        | P=$    0.101109 | MCap=$    101,108,885 | Vol=$   10,309,921 | 
+195 | CMC#176 | ID= 4006 | AWE                                    | AWE        | P=$   0.0515592 | MCap=$    100,149,565 | Vol=$    1,753,165 | 
+196 | CMC#320 | ID=28656 | ViciCoin                               | VCNT       | P=$     16.3862 | MCap=$     99,777,621 | Vol=$       89,938 | 
+197 | CMC#177 | ID=24091 | ZKsync                                 | ZK         | P=$  0.00994253 | MCap=$     98,565,055 | Vol=$   10,585,267 | 
+198 | CMC#178 | ID=30986 | Kamino                                 | KMNO       | P=$   0.0198048 | MCap=$     98,372,982 | Vol=$    6,663,208 | lending-borowing
+199 | CMC#322 | ID=10186 | Smilek to the Bank                     | SMILEK     | P=$   4.995e-05 | MCap=$     97,843,322 | Vol=$           93 | 
+200 | CMC#324 | ID=35818 | SoSoValue                              | SOSO       | P=$    0.284218 | MCap=$     97,202,950 | Vol=$    3,620,111 | asset-management
+201 | CMC#179 | ID= 3871 | AB                                     | AB         | P=$  0.00097957 | MCap=$     96,804,807 | Vol=$      780,965 | 
+202 | CMC#180 | ID= 8104 | 1inch                                  | 1INCH      | P=$   0.0684831 | MCap=$     96,655,717 | Vol=$    9,234,445 | 
+203 | CMC#181 | ID=38353 | Meteora                                | MET        | P=$    0.178194 | MCap=$     94,586,582 | Vol=$   39,394,467 | 
+204 | CMC#182 | ID=38868 | Sentient                               | SENT       | P=$   0.0129684 | MCap=$     93,863,714 | Vol=$   14,896,019 | 
+205 | CMC#327 | ID=20969 | GEODNET                                | GEOD       | P=$    0.213224 | MCap=$     93,557,952 | Vol=$      523,721 | 
+206 | CMC#183 | ID=40224 | Re                                     | RE         | P=$    0.585148 | MCap=$     93,389,681 | Vol=$   91,430,780 | 
+207 | CMC#329 | ID=37387 | BNB Attestation Service                | BAS        | P=$   0.0367853 | MCap=$     91,963,267 | Vol=$   36,918,948 | 
+208 | CMC#184 | ID=33280 | Cheems (cheems.pet)                    | CHEEMS     | P=$     4.9e-07 | MCap=$     91,727,580 | Vol=$    1,461,665 | memes,animal-memes
+209 | CMC#330 | ID=38283 | Collector Crypt                        | CARDS      | P=$    0.219907 | MCap=$     91,498,663 | Vol=$   18,607,383 | 
+210 | CMC#185 | ID=39720 | edgeX                                  | EDGE       | P=$    0.257211 | MCap=$     90,023,877 | Vol=$    8,814,667 | derivatives
+211 | CMC#186 | ID=40092 | o1.exchange                            | O          | P=$    0.560951 | MCap=$     89,752,139 | Vol=$   13,947,386 | 
+212 | CMC#187 | ID=38151 | YZY MONEY                              | YZY        | P=$     0.29443 | MCap=$     89,205,140 | Vol=$      125,365 | memes,celebrity-memes
+213 | CMC#188 | ID=36542 | SOON                                   | SOON       | P=$    0.163073 | MCap=$     87,359,074 | Vol=$    8,000,002 | 
+214 | CMC#189 | ID=33391 | DeepBook Protocol                      | DEEP       | P=$   0.0158677 | MCap=$     86,792,769 | Vol=$    4,699,427 | 
+215 | CMC#190 | ID=30083 | Aethir                                 | ATH        | P=$  0.00424749 | MCap=$     85,496,669 | Vol=$   10,734,589 | 
+216 | CMC#191 | ID=34118 | Banana For Scale                       | BANANAS31  | P=$  0.00840302 | MCap=$     84,030,237 | Vol=$    9,165,886 | memes
+217 | CMC#192 | ID=19269 | CoW Protocol                           | COW        | P=$    0.145108 | MCap=$     83,872,197 | Vol=$    4,435,245 | 
+218 | CMC#335 | ID=35837 | would                                  | WOULD      | P=$   0.0836949 | MCap=$     83,649,111 | Vol=$       94,560 | memes
+219 | CMC#336 | ID=34926 | AI Rig Complex                         | ARC        | P=$   0.0830195 | MCap=$     83,018,108 | Vol=$    4,898,494 | 
+220 | CMC#337 | ID=25194 | Joseon Mun                             | JSM        | P=$  0.00025983 | MCap=$     82,227,679 | Vol=$      398,702 | 
+221 | CMC#193 | ID=10508 | Fluid                                  | FLUID      | P=$     1.04063 | MCap=$     81,894,442 | Vol=$   35,270,967 | 
+222 | CMC#338 | ID=14721 | RealLink                               | REAL       | P=$   0.0595862 | MCap=$     81,873,980 | Vol=$    6,163,955 | 
+223 | CMC#194 | ID=36828 | Useless Coin                           | USELESS    | P=$   0.0796252 | MCap=$     79,552,315 | Vol=$   12,175,267 | memes
+224 | CMC#341 | ID=37986 | Light                                  | LIGHT      | P=$     0.12144 | MCap=$     79,535,149 | Vol=$            0 | memes
+225 | CMC#342 | ID=35014 | Derive                                 | DRV        | P=$    0.107673 | MCap=$     79,411,672 | Vol=$    1,884,127 | derivatives
+226 | CMC#195 | ID=23635 | Four                                   | FORM       | P=$    0.205868 | MCap=$     78,614,183 | Vol=$    7,898,951 | 
+227 | CMC#196 | ID= 6892 | MultiversX                             | EGLD       | P=$     2.58182 | MCap=$     78,124,293 | Vol=$    4,873,989 | 
+228 | CMC#197 | ID=36044 | NEXPACE                                | NXPC       | P=$    0.268875 | MCap=$     77,611,203 | Vol=$    9,085,779 | 
+229 | CMC#198 | ID=36066 | Keeta                                  | KTA        | P=$    0.137593 | MCap=$     77,288,101 | Vol=$    2,194,408 | 
+230 | CMC#199 | ID= 3640 | Livepeer                               | LPT        | P=$     1.54932 | MCap=$     76,984,169 | Vol=$    7,771,568 | 
+231 | CMC#200 | ID= 4195 | FTX Token                              | FTT        | P=$    0.234028 | MCap=$     76,970,813 | Vol=$    2,884,234 | derivatives
+232 | CMC#344 | ID=36119 | Walrus                                 | WAL        | P=$   0.0309376 | MCap=$     76,003,254 | Vol=$    4,884,374 | 
+233 | CMC#348 | ID=35347 | Official Melania Meme                  | MELANIA    | P=$   0.0745696 | MCap=$     74,569,324 | Vol=$   10,235,902 | memes,celebrity-memes
+234 | CMC#349 | ID=38841 | UnifAI Network                         | UAI        | P=$    0.309704 | MCap=$     74,019,156 | Vol=$    4,409,847 | 
+235 | CMC#350 | ID=36804 | Lumera Health                          | LUR        | P=$     4.96496 | MCap=$     73,997,146 | Vol=$      615,731 | 
+236 | CMC#352 | ID= 1698 | Horizen                                | ZEN        | P=$     4.04725 | MCap=$     73,569,340 | Vol=$   12,493,241 | 
+237 | CMC#353 | ID=39332 | Zama                                   | ZAMA       | P=$   0.0334405 | MCap=$     73,569,221 | Vol=$   25,463,031 | 
+238 | CMC#354 | ID= 2586 | Synthetix                              | SNX        | P=$    0.212983 | MCap=$     73,376,226 | Vol=$    7,325,483 | derivatives,yield-farming,synthetics,fantom-ecosystem
+239 | CMC#356 | ID=11165 | Orca                                   | ORCA       | P=$     1.19578 | MCap=$     72,701,757 | Vol=$   13,651,343 | 
+240 | CMC#357 | ID=20964 | Law Blocks (AI)                        | LBT        | P=$    0.295802 | MCap=$     72,470,963 | Vol=$      747,127 | 
+241 | CMC#359 | ID= 1684 | Qtum                                   | QTUM       | P=$    0.681345 | MCap=$     72,261,394 | Vol=$    8,227,488 | 
+242 | CMC#360 | ID= 3661 | Stronghold SHx                         | SHX        | P=$  0.00410193 | MCap=$     72,188,593 | Vol=$      800,504 | 
+243 | CMC#361 | ID=39121 | Magma Finance                          | MAGMA      | P=$    0.378922 | MCap=$     71,995,172 | Vol=$    3,809,234 | 
+244 | CMC#363 | ID=25028 | ORDI                                   | ORDI       | P=$     3.41726 | MCap=$     71,762,449 | Vol=$   39,290,212 | 
+245 | CMC#364 | ID=38967 | RaveDAO                                | RAVE       | P=$    0.283958 | MCap=$     71,693,915 | Vol=$   22,236,926 | 
+246 | CMC#365 | ID=38236 | Quack AI                               | Q          | P=$   0.0176233 | MCap=$     71,668,966 | Vol=$    3,864,824 | 
+247 | CMC#366 | ID=28298 | Beam                                   | BEAM       | P=$  0.00139407 | MCap=$     71,516,261 | Vol=$    3,525,136 | 
+248 | CMC#367 | ID=31525 | Taiko                                  | TAIKO      | P=$    0.358925 | MCap=$     71,156,250 | Vol=$  130,236,315 | 
+249 | CMC#368 | ID=38417 | River                                  | RIVER      | P=$     3.62276 | MCap=$     71,006,061 | Vol=$    5,300,154 | yield-farming
+250 | CMC#369 | ID=33881 | Comedian                               | BAN        | P=$   0.0709436 | MCap=$     70,940,909 | Vol=$    9,654,425 | memes
+251 | CMC#370 | ID= 1732 | Numeraire                              | NMR        | P=$     9.46818 | MCap=$     70,923,938 | Vol=$    8,682,940 | asset-management
+252 | CMC#372 | ID= 9260 | ZIGChain                               | ZIG        | P=$   0.0501426 | MCap=$     70,647,988 | Vol=$    2,555,673 | asset-management,real-world-assets-protocols
+253 | CMC#373 | ID=36576 | Huma Finance                           | HUMA       | P=$   0.0216378 | MCap=$     70,557,391 | Vol=$    8,914,274 | 
+254 | CMC#375 | ID= 1896 | 0x Protocol                            | ZRX        | P=$   0.0815248 | MCap=$     69,165,336 | Vol=$    9,731,699 | 
+255 | CMC#377 | ID= 1785 | Gas                                    | GAS        | P=$     1.03968 | MCap=$     67,571,129 | Vol=$    4,823,193 | 
+256 | CMC#378 | ID= 3964 | Reserve Rights                         | RSR        | P=$  0.00107651 | MCap=$     67,339,144 | Vol=$    5,256,576 | real-world-assets-protocols
+257 | CMC#380 | ID= 9104 | AIOZ Network                           | AIOZ       | P=$   0.0527868 | MCap=$     66,672,615 | Vol=$    3,317,092 | 
+258 | CMC#381 | ID=34812 | Bio Protocol                           | BIO        | P=$   0.0298341 | MCap=$     66,413,314 | Vol=$   43,508,874 | 
+259 | CMC#382 | ID=21585 | Safe                                   | SAFE       | P=$   0.0872274 | MCap=$     66,226,497 | Vol=$    2,137,903 | staking
+260 | CMC#384 | ID=32684 | Sonic                                  | S          | P=$    0.022947 | MCap=$     66,087,442 | Vol=$   11,233,416 | staking
+261 | CMC#385 | ID=36302 | MindWaveDAO                            | NILA       | P=$   0.0783259 | MCap=$     66,010,408 | Vol=$      231,953 | 
+262 | CMC#387 | ID=40588 | The Black Bull                         | ANSEM      | P=$    0.157306 | MCap=$     65,390,912 | Vol=$   39,861,092 | memes,ai-memes
+263 | CMC#389 | ID=21846 | SPACE ID                               | ID         | P=$   0.0329933 | MCap=$     64,936,607 | Vol=$   14,457,578 | 
+264 | CMC#391 | ID=39094 | AntFun                                 | ANTFUN     | P=$   0.0338093 | MCap=$     63,826,476 | Vol=$    7,745,262 | 
+265 | CMC#393 | ID=20279 | Dohrnii                                | DHN        | P=$     3.68652 | MCap=$     62,947,464 | Vol=$      447,105 | 
+266 | CMC#395 | ID= 5864 | Yearn                                  | YFI        | P=$     1744.35 | MCap=$     62,475,376 | Vol=$    3,554,728 | yield-farming,yield-aggregator,fantom-ecosystem
+267 | CMC#396 | ID=39689 | Playnance                              | GCOIN      | P=$  0.00248948 | MCap=$     62,301,617 | Vol=$      554,802 | 
+268 | CMC#397 | ID=36133 | Defi App                               | HOME       | P=$   0.0159752 | MCap=$     62,060,570 | Vol=$   15,306,646 | 
+269 | CMC#398 | ID=36313 | TROLL (SOL)                            | TROLL      | P=$   0.0618208 | MCap=$     61,744,820 | Vol=$    4,487,694 | memes,ip-memes
+270 | CMC#399 | ID= 2577 | Ravencoin                              | RVN        | P=$  0.00376498 | MCap=$     61,476,024 | Vol=$    4,687,715 | real-world-assets-protocols
+271 | CMC#403 | ID=39870 | USD.AI                                 | CHIP       | P=$   0.0298372 | MCap=$     59,674,424 | Vol=$   13,663,983 | 
+272 | CMC#404 | ID=35537 | Jelly-My-Jelly                         | JELLYJELLY | P=$   0.0596653 | MCap=$     59,665,214 | Vol=$    5,137,129 | memes,startup-memes
+273 | CMC#407 | ID=24647 | Berachain                              | BERA       | P=$     0.20268 | MCap=$     59,207,204 | Vol=$   13,744,063 | 
+274 | CMC#408 | ID=30651 | Quantix Finance                        | QFI        | P=$     59.0414 | MCap=$     59,041,375 | Vol=$    1,912,528 | 
+275 | CMC#411 | ID= 2469 | Zilliqa                                | ZIL        | P=$   0.0029317 | MCap=$     58,812,798 | Vol=$    5,089,059 | 
+276 | CMC#412 | ID=34880 | Alchemist AI                           | ALCH       | P=$   0.0687878 | MCap=$     58,469,654 | Vol=$   12,609,086 | 
+277 | CMC#413 | ID=11857 | GMX                                    | GMX        | P=$     5.59379 | MCap=$     58,348,838 | Vol=$    5,807,923 | derivatives
+278 | CMC#417 | ID=35364 | Plume                                  | PLUME      | P=$  0.00967832 | MCap=$     57,777,580 | Vol=$    7,590,354 | real-world-assets-protocols
+279 | CMC#418 | ID=30933 | Dog (Bitcoin)                          | DOG        | P=$  0.00057718 | MCap=$     57,717,983 | Vol=$      723,202 | memes,animal-memes
+280 | CMC#419 | ID=24911 | Turbo                                  | TURBO      | P=$  0.00083625 | MCap=$     57,701,077 | Vol=$   15,944,138 | memes,ai-memes
+281 | CMC#422 | ID= 5034 | Kusama                                 | KSM        | P=$     3.09236 | MCap=$     57,053,072 | Vol=$    6,340,513 | 
+282 | CMC#423 | ID=35269 | MetYa                                  | MY         | P=$    0.057824 | MCap=$     57,040,116 | Vol=$      107,293 | 
+283 | CMC#426 | ID=29169 | Qubic                                  | QUBIC      | P=$     4.1e-07 | MCap=$     56,633,101 | Vol=$    2,818,905 | 
+284 | CMC#427 | ID=29835 | io.net                                 | IO         | P=$    0.156032 | MCap=$     56,554,153 | Vol=$   26,558,332 | 
+285 | CMC#428 | ID=29587 | Wormhole                               | W          | P=$  0.00926819 | MCap=$     56,520,944 | Vol=$  120,040,743 | 
+286 | CMC#429 | ID=39682 | Pharos                                 | PROS       | P=$    0.414296 | MCap=$     56,178,532 | Vol=$    5,457,624 | 
+287 | CMC#430 | ID=36238 | XPIN Network                           | XPIN       | P=$  0.00143868 | MCap=$     56,016,559 | Vol=$    8,717,250 | 
+288 | CMC#431 | ID= 7127 | Velo                                   | VELO       | P=$  0.00317622 | MCap=$     55,786,813 | Vol=$    2,085,049 | 
+289 | CMC#432 | ID= 2130 | Enjin Coin                             | ENJ        | P=$   0.0280204 | MCap=$     55,455,272 | Vol=$    6,023,005 | 
+290 | CMC#434 | ID= 3822 | Theta Fuel                             | TFUEL      | P=$  0.00748639 | MCap=$     55,282,943 | Vol=$    1,726,744 | 
+291 | CMC#435 | ID= 8290 | SuperVerse                             | SUPER      | P=$    0.086219 | MCap=$     55,194,166 | Vol=$    4,653,303 | 
+292 | CMC#436 | ID=38489 | ChainOpera AI                          | COAI       | P=$    0.291503 | MCap=$     54,802,526 | Vol=$    8,066,829 | 
+293 | CMC#437 | ID=37448 | AIHub                                  | AIH        | P=$     46.8018 | MCap=$     54,758,078 | Vol=$            0 | 
+294 | CMC#438 | ID=39071 | Cysic                                  | CYS        | P=$    0.338916 | MCap=$     54,497,739 | Vol=$    7,028,635 | 
+295 | CMC#439 | ID=38569 | aPriori                                | APR        | P=$    0.220461 | MCap=$     54,426,247 | Vol=$    8,779,474 | staking,liquid-staking-derivatives
+296 | CMC#440 | ID=36569 | Spark                                  | SPK        | P=$   0.0178528 | MCap=$     54,402,002 | Vol=$   12,177,794 | staking,yield-farming,lending-borowing
+297 | CMC#442 | ID= 2682 | Holo                                   | HOT        | P=$  0.00030348 | MCap=$     53,541,161 | Vol=$    6,115,798 | 
+298 | CMC#443 | ID= 5350 | XPR Network                            | XPR        | P=$  0.00183391 | MCap=$     53,514,197 | Vol=$    1,289,524 | 
+299 | CMC#444 | ID=32198 | Babylon                                | BABY       | P=$   0.0133799 | MCap=$     53,302,230 | Vol=$    8,146,259 | staking
+300 | CMC#445 | ID=21259 | ZetaChain                              | ZETA       | P=$   0.0352021 | MCap=$     53,148,609 | Vol=$    5,315,052 | 
+301 | CMC#446 | ID=27657 | Linea                                  | LINEA      | P=$  0.00235191 | MCap=$     52,525,439 | Vol=$   15,871,921 | 
+302 | CMC#447 | ID=10407 | Baby Doge Coin                         | BabyDoge   | P=$           0 | MCap=$     52,110,396 | Vol=$    3,352,906 | memes,real-world-assets-protocols,animal-memes
+303 | CMC#451 | ID=29743 | Brett (Based)                          | BRETT      | P=$  0.00515548 | MCap=$     51,554,820 | Vol=$   16,424,405 | memes
+304 | CMC#452 | ID= 8646 | Mina                                   | MINA       | P=$   0.0400369 | MCap=$     51,537,420 | Vol=$   10,684,044 | staking
+305 | CMC#454 | ID=38186 | Diem                                   | DIEM       | P=$     1337.13 | MCap=$     51,367,460 | Vol=$    2,154,216 | 
+306 | CMC#455 | ID=38770 | MegaETH                                | MEGA       | P=$   0.0451231 | MCap=$     50,979,752 | Vol=$   19,369,804 | 
+307 | CMC#457 | ID=34332 | Purr                                   | PURR       | P=$   0.0840611 | MCap=$     50,045,153 | Vol=$      974,511 | memes,animal-memes
+308 | CMC#459 | ID=17799 | Axelar                                 | AXL        | P=$   0.0414655 | MCap=$     49,607,338 | Vol=$    4,719,138 | fantom-ecosystem,real-world-assets-protocols
+309 | CMC#460 | ID=35637 | BitDCA                                 | BDCA       | P=$    0.604815 | MCap=$     49,581,196 | Vol=$      227,936 | 
+310 | CMC#461 | ID=38889 | Block Street                           | BSB        | P=$    0.221393 | MCap=$     49,293,180 | Vol=$    8,057,426 | 
+311 | CMC#462 | ID=38909 | Janction                               | JCT        | P=$  0.00426759 | MCap=$     49,050,316 | Vol=$    5,130,434 | 
+312 | CMC#463 | ID=37070 | Impossible Cloud Network               | ICNT       | P=$    0.192779 | MCap=$     48,774,281 | Vol=$    5,002,533 | 
+313 | CMC#465 | ID=18031 | Concordium                             | CCD        | P=$  0.00382757 | MCap=$     48,335,785 | Vol=$      139,662 | 
+314 | CMC#466 | ID=37456 | OpenLedger                             | OPEN       | P=$    0.159635 | MCap=$     47,918,183 | Vol=$    9,880,461 | 
+315 | CMC#467 | ID=33983 | SuperTrust                             | SUT        | P=$    0.253912 | MCap=$     47,837,934 | Vol=$       71,787 | 
+316 | CMC#469 | ID=36912 | Targon                                 | SN4        | P=$     10.8203 | MCap=$     47,767,949 | Vol=$      386,631 | 
+317 | CMC#470 | ID=19075 | ECOMI                                  | OMI        | P=$  0.00016896 | MCap=$     47,740,989 | Vol=$    1,095,318 | 
+318 | CMC#471 | ID=27750 | Toshi                                  | TOSHI      | P=$  0.00011337 | MCap=$     47,690,369 | Vol=$    8,374,603 | memes,animal-memes
+319 | CMC#472 | ID= 2299 | aelf                                   | ELF        | P=$   0.0579198 | MCap=$     47,621,350 | Vol=$    1,918,214 | 
+320 | CMC#473 | ID= 3951 | Pirate Chain                           | ARRR       | P=$     0.24235 | MCap=$     47,552,349 | Vol=$       76,369 | 
+321 | CMC#474 | ID=35268 | GoPlus Security                        | GPS        | P=$  0.00901878 | MCap=$     47,444,153 | Vol=$    4,367,884 | 
+322 | CMC#475 | ID=36056 | Xphere                                 | XP         | P=$   0.0168301 | MCap=$     47,385,558 | Vol=$    1,143,956 | 
+323 | CMC#477 | ID= 4846 | Kava                                   | KAVA       | P=$   0.0434537 | MCap=$     47,053,717 | Vol=$   10,502,874 | lending-borowing
+324 | CMC#478 | ID=38309 | Holoworld AI                           | HOLO       | P=$   0.0643299 | MCap=$     46,722,675 | Vol=$    5,204,111 | 
+325 | CMC#479 | ID=39970 | Arcium                                 | ARX        | P=$    0.223479 | MCap=$     46,669,412 | Vol=$1,313,703,728 | 
+326 | CMC#481 | ID=38427 | ZEROBASE                               | ZBT        | P=$    0.151146 | MCap=$     46,603,481 | Vol=$  105,220,874 | staking
+327 | CMC#482 | ID=14588 | peaq                                   | PEAQ       | P=$   0.0210268 | MCap=$     46,511,516 | Vol=$    1,478,164 | 
+328 | CMC#484 | ID=16093 | KUB Coin                               | KUB        | P=$    0.673515 | MCap=$     46,455,539 | Vol=$      209,441 | 
+329 | CMC#485 | ID=38767 | Nockchain                              | NOCK       | P=$   0.0209359 | MCap=$     46,364,865 | Vol=$    1,128,440 | 
+330 | CMC#487 | ID=14101 | Ronin                                  | RON        | P=$    0.059409 | MCap=$     45,887,570 | Vol=$    5,665,775 | staking
+331 | CMC#488 | ID=36195 | Alaya Governance Token                 | AGT        | P=$   0.0198822 | MCap=$     45,841,031 | Vol=$   24,807,546 | 
+332 | CMC#489 | ID=38908 | Allora                                 | ALLO       | P=$     0.22758 | MCap=$     45,629,758 | Vol=$   29,883,732 | 
+333 | CMC#490 | ID= 5665 | Helium                                 | HNT        | P=$    0.241508 | MCap=$     44,998,079 | Vol=$    1,997,068 | 
+334 | CMC#491 | ID= 4558 | Flow                                   | FLOW       | P=$   0.0268675 | MCap=$     44,945,500 | Vol=$    3,159,848 | staking
+335 | CMC#492 | ID=35954 | Loaded Lions                           | LION       | P=$  0.00144765 | MCap=$     44,653,047 | Vol=$       33,400 | memes
+336 | CMC#493 | ID= 7653 | Oasis                                  | ROSE       | P=$  0.00569102 | MCap=$     44,651,452 | Vol=$    2,007,155 | 
+337 | CMC#494 | ID=32452 | Movement                               | MOVE       | P=$   0.0111072 | MCap=$     44,451,896 | Vol=$   11,839,590 | 
+338 | CMC#495 | ID=39883 | Gensyn                                 | AI         | P=$   0.0338902 | MCap=$     44,215,741 | Vol=$   77,099,837 | 
+339 | CMC#496 | ID=  109 | DigiByte                               | DGB        | P=$  0.00240178 | MCap=$     44,097,729 | Vol=$    3,002,957 | 
+340 | CMC#498 | ID=10312 | EscoinToken                            | ELG        | P=$    0.280319 | MCap=$     44,048,563 | Vol=$      272,871 | 
+341 | CMC#499 | ID= 5198 | Creditcoin                             | CTC        | P=$   0.0800411 | MCap=$     43,987,702 | Vol=$    3,295,833 | real-world-assets-protocols
+342 | CMC#500 | ID=10894 | StorX Network                          | SRX        | P=$   0.0526388 | MCap=$     43,900,754 | Vol=$    2,578,131 | 
+343 | CMC#501 | ID=39070 | Kinetiq                                | KNTQ       | P=$    0.155879 | MCap=$     43,720,465 | Vol=$      338,021 | restaking
+344 | CMC#502 | ID=38337 | 0G                                     | 0G         | P=$     0.20489 | MCap=$     43,691,516 | Vol=$    8,974,327 | 
+345 | CMC#503 | ID= 4948 | Nervos Network                         | CKB        | P=$  0.00088949 | MCap=$     43,635,458 | Vol=$    4,112,622 | 
+346 | CMC#504 | ID= 6958 | Alchemy Pay                            | ACH        | P=$   0.0043491 | MCap=$     43,491,021 | Vol=$    6,619,803 | 
+347 | CMC#506 | ID= 6758 | SushiSwap                              | SUSHI      | P=$    0.151104 | MCap=$     43,341,876 | Vol=$    8,687,624 | yield-farming,fantom-ecosystem
+348 | CMC#507 | ID=12885 | Astar                                  | ASTR       | P=$  0.00496528 | MCap=$     43,293,818 | Vol=$    2,098,884 | 
+349 | CMC#508 | ID=36063 | Bedrock                                | BR         | P=$    0.143303 | MCap=$     43,229,610 | Vol=$    9,933,295 | 
+350 | CMC#509 | ID=39377 | Seeker                                 | SKR        | P=$  0.00861793 | MCap=$     43,107,395 | Vol=$    7,488,654 | 
+351 | CMC#510 | ID= 2765 | XYO                                    | XYO        | P=$  0.00311347 | MCap=$     42,971,681 | Vol=$    6,419,244 | 
+352 | CMC#512 | ID= 2566 | Ontology                               | ONT        | P=$   0.0426807 | MCap=$     42,680,734 | Vol=$    7,739,901 | 
+353 | CMC#515 | ID=36080 | MultiBank Group                        | MBG        | P=$    0.171245 | MCap=$     42,449,178 | Vol=$    1,546,001 | real-world-assets-protocols
+354 | CMC#516 | ID=14519 | VVS Finance                            | VVS        | P=$     9.7e-07 | MCap=$     42,441,366 | Vol=$       34,005 | 
+355 | CMC#518 | ID= 2071 | Request                                | REQ        | P=$   0.0530454 | MCap=$     42,260,981 | Vol=$      429,408 | 
+356 | CMC#519 | ID=31379 | Frankencoin                            | ZCHF       | P=$     1.23584 | MCap=$     42,059,478 | Vol=$      192,243 | 
+357 | CMC#521 | ID= 1567 | Nano                                   | XNO        | P=$    0.314945 | MCap=$     41,965,920 | Vol=$      313,297 | 
+358 | CMC#524 | ID=23121 | Blur                                   | BLUR       | P=$   0.0147813 | MCap=$     41,885,141 | Vol=$   15,922,126 | 
+359 | CMC#527 | ID=36902 | lium                                   | SN51       | P=$     10.8811 | MCap=$     41,561,132 | Vol=$      227,943 | 
+360 | CMC#528 | ID=33788 | Peanut the Squirrel                    | PNUT       | P=$   0.0413922 | MCap=$     41,385,689 | Vol=$   10,341,739 | memes,political-memes,animal-memes
+361 | CMC#529 | ID= 7288 | Venus                                  | XVS        | P=$     2.51184 | MCap=$     41,146,793 | Vol=$    3,541,760 | yield-farming,lending-borowing,real-world-assets-protocols
+362 | CMC#531 | ID=27659 | Mog Coin                               | MOG        | P=$       1e-07 | MCap=$     40,885,689 | Vol=$    9,450,227 | memes,animal-memes
+363 | CMC#532 | ID=39382 | Tria                                   | TRIA       | P=$   0.0188821 | MCap=$     40,741,375 | Vol=$    7,175,612 | staking
+364 | CMC#533 | ID=39922 | REAL                                   | ASSET      | P=$      0.2734 | MCap=$     40,737,404 | Vol=$    1,519,289 | 
+365 | CMC#534 | ID=28782 | Popcat (SOL)                           | POPCAT     | P=$   0.0415078 | MCap=$     40,674,981 | Vol=$   11,315,527 | memes,animal-memes
+366 | CMC#536 | ID=32782 | Ore                                    | ORE        | P=$     86.9747 | MCap=$     40,480,288 | Vol=$      800,757 | 
+367 | CMC#537 | ID= 6945 | Amp                                    | AMP        | P=$  0.00044881 | MCap=$     40,294,270 | Vol=$    3,108,594 | 
+368 | CMC#538 | ID= 5567 | Celo                                   | CELO       | P=$   0.0664508 | MCap=$     40,120,571 | Vol=$  806,366,308 | 
+369 | CMC#540 | ID=28301 | Memecoin                               | MEME       | P=$  0.00062594 | MCap=$     39,995,156 | Vol=$   11,407,129 | memes
+370 | CMC#541 | ID=33093 | Moo Deng (moodengsol.com)              | MOODENG    | P=$   0.0403956 | MCap=$     39,990,510 | Vol=$   10,957,927 | memes,animal-memes
+371 | CMC#543 | ID= 5275 | Paycoin                                | PCI        | P=$   0.0372405 | MCap=$     39,738,846 | Vol=$      381,672 | 
+372 | CMC#544 | ID=21707 | RedStone                               | RED        | P=$   0.0907927 | MCap=$     39,535,717 | Vol=$    4,610,414 | 
+373 | CMC#545 | ID=34083 | Zerebro                                | ZEREBRO    | P=$   0.0394749 | MCap=$     39,472,860 | Vol=$   10,511,141 | memes,ai-memes
+374 | CMC#548 | ID=37545 | BankrCoin                              | BNKR       | P=$  0.00039113 | MCap=$     38,838,873 | Vol=$    4,801,059 | 
+375 | CMC#550 | ID= 4092 | Dusk                                   | DUSK       | P=$   0.0778492 | MCap=$     38,691,054 | Vol=$    4,152,265 | real-world-assets-protocols
+376 | CMC#551 | ID=29073 | Altlayer                               | ALT        | P=$  0.00581955 | MCap=$     38,669,255 | Vol=$    4,949,272 | staking,restaking
+377 | CMC#552 | ID= 8536 | Mask Network                           | MASK       | P=$     0.38667 | MCap=$     38,667,047 | Vol=$   11,187,461 | 
+378 | CMC#554 | ID=34143 | WhiteRock                              | WHITE      | P=$   5.911e-05 | MCap=$     38,423,638 | Vol=$       62,175 | 
+379 | CMC#555 | ID=19843 | ApeX Protocol                          | APEX       | P=$    0.277286 | MCap=$     38,399,921 | Vol=$    1,289,705 | derivatives
+380 | CMC#556 | ID=32941 | Fractal Bitcoin                        | FB         | P=$    0.363859 | MCap=$     38,335,381 | Vol=$    3,523,558 | 
+381 | CMC#560 | ID=17751 | Threshold                              | T          | P=$  0.00339952 | MCap=$     37,921,651 | Vol=$    4,892,865 | 
+382 | CMC#561 | ID=30096 | Degen                                  | DEGEN      | P=$  0.00162217 | MCap=$     37,873,132 | Vol=$    3,794,006 | memes
+383 | CMC#563 | ID= 4944 | Tellor                                 | TRB        | P=$     13.5621 | MCap=$     37,838,240 | Vol=$   11,098,518 | 
+384 | CMC#566 | ID=37593 | Succinct                               | PROVE      | P=$    0.192894 | MCap=$     37,614,401 | Vol=$    7,474,696 | 
+385 | CMC#567 | ID=39521 | Aztec                                  | AZTEC      | P=$   0.0130273 | MCap=$     37,513,326 | Vol=$    5,385,591 | 
+386 | CMC#568 | ID=32966 | Catizen                                | CATI       | P=$   0.0560515 | MCap=$     37,242,065 | Vol=$    4,507,419 | 
+387 | CMC#569 | ID=20362 | Polymesh                               | POLYX      | P=$    0.034988 | MCap=$     37,128,378 | Vol=$    1,753,851 | real-world-assets-protocols
+388 | CMC#570 | ID=28850 | Notcoin                                | NOT        | P=$  0.00037271 | MCap=$     37,058,191 | Vol=$    7,096,783 | memes,ton-meme-coins
+389 | CMC#571 | ID=35701 | GOHOME                                 | GOHOME     | P=$     73.9364 | MCap=$     36,960,446 | Vol=$      497,986 | memes,political-memes
+390 | CMC#572 | ID=37166 | CROSS                                  | CROSS      | P=$    0.082256 | MCap=$     36,957,216 | Vol=$    2,580,217 | 
+391 | CMC#574 | ID=40531 | Cap                                    | CAP        | P=$   0.0236133 | MCap=$     36,836,767 | Vol=$   41,458,479 | 
+392 | CMC#575 | ID=38554 | KGeN                                   | KGEN       | P=$    0.175356 | MCap=$     36,782,117 | Vol=$  170,845,006 | 
+393 | CMC#576 | ID=32120 | Gravity                                | G          | P=$  0.00336557 | MCap=$     36,689,117 | Vol=$   14,540,859 | 
+394 | CMC#578 | ID= 3855 | Locus Chain                            | LOCUS      | P=$  0.00626119 | MCap=$     36,599,486 | Vol=$      111,255 | 
+395 | CMC#579 | ID=39665 | Unitas                                 | UP         | P=$    0.250646 | MCap=$     36,594,247 | Vol=$    2,354,663 | 
+396 | CMC#580 | ID= 3012 | VeThor Token                           | VTHO       | P=$  0.00036148 | MCap=$     36,569,930 | Vol=$    1,229,970 | 
+397 | CMC#581 | ID=38978 | Irys                                   | IRYS       | P=$   0.0142439 | MCap=$     36,561,308 | Vol=$    4,320,218 | 
+398 | CMC#582 | ID=30460 | Burnedfi                               | BURN       | P=$     2.95073 | MCap=$     36,340,390 | Vol=$       89,313 | 
+399 | CMC#584 | ID=36671 | Sahara AI                              | SAHARA     | P=$   0.0103689 | MCap=$     36,200,299 | Vol=$   19,694,047 | 
+400 | CMC#585 | ID=  693 | Verge                                  | XVG        | P=$  0.00219011 | MCap=$     36,184,951 | Vol=$    3,689,688 | 
+401 | CMC#586 | ID=31526 | Moca Network                           | MOCA       | P=$  0.00842577 | MCap=$     35,667,841 | Vol=$    4,996,551 | 
+402 | CMC#589 | ID=21414 | Dogechain                              | DC         | P=$  0.00036629 | MCap=$     35,504,428 | Vol=$       51,308 | memes,animal-memes
+403 | CMC#591 | ID= 5617 | UMA                                    | UMA        | P=$    0.388203 | MCap=$     35,414,197 | Vol=$    2,364,478 | derivatives,synthetics,synthetic-protocols
+404 | CMC#592 | ID=39611 | MANTRA                                 | MANTRA     | P=$   0.0065755 | MCap=$     35,295,896 | Vol=$    8,584,476 | real-world-assets-protocols
+405 | CMC#594 | ID=38757 | APRO                                   | AT         | P=$    0.141047 | MCap=$     35,261,850 | Vol=$    4,483,879 | 
+406 | CMC#595 | ID= 1042 | Siacoin                                | SC         | P=$  0.00062906 | MCap=$     35,243,512 | Vol=$    4,544,481 | 
+407 | CMC#597 | ID= 3783 | Ankr                                   | ANKR       | P=$  0.00351567 | MCap=$     35,156,695 | Vol=$    5,867,933 | staking,fantom-ecosystem,liquid-staking-derivatives
+408 | CMC#599 | ID=36310 | Atoshi                                 | ATOS       | P=$   0.0383749 | MCap=$     34,658,665 | Vol=$        6,184 | 
+409 | CMC#600 | ID=36352 | BSquared Network                       | B2         | P=$    0.514281 | MCap=$     34,638,558 | Vol=$    8,035,546 | staking
+410 | CMC#601 | ID=38178 | Swarm Network                          | TRUTH      | P=$   0.0165881 | MCap=$     34,591,188 | Vol=$    5,095,561 | 
+411 | CMC#602 | ID= 1974 | Propy                                  | PRO        | P=$    0.345775 | MCap=$     34,577,544 | Vol=$    5,979,906 | real-world-assets-protocols
+412 | CMC#603 | ID=32197 | Magic Eden                             | ME         | P=$   0.0594665 | MCap=$     34,563,253 | Vol=$  152,437,790 | 
+413 | CMC#604 | ID=36901 | Score                                  | SN44       | P=$     7.97252 | MCap=$     34,425,231 | Vol=$      216,957 | 
+414 | CMC#605 | ID=38356 | Fogo                                   | FOGO       | P=$  0.00890886 | MCap=$     34,288,259 | Vol=$    6,744,835 | 
+415 | CMC#606 | ID=39548 | Espresso                               | ESP        | P=$   0.0658576 | MCap=$     34,282,150 | Vol=$   18,795,087 | 
+416 | CMC#607 | ID= 1274 | Waves                                  | WAVES      | P=$    0.260567 | MCap=$     34,194,137 | Vol=$    4,256,514 | 
+417 | CMC#609 | ID=12894 | Subsquid                               | SQD        | P=$     0.03298 | MCap=$     33,962,658 | Vol=$    5,319,431 | 
+418 | CMC#610 | ID=39172 | Vitalum                                | VAM        | P=$   0.0999022 | MCap=$     33,938,675 | Vol=$      624,356 | 
+419 | CMC#611 | ID=37615 | Glidr                                  | GLIDR      | P=$    0.954546 | MCap=$     33,849,851 | Vol=$       75,904 | 
+420 | CMC#615 | ID= 2943 | Rocket Pool                            | RPL        | P=$     1.47946 | MCap=$     33,339,706 | Vol=$   10,706,913 | liquid-staking-derivatives
+421 | CMC#616 | ID= 1759 | Status                                 | SNT        | P=$  0.00692423 | MCap=$     33,321,450 | Vol=$    2,253,189 | 
+422 | CMC#617 | ID=27960 | Non-Playable Coin                      | NPC        | P=$  0.00439791 | MCap=$     33,304,181 | Vol=$    3,803,472 | memes
+423 | CMC#618 | ID=28654 | UPCX                                   | UPC        | P=$     0.24837 | MCap=$     33,272,680 | Vol=$    8,125,763 | 
+424 | CMC#619 | ID=38136 | Spacecoin                              | SPACE      | P=$  0.00598817 | MCap=$     33,254,430 | Vol=$    3,114,176 | 
+425 | CMC#620 | ID=28688 | AI Analysis Token                      | AIAT       | P=$    0.226597 | MCap=$     33,171,393 | Vol=$      361,236 | 
+426 | CMC#621 | ID=40008 | Zest Protocol                          | ZEST       | P=$    0.226764 | MCap=$     33,107,585 | Vol=$    7,164,340 | lending-borowing
+427 | CMC#622 | ID= 5899 | Casper                                 | CSPR       | P=$  0.00199341 | MCap=$     32,953,637 | Vol=$    5,789,542 | 
+428 | CMC#623 | ID=20314 | Terra                                  | LUNA       | P=$   0.0464129 | MCap=$     32,952,433 | Vol=$    5,178,614 | 
+429 | CMC#624 | ID=11171 | Mango                                  | MNGO       | P=$    0.029479 | MCap=$     32,941,841 | Vol=$        1,055 | derivatives
+430 | CMC#625 | ID=13769 | World Mobile Token                     | WMTX       | P=$   0.0384427 | MCap=$     32,801,703 | Vol=$    2,322,014 | 
+431 | CMC#626 | ID=39595 | Fabric Protocol                        | ROBO       | P=$   0.0146619 | MCap=$     32,710,698 | Vol=$   19,243,755 | 
+432 | CMC#627 | ID=12999 | ssv.network                            | SSV        | P=$     2.03933 | MCap=$     32,656,325 | Vol=$    7,705,441 | 
+433 | CMC#628 | ID=30126 | cat in a dogs world                    | MEW        | P=$  0.00036706 | MCap=$     32,625,983 | Vol=$    4,956,026 | memes,animal-memes,ip-memes
+434 | CMC#631 | ID=34619 | Vana                                   | VANA       | P=$     1.08028 | MCap=$     32,499,061 | Vol=$    2,488,110 | 
+435 | CMC#634 | ID= 1757 | FUNToken                               | FUN        | P=$  0.00293972 | MCap=$     31,767,222 | Vol=$    2,603,429 | 
+436 | CMC#635 | ID=35931 | ZORA                                   | ZORA       | P=$   0.0070636 | MCap=$     31,574,313 | Vol=$   12,921,454 | 
+437 | CMC#637 | ID= 1772 | Storj                                  | STORJ      | P=$    0.073937 | MCap=$     31,423,206 | Vol=$    9,540,445 | 
+438 | CMC#638 | ID=38231 | Momentum                               | MMT        | P=$    0.153584 | MCap=$     31,345,761 | Vol=$    7,385,713 | 
+439 | CMC#640 | ID=24877 | BIM                                    | BIM        | P=$     1.04168 | MCap=$     31,250,545 | Vol=$      174,947 | 
+440 | CMC#641 | ID=39880 | Asteroid Shiba                         | ASTEROID   | P=$   7.418e-05 | MCap=$     31,208,265 | Vol=$    3,527,350 | memes
+441 | CMC#642 | ID=23254 | Core                                   | CORE       | P=$   0.0249716 | MCap=$     31,005,066 | Vol=$    6,611,191 | 
+442 | CMC#643 | ID= 7129 | TerraClassicUSD                        | USTC       | P=$  0.00555115 | MCap=$     30,953,668 | Vol=$      818,848 | fantom-ecosystem
+443 | CMC#645 | ID=33964 | OpenServ                               | SERV       | P=$   0.0398877 | MCap=$     30,713,527 | Vol=$    1,240,721 | 
+444 | CMC#646 | ID=39812 | Based                                  | BASED      | P=$    0.130304 | MCap=$     30,621,327 | Vol=$  109,369,112 | derivatives
+445 | CMC#647 | ID=37614 | PumpMeme                               | PM         | P=$    0.955793 | MCap=$     30,593,052 | Vol=$       99,833 | 
+446 | CMC#648 | ID=10854 | Railgun                                | RAIL       | P=$     1.99871 | MCap=$     30,324,219 | Vol=$       57,328 | 
+447 | CMC#649 | ID=38407 | Liquity BOLD                           | BOLD       | P=$    0.999462 | MCap=$     30,267,262 | Vol=$      372,666 | 
+448 | CMC#650 | ID=22620 | Across Protocol                        | ACX        | P=$   0.0424928 | MCap=$     29,942,906 | Vol=$    3,056,340 | 
+449 | CMC#651 | ID=35429 | Solayer                                | LAYER      | P=$   0.0642173 | MCap=$     29,932,153 | Vol=$   15,150,546 | restaking
+450 | CMC#652 | ID=31528 | deBridge                               | DBR        | P=$   0.0155103 | MCap=$     29,852,389 | Vol=$    7,042,722 | 
+451 | CMC#653 | ID=36410 | MYX Finance                            | MYX        | P=$   0.0901552 | MCap=$     29,762,586 | Vol=$   12,374,768 | derivatives
+452 | CMC#654 | ID=35766 | siren                                  | SIREN      | P=$   0.0410281 | MCap=$     29,716,076 | Vol=$    7,528,909 | memes,four-meme-ecosystem
+453 | CMC#655 | ID=38299 | Avantis                                | AVNT       | P=$   0.0900165 | MCap=$     29,613,454 | Vol=$   26,394,831 | derivatives
+454 | CMC#656 | ID=20700 | Wiki Cat                               | WKC        | P=$       6e-08 | MCap=$     29,569,252 | Vol=$      176,855 | memes,animal-memes
+455 | CMC#658 | ID= 9436 | Dogelon Mars                           | ELON       | P=$       3e-08 | MCap=$     29,352,663 | Vol=$    6,119,891 | memes,animal-memes
+456 | CMC#659 | ID= 5429 | DEAPcoin                               | DEP        | P=$  0.00097158 | MCap=$     29,043,349 | Vol=$      113,588 | fantom-ecosystem
+457 | CMC#660 | ID=29870 | BOOK OF MEME                           | BOME       | P=$  0.00042138 | MCap=$     29,019,456 | Vol=$   11,013,724 | memes
+458 | CMC#661 | ID=39797 | Perle                                  | PRL        | P=$    0.165678 | MCap=$     28,993,627 | Vol=$    6,188,905 | 
+459 | CMC#663 | ID=39394 | Everything                             | EV         | P=$  0.00028464 | MCap=$     28,464,429 | Vol=$      253,308 | 
+460 | CMC#665 | ID=12220 | Osmosis                                | OSMO       | P=$    0.036224 | MCap=$     28,229,926 | Vol=$    3,755,831 | 
+461 | CMC#666 | ID= 5370 | Hive                                   | HIVE       | P=$   0.0502668 | MCap=$     28,226,886 | Vol=$    1,905,239 | 
+462 | CMC#670 | ID=13631 | Manta Network                          | MANTA      | P=$    0.058904 | MCap=$     28,032,137 | Vol=$   30,370,409 | 
+463 | CMC#671 | ID=39459 | wojak (wojakcto.com)                   | WOJAK      | P=$       9e-08 | MCap=$     27,984,543 | Vol=$    2,235,295 | memes
+464 | CMC#673 | ID=38869 | Talus                                  | US         | P=$   0.0126947 | MCap=$     27,928,267 | Vol=$    5,231,185 | 
+465 | CMC#675 | ID= 3893 | ChangeNOW Token                        | NOW        | P=$    0.326463 | MCap=$     27,685,272 | Vol=$       18,808 | 
+466 | CMC#676 | ID=23081 | UNS TOKEN                              | UNS        | P=$    0.260903 | MCap=$     27,552,415 | Vol=$        2,921 | 
+467 | CMC#678 | ID=36904 | iota                                   | SN9        | P=$     6.80809 | MCap=$     27,261,876 | Vol=$      257,269 | 
+468 | CMC#679 | ID=30140 | Nesa                                   | NES        | P=$    0.191731 | MCap=$     27,129,990 | Vol=$  168,338,419 | 
+469 | CMC#680 | ID= 2273 | Uquid Coin                             | UQC        | P=$     2.70446 | MCap=$     27,044,630 | Vol=$       27,934 | asset-management
+470 | CMC#681 | ID= 1727 | Bancor                                 | BNT        | P=$    0.250628 | MCap=$     27,028,497 | Vol=$    2,718,134 | 
+471 | CMC#682 | ID=37430 | Trusta.AI                              | TA         | P=$    0.080611 | MCap=$     26,987,911 | Vol=$    8,808,542 | 
+472 | CMC#683 | ID=14822 | Victoria VR                            | VR         | P=$   0.0015967 | MCap=$     26,824,536 | Vol=$    1,141,424 | 
+473 | CMC#684 | ID=33849 | HashKey Platform Token                 | HSK        | P=$   0.0776385 | MCap=$     26,782,179 | Vol=$    3,071,464 | 
+474 | CMC#685 | ID= 2099 | ICON                                   | ICX        | P=$   0.0243787 | MCap=$     26,748,238 | Vol=$    1,533,641 | 
+475 | CMC#686 | ID=10442 | Decentralized Social                   | DESO       | P=$     3.00717 | MCap=$     26,717,331 | Vol=$       17,934 | 
+476 | CMC#687 | ID=36281 | Hyperlane                              | HYPER      | P=$   0.0789563 | MCap=$     26,700,966 | Vol=$   23,332,157 | 
+477 | CMC#688 | ID= 8049 | Tornado Cash                           | TORN       | P=$     5.05598 | MCap=$     26,595,796 | Vol=$       71,741 | 
+478 | CMC#689 | ID= 2341 | SwftCoin                               | SWFTC      | P=$  0.00265107 | MCap=$     26,510,656 | Vol=$      642,573 | 
+479 | CMC#690 | ID=36896 | Vanta Network                          | VANTA      | P=$     6.15872 | MCap=$     26,446,078 | Vol=$       46,154 | 
+480 | CMC#691 | ID= 4679 | Band                                   | BAND       | P=$    0.148096 | MCap=$     26,440,373 | Vol=$    8,194,616 | fantom-ecosystem
+481 | CMC#693 | ID=28735 | UNIPOLY                                | UNP        | P=$     0.12005 | MCap=$     26,318,597 | Vol=$      157,261 | 
+482 | CMC#694 | ID=32521 | Neiro                                  | NEIRO      | P=$   6.242e-05 | MCap=$     26,258,795 | Vol=$    6,304,450 | memes,animal-memes,ip-memes
+483 | CMC#695 | ID=37340 | Chainbase                              | C          | P=$   0.0719543 | MCap=$     26,088,579 | Vol=$    5,456,180 | 
+484 | CMC#696 | ID=30843 | Renzo                                  | REZ        | P=$  0.00304819 | MCap=$     26,072,477 | Vol=$    5,510,126 | restaking
+485 | CMC#697 | ID=38481 | Anoma                                  | XAN        | P=$   0.0103734 | MCap=$     25,933,447 | Vol=$   12,040,179 | 
+486 | CMC#698 | ID= 2777 | IoTeX                                  | IOTX       | P=$  0.00274338 | MCap=$     25,901,254 | Vol=$    1,276,234 | 
+487 | CMC#699 | ID= 3801 | BORA                                   | BORA       | P=$   0.0234952 | MCap=$     25,838,805 | Vol=$      320,429 | 
+488 | CMC#700 | ID=37534 | PlaysOut                               | PLAY       | P=$   0.0319675 | MCap=$     25,760,947 | Vol=$    2,027,640 | 
+489 | CMC#701 | ID= 1637 | iExec RLC                              | RLC        | P=$    0.295067 | MCap=$     25,670,751 | Vol=$    2,523,371 | 
+490 | CMC#703 | ID=14806 | ConstitutionDAO                        | PEOPLE     | P=$   0.0050395 | MCap=$     25,500,566 | Vol=$    5,212,133 | memes,political-memes
+491 | CMC#704 | ID= 9258 | Chia                                   | XCH        | P=$      1.7535 | MCap=$     25,270,935 | Vol=$    1,671,506 | real-world-assets-protocols
+492 | CMC#705 | ID=28340 | SMART                                  | SMART      | P=$  0.00375616 | MCap=$     25,243,036 | Vol=$      480,343 | 
+493 | CMC#707 | ID= 3835 | Orbs                                   | ORBS       | P=$   0.0057364 | MCap=$     25,101,804 | Vol=$    2,702,798 | fantom-ecosystem
+494 | CMC#708 | ID=29750 | HotKeySwap                             | HOTKEY     | P=$    0.264719 | MCap=$     25,066,998 | Vol=$            0 | 
+495 | CMC#709 | ID=36296 | Lorenzo Protocol                       | BANK       | P=$   0.0367913 | MCap=$     25,052,822 | Vol=$    5,843,226 | asset-management,yield-farming,liquid-staking-derivatives
+496 | CMC#711 | ID=21296 | EthereumPoW                            | ETHW       | P=$    0.231114 | MCap=$     24,918,464 | Vol=$    2,011,379 | 
+497 | CMC#712 | ID= 2132 | Powerledger                            | POWR       | P=$   0.0435728 | MCap=$     24,755,867 | Vol=$    5,637,521 | 
+498 | CMC#714 | ID=14280 | Euler                                  | EUL        | P=$     1.03017 | MCap=$     24,645,878 | Vol=$    3,898,629 | 
+499 | CMC#715 | ID=37016 | Klickl Token                           | KLK        | P=$    0.246426 | MCap=$     24,642,620 | Vol=$           27 | 
+500 | CMC#717 | ID=30712 | Merlin Chain                           | MERL       | P=$   0.0186858 | MCap=$     24,551,541 | Vol=$    3,783,795 | 
+501 | CMC#718 | ID=27565 | Arkham                                 | ARKM       | P=$    0.108447 | MCap=$     24,411,358 | Vol=$   29,720,524 | derivatives
+502 | CMC#719 | ID= 2982 | MVL                                    | MVL        | P=$  0.00087799 | MCap=$     24,410,585 | Vol=$      427,898 | 
+503 | CMC#720 | ID=38470 | Giggle Fund                            | GIGGLE     | P=$     24.6677 | MCap=$     24,386,253 | Vol=$   12,387,262 | memes
+504 | CMC#721 | ID=25264 | Snek                                   | SNEK       | P=$  0.00032603 | MCap=$     24,356,811 | Vol=$    1,671,670 | memes
+505 | CMC#722 | ID= 3992 | COTI                                   | COTI       | P=$  0.00832269 | MCap=$     24,215,572 | Vol=$    3,137,597 | 
+506 | CMC#723 | ID=24781 | Cyber                                  | CYBER      | P=$     0.34057 | MCap=$     24,204,058 | Vol=$    8,637,964 | 
+507 | CMC#724 | ID=39800 | OpenGradient                           | OPG        | P=$    0.122365 | MCap=$     24,178,494 | Vol=$   27,705,313 | 
+508 | CMC#725 | ID=37637 | Somnia                                 | SOMI       | P=$   0.0993663 | MCap=$     24,169,450 | Vol=$    7,373,534 | 
+509 | CMC#726 | ID= 2405 | IOST                                   | IOST       | P=$  0.00070632 | MCap=$     24,107,515 | Vol=$    6,307,235 | 
+510 | CMC#727 | ID= 1320 | Ardor                                  | ARDR       | P=$   0.0240308 | MCap=$     23,993,930 | Vol=$   10,868,499 | 
+511 | CMC#728 | ID=36102 | Particle Network                       | PARTI      | P=$    0.044417 | MCap=$     23,938,450 | Vol=$   11,760,804 | 
+512 | CMC#729 | ID=24613 | Open Campus                            | EDU        | P=$   0.0301917 | MCap=$     23,907,077 | Vol=$    4,392,417 | 
+513 | CMC#731 | ID=32193 | Aleo                                   | ALEO       | P=$   0.0192072 | MCap=$     23,625,301 | Vol=$    2,127,176 | 
+514 | CMC#732 | ID=18069 | GMT                                    | GMT        | P=$  0.00744088 | MCap=$     23,151,570 | Vol=$    4,637,514 | 
+515 | CMC#733 | ID=36319 | OKZOO                                  | AIOT       | P=$   0.0534081 | MCap=$     23,139,055 | Vol=$    1,152,306 | 
+516 | CMC#734 | ID=30063 | Gigachad                               | GIGA       | P=$  0.00248355 | MCap=$     23,103,031 | Vol=$    7,496,863 | memes
+517 | CMC#735 | ID= 5468 | Isiklar Coin                           | ISIKC      | P=$    0.230444 | MCap=$     23,044,395 | Vol=$      418,550 | 
+518 | CMC#736 | ID=34330 | Freysa                                 | FAI        | P=$    0.002801 | MCap=$     22,939,320 | Vol=$      348,316 | 
+519 | CMC#738 | ID=35690 | B3 (Base)                              | B3         | P=$   0.0004917 | MCap=$     22,830,223 | Vol=$    4,487,247 | 
+520 | CMC#739 | ID=30746 | BounceBit                              | BB         | P=$   0.0194891 | MCap=$     22,750,425 | Vol=$    2,691,557 | real-world-assets-protocols,restaking
+521 | CMC#740 | ID= 9444 | Kyber Network Crystal v2               | KNC        | P=$    0.108633 | MCap=$     22,735,550 | Vol=$    3,751,595 | 
+522 | CMC#742 | ID=18934 | Stargate Finance                       | STG        | P=$    0.161067 | MCap=$     22,694,040 | Vol=$   13,724,394 | fantom-ecosystem
+523 | CMC#743 | ID= 6841 | Phala Network                          | PHA        | P=$   0.0269839 | MCap=$     22,679,849 | Vol=$   18,366,785 | 
+524 | CMC#744 | ID=38864 | Folks Finance                          | FOLKS      | P=$     1.85739 | MCap=$     22,657,190 | Vol=$    3,817,287 | asset-management,lending-borowing
+525 | CMC#746 | ID=36770 | Infinity Ground                        | AIN        | P=$   0.0735113 | MCap=$     22,455,252 | Vol=$    2,376,605 | 
+526 | CMC#747 | ID= 8602 | Bounce Token                           | AUCTION    | P=$     3.23123 | MCap=$     22,361,438 | Vol=$    6,853,878 | 
+527 | CMC#748 | ID= 1230 | Steem                                  | STEEM      | P=$   0.0405186 | MCap=$     22,353,970 | Vol=$    2,949,733 | 
+528 | CMC#749 | ID=27765 | Zeebu                                  | ZBU        | P=$     0.12398 | MCap=$     22,260,482 | Vol=$        1,224 | 
+529 | CMC#750 | ID=39856 | NotInEmploymentEducationTraining       | NEET       | P=$   0.0221395 | MCap=$     22,134,361 | Vol=$    1,414,190 | memes
+530 | CMC#751 | ID= 6953 | Frax (prev. FXS)                       | FRAX       | P=$     0.23597 | MCap=$     22,087,771 | Vol=$      442,858 | fantom-ecosystem
+531 | CMC#752 | ID=38468 | Hana Network                           | HANA       | P=$   0.0385318 | MCap=$     22,075,283 | Vol=$    5,510,753 | 
+532 | CMC#753 | ID=33372 | CARV                                   | CARV       | P=$   0.0360551 | MCap=$     21,979,252 | Vol=$    6,364,987 | 
+533 | CMC#754 | ID= 8719 | Illuvium                               | ILV        | P=$     2.99256 | MCap=$     21,973,818 | Vol=$    2,157,511 | 
+534 | CMC#755 | ID= 5691 | SKALE                                  | SKL        | P=$  0.00354551 | MCap=$     21,954,286 | Vol=$    3,326,563 | staking
+535 | CMC#756 | ID= 7978 | Bonfida                                | FIDA       | P=$   0.0218418 | MCap=$     21,643,252 | Vol=$   17,126,745 | 
+536 | CMC#757 | ID=39151 | Capybobo                               | PYBOBO     | P=$  0.00069561 | MCap=$     21,602,573 | Vol=$      620,898 | 
+537 | CMC#758 | ID=35114 | Naoris Protocol                        | NAORIS     | P=$   0.0360227 | MCap=$     21,586,992 | Vol=$    1,145,280 | 
+538 | CMC#759 | ID=37743 | Starpower                              | STAR       | P=$    0.115478 | MCap=$     21,491,476 | Vol=$   49,034,722 | 
+539 | CMC#760 | ID= 3217 | Ontology Gas                           | ONG        | P=$   0.0452471 | MCap=$     21,447,926 | Vol=$    8,558,480 | 
+540 | CMC#761 | ID=38838 | SentismAI                              | SENTIS     | P=$    0.102785 | MCap=$     21,224,043 | Vol=$    1,774,141 | 
+541 | CMC#762 | ID= 5227 | Atletico De Madrid Fan Token           | ATM        | P=$     2.45545 | MCap=$     21,188,622 | Vol=$    9,728,682 | fan-token
+542 | CMC#763 | ID=37562 | OLAXBT                                 | AIO        | P=$    0.091939 | MCap=$     21,168,961 | Vol=$    1,190,964 | 
+543 | CMC#764 | ID=30168 | Xertra                                 | STRAX      | P=$   0.0096996 | MCap=$     21,159,713 | Vol=$    1,800,485 | staking
+544 | CMC#765 | ID= 5444 | Cartesi                                | CTSI       | P=$   0.0227574 | MCap=$     21,123,957 | Vol=$    4,724,275 | staking
+545 | CMC#766 | ID=37609 | INFINIT                                | IN         | P=$   0.0607672 | MCap=$     20,968,868 | Vol=$   73,925,734 | 
+546 | CMC#767 | ID= 5908 | dKargo                                 | DKA        | P=$  0.00419158 | MCap=$     20,957,924 | Vol=$    1,293,460 | 
+547 | CMC#768 | ID= 1816 | Civic                                  | CVC        | P=$   0.0209008 | MCap=$     20,900,763 | Vol=$    2,768,607 | 
+548 | CMC#769 | ID=36539 | RIZE                                   | RIZE       | P=$    0.010593 | MCap=$     20,882,508 | Vol=$      842,621 | real-world-assets-protocols
+549 | CMC#770 | ID= 1521 | Komodo                                 | KMD        | P=$    0.153474 | MCap=$     20,865,407 | Vol=$            1 | 
+550 | CMC#771 | ID= 4206 | WINkLink                               | WIN        | P=$   2.098e-05 | MCap=$     20,843,528 | Vol=$    7,241,283 | 
+551 | CMC#772 | ID= 7501 | WOO                                    | WOO        | P=$   0.0110322 | MCap=$     20,837,377 | Vol=$    1,701,179 | derivatives,yield-farming
+552 | CMC#773 | ID= 1788 | Metal DAO                              | MTL        | P=$    0.225671 | MCap=$     20,777,275 | Vol=$    1,076,922 | 
+553 | CMC#774 | ID= 9640 | Metis                                  | METIS      | P=$     2.75501 | MCap=$     20,773,451 | Vol=$    1,911,882 | 
+554 | CMC#775 | ID= 7878 | MobileCoin                             | MOB        | P=$    0.104695 | MCap=$     20,771,508 | Vol=$        4,204 | 
+555 | CMC#776 | ID=37649 | Orizon                                 | ORI        | P=$     55.0694 | MCap=$     20,756,599 | Vol=$      342,674 | 
+556 | CMC#777 | ID= 1586 | Ark                                    | ARK        | P=$    0.105032 | MCap=$     20,749,911 | Vol=$    1,173,895 | 
+557 | CMC#778 | ID=35793 | Autonomi                               | ANT        | P=$   0.0607124 | MCap=$     20,720,911 | Vol=$      560,862 | 
+558 | CMC#779 | ID=10688 | Yield Guild Games                      | YGG        | P=$   0.0222101 | MCap=$     20,711,495 | Vol=$    6,180,000 | 
+559 | CMC#780 | ID=38984 | SUPERFORTUNE                           | GUA        | P=$    0.165686 | MCap=$     20,710,763 | Vol=$    3,120,311 | 
+560 | CMC#781 | ID=21533 | Lista DAO                              | LISTA      | P=$   0.0472179 | MCap=$     20,701,399 | Vol=$    4,584,935 | staking,lending-borowing
+561 | CMC#782 | ID= 8083 | Tokenlon Network Token                 | LON        | P=$    0.167612 | MCap=$     20,694,897 | Vol=$       47,040 | 
+562 | CMC#783 | ID=23054 | Cheelee                                | CHEEL      | P=$     0.36209 | MCap=$     20,576,866 | Vol=$      733,700 | 
+563 | CMC#784 | ID= 9040 | Pundi X (New)                          | PUNDIX     | P=$   0.0796243 | MCap=$     20,573,844 | Vol=$    2,881,186 | 
+564 | CMC#785 | ID= 4120 | Prom                                   | PROM       | P=$     1.12412 | MCap=$     20,515,127 | Vol=$    1,034,001 | 
+565 | CMC#786 | ID=36666 | Titan's Tap                            | TIT        | P=$  0.00066622 | MCap=$     20,445,289 | Vol=$       24,509 | 
+566 | CMC#787 | ID=39170 | Collect on Fanable                     | COLLECT    | P=$   0.0379289 | MCap=$     20,367,836 | Vol=$    3,297,478 | real-world-assets-protocols
+567 | CMC#788 | ID=36511 | SLT                                    | SLT        | P=$     2.39158 | MCap=$     20,328,452 | Vol=$       34,212 | 
+568 | CMC#790 | ID=34434 | Rekt (rekt.com)                        | REKT       | P=$       7e-08 | MCap=$     20,216,455 | Vol=$      212,562 | memes
+569 | CMC#791 | ID=35600 | Sign                                   | SIGN       | P=$  0.00844117 | MCap=$     20,146,266 | Vol=$    5,188,933 | 
+570 | CMC#792 | ID= 2545 | ArcBlock                               | ABT        | P=$    0.203466 | MCap=$     20,052,461 | Vol=$      128,182 | 
+571 | CMC#793 | ID=28194 | SATS (Ordinals)                        | SATS       | P=$       1e-08 | MCap=$     19,983,936 | Vol=$    4,234,192 | 
+572 | CMC#794 | ID=38545 | COINDEPO                               | COINDEPO   | P=$   0.0797505 | MCap=$     19,963,047 | Vol=$    1,254,026 | 
+573 | CMC#795 | ID= 7224 | DODO                                   | DODO       | P=$   0.0199205 | MCap=$     19,920,501 | Vol=$    6,292,396 | 
+574 | CMC#796 | ID=33439 | Lumia                                  | LUMIA      | P=$    0.114531 | MCap=$     19,891,323 | Vol=$    3,250,337 | real-world-assets-protocols
+575 | CMC#798 | ID=36288 | Definitive                             | EDGE       | P=$   0.0778709 | MCap=$     19,822,503 | Vol=$   10,423,998 | 
+576 | CMC#800 | ID= 2930 | IQ                                     | IQ         | P=$  0.00073857 | MCap=$     19,721,220 | Vol=$      631,422 | yield-farming
+577 | CMC#801 | ID= 4950 | LCX                                    | LCX        | P=$   0.0207759 | MCap=$     19,721,011 | Vol=$      126,074 | 
+578 | CMC#803 | ID=16612 | Nosana                                 | NOS        | P=$    0.272241 | MCap=$     19,496,521 | Vol=$      195,492 | 
+579 | CMC#804 | ID=12573 | Clearpool                              | CPOOL      | P=$   0.0199392 | MCap=$     19,452,440 | Vol=$    2,284,448 | real-world-assets-protocols
+580 | CMC#805 | ID=17520 | Orbler                                 | ORBR       | P=$   0.0191487 | MCap=$     19,447,168 | Vol=$       34,283 | 

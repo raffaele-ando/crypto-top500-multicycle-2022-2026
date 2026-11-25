@@ -1,0 +1,163 @@
+{
+  "expected_count": 500,
+  "dataset": "tokenomics_unlocks_holders_500.json",
+  "key_field": "symbol",
+  "summary": {
+    "generated_at_utc": "2026-11-24T16:11:57Z",
+    "total_cryptocurrencies": 500,
+    "unlocks_coverage_count": 500,
+    "unlocks_official_vesting_count": 258,
+    "unlocks_with_next_date_count": 196,
+    "unlocks_finite_cap_count": 473,
+    "unlocks_infinite_supply_count": 27,
+    "median_unlocked_pct_finite": 74.23,
+    "mean_unlocked_pct_finite": 68.62,
+    "holders_verified_top10_count": 420,
+    "holders_verified_top10_pct": 84.0,
+    "holders_verified_top100_count": 243,
+    "holders_verified_top100_pct": 48.6,
+    "holders_privacy_shielded_count": 3,
+    "holders_private_ledger_count": 1,
+    "holders_nd_l1_count": 76,
+    "median_top10_concentration_pct": 74.98,
+    "mean_top10_concentration_pct": 69.86,
+    "median_top100_concentration_pct": 93.26,
+    "mean_top100_concentration_pct": 85.8,
+    "concentration_tier_analysis": [
+      {
+        "tier": "Distribuita (<25%)",
+        "count": 26,
+        "pct_of_500": 5.2,
+        "avg_q3_pct": 42.5,
+        "med_q3_pct": 43.54,
+        "avg_nov21_pct": -18.94,
+        "med_nov21_pct": -12.81,
+        "win_rate_q3_pct": 80.8
+      },
+      {
+        "tier": "Media (25-50%)",
+        "count": 63,
+        "pct_of_500": 12.6,
+        "avg_q3_pct": 45.5,
+        "med_q3_pct": 28.94,
+        "avg_nov21_pct": -19.33,
+        "med_nov21_pct": -25.32,
+        "win_rate_q3_pct": 79.4
+      },
+      {
+        "tier": "Alta (50-80%)",
+        "count": 150,
+        "pct_of_500": 30.0,
+        "avg_q3_pct": 36.5,
+        "med_q3_pct": 34.34,
+        "avg_nov21_pct": -21.91,
+        "med_nov21_pct": -26.36,
+        "win_rate_q3_pct": 82.0
+      },
+      {
+        "tier": "Estrema (>=80%)",
+        "count": 181,
+        "pct_of_500": 36.2,
+        "avg_q3_pct": 10.46,
+        "med_q3_pct": 7.9,
+        "avg_nov21_pct": 46.32,
+        "med_nov21_pct": -25.67,
+        "win_rate_q3_pct": 56.1
+      },
+      {
+        "tier": "N/D",
+        "count": 80,
+        "pct_of_500": 16.0,
+        "avg_q3_pct": 54.69,
+        "med_q3_pct": 19.87,
+        "avg_nov21_pct": -12.21,
+        "med_nov21_pct": -25.78,
+        "win_rate_q3_pct": 76.2
+      }
+    ],
+    "unlock_overhang_analysis": [
+      {
+        "bucket": "Quasi 100% Sbloccati (<=5% da sbloccare)",
+        "count": 136,
+        "pct_of_500": 27.2,
+        "avg_q3_pct": 36.68,
+        "med_q3_pct": 32.11,
+        "avg_nov21_pct": -18.46,
+        "med_nov21_pct": -24.25,
+        "win_rate_q3_pct": 77.8
+      },
+      {
+        "bucket": "Overhang Basso (5-25% da sbloccare)",
+        "count": 98,
+        "pct_of_500": 19.6,
+        "avg_q3_pct": 43.1,
+        "med_q3_pct": 29.3,
+        "avg_nov21_pct": -17.12,
+        "med_nov21_pct": -19.2,
+        "win_rate_q3_pct": 83.7
+      },
+      {
+        "bucket": "Overhang Medio (25-50% da sbloccare)",
+        "count": 105,
+        "pct_of_500": 21.0,
+        "avg_q3_pct": 24.74,
+        "med_q3_pct": 20.24,
+        "avg_nov21_pct": -27.13,
+        "med_nov21_pct": -30.56,
+        "win_rate_q3_pct": 72.4
+      },
+      {
+        "bucket": "Overhang Pesante (>50% da sbloccare)",
+        "count": 134,
+        "pct_of_500": 26.8,
+        "avg_q3_pct": 24.92,
+        "med_q3_pct": 3.62,
+        "avg_nov21_pct": 75.22,
+        "med_nov21_pct": -34.35,
+        "win_rate_q3_pct": 53.7
+      },
+      {
+        "bucket": "Offerta Infinita (emissione continua)",
+        "count": 27,
+        "pct_of_500": 5.4,
+        "avg_q3_pct": 21.93,
+        "med_q3_pct": 28.43,
+        "avg_nov21_pct": -23.41,
+        "med_nov21_pct": -25.97,
+        "win_rate_q3_pct": 77.8
+      }
+    ],
+    "holder_sources_breakdown": {
+      "CoinMarketCap On-Chain": 184,
+      "CoinCarp Richlist": 15,
+      "CoinCarp": 8,
+      "XRPScan Mainnet": 1,
+      "TronScan Mainnet": 1,
+      "Hypurrscan Hyperliquid": 2,
+      "GoPlus Arbitrum": 5,
+      "Nessuna richlist API pubblica nativa": 76,
+      "Saldi criptati on-chain": 3,
+      "Ledger permissioned privato": 1,
+      "GoPlus Sui Mainnet": 1,
+      "GoPlus BNB Smart Chain": 61,
+      "Ethplorer Ethereum": 4,
+      "TronScan TRC-20": 8,
+      "Blockscout Mainnet": 4,
+      "RugCheck Solana": 49,
+      "GoPlus Base": 24,
+      "CryptoID Mainnet": 2,
+      "Blockscout Ethereum": 22,
+      "TzKT Mainnet": 1,
+      "GoPlus Polygon": 3,
+      "Blockscout Optimism": 1,
+      "Blockscout Rootstock": 1,
+      "GoPlus Sui Network": 6,
+      "MultiversX API": 1,
+      "GoPlus Avalanche C-Chain": 1,
+      "GoPlus Ethereum": 11,
+      "GoPlus Solana": 1,
+      "TonAPI TON": 2,
+      "Blockscout Manta Pacific": 1
+    }
+  }
+}

@@ -1,0 +1,7414 @@
+{
+  "1inch": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 104450
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 102965
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 106935
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 108146
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 109495
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 110641
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 112144
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 112368
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 110875
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 110979
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 110538
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 111044
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 111530
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 112326
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 111443
+    }
+  },
+  "aave": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 149355
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 166986
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 169564
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 172953
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 177914
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 184879
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 194876
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 195748
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 196926
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 199453
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 196344
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 194876
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 199632
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 188413
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 187153
+    }
+  },
+  "ada": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 4301840
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 4447889
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 4463726
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 4409648
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 4385141
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 4444007
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 4481627
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 4478835
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 4519576
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 4541872
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 4556545
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 4604639
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 4593925
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 4483742
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 4449041
+    }
+  },
+  "ae_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 21015
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 21015
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 21015
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 21015
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 21015
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 21015
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 21015
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 21015
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 21015
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 21015
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 21015
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 21015
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 21015
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 21015
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 21015
+    }
+  },
+  "aion_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 13851
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 13851
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 11000
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 11000
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 11000
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 11000
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 11000
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 11000
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 11000
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 11000
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 11000
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 11000
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 11000
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 11000
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 11000
+    }
+  },
+  "algo": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 16710193
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 20076936
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 20313514
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 21507053
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 21949150
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 22459249
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 21084729
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 21167913
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 21420848
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 21512620
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 21601195
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 21991526
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 22057213
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 22525552
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 22778699
+    }
+  },
+  "alpha": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 9385
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 10247
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 10444
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 10468
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 10605
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 10775
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 11434
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 11477
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 11577
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 11573
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 11606
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 11528
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 11551
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 11559
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 11594
+    }
+  },
+  "ant": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 17753
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 17324
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 17162
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 16986
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 16946
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 16929
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 16901
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 16897
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 16884
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 16883
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 16882
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 16870
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 16869
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 16862
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 16848
+    }
+  },
+  "avaxc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 2700840
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 7920187
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 9006031
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 9423643
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 10353605
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 10905117
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 14331495
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 14486048
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 15463940
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 16431495
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 16705275
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 17306993
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 19238636
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 19908034
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 20369397
+    }
+  },
+  "avaxp": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 45534
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 50979
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 49638
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 48841
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 48633
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 49180
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 49917
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 49967
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 49597
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 49733
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 49874
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 50268
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 50562
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 51215
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 51446
+    }
+  },
+  "avaxx": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 0
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 112406
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 113326
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 113612
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 113523
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 113759
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 113973
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 113942
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 113773
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 113810
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 113853
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 113951
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 114070
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 111955
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 110553
+    }
+  },
+  "bal": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 44798
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 47647
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 48514
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 48752
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 48951
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 49354
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 48525
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 48545
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 48460
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 48547
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 48355
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 48856
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 48761
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 48761
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 48844
+    }
+  },
+  "bat": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 461684
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 444220
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 444091
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 443848
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 442121
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 441978
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 438295
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 438203
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 437627
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 437099
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 436431
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 420021
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 420489
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 420826
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 420978
+    }
+  },
+  "bch": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 21796817
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 22303231
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 22252013
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 22091006
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 22078057
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 22035528
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 22100769
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 22098390
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 22071875
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 22072619
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 22072422
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 22080490
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 22095653
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 22097725
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 22083023
+    }
+  },
+  "bsv": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 56465701
+    }
+  },
+  "btc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 43222590
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 51261425
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 52467867
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 52734564
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 52628247
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 52750010
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 54384860
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 54345882
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 55140611
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 55314690
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 55620826
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 56203119
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 56718168
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 57103666
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 57198398
+    }
+  },
+  "btg": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 18660530
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 18635119
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 18630339
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 18614451
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 18614469
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 18608336
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 18608610
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 18608827
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 18609142
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 18608466
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 18608559
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 18608257
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 18607823
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 18581411
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 18581045
+    }
+  },
+  "btm_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 49283
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 49284
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 49289
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 49291
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 49292
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 49293
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 49296
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 49296
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 49296
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 49297
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 49298
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 49298
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 49298
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 49299
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 49298
+    }
+  },
+  "busd": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 171250
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 128216
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 127821
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 127733
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 127475
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 125284
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 96924
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 96752
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 96367
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 96179
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 96044
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 95553
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 95337
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 94257
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 94034
+    }
+  },
+  "comp": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 207187
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 218968
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 220000
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 220330
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 219557
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 218602
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 218283
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 218373
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 219457
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 219454
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 219513
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 219540
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 220222
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 219164
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 220044
+    }
+  },
+  "cro": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 288377
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 309151
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 315258
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 315501
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 320951
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 323388
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 334936
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 335883
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 339036
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 340085
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 341590
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 342954
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 344055
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 345852
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 346502
+    }
+  },
+  "crv": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 88455
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 84651
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 87958
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 88096
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 89139
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 91309
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 94632
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 95003
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 96416
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 97288
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 97590
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 98926
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 100413
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 100671
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 102580
+    }
+  },
+  "cvc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 64594
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 65809
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 65598
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 62297
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 62178
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 61764
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 61700
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 61700
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 61657
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 61643
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 61669
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 61704
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 61705
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 61742
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 61225
+    }
+  },
+  "dai": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 499385
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 502688
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 503279
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 505647
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 507143
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 515719
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 539549
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 542373
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 562914
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 593150
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 631086
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 646468
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 661430
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 701167
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 743758
+    }
+  },
+  "dash": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 1523533
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1544614
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 1572183
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 1570443
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 1586075
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 1588111
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1622404
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1646026
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1677143
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1684635
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1707292
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 1720339
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 1737498
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1748452
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1753178
+    }
+  },
+  "dcr": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 480973
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 524237
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 532219
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 523790
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 524093
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 585281
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 621004
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 588944
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 578851
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 574659
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 573941
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 571745
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 578989
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 582330
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 578397
+    }
+  },
+  "dgb": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 1070604
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1156234
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 1168877
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 1125818
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 1133504
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 1141447
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1151369
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1148851
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1155291
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1157442
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1161239
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 1171745
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 1182657
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1147721
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1147746
+    }
+  },
+  "doge": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 4468472
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 6598730
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 6737415
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 7142698
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 7050749
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 7552515
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 8077904
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 8103498
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 8144913
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 8166156
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 8209922
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 8273390
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 8325324
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 8430000
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 8440237
+    }
+  },
+  "drgn": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 38479
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 39984
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 39931
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 39842
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 39868
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 39652
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 39508
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 39513
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 39382
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 39368
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 39338
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 39268
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 39261
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 39260
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 39235
+    }
+  },
+  "elf": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 50606
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 51190
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 50876
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 50846
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 50851
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 50543
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 49621
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 49654
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 49873
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 49888
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 49899
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 49895
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 49874
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 49764
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 49744
+    }
+  },
+  "etc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 2616966
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2788459
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2807402
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2817702
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2828315
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 2836642
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 2836405
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 2837770
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 2846064
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 2847599
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 2847743
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 2852373
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 2854290
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 2861938
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 2864917
+    }
+  },
+  "eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 92315705
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 118962637
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 127441036
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 132108803
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 137566865
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 143429542
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 158299180
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 160080427
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 169154382
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 173553799
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 178047962
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 191521043
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 197967555
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 208726501
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 214138909
+    }
+  },
+  "eurc_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 881
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2643
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 3362
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 3961
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 4690
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 5579
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 8297
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 8685
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 11384
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 12124
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 14997
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 20222
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 22307
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 26319
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 28266
+    }
+  },
+  "frax_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 7170
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 8741
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 9245
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 9299
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 9429
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 9668
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 9629
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 9649
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 9721
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 9758
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 9775
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 9852
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 9895
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 9935
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 10167
+    }
+  },
+  "ftt": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 25839
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 30253
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 30664
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 30317
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 30767
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 30915
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 31016
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 31085
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 30981
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 30994
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 31064
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 31179
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 31387
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 30326
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 30451
+    }
+  },
+  "fun": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 88454
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 90975
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 91622
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 91767
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 92474
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 92867
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 103847
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 104088
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 99126
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 98429
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 98080
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 99712
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 81429
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 73382
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 73281
+    }
+  },
+  "fxc_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 1871
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1882
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 1874
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 1874
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 1867
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 1865
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1854
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1854
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1851
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1850
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1850
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 1852
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 1852
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1851
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1850
+    }
+  },
+  "gas": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 445082
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 442713
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 442941
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 442852
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 442759
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 442682
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 440938
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 440741
+    }
+  },
+  "gno": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 16601
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 20042
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 20057
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 20040
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 19990
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 20116
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 20128
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 20129
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 20125
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 20078
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 20049
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 19982
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 20254
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 20157
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 20243
+    }
+  },
+  "gnt": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 81697
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 80102
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 79657
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 79492
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 79174
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 79046
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 78960
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 78941
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 78904
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 78898
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 78893
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 78879
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 78867
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 78819
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 78767
+    }
+  },
+  "gusd": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 10035
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 20586
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 20975
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 20288
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 20022
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 19854
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 19556
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 19543
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 19502
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 19475
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 19416
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 19375
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 19311
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 19264
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 19114
+    }
+  },
+  "hbtc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 2461
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2669
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2707
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2717
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2733
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 2751
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 2786
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 2786
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 2792
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 2807
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 2877
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 2872
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 2859
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 2743
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 2741
+    }
+  },
+  "hedg": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 2373
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2412
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2432
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2434
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2442
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 2453
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 2477
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 2479
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 2478
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 2481
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 2790
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 3008
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 3035
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 3075
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 3079
+    }
+  },
+  "ht": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 51191
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 54032
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 54466
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 54677
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 55131
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 55518
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 55894
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 55887
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 55890
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 55891
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 55897
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 55899
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 55910
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 55025
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 54950
+    }
+  },
+  "husd": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 9423
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 9460
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 9463
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 9465
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 9465
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 9461
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 9478
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 9478
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 9501
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 9504
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 9496
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 9501
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 9641
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 9665
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 9671
+    }
+  },
+  "icp": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 470311
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 647224
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 718077
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 755502
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 817725
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 852778
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 896161
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 899514
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 921191
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 925221
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 932158
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 944551
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 956333
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 971274
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 981037
+    }
+  },
+  "icx_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 22653
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 22653
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 22652
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 22652
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 22652
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 22652
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 22652
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 22652
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 22652
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 22652
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 22652
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 22652
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 22652
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 22652
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 22652
+    }
+  },
+  "knc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 85321
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 81152
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 80930
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 80805
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 80626
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 80055
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 79789
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 79753
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 79502
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 79483
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 79460
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 79409
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 79379
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 79295
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 79264
+    }
+  },
+  "ldo": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 25923
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 44415
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 47660
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 48800
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 50385
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 52188
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 57464
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 58128
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 60966
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 61860
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 62429
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 63410
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 65540
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 66304
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 64383
+    }
+  },
+  "lend": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 134957
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 134690
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 134527
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 134349
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 134090
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 133990
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 133480
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 133439
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 133362
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 133346
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 133336
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 133310
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 133320
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 133314
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 133306
+    }
+  },
+  "leo_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 2594
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2789
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2786
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2772
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2861
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 3013
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 3317
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 3347
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 3449
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 3500
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 3553
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 3752
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 3805
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 3624
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 3637
+    }
+  },
+  "link": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 725723
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 722540
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 721999
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 722974
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 729870
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 751029
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 796993
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 801355
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 819720
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 834093
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 847556
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 871191
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 896067
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 912217
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 923284
+    }
+  },
+  "lpt": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 2335459
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2209774
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2206133
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2204045
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2200271
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 2197702
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 2178641
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 2178216
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 2176249
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 2171162
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 2169790
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 2168681
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 2167704
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1770778
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1765113
+    }
+  },
+  "lrc_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 72421
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 72431
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 72436
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 72437
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 72439
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 72441
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 72444
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 72444
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 72443
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 72444
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 72444
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 72446
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 72446
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 72441
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 72437
+    }
+  },
+  "ltc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 6477546
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 7815866
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 8007258
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 7796811
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 7947874
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 8148221
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 8391270
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 8433420
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 8581906
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 8530645
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 8557035
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 8722232
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 8805124
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 8927415
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 8982087
+    }
+  },
+  "lusd_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 5639
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 8583
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 8289
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 8284
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 8368
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 8319
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 8604
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 8603
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 8570
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 8574
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 8602
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 8674
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 8716
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 8729
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 8731
+    }
+  },
+  "maid": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 15840
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 16326
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 16267
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 16229
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 16228
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 15820
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 15363
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 15356
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 15319
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 15297
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 15259
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 15234
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 15215
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 15182
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 15174
+    }
+  },
+  "mana": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 303077
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 301821
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 301683
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 299401
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 294367
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 292952
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 289820
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 289126
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 287818
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 287766
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 280679
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 280156
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 281269
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 280627
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 275881
+    }
+  },
+  "matic_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 571912
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 655901
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 645136
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 641019
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 642573
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 640251
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 640592
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 640487
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 616656
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 616439
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 615792
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 616081
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 615633
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 614062
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 613784
+    }
+  },
+  "mkr": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 93226
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 101078
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 102336
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 101742
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 101186
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 101741
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 81982
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 81637
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 80635
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 73649
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 72615
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 71503
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 71314
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 70825
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 70461
+    }
+  },
+  "nas_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 14480
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 14480
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 14482
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 14482
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 14482
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 14482
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 14482
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 14482
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 14482
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 14482
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 14482
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 14481
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 14481
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 14481
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 14482
+    }
+  },
+  "neo": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 132459
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 123836
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 122215
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 118699
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 117241
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 117014
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 115397
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 113329
+    }
+  },
+  "nxm": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 4094
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 3520
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 4303
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 4120
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 3948
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 3864
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 3723
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 3726
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 3784
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 3785
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 3789
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 3791
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 3792
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 3794
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 3798
+    }
+  },
+  "omg": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 695321
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 689199
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 686638
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 686890
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 660919
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 657800
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 657694
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 657769
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 657790
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 657787
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 657749
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 655206
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 655057
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 655171
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 655054
+    }
+  },
+  "pax": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 109745
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 110970
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 111728
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 111715
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 111654
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 110738
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 110334
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 110151
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 110026
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 109906
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 109894
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 109906
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 109908
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 104936
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 104166
+    }
+  },
+  "paxg": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 25769
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 31781
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 33114
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 34603
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 35833
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 40228
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 53913
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 56208
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 66403
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 69167
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 77029
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 88333
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 91861
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 88051
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 87576
+    }
+  },
+  "pay": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 56927
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 57147
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 57246
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 57273
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 57300
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 57338
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 57356
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 57354
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 57343
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 57338
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 57311
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 57313
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 57318
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 57310
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 57306
+    }
+  },
+  "perp": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 10365
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 12791
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 13526
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 13615
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 13746
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 13713
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 14190
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 14278
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 13093
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 13324
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 13460
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 14497
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 14592
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 14906
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 14894
+    }
+  },
+  "poly": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 98338
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 103251
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 103843
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 104173
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 104675
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 104922
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 105629
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 105649
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 105678
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 105674
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 105659
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 104880
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 104897
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 104854
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 104927
+    }
+  },
+  "powr": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 54067
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 54924
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 54625
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 54493
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 54316
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 54288
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 53940
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 53927
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 53569
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 53487
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 53357
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 53393
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 53547
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 50991
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 49618
+    }
+  },
+  "ppt": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 29349
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 29236
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 29213
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 29218
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 26291
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 26273
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 26253
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 26244
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 26229
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 26248
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 26221
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 26208
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 26195
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 26221
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 26255
+    }
+  },
+  "pyusd_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 11
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 7162
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 13386
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 17182
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 20739
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 26768
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 38806
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 40319
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 47390
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 51729
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 59754
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 80306
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 88624
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 108057
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 115430
+    }
+  },
+  "qash": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 12847
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 12785
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 12792
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 12791
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 12794
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 12790
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 12831
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 12832
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 12828
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 12827
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 12830
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 12841
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 12835
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 12829
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 12828
+    }
+  },
+  "qnt": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 108982
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 152436
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 150370
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 150085
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 150230
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 153968
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 162661
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 163544
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 160190
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 160482
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 161352
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 164571
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 167457
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 180618
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 189773
+    }
+  },
+  "qtum_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 18449
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 18450
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 18455
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 18420
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 18420
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 18420
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 18423
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 18423
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 18423
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 18423
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 18424
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 18422
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 18422
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 18422
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 18422
+    }
+  },
+  "ren": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 63246
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 63744
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 64492
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 64810
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 66639
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 67216
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 60775
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 60844
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 60961
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 61233
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 61410
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 59613
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 59571
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 59602
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 59747
+    }
+  },
+  "renbtc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 4575
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 4428
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 4387
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 4372
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 4386
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 4375
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 4384
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 4381
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 4428
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 4434
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 4443
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 4453
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 4456
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 4474
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 4463
+    }
+  },
+  "rep": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 59655
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 60671
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 60833
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 60916
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 60946
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 61003
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 61248
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 61268
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 61325
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 61343
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 61323
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 61192
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 61233
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 61431
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 61459
+    }
+  },
+  "rev_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 91404
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 91889
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 91903
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 91952
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 92012
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 92101
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 92551
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 92578
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 92614
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 92625
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 92635
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 92661
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 92677
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 92689
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 92685
+    }
+  },
+  "shib_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 1273883
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1395065
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 1405893
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 1433232
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 1492485
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 1505724
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1536459
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1544468
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1551164
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1553360
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1548819
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 1584134
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 1599421
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1696593
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1701231
+    }
+  },
+  "snt": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 82120
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 83129
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 83240
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 82732
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 82314
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 82025
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 76506
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 76473
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 76395
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 76377
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 76389
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 75998
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 75932
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 75797
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 75818
+    }
+  },
+  "snx": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 139818
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 133844
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 133681
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 133519
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 133280
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 131629
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 130170
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 130577
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 132102
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 132224
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 131919
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 131841
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 132882
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 133250
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 133658
+    }
+  },
+  "srm": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 10374
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 17538
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 17837
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 18082
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 18317
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 17588
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 16673
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 16682
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 16775
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 16828
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 16706
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 16833
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 17051
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 17164
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 17222
+    }
+  },
+  "sushi": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 110914
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 121988
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 123550
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 123725
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 124057
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 124101
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 125174
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 125240
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 125781
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 126116
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 126021
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 126444
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 126619
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 126506
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 122006
+    }
+  },
+  "swrv": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 7010
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 6916
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 6886
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 6909
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 6915
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 6919
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 6953
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 6965
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 6973
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 6975
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 6979
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 6988
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 6992
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 6999
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 7004
+    }
+  },
+  "tusd_trx": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 308767
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 311412
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 311351
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 311505
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 311699
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 311822
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 312087
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 312145
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 312282
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 312293
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 312326
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 312337
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 312391
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 312389
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 312425
+    }
+  },
+  "uma": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 20040
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 21801
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 21609
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 21888
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 22044
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 22616
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 23048
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 23266
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 24503
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 24499
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 24802
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 25873
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 26124
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 26230
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 25459
+    }
+  },
+  "uni": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 364591
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 379705
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 382530
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 376545
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 356486
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 360666
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 379442
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 380758
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 386273
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 388011
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 384186
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 381809
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 385096
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 380489
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 405468
+    }
+  },
+  "usdc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 2089642
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 4009106
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 5634574
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 6178600
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 7495470
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 8635369
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 13912407
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 14329362
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 16503857
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 17504272
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 19908527
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 22929990
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 24883506
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 28960378
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 30371720
+    }
+  },
+  "usdc_avaxc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 97586
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 531503
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 584090
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 594637
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 892563
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 919683
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1441355
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1439061
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1440185
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1441037
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1424831
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 1440361
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 1448411
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1181857
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1175911
+    }
+  },
+  "usdc_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 1574458
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2058586
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2299050
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2426848
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2608531
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 2959180
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 3869220
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 3974647
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 4544744
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 5178640
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 5904647
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 6843520
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 7623130
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 8984992
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 9224378
+    }
+  },
+  "usdc_trx": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 364251
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 383058
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 383341
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 381640
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 379142
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 379968
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 380509
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 380620
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 381157
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 381352
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 381555
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 381893
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 382134
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 382327
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 382548
+    }
+  },
+  "usdd_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 727
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1206
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 1366
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 1347
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 1315
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 1152
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1181
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1174
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1190
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1194
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1191
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 1215
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 1216
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1218
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1219
+    }
+  },
+  "usdk": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 3873
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 3841
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 3806
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 3806
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 3807
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 3808
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 3818
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 3819
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 3831
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 3829
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 3835
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 3845
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 3846
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 3859
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 3876
+    }
+  },
+  "usdt": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 19929482
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 47071195
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 58534074
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 64147952
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 67801336
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 72325819
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 78836513
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 79400953
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 82221947
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 83205408
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 85655846
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 89579320
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 91335996
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 93722510
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 94700452
+    }
+  },
+  "usdt_avaxc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 63326
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 480292
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 723146
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 851102
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 920984
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 953197
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1364857
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1379152
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1329661
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1339670
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1339838
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 1348592
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 1311293
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 1187138
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 1206596
+    }
+  },
+  "usdt_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 3951654
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 5581411
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 6041909
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 6389778
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 6661641
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 7262517
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 8729969
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 8899236
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 9941580
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 11063055
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 12477141
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 13769365
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 14977684
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 15288526
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 15655738
+    }
+  },
+  "usdt_omni": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 348322
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 295889
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 260673
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 260481
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 260337
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 260332
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 259627
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 259628
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 259642
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 259642
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 259645
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 259576
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 259578
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 259576
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 259193
+    }
+  },
+  "usdt_trx": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 15566180
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 40713603
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 51508346
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 56646591
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 59958374
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 63849773
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 68482063
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 68862940
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 70691064
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 70543041
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 71579222
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 74201787
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 74787441
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 76987270
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 77578925
+    }
+  },
+  "vet_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 46177
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 46216
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 46227
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 46229
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 46232
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 46238
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 46246
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 46244
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 46244
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 46245
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 46245
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 46245
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 46241
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 46241
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 46244
+    }
+  },
+  "vtc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 217655
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 326071
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 842888
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 843105
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 843678
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 843870
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 845081
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 845181
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 845181
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 845402
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 845667
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 845531
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 845530
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 845436
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 845593
+    }
+  },
+  "wbtc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 61435
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 90862
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 101071
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 104569
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 110868
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 123464
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 137468
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 140444
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 149294
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 154922
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 165712
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 180616
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 186695
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 194670
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 201376
+    }
+  },
+  "weth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 685304
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 992306
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 1079754
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 1121129
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 1142566
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 1181771
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 3011054
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 3014114
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 3194668
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 3205450
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 3221567
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 3263651
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 3300082
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 3329304
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 3331079
+    }
+  },
+  "wnxm": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 6170
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 4980
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 4434
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 4670
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 4832
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 4854
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 4927
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 4928
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 4909
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 4951
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 4976
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 5011
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 4917
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 5012
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 5029
+    }
+  },
+  "wtc": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 26036
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 24181
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 24191
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 24190
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 24189
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 24170
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 24168
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 24167
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 24165
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 24165
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 24165
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 24165
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 24165
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 24161
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 24162
+    }
+  },
+  "xaut": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 683
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1603
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2337
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2994
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 3501
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 5334
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 10650
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 11939
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 18441
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 21359
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 30831
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 41647
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 55141
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 61064
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 63729
+    }
+  },
+  "xlm": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 7325136
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 7862982
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 8089604
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 8134610
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 8373454
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 9283173
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 9434032
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 9462987
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 9696619
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 9743435
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 9695110
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 9818113
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 9876426
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 9973335
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 10064661
+    }
+  },
+  "xrp": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 4530748
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 5167225
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 5321281
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 5466560
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 6047187
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 6373699
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 7015965
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 7092502
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 7457251
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 7528509
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 7634438
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 7855912
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 7979563
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 8206005
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 8372879
+    }
+  },
+  "xvg": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 211553
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 212329
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 213795
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 206565
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 207141
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 207915
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 208557
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 208465
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 208958
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 208460
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 208154
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 208350
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 209046
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 210215
+    }
+  },
+  "yfi": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 54537
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 52859
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 52226
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 52175
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 52264
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 51881
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 51907
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 51813
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 51905
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 51926
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 51814
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 51938
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 52256
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 52565
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 53013
+    }
+  },
+  "zec": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 722608
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 767634
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 780835
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 764909
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 764813
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 764869
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 766872
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 765076
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 787746
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 799098
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 810094
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 832383
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 844520
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 848858
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 859807
+    }
+  },
+  "zil_eth": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 23463
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 23381
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 23358
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 23354
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 23332
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 23344
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 23317
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 23304
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 23289
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 23290
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 23313
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 23320
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 23324
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 23325
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 23318
+    }
+  },
+  "zrx": {
+    "2022-12-30": {
+      "date_matched": "2022-12-30",
+      "holders_cnt": 195779
+    },
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 192825
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 192979
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 191418
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 190478
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 190476
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 189661
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 189690
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 189446
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 189317
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 189052
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 189264
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 189697
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 189832
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 188308
+    }
+  },
+  "buidl_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 9
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 20
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 24
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 31
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 34
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 55
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 53
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 52
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 57
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 56
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 54
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 59
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 57
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 55
+    }
+  },
+  "crvusd_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1569
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2480
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2759
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 3090
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 3586
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 4550
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 4668
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 93663
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 93783
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 94016
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 94524
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 94643
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 94958
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 96367
+    }
+  },
+  "eurcv_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 7
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 29
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 37
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 37
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 43
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 64
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 120
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 452
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 485
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 552
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 4012
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 5615
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 7020
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 7238
+    }
+  },
+  "fdusd_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1340
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 2147
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2359
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2731
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 3064
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 3610
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 3661
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 3767
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 3813
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 3885
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 4025
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 4126
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 4308
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 4410
+    }
+  },
+  "pol_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 2346
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 6903
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 24355
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 39318
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 49985
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 71752
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 73700
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 83510
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 86057
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 88326
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 95095
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 98568
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 104345
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 108230
+    }
+  },
+  "sdai_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 1882
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 3000
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 2635
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 2710
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 2805
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 2522
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 2516
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 2467
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 2475
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 2483
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 2526
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 2524
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 2531
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 2553
+    }
+  },
+  "susde_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 7344
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 7288
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 7645
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 8838
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 9770
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 11060
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 11707
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 12208
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 12368
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 12152
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 11846
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 11680
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 11766
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 11632
+    }
+  },
+  "usde_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 13673
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 17327
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 18748
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 18243
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 22820
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 30179
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 32089
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 37045
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 38477
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 41242
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 46009
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 45843
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 47619
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 47158
+    }
+  },
+  "usdm_eth": {
+    "2024-04-09": {
+      "date_matched": "2024-04-09",
+      "holders_cnt": 272
+    },
+    "2024-09-10": {
+      "date_matched": "2024-09-10",
+      "holders_cnt": 614
+    },
+    "2024-11-22": {
+      "date_matched": "2024-11-22",
+      "holders_cnt": 693
+    },
+    "2025-01-24": {
+      "date_matched": "2025-01-24",
+      "holders_cnt": 751
+    },
+    "2025-04-08": {
+      "date_matched": "2025-04-08",
+      "holders_cnt": 866
+    },
+    "2025-09-19": {
+      "date_matched": "2025-09-19",
+      "holders_cnt": 1916
+    },
+    "2025-10-07": {
+      "date_matched": "2025-10-07",
+      "holders_cnt": 1923
+    },
+    "2025-12-26": {
+      "date_matched": "2025-12-26",
+      "holders_cnt": 1960
+    },
+    "2026-01-15": {
+      "date_matched": "2026-01-15",
+      "holders_cnt": 1966
+    },
+    "2026-02-13": {
+      "date_matched": "2026-02-13",
+      "holders_cnt": 1983
+    },
+    "2026-05-12": {
+      "date_matched": "2026-05-12",
+      "holders_cnt": 2011
+    },
+    "2026-07-01": {
+      "date_matched": "2026-07-01",
+      "holders_cnt": 2028
+    },
+    "2026-10-01": {
+      "date_matched": "2026-10-01",
+      "holders_cnt": 2055
+    },
+    "2026-11-21": {
+      "date_matched": "2026-11-21",
+      "holders_cnt": 2087
+    }
+  }
+}

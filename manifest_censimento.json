@@ -1,0 +1,27 @@
+{
+  "target": "Top 500 Cryptocurrencies by Market Cap (2026-07-01 vs 2026-10-01)",
+  "timestamp": "2026-11-24T11:26:06.672492+00:00",
+  "expected_counts": {
+    "top500_cryptos": 500
+  },
+  "pagination_proofs": {
+    "cmc_2026_07_01_total_universe": 8121,
+    "cmc_2026_07_01_exhausted": true,
+    "cmc_2026_10_01_total_universe": 8147,
+    "cmc_2026_10_01_exhausted": true
+  },
+  "sources": [
+    "top500_cryptos=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\top500_crypto_2026-07-01_vs_2026-10-01.json:cryptocurrencies:forensic_id",
+    "top500_csv=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\top500_crypto_2026-07-01_vs_2026-10-01.csv::forensic_id"
+  ],
+  "required_files": [
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\top500_crypto_2026-07-01_vs_2026-10-01.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\top500_crypto_2026-07-01_vs_2026-10-01.csv",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\verification_summary.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\raw\\cmc_full_2026-07-01.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\raw\\cmc_full_2026-10-01.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\raw\\cmc_subcent_exact_v31.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\raw\\binance_spot_verification.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\raw\\defillama_cross_validation.json"
+  ]
+}

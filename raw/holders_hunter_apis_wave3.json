@@ -1,0 +1,817 @@
+{
+  "10791": {
+    "cmc_id": 10791,
+    "symbol": "XEC",
+    "source": "Blockchair eCash Mainnet API (Nov 2026)",
+    "chain": "eCash",
+    "holder_count": 15837307,
+    "base_supply": 20115661521781.93,
+    "top10_pct": 38.1629,
+    "top20_pct": 41.3956,
+    "top50_pct": 47.5261,
+    "top100_pct": 52.5691,
+    "wallets": [
+      {
+        "address": "ecash:qrdraf6aja5hcwxecj9ecc4tgzljfxxnage4ekwd74",
+        "balance": 4857731341022.86,
+        "pct": 24.149,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qr7rdwn5asqrjz396rucuysn8dzfdz5ntsf6jtt6h4",
+        "balance": 1203946306339.06,
+        "pct": 5.9851,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqwvn2ptnn0y8nrssyed68a0pkxzhrn25vkf5ynj4v",
+        "balance": 801585227793.0,
+        "pct": 3.9849,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrf0kr5m24q5ee40477fuyar78e4vrq8tq2fp26yv5",
+        "balance": 285999999928.94,
+        "pct": 1.4218,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrvh9hnm24y026e5mnqf2dzvkv83c40385yhfv4x9l",
+        "balance": 105264544030.69,
+        "pct": 0.5233,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qr6pg2xy87shw2jtvz4w2d52e9y35wke8g0rmgzzp9",
+        "balance": 90923882146.36,
+        "pct": 0.452,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pzr5lqu0rf77253kn84k2a7hux8c7jm9kyrqgddegn",
+        "balance": 89123044858.92,
+        "pct": 0.4431,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqvcj5lutpms84wx6cxr8hxzt8z7d885luzhre8dsc",
+        "balance": 83229716386.15,
+        "pct": 0.4138,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzstp4swtxg40rkn0j769vta3vkwyw4jj5ske53kdv",
+        "balance": 79957173165.01,
+        "pct": 0.3975,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pzgm4hmxk35vkuphlz8v8lprsmppruf2a5l75ru30k",
+        "balance": 78940640523.92,
+        "pct": 0.3924,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pqtdjp63swypep62kyfxzh2k6kpq5weydvsdyw4msa",
+        "balance": 78663016525.34,
+        "pct": 0.3911,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqurwfmx2kn9gystz4pw0gp88sew0runyctp2jve94",
+        "balance": 72745794262.49,
+        "pct": 0.3616,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqrkjml7h3ymnc7ydd9m5r9s9hnqectmluhvjjehr2",
+        "balance": 69370127340.7,
+        "pct": 0.3449,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrjktsdh4dp43ynce6duxqraqs8h2mvhvg97nhpdlk",
+        "balance": 67467698302.91,
+        "pct": 0.3354,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrpp82kgz8vqfk6kz863yjquewpe9rj85y4pqts4fr",
+        "balance": 61991223131.53,
+        "pct": 0.3082,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqmydj0p5kwknt5t7adgwy033mnxj5x54cnjfjdv7q",
+        "balance": 60000000136.08,
+        "pct": 0.2983,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz6x0u7gremlyrtl0uhvpr7u2c770p86kvrjy9dk06",
+        "balance": 60000000136.08,
+        "pct": 0.2983,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzf0h9q5qd3f8g5zjgfyx3syg4tlmuk4ys8fxw5jgt",
+        "balance": 60000000130.64,
+        "pct": 0.2983,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzm6edq7dem2ept607qlrwrsltp9vryuug6nyj0ar9",
+        "balance": 60000000119.64,
+        "pct": 0.2983,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp2dhfgf7g7yhffj2grdp97dwk0u83y2vy2hxynk94",
+        "balance": 60000000092.32,
+        "pct": 0.2983,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrgrd753leqchtpw5ucg52p507uvftnn3vq9jwcnx4",
+        "balance": 60000000092.32,
+        "pct": 0.2983,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrtrnezysxttq2lc9tlnrfmctfhg0vn00vuf48etpr",
+        "balance": 59701312518.52,
+        "pct": 0.2968,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpsuc9dtvtmn0e23f8zg3ekaeyv6p6nkgsgvum8ddf",
+        "balance": 59538848238.25,
+        "pct": 0.296,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrqh7dcjgwghvdv5cd56t4emer4l2g8vnsv0e2a95f",
+        "balance": 59352772043.18,
+        "pct": 0.2951,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qq26s54u8233wgcgcl3psfdz7490mgzkms46ca5hwf",
+        "balance": 59065407977.2,
+        "pct": 0.2936,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz43jseg3ewt5w0ft9chsc5rwvh0h0kcusvw687g95",
+        "balance": 56261797022.72,
+        "pct": 0.2797,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrt5m62lv4ue0yl3dwg7mzs4yygx2tf7cq86uquwpq",
+        "balance": 53880070784.77,
+        "pct": 0.2679,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz349an0xwt94397zaq0y4szjr0ffr8z6g7k7mt3ns",
+        "balance": 49998961371.46,
+        "pct": 0.2486,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz2ay98g8n3ln334lhqyn3xkhu8agqcx45qh0sf4rl",
+        "balance": 48260383427.61,
+        "pct": 0.2399,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqa0dwrk79um6wgmzk9rrv303l2qwppuk54khvs8xh",
+        "balance": 47024828010.65,
+        "pct": 0.2338,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzrx8wdztvm6a4vcutr7fupt0asrzutue5yk8xv0s9",
+        "balance": 45922275623.85,
+        "pct": 0.2283,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pqeyak4vssfzg2mf6ug5pvechnmpxzu0uusqdetu3k",
+        "balance": 45276776421.47,
+        "pct": 0.2251,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:ppsz77asz6elv55mtrya58rpm680muc9lv3n6hwmxr",
+        "balance": 43701970060.19,
+        "pct": 0.2173,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzw4ktsemux4a8sp2ngadd96hjdqzrx8c573k4rrxz",
+        "balance": 39616988408.32,
+        "pct": 0.1969,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzghq07mdh084x7268fxejng6caymznay5zfuleqj3",
+        "balance": 36000000005.46,
+        "pct": 0.179,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzrn4v8tt7yadmwuax67ey7nu26455e6c57f4gsa69",
+        "balance": 35523994549.1,
+        "pct": 0.1766,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qru8mrnk32rv4yrarnd2xupsn7s0y45s2c9sxxdmu0",
+        "balance": 34345567696.42,
+        "pct": 0.1707,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqmjvs2vxtwgkfjn9gf6dq9gqvt0nudfpq0alsr9jg",
+        "balance": 33319916478.43,
+        "pct": 0.1656,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpk0xdwknqg6u83qp803fj6l4gzs8sjtcyg435nhcj",
+        "balance": 32000000139.24,
+        "pct": 0.1591,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp7gvzv8t22kv7ferwgyjclgyajxx5p6rskrj7t487",
+        "balance": 31305121143.52,
+        "pct": 0.1556,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpaatnt7jwjey8ffnjuf3uhtmprl7gx3h5h9yvqhqr",
+        "balance": 31121440710.5,
+        "pct": 0.1547,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqfdt2z972ep9nsv80t95sp43qweyxgfpc86grnku9",
+        "balance": 31000071456.46,
+        "pct": 0.1541,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qza7973jsxwm97dveh4zj70vmr6e7tkka5a0qa7r93",
+        "balance": 31000000139.24,
+        "pct": 0.1541,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrfu55f08u5nnhjyj5v8s0tjndlmh0sgzy8zjwwexu",
+        "balance": 30000000115.71,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz9qnd8e6c3f379wtr9fgjuks4493nresvtgqzuskn",
+        "balance": 30000000115.71,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzlsc93k5df5pl3n3anz5cpfglwu67yzxcp6cdgxy5",
+        "balance": 30000000115.71,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzcjy2pwj2e26z5hc3y8th0f060qvp7q7qzvku3ehu",
+        "balance": 30000000115.71,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzkeczua3sd9axutpr78x5pdlxzkf3zt9snqrm3su2",
+        "balance": 30000000115.71,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzftxpv7xu5l673q3jacjy9q0962kxqdsvdeau803x",
+        "balance": 30000000115.71,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzlue8n9xu72u7kk7gm2quhm4cq6uhd4py3mk890ra",
+        "balance": 30000000115.71,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz0wjvg0dvqy45d8r8kg74v52ny2426pmudcglu7zf",
+        "balance": 30000000104.77,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:ppxngnlp8mam7remuu3aq50gw9jtst4hsvl5v6et2p",
+        "balance": 30000000005.46,
+        "pct": 0.1491,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpseky5f3paqdzzjfwc5v7k0gd25cazjmyjaz9wjpd",
+        "balance": 29948032602.27,
+        "pct": 0.1489,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrmspnxmlmrchpt092vhyzqv9vzcefscuyst0t6f57",
+        "balance": 29696792022.39,
+        "pct": 0.1476,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp2rclrxsjpf2ee3jw8lnu6q4we2pewvt5mrjhek9a",
+        "balance": 29449995125.71,
+        "pct": 0.1464,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qq2vrmtj6zg4pw897jwef4fswrfvruwmxcst56cltu",
+        "balance": 28151053367.28,
+        "pct": 0.1399,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqz4hkdrc59jrutml7kv4maunlnkah9plvce5td0gu",
+        "balance": 28000001000.0,
+        "pct": 0.1392,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpxjaykvswe0tkn7yxcgt0e57djc39kaac2jnjc089",
+        "balance": 27562063154.12,
+        "pct": 0.137,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp54ske6uk43h3ycs4meekt46gthskaunscu6us7qf",
+        "balance": 26335312554.65,
+        "pct": 0.1309,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpwxpg8rj995ky4yr8d4hehhgf65apvhzcfxrrams5",
+        "balance": 25131451756.15,
+        "pct": 0.1249,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpkujurnkphyt34g2g2pqr9zd2pr8v5rtq80mkp4pz",
+        "balance": 25109772731.48,
+        "pct": 0.1248,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqar7rye9dfcgzv99nvq48tccjwc3cumygu2dfe93x",
+        "balance": 24667762359.3,
+        "pct": 0.1226,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzftl38ke6y34x459h8wl7et96zrvp7glum6sgacgp",
+        "balance": 24657254097.25,
+        "pct": 0.1226,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpvk0t6elxk0q4lgffqq5tgfjurr0sxr9yzx3axvvn",
+        "balance": 24320618888.31,
+        "pct": 0.1209,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pz6kvc3j946cwvrllu4ydn9n77d3cuyqnvvc5y2rc0",
+        "balance": 24046781104.92,
+        "pct": 0.1195,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzjjpjr2pqmxjswdjrfzuydvr3lwlgkmxu83cdxksg",
+        "balance": 24040108693.26,
+        "pct": 0.1195,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpxh7l6y899ujq75qjd3rl6047dq67epkvmzxfswfl",
+        "balance": 23958686988.44,
+        "pct": 0.1191,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp9rrvrm2gsgh97cd6vt6vt9g3fuaj5u3gr2utllc2",
+        "balance": 23498206080.26,
+        "pct": 0.1168,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pqqgg773gqjzh5wfcxgzf0lqpf9va7ams545c3vlh6",
+        "balance": 23292560111.1,
+        "pct": 0.1158,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqplq3tupdrrklgyfzmrgryp39akt59grylmt6dd8u",
+        "balance": 23195675079.26,
+        "pct": 0.1153,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz3a66kn4h03nhtswlh2jqzf8zxc8n3jdvspr64yas",
+        "balance": 22396952896.04,
+        "pct": 0.1113,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz5d2wkugaxdfzsq5a2q4dqdu2u9fzjarv22nxqx0u",
+        "balance": 21843441461.72,
+        "pct": 0.1086,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzafg8jth7yhyuyq6pugyhxpgxac4rwkfqvz0vxafn",
+        "balance": 21699051742.73,
+        "pct": 0.1079,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qz2g3elkce2ym5syhu0uajfcxyseugrjggmaq6tw4r",
+        "balance": 21060181040.56,
+        "pct": 0.1047,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpcjracq9gcvyuh6skga3cp0ygjf88jnzcmfsl77hr",
+        "balance": 20621366672.78,
+        "pct": 0.1025,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qruwqnlf8dgjquh3cxpnu5e2f2dqxp4hfgjcq3yp6v",
+        "balance": 20227957597.46,
+        "pct": 0.1006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp9nnc79knrvzsey4a7se6v64gskemmk3sssxw6mak",
+        "balance": 20008015919.12,
+        "pct": 0.0995,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrnxepkx04yvrjxs74k0x0ape4zje6ga5uarmmgvf2",
+        "balance": 19644587626.09,
+        "pct": 0.0977,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrjp962nn74p57w0gaf77d335upghk220yp5fdmug2",
+        "balance": 19426978054.04,
+        "pct": 0.0966,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qru82d2ee4nnq3syfwhsvuju022tew99jg7a089fgq",
+        "balance": 19414426738.65,
+        "pct": 0.0965,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrscqf0gsrazkn2tgr78xef4tfhnh4uesgdgffrnkz",
+        "balance": 18998115009.06,
+        "pct": 0.0944,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpdayvaus2xsm0gtl02lf6d6ve83d00eqssttlya8l",
+        "balance": 18042227773.67,
+        "pct": 0.0897,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqrm0fcppa7ncwp5gctctyevrzqvcm64z5lmjrucxn",
+        "balance": 16750000110.24,
+        "pct": 0.0833,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrs283wkmjqwuw3wppxu5sdx4jdyhuljug36shzdj7",
+        "balance": 15608276073.37,
+        "pct": 0.0776,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqtf8du4tmzthezpq3gzunpks422hyl9escgdyzk42",
+        "balance": 15044488314.6,
+        "pct": 0.0748,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpxghwhk06vm79y2ty8609c9r2edw76tuvmv0ddnps",
+        "balance": 15022764368.87,
+        "pct": 0.0747,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqgfwyskpjjdyhn0d6se75avgh2hmrykrc4h34kxn8",
+        "balance": 15008959984.8,
+        "pct": 0.0746,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpwqgvee0rtyca2zylpl9dv7kuumsg0xpuj7lhy5dw",
+        "balance": 15007999889.72,
+        "pct": 0.0746,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qry8s8nm5qhl0qwymmexhfw9cyy5m3hg6sncgd9y3j",
+        "balance": 14889015104.77,
+        "pct": 0.074,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pqqtjlkd3xelwjdptqyu50wa268lpaaddy02yy3ll7",
+        "balance": 14035652789.21,
+        "pct": 0.0698,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzdtj5xl4xecd6sek0p9zle24uyyrtgrwq6q5gw8yn",
+        "balance": 13616000099.27,
+        "pct": 0.0677,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqymcfwszwhc8c3fa5dv8l8257xp6yztyy8nrk4jk5",
+        "balance": 13600146329.87,
+        "pct": 0.0676,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qrq50rvl8u7teucv4tj55hkjyq58u5ewfvglws2dt8",
+        "balance": 13297261432.18,
+        "pct": 0.0661,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qzy4nqcfju75yx395952uh9ln00jq53ytvqgw9z6rs",
+        "balance": 12649995087.34,
+        "pct": 0.0629,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:pz3pvs55jguk84l470j7rm6hmz3wzv7cdyadulrhuu",
+        "balance": 12524002559.9,
+        "pct": 0.0623,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qpsqlcd0k9gzj9nr24gpedugwsntqp2u5ygeamfc33",
+        "balance": 12521240108.01,
+        "pct": 0.0622,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qztkx9eeq5afat6aspxetv8cxxv0qs2t7yxnrrq70c",
+        "balance": 12110969208.42,
+        "pct": 0.0602,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp4x9yd2ecqu0lzjx957g4a2qd0t87axyqd6luxju4",
+        "balance": 11507037204.51,
+        "pct": 0.0572,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qqcw97xgl3fxm7vygk5f87n3lhpg5cqj8u5agcxg6z",
+        "balance": 11454048091.26,
+        "pct": 0.0569,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "ecash:qp2zhqzsnqpxnumtdq3grsevmt3w48gwxy6yh0wtun",
+        "balance": 11385245524.99,
+        "pct": 0.0566,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  }
+}

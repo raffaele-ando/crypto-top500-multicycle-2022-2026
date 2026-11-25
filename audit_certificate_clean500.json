@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-11-24T13:33:08.183112",
+  "documents": [
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\report_pure500_crypto_2026.md",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\report_pure500_crypto_2026.md",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\dashboard_pure500_crypto_2026.html"
+  ],
+  "overall_pass": true,
+  "source_checks": {
+    "clean500_json@report_pure500_crypto_2026.md": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.json",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\report_pure500_crypto_2026.md",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    },
+    "clean500_json@dashboard_pure500_crypto_2026.html": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.json",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\dashboard_pure500_crypto_2026.html",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    },
+    "clean500_csv@report_pure500_crypto_2026.md": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.csv",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\report_pure500_crypto_2026.md",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    },
+    "clean500_csv@dashboard_pure500_crypto_2026.html": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.csv",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\dashboard_pure500_crypto_2026.html",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    }
+  },
+  "proof_file_checks": {
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.json": true,
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.csv": true,
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\excluded_274_assets_clean500.csv": true,
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\dashboard_pure500_crypto_2026.html": true
+  },
+  "lexical_checks": {
+    "report_pure500_crypto_2026.md": {
+      "pass": true,
+      "violations_count": 0,
+      "violations": []
+    },
+    "dashboard_pure500_crypto_2026.html": {
+      "pass": true,
+      "violations_count": 0,
+      "violations": []
+    }
+  },
+  "violations": []
+}

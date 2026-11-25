@@ -1,0 +1,15 @@
+{
+  "target": "500 Clean Pure Cryptos Ranked by Return Descending",
+  "timestamp": "2026-11-24T14:42:56.136962+00:00",
+  "expected_counts": {
+    "ranked_500": 500
+  },
+  "sources": [
+    "ranking_json=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.json:ranking:forensic_id",
+    "ranking_csv=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.csv::forensic_id"
+  ],
+  "required_files": [
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.csv"
+  ]
+}

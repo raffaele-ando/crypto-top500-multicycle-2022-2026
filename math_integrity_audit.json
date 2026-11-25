@@ -1,0 +1,45 @@
+{
+  "overall_pass": true,
+  "checks": [
+    {
+      "check": "1. Cardinality JSON == CSV == 500",
+      "pass": true,
+      "detail": "JSON=500, CSV=500"
+    },
+    {
+      "check": "2. Unique IDs & Exact Rank Permutations 1..500",
+      "pass": true,
+      "detail": "500 unique CMC IDs; both Pure MCap Rank and CMC Rank cover exact 1..500"
+    },
+    {
+      "check": "3. Monotonic Decreasing Market Cap on 2026-07-01",
+      "pass": true,
+      "detail": "#1=$1,203,130,405,284.78 >= ... >= #500=$43,900,753.90"
+    },
+    {
+      "check": "4. Delta & Percentage Recomputation Accuracy",
+      "pass": true,
+      "detail": "max_abs_pct_error=5.00e-07"
+    },
+    {
+      "check": "5. MarketCap == Price * CirculatingSupply (<0.2% tol)",
+      "pass": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "6. Markdown Census Table Exact 500 Rows",
+      "pass": true,
+      "detail": "census_rows=500"
+    },
+    {
+      "check": "7. Interactive HTML Explorer Contains 500/500 IDs",
+      "pass": true,
+      "detail": "html_ids=500/500"
+    },
+    {
+      "check": "8. Markdown KaTeX Dollar-Escaping Safety",
+      "pass": true,
+      "detail": "unescaped_lines=0"
+    }
+  ]
+}

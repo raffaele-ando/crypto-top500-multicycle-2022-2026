@@ -1,0 +1,46 @@
+{
+  "audit_timestamp_utc": "2026-11-24T11:59:45Z",
+  "verdict": "VERIFIED_CORRECT_100_PCT",
+  "checks_performed": {
+    "1_live_cmc_web_ssr_html_parity": {
+      "url_jul1": "https://coinmarketcap.com/historical/20260701/",
+      "url_oct1": "https://coinmarketcap.com/historical/20261001/",
+      "jul1_overlapping_coins_checked": 200,
+      "jul1_mcap_mismatches": 0,
+      "jul1_price_mismatches": 0,
+      "oct1_overlapping_coins_checked": 195,
+      "oct1_mcap_mismatches": 0,
+      "oct1_price_mismatches": 0
+    },
+    "2_full_binance_spot_orderbook_audit": {
+      "verified_usdt_pairs_in_top500": 188,
+      "jul1_median_abs_diff_pct": 0.1063,
+      "jul1_95th_pct_diff_pct": 0.4018,
+      "jul1_within_1pct_count": "187/188 (99.47%)",
+      "oct1_median_abs_diff_pct": 0.0780,
+      "oct1_95th_pct_diff_pct": 0.2828,
+      "oct1_within_1pct_count": "187/188 (99.47%)",
+      "only_outlier_above_1_5pct": "RVN on 2026-10-01 (5.12% global KRW/Upbit VWAP spread vs Binance USDT)"
+    },
+    "3_extreme_movers_onchain_contract_verification_defillama": {
+      "BTW_cmc_39158": {"ours": [0.067195, 1.41505, "+2005.88%"], "defillama_contract": [0.067041, 1.41548], "confirmed_real": true},
+      "PUMP_cmc_36507": {"ours": [0.00138491, 0.00583645, "+321.43%"], "binance": [0.001384, 0.005826], "defillama_contract": [0.00138444, 0.00582654], "confirmed_real": true},
+      "ZEC_cmc_1437": {"ours": [416.6341, 1333.65, "+220.10%"], "binance": [417.21, 1335.56], "defillama_contract": [417.01, 1334.85], "confirmed_real": true},
+      "UNI_cmc_7083": {"ours": [2.7884, 8.9776, "+221.96%"], "binance": [2.789, 8.983], "defillama_contract": [2.7868, 8.9774], "confirmed_real": true},
+      "QNT_cmc_3155": {"ours": [66.8474, 244.5272, "+265.80%"], "binance": [66.85, 245.48], "defillama_contract": [66.904, 245.155], "confirmed_real": true},
+      "LAB_cmc_33223": {"ours": [8.89911, 0.0527203, "-99.41%"], "defillama_contract": [8.89177, 0.0527827], "confirmed_real": true},
+      "BEAT_cmc_38837": {"ours": [2.88198, 0.0914282, "-96.83%"], "defillama_contract": [2.88038, 0.091425], "confirmed_real": true},
+      "VELVET_cmc_37298": {"ours": [1.5231, 0.0601541, "-96.05%"], "defillama_contract": [1.5210, 0.0600386], "confirmed_real": true},
+      "DEXE_cmc_7326": {"ours": [23.0824, 1.90483, "-91.75%"], "binance": [23.054, 1.906], "defillama_contract": [23.0856, 1.9030], "confirmed_real": true},
+      "DUCKY_cmc_33852": {"ours_jul1": 0.000601042, "defillama_contract_jul1": 0.000596642, "confirmed_real": true}
+    },
+    "4_subcent_v31_api_completeness": {
+      "total_subcent_coins": 62,
+      "api_errors_or_missing": 0
+    },
+    "5_methodological_notes_disclosed": [
+      "Snapshot timestamp is UTC Daily Close (23:59:59 UTC), matching CoinMarketCap /historical/20260701/ and /historical/20261001/ web pages (whereas CoinGecko /history uses 00:00:00 UTC open).",
+      "CMC Top 500 includes stablecoins, wrapped/liquid-staking tokens (stETH, WBTC, weETH), and ~27 tokenized equities/ETFs (xStocks), while excluding unverified-supply coins like WBT (CMC cs=0)."
+    ]
+  }
+}

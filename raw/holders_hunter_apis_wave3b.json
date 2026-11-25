@@ -1,0 +1,2447 @@
+{
+  "39689": {
+    "cmc_id": 39689,
+    "symbol": "GCOIN",
+    "source": "Blockscout PlayBlock Mainnet (Nov 2026)",
+    "chain": "PlayBlock Mainnet",
+    "holder_count": 13121616,
+    "base_supply": 26268000000.0,
+    "top10_pct": 54.14,
+    "top20_pct": 64.8495,
+    "top50_pct": 72.4108,
+    "top100_pct": 75.1904,
+    "wallets": [
+      {
+        "address": "0x007FAfa3A5743dd0ecde39e1C851D57BF36e375D",
+        "balance": 4405227651.2992115,
+        "pct": 16.7703,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x840F6D08Aba40C0FA26103EB265c81D30F23d90F",
+        "balance": 2053661088.0363834,
+        "pct": 7.8181,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x31D16A6Eec82eb33397F0191c99a6bf2953627d1",
+        "balance": 1708763750.44,
+        "pct": 6.5051,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x863d1354e456Ada526E79Ff0B03CAfE51528f602",
+        "balance": 1542328266.2518034,
+        "pct": 5.8715,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0C5D8E34ef904085f8E3aB5C5a5E49A5460ac7aF",
+        "balance": 1031135105.5475563,
+        "pct": 3.9254,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xDb4d780B37B8C1FE1C32D20cb28B46FEa413352a",
+        "balance": 842547259.8040819,
+        "pct": 3.2075,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7dBDd0fc43c60F89B8fB40397610EF3fa54D9f76",
+        "balance": 730687145.0,
+        "pct": 2.7817,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x15eBb0E4aF139CFbB8c4Dd654055B756dA1343F3",
+        "balance": 688052053.127636,
+        "pct": 2.6194,
+        "label": "StakingPoolV4",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xee974E77afE35243eF711beD3F81A3afC0B20d1c",
+        "balance": 622335403.6242485,
+        "pct": 2.3692,
+        "label": "StakingPoolV4",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x3bD2b62B7574B8b945b32c9d444Bfe3DCB8f05f4",
+        "balance": 596764042.0,
+        "pct": 2.2718,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb9BdB81B189E2e4035991c29F35e506CaB3d5830",
+        "balance": 482817589.83610827,
+        "pct": 1.838,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x24B47d6998A56774673e8fA1e5566EAFe4Aa38f5",
+        "balance": 466861763.79266226,
+        "pct": 1.7773,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xF7f47a523AE9ebb10d3Bb9E8D042e01ad08cDB09",
+        "balance": 428034521.127012,
+        "pct": 1.6295,
+        "label": "StakingPoolV4",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x534f383a0750191e8025CBCd0709aDc81ED3b127",
+        "balance": 273261883.2901217,
+        "pct": 1.0403,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x3C971b45d452c958b2400b3D97b0E86E6D35A4cD",
+        "balance": 244933523.0,
+        "pct": 0.9324,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x266D1FfB5b70D87af73597480035768533eeEE09",
+        "balance": 238491174.93795457,
+        "pct": 0.9079,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xD5C288035346b5D549F30488532CCe4AEfEbe629",
+        "balance": 219574675.83399755,
+        "pct": 0.8359,
+        "label": "PoolManager",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xc68c7a33C0B49ed356B33567f391bccde860C2bF",
+        "balance": 163620860.70414892,
+        "pct": 0.6229,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc9ad7f17EDC54debdC295e4488c9226518A96887",
+        "balance": 153323054.72158253,
+        "pct": 0.5837,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x73fdf5479bED5713a1bcC75028F09933aCad8dFc",
+        "balance": 142255614.8365,
+        "pct": 0.5416,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xBd0d67823004155D995712ec2E686d48c3cE00Af",
+        "balance": 99284849.00000003,
+        "pct": 0.378,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x531076eEC2e46A4912a4683179aF69afa5Cc568e",
+        "balance": 94980418.60000001,
+        "pct": 0.3616,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xBE6d1f9945d2EEE4B21D04b9a89f71A15d0B0d6c",
+        "balance": 90849454.30000032,
+        "pct": 0.3459,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xAfcF546Ca27ca9196aa2610B603f00aEd77B3D78",
+        "balance": 89865553.40000026,
+        "pct": 0.3421,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xb9796e38a19Bac7d9f480CBf82376c257DF1bff9",
+        "balance": 89451405.50000012,
+        "pct": 0.3405,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xA82de60f7B4ed898f0D3B09703023Fe36750FC7f",
+        "balance": 89386727.8000001,
+        "pct": 0.3403,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xD1b0Fb26f3f1545Be174823dd406fb32cc445abF",
+        "balance": 89316382.30000012,
+        "pct": 0.34,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xB19a28185fa5111EA5604bc7EaB64BE5521802F0",
+        "balance": 89102052.30000024,
+        "pct": 0.3392,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xd47A92eB738001fDaE82150b484BA0CAA01968b8",
+        "balance": 89101229.6000001,
+        "pct": 0.3392,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xc9b137158c8e233470B226b00338cc421f2810a3",
+        "balance": 88897275.70000012,
+        "pct": 0.3384,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xB03a24328DDC0b125628a81e936F363907C3F6bC",
+        "balance": 88349654.40000011,
+        "pct": 0.3363,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xDB6FA9CcBDC996c057c26a1cbA118b8408CEB2e2",
+        "balance": 88268448.30000015,
+        "pct": 0.336,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x768A0B309988D520222E0fa17E967637056cd1C2",
+        "balance": 86711954.60000001,
+        "pct": 0.3301,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x322A6C032a2d0246CA72BC1e3Dbd124ac603e8C5",
+        "balance": 77369606.0,
+        "pct": 0.2945,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x9B05E91067955fE4796FABa3609F2E07bD8Dd43D",
+        "balance": 62309384.70678296,
+        "pct": 0.2372,
+        "label": "StakingPoolV4",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x0cFb922105F0edb0c9649DC2B8669871E605c305",
+        "balance": 52229238.50000012,
+        "pct": 0.1988,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x4B3Bf530c4721Efdc6EDe93E51494b30E84c6841",
+        "balance": 51753354.0000001,
+        "pct": 0.197,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x3666B6E649947162ae27EB2C9a313d1AaB1f52fF",
+        "balance": 51627843.8000001,
+        "pct": 0.1965,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x42520281b54EC621ccf482451DE69bd10a5440C3",
+        "balance": 51602726.20000026,
+        "pct": 0.1964,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x40235a9229Fe6e72f338b44D1415255749dD99Ec",
+        "balance": 51560972.20000012,
+        "pct": 0.1963,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x40b83B7108B695cFB4c012B3CC26B9FF2319b7Ca",
+        "balance": 51281444.8000002,
+        "pct": 0.1952,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x348F995e8ADc56e77B78c2dB5966E726d5d544Ac",
+        "balance": 51266645.00000013,
+        "pct": 0.1952,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x5413F4d9aB8F3B0c4635A1379CC6A0544E63af34",
+        "balance": 50894897.50000015,
+        "pct": 0.1938,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xE12526cF20238197E0A0A8EE66E0479De78c30aB",
+        "balance": 48225443.39645822,
+        "pct": 0.1836,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xeb554086FCDE59a2Ad5647A82aE434303d69837A",
+        "balance": 41585137.0,
+        "pct": 0.1583,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4D7afb3d9c155500C5a2678E15F8478256A896FB",
+        "balance": 41242983.6697,
+        "pct": 0.157,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xC3823bB7227ba60f8A7Fa542810C7B89D797723e",
+        "balance": 39130575.62725872,
+        "pct": 0.149,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7F99aA3b1A63dE629983FBDFEB7d9BE53714b95b",
+        "balance": 34895229.3125,
+        "pct": 0.1328,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x655e837a99A0DA400a170091409a05df3cE4e1e1",
+        "balance": 28666868.377514508,
+        "pct": 0.1091,
+        "label": "TreasuryVault",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xf4859E44E6FF65a71040424230a3BAdc11482D39",
+        "balance": 27063699.0,
+        "pct": 0.103,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xE626b86463071fc34395D8A7102D7282926006d4",
+        "balance": 26811750.24801149,
+        "pct": 0.1021,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa438820fAb02dfB8427127c4F4C2BfE5992c923b",
+        "balance": 25786295.562484,
+        "pct": 0.0982,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4C0387a6f4a04f1DF79CEac6720Aa469C94F6fbd",
+        "balance": 22773609.21,
+        "pct": 0.0867,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8691A488AE819A5Cb58e5Ae5fcB6fcA15095c2B3",
+        "balance": 20730943.85737385,
+        "pct": 0.0789,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x047c68a4833D0C531aB7A499e6a7c36CAAAc764f",
+        "balance": 20512475.834358785,
+        "pct": 0.0781,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf687525A0158E361c9cDe890BE462D1F6c10C126",
+        "balance": 20471576.23635011,
+        "pct": 0.0779,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x92A18049840346c0465dFfA484cF960725749426",
+        "balance": 20351698.595035836,
+        "pct": 0.0775,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xFE2CdCc332C43600c0527939880fe4F6702bf407",
+        "balance": 20343787.273518972,
+        "pct": 0.0774,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x69f59CB93B770c6cf659E1b41aca5A7c4357D4F8",
+        "balance": 20313499.564844355,
+        "pct": 0.0773,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xca3355BF6aFa1e07a2Dc4735ce5b7612D9FEc8fb",
+        "balance": 20236122.0,
+        "pct": 0.077,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4D41Eb0e0ae837bB15FEf5C05426bbde5fDD73ea",
+        "balance": 19946509.787396464,
+        "pct": 0.0759,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1F92829F41054e35A94012019b89db1ad73443F6",
+        "balance": 19750705.922522824,
+        "pct": 0.0752,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xaF095E93d683f3340e06cdd08C7236255E4FE639",
+        "balance": 19690655.300000384,
+        "pct": 0.075,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x73945167e057f952f1828d619f12de8D53b9C707",
+        "balance": 19455210.6,
+        "pct": 0.0741,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xFBeF3213d7014Bd4B915bC892AE5429CB60DdEa2",
+        "balance": 18108603.92762548,
+        "pct": 0.0689,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x19730C9b2cFF1B780FA286056C11363189a5b09b",
+        "balance": 17655688.0,
+        "pct": 0.0672,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7fC505fD6f8d42ed529892575f22BF60E69D35FE",
+        "balance": 17451658.601522505,
+        "pct": 0.0664,
+        "label": "TreasuryVault",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x1c4101E141E3835243Ba2Ad20A8ac2bc9753403f",
+        "balance": 17391884.000000093,
+        "pct": 0.0662,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d2C5101a2a84288826961A4aF9e71D254963335",
+        "balance": 16448151.65,
+        "pct": 0.0626,
+        "label": "PredictionsDynamicTreasuryV1",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x146F565189D5320284B859dEa550f3cE15D13b31",
+        "balance": 15907852.000000063,
+        "pct": 0.0606,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xDB3DED7731C781224EC292E2163D9554c094fD7c",
+        "balance": 15234910.60717,
+        "pct": 0.058,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x255347b5979708E1915eB389D2A558b9c7751573",
+        "balance": 14291839.0,
+        "pct": 0.0544,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1C767cB78ac1753424c147d7c9980155865ed906",
+        "balance": 14115555.0,
+        "pct": 0.0537,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xfC6a12Cf7B0aE41f3f2b16568dad7beb805DDC62",
+        "balance": 13085079.0,
+        "pct": 0.0498,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa2E43E6637beD6C544b2F621c839ADd3E553a7A0",
+        "balance": 12586657.0,
+        "pct": 0.0479,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xeb89d242030d824627575198048DDe1f5e43DE3F",
+        "balance": 12051426.79,
+        "pct": 0.0459,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xBb22cA5c256dd3f77A7fA7EE1940336220CcB617",
+        "balance": 11463036.0,
+        "pct": 0.0436,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x87e6Ca9f62830062D2CEaBe01788D782Fb62dd30",
+        "balance": 11440143.000000048,
+        "pct": 0.0436,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xdE81d9F7288Cb5FC31465Ffa90bA2B161EdE8AF3",
+        "balance": 11373595.232239185,
+        "pct": 0.0433,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x433260684d35025c3CDFaD8d397aA780533cE984",
+        "balance": 11191627.706307342,
+        "pct": 0.0426,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb8D6aA9992c6597308B53f1A1688E1Cde7275457",
+        "balance": 10907266.0,
+        "pct": 0.0415,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc23cAc52E8fF6c72916893989ab88B9A66f7ce10",
+        "balance": 10756336.08,
+        "pct": 0.0409,
+        "label": "TreasuryVault",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x90F1e44CD01F2209d4754B31a587b73215D65ECF",
+        "balance": 10640582.049229696,
+        "pct": 0.0405,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x1872d917267532f77cb8B63E611d90d4a5944688",
+        "balance": 10496721.800000072,
+        "pct": 0.04,
+        "label": "PredictionsV9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x6d5991572cC27d08F97E3422A801A78d9D6e30a1",
+        "balance": 10344269.74914732,
+        "pct": 0.0394,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8BD43717bB6D8098E07aD9E4256aED8159f840e9",
+        "balance": 10127754.457573166,
+        "pct": 0.0386,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x392ad69d492012819B0E721138a2e7Abc7e6448a",
+        "balance": 10077829.56,
+        "pct": 0.0384,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x362d8130826A13572cF52C4B8B1E196E66C39Ba9",
+        "balance": 10059945.873370811,
+        "pct": 0.0383,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x094F23d420768950fDb8fF4d0b91feB2aD846a38",
+        "balance": 10046761.763958652,
+        "pct": 0.0382,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x21BE76B0C42293d4155e2322013d02887f5161C9",
+        "balance": 10036100.0,
+        "pct": 0.0382,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x9499aE5e7FC4abEC3672C8Da53510CB0C0CECa60",
+        "balance": 10000000.0,
+        "pct": 0.0381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x87cA9BfdfB5b62e59eAB7357aE0BEFca12e5264A",
+        "balance": 10000000.0,
+        "pct": 0.0381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x825E71B802Fc44F4715e9CCdB0C87b6485704D80",
+        "balance": 10000000.0,
+        "pct": 0.0381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x804558B8E285DE7ADF4cDF2596F2A66C5FFB93cB",
+        "balance": 10000000.0,
+        "pct": 0.0381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x16D64E5449cdc8dC6CC12404C6b70794C46C659E",
+        "balance": 10000000.0,
+        "pct": 0.0381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x095fD78F4890B4E21209D46433b82596d30BbC85",
+        "balance": 10000000.0,
+        "pct": 0.0381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x027CB8C31fAd0277d7A6D5650e0F7F1E77dE28b1",
+        "balance": 10000000.0,
+        "pct": 0.0381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7A40Fb970D26c10cB6f25346847975D265197bf0",
+        "balance": 9986232.0,
+        "pct": 0.038,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x3124B4F99601BbB2973964B40870C5FD5A464daA",
+        "balance": 9849853.0,
+        "pct": 0.0375,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8eea033c6213D9f0531c6759c9ce38d98fBF6B11",
+        "balance": 9822644.15271,
+        "pct": 0.0374,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  },
+  "39611": {
+    "cmc_id": 39611,
+    "symbol": "MANTRA",
+    "source": "Blockscout MANTRA Mainnet (Nov 2026)",
+    "chain": "MANTRA Mainnet",
+    "holder_count": 19143,
+    "base_supply": 8411039667.959554,
+    "top10_pct": 53.418,
+    "top20_pct": 58.8773,
+    "top50_pct": 63.933,
+    "top100_pct": 65.203,
+    "wallets": [
+      {
+        "address": "0x0c7986c42b0B8AF527fC2485704529402b35b5Bd",
+        "balance": 1745430231.3711574,
+        "pct": 20.7517,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb217a14d9cbC757c4090eDA275Ca594e4A720B5f",
+        "balance": 918504224.9952581,
+        "pct": 10.9202,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe97b105b7FFcc089944ab5D6f6e5e8800D901D72",
+        "balance": 700469599.9899999,
+        "pct": 8.328,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x73753Bfe9Dd988dcf0DD770B87114E63289eA035",
+        "balance": 565269430.433296,
+        "pct": 6.7206,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8217b8c332251379FBf73a62f631836E0F3E01A1",
+        "balance": 164840328.7430175,
+        "pct": 1.9598,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x890bd9aB57d6e5C79b6BBf13e841B57139CC214b",
+        "balance": 101511956.00483198,
+        "pct": 1.2069,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x169dF11b68EEB30c7E0bc3CFc9510252805b66Fa",
+        "balance": 91060705.77749999,
+        "pct": 1.0826,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd37302104Fe1E47E484102D71e03F32574725cE4",
+        "balance": 72735225.937952,
+        "pct": 0.8648,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x247fb494aC6864102d478080538F4c577977A1E5",
+        "balance": 69061112.36693595,
+        "pct": 0.8211,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x9321142624Da8eef057aDa1b24E0802e3dbC785a",
+        "balance": 64115448.72183632,
+        "pct": 0.7623,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x106F940845Afe3B195D4d101A3d68e4e13fFEC6D",
+        "balance": 57673260.643764004,
+        "pct": 0.6857,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xE96Da6F80f6829Bde1599c722C76a0Aa78c2216b",
+        "balance": 56497923.74206801,
+        "pct": 0.6717,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xE382a04E8e4a68ada724F475e0d22B1EBeA25b61",
+        "balance": 55659460.596048295,
+        "pct": 0.6617,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x96B1F23f191680Ad1AE32B55C6979436074AF68c",
+        "balance": 48858027.97357674,
+        "pct": 0.5809,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xC2C3cA421F7Dc90D3f9647d850b85B02c90898a8",
+        "balance": 48399180.57276152,
+        "pct": 0.5754,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa520c86a08366941cd90d22e11ac1C7EEFa2Db37",
+        "balance": 44915114.50589021,
+        "pct": 0.534,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7F00ec6B446d9e1c33D0f71701FB695C73A7CB40",
+        "balance": 40829891.25646483,
+        "pct": 0.4854,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8cCB0b442737961017ad419826140F06585A477F",
+        "balance": 37957488.225657,
+        "pct": 0.4513,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xeBdcA23D4ccE361ba609eFF4f37065e699d00763",
+        "balance": 35420100.96785346,
+        "pct": 0.4211,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x02d580AaC46A11EaE87A7B289edE688B937b5e46",
+        "balance": 32976932.43911831,
+        "pct": 0.3921,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xE3047710EF6cB36Bcf1E58145529778eA7Cb5598",
+        "balance": 30876384.962433133,
+        "pct": 0.3671,
+        "label": "WMANTRA",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xF65fEa3066CBea83AD71FB2cc6EaD9F71208626D",
+        "balance": 30748224.690397836,
+        "pct": 0.3656,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xaA2B42b1D6Eae23F1A5918AA9B3301219b6E1322",
+        "balance": 30000098.50057755,
+        "pct": 0.3567,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0BE1D1AD4dD73A8B4a1e4C6e1593AB42E39b26D6",
+        "balance": 29967511.72079875,
+        "pct": 0.3563,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4Bb5190F3b20dFd7af4B4EE7F392eF33536d78A4",
+        "balance": 28689373.87990324,
+        "pct": 0.3411,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xfB19816e928Ff611240b84fC83529A9d69f84B6e",
+        "balance": 24470608.318042178,
+        "pct": 0.2909,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x9665Ff9c14Fc836A40Ad0e7BB318771B21D3A6C0",
+        "balance": 24420026.36672922,
+        "pct": 0.2903,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd4fB5222a35aeb33cBCA9d2BC2536C34fc979ffe",
+        "balance": 23371850.418324597,
+        "pct": 0.2779,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xD7E8082052e67a437542F1f39Cd23F6456Fb2491",
+        "balance": 22185334.90566511,
+        "pct": 0.2638,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xFA9797916Be0B3405Bc8103C7248619e922322b4",
+        "balance": 16388598.308532,
+        "pct": 0.1948,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x697C531db1581bB579EE02338b14988d2610B523",
+        "balance": 14329611.534532,
+        "pct": 0.1704,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6CACa1Cf1FbfF0fbdB3AF83e6EB22f6a3bd4fEbC",
+        "balance": 12904015.95535289,
+        "pct": 0.1534,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x003C189FEDB4Fa5D3F9F947bba377aCd823d9d91",
+        "balance": 11977864.441275,
+        "pct": 0.1424,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x01f85785072cdf09bb1dfdCffB4308BFc0dcfb25",
+        "balance": 11617111.622873094,
+        "pct": 0.1381,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x13CC9824bA84eb157422Dd679eC944743b1C4683",
+        "balance": 10224534.0763,
+        "pct": 0.1216,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc2EdD917c63480c121C2822A62E8c50E87B29E32",
+        "balance": 9999999.986312,
+        "pct": 0.1189,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x17293Cd6A5d112d8316d81cD1CfFc5b59Ce1B931",
+        "balance": 8953104.330252,
+        "pct": 0.1064,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xEeDeC88d764fb15115300AFa1E2B4E23dd1C6EBa",
+        "balance": 8830613.97022723,
+        "pct": 0.105,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6672F8B3801DE06E8FF044ED96294179b960E796",
+        "balance": 8407656.543448983,
+        "pct": 0.1,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6A3638865d16293c670F6C8aF496Cb09c6C1E55f",
+        "balance": 8056030.240475675,
+        "pct": 0.0958,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4bF9C91aCf96e46faAd9da3a6E90fC57B0c27a31",
+        "balance": 8000000.013528,
+        "pct": 0.0951,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb74BA3617fa0dE2DE644B9ed5B921b331dBD174E",
+        "balance": 7708950.085845024,
+        "pct": 0.0917,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xA27A865b45d9B790129C23A43c00186Ea420A256",
+        "balance": 7246653.035887763,
+        "pct": 0.0862,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2F9853ceD799874a9Ab4B8f1D44F8a18D58B127E",
+        "balance": 7128443.024347723,
+        "pct": 0.0848,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xEEA3ADDC84D56c3132E4C0aE7F4bb0a3040eF77d",
+        "balance": 5807432.84474888,
+        "pct": 0.069,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf8CC6472fd095FfE3287b926fD64297414B80033",
+        "balance": 5231519.88,
+        "pct": 0.0622,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xA28E499C6F27050fCE3Bc793dd915Bd064A1C77F",
+        "balance": 4612511.0882830005,
+        "pct": 0.0548,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5B8d76357B027d992674977E6536De7c89E0eC53",
+        "balance": 4604735.32,
+        "pct": 0.0547,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x22a5F82980305f6C8e8aF36ABDaec5251a7bbe4b",
+        "balance": 4256439.504472,
+        "pct": 0.0506,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc4530e07A863AaFC99f1B87d9ae458680b05D7F8",
+        "balance": 4216205.8251622,
+        "pct": 0.0501,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x949Ec3764CCb4786F6f1568Ab09a0e087dB1328F",
+        "balance": 3997910.742156,
+        "pct": 0.0475,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe7DAF48B5f23209076F4ec1f7ee07352af4F7938",
+        "balance": 3946798.01559537,
+        "pct": 0.0469,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x99aB1d1dB8438063c4C4a384C8a5110b0B13B2cd",
+        "balance": 3838774.885507977,
+        "pct": 0.0456,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd4f4160e069391c5224d5CC4Ab2e0b13c2e436C7",
+        "balance": 3686068.39,
+        "pct": 0.0438,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd646C05942d8f60fd8F8E3e64Ea911b0d8751302",
+        "balance": 3602005.8275531,
+        "pct": 0.0428,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x333f9f2A3Da690b6dC9cE381B331B012F95d3aA1",
+        "balance": 3587720.1724109,
+        "pct": 0.0427,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x3a3CfdD654D3597e38AFF195142caD490949c68f",
+        "balance": 3536833.533520108,
+        "pct": 0.042,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8c42E51F795dB665cD759133a38F13530E7e2DBE",
+        "balance": 3265746.126759978,
+        "pct": 0.0388,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xaF5cB14cc047D9E3Ca3DCF7e2DF6848A340ae3Be",
+        "balance": 3236425.5886999997,
+        "pct": 0.0385,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xDFE56C5B55D9c4d3F8Ca13AD1D00121A852CaeeB",
+        "balance": 2779255.8116200003,
+        "pct": 0.033,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7B5EB101a9Fde39F887BF25eD0d06447cb416c1E",
+        "balance": 2717127.4692447325,
+        "pct": 0.0323,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x02b9C5165De40FFa58e641AFEEE9bb3d9a45A773",
+        "balance": 2708574.909283414,
+        "pct": 0.0322,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x82381d6cf3740C56577C1f7EE93918E0c19e63E0",
+        "balance": 2691819.516284,
+        "pct": 0.032,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xf10a14715778fD33110ba73E3B1FFdD0e40A3ca8",
+        "balance": 2667272.6738146837,
+        "pct": 0.0317,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x06E53fB0a35136c19e31D4abAE9B8e04e8F42f84",
+        "balance": 2645450.7843193053,
+        "pct": 0.0315,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xA98245F33430EF1419095D3B06dd1e22e3a9F8D1",
+        "balance": 2499999.983576,
+        "pct": 0.0297,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xA2Fa585fE68d8CB9819625217e86bD15BC3Ab1cf",
+        "balance": 2363130.7933217837,
+        "pct": 0.0281,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe8f9913e182C597991985Efbc2359b28a8244735",
+        "balance": 2188261.623052,
+        "pct": 0.026,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe4615e1a4468030b16D3Da31F6D166ec3e61e9Da",
+        "balance": 2171541.29313045,
+        "pct": 0.0258,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x36fc0a999Ea71Ac0689A54b77bC9d2c5E701cBad",
+        "balance": 2166517.488064,
+        "pct": 0.0258,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xD5231383354Af2a4D8C7a65F4387df119FD52d03",
+        "balance": 2158169.91000924,
+        "pct": 0.0257,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xc1C9A77022693671de6da0D5248A6e7D6C5adC06",
+        "balance": 2085023.2622359847,
+        "pct": 0.0248,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x45CED5ca5adf15A89ae7f20c8557ff7B90F54f59",
+        "balance": 2000000.0000160001,
+        "pct": 0.0238,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x9a50d9B1b6391e09951467391301Fd0ced75b927",
+        "balance": 1961416.052416,
+        "pct": 0.0233,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x56C13fba86EFF47c2537BC5fb05F14dF4D70D723",
+        "balance": 1883802.717232368,
+        "pct": 0.0224,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xad2042b398d3fCe831290A4235129CE2344F6A88",
+        "balance": 1877840.10914,
+        "pct": 0.0223,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4a31d89BB01b763Ae2e1EF985a66b1f56226642C",
+        "balance": 1793743.059195282,
+        "pct": 0.0213,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7bc62614c36Dde157b3037D5eE7f2B06e4B8C2C6",
+        "balance": 1780942.455296,
+        "pct": 0.0212,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7b1c67E873Fe2bB965a87F94cE93aa8888537941",
+        "balance": 1757628.820016,
+        "pct": 0.0209,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xA48115d1501D32646dd2c668EA7DE4F1e48eEede",
+        "balance": 1750753.8535079998,
+        "pct": 0.0208,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa317b9166FbB4D9f504c8c42C8722d8BbC062418",
+        "balance": 1746591.920016,
+        "pct": 0.0208,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x89a382507274F6587FAF20eC3B1d0FA7c3eCc227",
+        "balance": 1702689.612437182,
+        "pct": 0.0202,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6Ac8C7E138D996b535156d727Cc3239744638858",
+        "balance": 1675707.7823279998,
+        "pct": 0.0199,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xB128D98100F82fC7Eb991801876E763eAF1fD389",
+        "balance": 1640879.5529474844,
+        "pct": 0.0195,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xC7ee3F348a1061aC6A5295fC3828965Ad815F315",
+        "balance": 1576705.615348,
+        "pct": 0.0187,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb414c2E3B3E79140A9Be5Ce1a3A5b17B3f450268",
+        "balance": 1428250.6539562086,
+        "pct": 0.017,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x4e4CdFc101C8eC32466F4ab2ACB0551209688A27",
+        "balance": 1410419.8085043528,
+        "pct": 0.0168,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x388aDAE27CF07b82A12244Df66cFc98b784Bd660",
+        "balance": 1395649.8,
+        "pct": 0.0166,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8515368bdb9Df17705f913b825878e97bcDefD67",
+        "balance": 1389389.3226038928,
+        "pct": 0.0165,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6387DCEf8548dC745fd8E1AcD40fbC7A108a1263",
+        "balance": 1377273.2293493876,
+        "pct": 0.0164,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xB5be12A1aa1d8E241D7CEde60139475c9aC03B34",
+        "balance": 1323894.8244848328,
+        "pct": 0.0157,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0Dc605eebfEA6CF4A92E3e2A09F2376A82823441",
+        "balance": 1309409.7457778354,
+        "pct": 0.0156,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5Bc8fe30837736451B231D5F8fBC0Db9CEe461bd",
+        "balance": 1292939.975776,
+        "pct": 0.0154,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x61Eb55B506328a50BA4d2801F7847353100bFD42",
+        "balance": 1253207.640016,
+        "pct": 0.0149,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x42934e5DEf785E2C3424f4883EE1c90eEc6c9539",
+        "balance": 1200024.885096,
+        "pct": 0.0143,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x8Fec13B1A1C22eA9880A3a3836C5488Fc9Cfddd5",
+        "balance": 1189060.017427,
+        "pct": 0.0141,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xbB9Eb0141c316cA514D0f10416B131beE919A192",
+        "balance": 1177203.982392,
+        "pct": 0.014,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0F5c8a3b61806e15ad910d49543799f1031963cD",
+        "balance": 1162146.0256000415,
+        "pct": 0.0138,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xF43F5E80ba5bcAf6239FcB64a59259f13fdB27dc",
+        "balance": 1142627.079025152,
+        "pct": 0.0136,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xfa06E909c62E71C6A8F982c68f7517f57C2e030d",
+        "balance": 1096857.087780608,
+        "pct": 0.013,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  },
+  "4558": {
+    "cmc_id": 4558,
+    "symbol": "FLOW",
+    "source": "Blockscout Flow EVM (Nov 2026)",
+    "chain": "Flow EVM",
+    "holder_count": 965392,
+    "base_supply": 1704402148.8011472,
+    "top10_pct": 6.716,
+    "top20_pct": 6.938,
+    "top50_pct": 7.049,
+    "top100_pct": 7.0909,
+    "wallets": [
+      {
+        "address": "0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e",
+        "balance": 75273580.54262133,
+        "pct": 4.4164,
+        "label": "WETH9",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x6441F49dDE491D830dd961aCA6fEA64108836071",
+        "balance": 21847893.716198765,
+        "pct": 1.2819,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0bee42AC1F4C29847aC019C8cbCAAfb149Ad072e",
+        "balance": 4881606.239894252,
+        "pct": 0.2864,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xD296588850beE2770136464FfDDDD78c32F2a07C",
+        "balance": 3049373.3137,
+        "pct": 0.1789,
+        "label": "FlowNativeOFTAdapter",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x2a298933703Bb23aAf4A6aad101743e330da2810",
+        "balance": 2077177.997036135,
+        "pct": 0.1219,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x19FA89711e59e45de0E31e5bDf722c5f7603a70a",
+        "balance": 1928584.2892761081,
+        "pct": 0.1132,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x6777C0Eb5f542448671A64B14eb63012ffA5cd3E",
+        "balance": 1629856.5165190143,
+        "pct": 0.0956,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002af0561Cff1036D45",
+        "balance": 1392894.31849586,
+        "pct": 0.0817,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xe8D042F72e812507caF6a101a7BbF51687c9D00D",
+        "balance": 1379845.5217597138,
+        "pct": 0.081,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xff06324b3567819B77735141eF7E061F2815477d",
+        "balance": 1006141.3574370766,
+        "pct": 0.059,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002080664d66F00a02C",
+        "balance": 770206.4526572999,
+        "pct": 0.0452,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x1AED86121d9abA85980C3E085Cc1b41195e5447a",
+        "balance": 639426.119935052,
+        "pct": 0.0375,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x04f9c518129E4D6Eb380c5cCC4cb1d876913D00F",
+        "balance": 546582.7440935312,
+        "pct": 0.0321,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002346465e234D58481",
+        "balance": 439000.0,
+        "pct": 0.0258,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x7d3f09E8209e4920dB6F37b4B49f91196AE462A1",
+        "balance": 362578.62,
+        "pct": 0.0213,
+        "label": "SafeProxy",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x31C798AC8159568D44c7F0C8678bF6FDC4cAF57C",
+        "balance": 299928.60868048086,
+        "pct": 0.0176,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2De46987DE7D975a955964E9f04e4207Dc8b5142",
+        "balance": 239527.5966054043,
+        "pct": 0.0141,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb910939c6EEc45B28d1F23A50C0B797E3A3bAb5a",
+        "balance": 191617.97185,
+        "pct": 0.0112,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000000000000000000000022ba47a07F5D1CD7d",
+        "balance": 151939.4921187514,
+        "pct": 0.0089,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xB8FF877ed78Ba520Ece21B1de7843A8a57cA47Cb",
+        "balance": 141111.251635186,
+        "pct": 0.0083,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002308897fa6FbE61AB",
+        "balance": 138002.79,
+        "pct": 0.0081,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xF505f3e1727b1c9443FD649C28E4BA66E8DeBF8c",
+        "balance": 137172.69234948416,
+        "pct": 0.008,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xC49e853a22Ed3d11A153A73cd896F8544156cBB6",
+        "balance": 134142.40902742997,
+        "pct": 0.0079,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x25e9adFE54c4D2aEeEE8f2d658d0c1FeB0658D76",
+        "balance": 133475.3865098537,
+        "pct": 0.0078,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe37f7c80ceD04c4F243C0Fd04A5510D663CB88b5",
+        "balance": 104415.61877573152,
+        "pct": 0.0061,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002b4C7594CB1B9e654",
+        "balance": 99841.3915613061,
+        "pct": 0.0059,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xBCCE08C0e9293E103010e51f82b23A1f3EDfb315",
+        "balance": 86557.09033009293,
+        "pct": 0.0051,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xFd1D36995d76c0F75bbe4637C84C06E4A68bBB3a",
+        "balance": 85007.72312691293,
+        "pct": 0.005,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x2a369e0a05F31Dff22d155aFDFeA8d2C96DB607D",
+        "balance": 81394.51718657045,
+        "pct": 0.0048,
+        "label": "GnosisSafeProxy",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xeFd2fd5c18093030E15a08fF8799BEC9c612Ec4f",
+        "balance": 75367.90532845701,
+        "pct": 0.0044,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xb8910C738CD3098D5806F18806b943C3944Bf386",
+        "balance": 68974.65284647244,
+        "pct": 0.004,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe93685f3bBA03016F02bD1828BaDD6195988D950",
+        "balance": 68355.06470680775,
+        "pct": 0.004,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x7AC035BEE6244354EcEd229c1f075F6c7a5d1D2C",
+        "balance": 56138.46237239605,
+        "pct": 0.0033,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000280CB5258462374A6",
+        "balance": 55001.00000000023,
+        "pct": 0.0032,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002bE03948954A8de7f",
+        "balance": 51209.000156892966,
+        "pct": 0.003,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xbAe52468730974F302Eb166505515D0F60FC8012",
+        "balance": 50214.898067007016,
+        "pct": 0.0029,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000235F48d21dc84fFcE",
+        "balance": 49927.167702370985,
+        "pct": 0.0029,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000000000000000000000027b59259d8B722D4a",
+        "balance": 43821.77209864267,
+        "pct": 0.0026,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000000000000000000000027ac50674A6b2418d",
+        "balance": 41054.23712171757,
+        "pct": 0.0024,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xAe75B438Be07C58c385fe01CBeD0961c8cCE946B",
+        "balance": 37820.93994272657,
+        "pct": 0.0022,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000a26b00c1F0DF003000390027140000fAa719",
+        "balance": 35040.477268824696,
+        "pct": 0.0021,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000000000000000000000023656D76B25D1a2B8",
+        "balance": 34584.82790107,
+        "pct": 0.002,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x69FBa07A47dbB40D4e6A7A769fF3B2b8F803dDe3",
+        "balance": 32086.67183420474,
+        "pct": 0.0019,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002D3ca23990f75F978",
+        "balance": 32081.64734666,
+        "pct": 0.0019,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x1736Ff121d01AAcE816a88Bb454934F324a207D2",
+        "balance": 30540.7,
+        "pct": 0.0018,
+        "label": "SafeProxy",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x441846f28cae7779B52236063Df966898D85Ac50",
+        "balance": 28382.88918,
+        "pct": 0.0017,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe1844c5D63a9543023008D332Bd3d2e6f1FE1043",
+        "balance": 27624.487190562006,
+        "pct": 0.0016,
+        "label": "SendUln302",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x4e8373Ec98FC4e4Ab208AEBF529edAf0A1087B63",
+        "balance": 25453.715611719676,
+        "pct": 0.0015,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002a11bc715362e77dE",
+        "balance": 24845.92535105693,
+        "pct": 0.0015,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002f677406485979458",
+        "balance": 24536.062372183806,
+        "pct": 0.0014,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002c2Ea274633d21bda",
+        "balance": 24440.800562840002,
+        "pct": 0.0014,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xb143F6cA55358Fac056eCa7aC1A228a1f018B048",
+        "balance": 23476.740258381753,
+        "pct": 0.0014,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xe7484862828F6a8DC4aa46c88168B62e39EF9BFb",
+        "balance": 22908.997480888593,
+        "pct": 0.0013,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x37CA0D3A681B925E44967df6F8BAF1a62F9aB55C",
+        "balance": 22762.513872948,
+        "pct": 0.0013,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000240E4E68bBD9368a1",
+        "balance": 21998.99523991,
+        "pct": 0.0013,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000000000000000000000023bB8E7F19B329F5a",
+        "balance": 21323.69352906,
+        "pct": 0.0013,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xf70da97812CB96acDF810712Aa562db8dfA3dbEF",
+        "balance": 21051.03702835112,
+        "pct": 0.0012,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002E8363489105Afd60",
+        "balance": 20620.46898151,
+        "pct": 0.0012,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x69f3a0df90eDBfA92a027F3d0d9e8C0a26A6Ba7A",
+        "balance": 19923.448002872567,
+        "pct": 0.0012,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x57F9672bA603251C9C03B36cabdBBcA7Ca8Cfcf4",
+        "balance": 19007.17951852311,
+        "pct": 0.0011,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xfD734fA1970f2750a4E54E4f12c54e670FdA80BA",
+        "balance": 18741.975978527265,
+        "pct": 0.0011,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002D68d0D1FFCC6fA08",
+        "balance": 18696.61737943,
+        "pct": 0.0011,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002C9008f5e18A9021a",
+        "balance": 17172.49798011234,
+        "pct": 0.001,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x4cD00E387622C35bDDB9b4c962C136462338BC31",
+        "balance": 17100.767760275234,
+        "pct": 0.001,
+        "label": "RelayDepository",
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xa47a2a7b5c425cFb95892234863F3E3F7B7F5eFf",
+        "balance": 17081.098137892328,
+        "pct": 0.001,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa6121927f70B86C3D1879ee9DaFCFB44a1c924f5",
+        "balance": 16850.99440643957,
+        "pct": 0.001,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xE429917Ba9Ff6039D5e4C6002daC4C5Bc0850b91",
+        "balance": 16515.0,
+        "pct": 0.001,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000279066451ea322e88",
+        "balance": 15699.999999999998,
+        "pct": 0.0009,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000000000000000000000027b29fc1075C7d7B1",
+        "balance": 14900.93051887,
+        "pct": 0.0009,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x126eeFa566ABF5aC3EfDAeF52d79E962CFFdB448",
+        "balance": 14821.835116137061,
+        "pct": 0.0009,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002a1BC763196d1A839",
+        "balance": 14534.000000006643,
+        "pct": 0.0009,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x350725934b52Ea3c4E7d21Eed0B9E5cc2e19Ef0B",
+        "balance": 14089.5099694612,
+        "pct": 0.0008,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xa55288B627c9c7F9DAbF421c31b3563e38A7fE48",
+        "balance": 13919.0835,
+        "pct": 0.0008,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000206482b8018a1ca0a",
+        "balance": 13699.73595886,
+        "pct": 0.0008,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002807054f6c268494a",
+        "balance": 13584.50168114,
+        "pct": 0.0008,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xB8ffB182038836666f1FC350B943C6b2CDaF4193",
+        "balance": 13480.028817074,
+        "pct": 0.0008,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0d345dBA42c74c1009A853EFCC51c677706f00ec",
+        "balance": 12434.049368529999,
+        "pct": 0.0007,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x362320f3A3eEeB4C4699B1B9062A84B2612bCdbA",
+        "balance": 11752.837438407874,
+        "pct": 0.0007,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000231B247398daf9185",
+        "balance": 11322.04102205,
+        "pct": 0.0007,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xA4c598f020D7996250635f302dad4d1F313E813d",
+        "balance": 11259.885312518845,
+        "pct": 0.0007,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xd6949BB9C896566331A00e0f9a433Ae9dE88E13D",
+        "balance": 11032.80623297019,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x339d413CCEfD986b1B3647A9cfa9CBbE70A30749",
+        "balance": 10889.916200228101,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xD68Dc64aA45bf9D8f637b9A33Dd16921d167c234",
+        "balance": 10857.821406945588,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x91820B66d31C6780C87457Ff94B0F9dc85Bd3333",
+        "balance": 10684.36709789101,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x000000000000000000000002F4EB1053fD9874f3",
+        "balance": 10658.69747361,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x2DBaE3a46048b35514944cF6118E32b1d7e1A36a",
+        "balance": 10361.682171168071,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xB68f8595F3dB7e5FB10814028B3D4f992Be67149",
+        "balance": 10260.999660555732,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0000000000000000000000025a9243de77018D95",
+        "balance": 10137.091884626303,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xe1eA6F2365215389f9DCd50a51c974313BF6785C",
+        "balance": 10129.173536225879,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xCFf47b4846F65C84f621555B4b90dC74B0c7b8e5",
+        "balance": 10113.359804783819,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0D359d12f7420465838aff4E622b4477fb0104a6",
+        "balance": 10049.5,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x0060CAC5C52bCd21446a677e02f02a6e85aE9535",
+        "balance": 10030.970983639098,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x57698AC3e0162d711E4913cd7032bb23DB17e085",
+        "balance": 10001.762729127115,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xE6107D17fB798Ab34e34012764d808E2EBe9ff82",
+        "balance": 9998.655049919944,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000218640166430f91e4",
+        "balance": 9992.849217223105,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xec253d0D97DC802Fc7CEbeF96328Af90C0deab62",
+        "balance": 9572.38187222,
+        "pct": 0.0006,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xcf50355eDba8EA55838b6732247fEF5489063E95",
+        "balance": 9062.160181185429,
+        "pct": 0.0005,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x00000000000000000000000209df72BcBBa83494",
+        "balance": 8956.14607637,
+        "pct": 0.0005,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0x5e1e46AF557Ea84E8ccaEaFc579DB2d918710E98",
+        "balance": 8824.33617476763,
+        "pct": 0.0005,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xD782799AE93B1FE911e1F79D5b9F713B467D93A8",
+        "balance": 8820.92578419,
+        "pct": 0.0005,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  }
+}

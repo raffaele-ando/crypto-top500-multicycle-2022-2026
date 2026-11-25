@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-11-24T15:43:35.736559",
+  "documents": [
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento.md",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\classifica_500_per_rendimento.md"
+  ],
+  "overall_pass": true,
+  "source_checks": {
+    "ranking_json@classifica_500_per_rendimento.md": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.json",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\classifica_500_per_rendimento.md",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    },
+    "ranking_csv@classifica_500_per_rendimento.md": {
+      "source_path": "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.csv",
+      "document": "C:\\Users\\Administrator\\.gemini\\antigravity\\brain\\ef94cd2a-0982-41cb-9b2e-62eba3745324\\classifica_500_per_rendimento.md",
+      "expected": 500,
+      "found": 500,
+      "coverage_pct": 100.0,
+      "pass": true,
+      "missing_count": 0,
+      "missing_sample": []
+    }
+  },
+  "proof_file_checks": {
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.json": true,
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\classifica_500_per_rendimento_desc.csv": true
+  },
+  "lexical_checks": {
+    "classifica_500_per_rendimento.md": {
+      "pass": true,
+      "violations_count": 0,
+      "violations": []
+    }
+  },
+  "violations": []
+}

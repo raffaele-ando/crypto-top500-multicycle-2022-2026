@@ -1,0 +1,349 @@
+{
+  "invested_eur": 2500.0,
+  "fx_eur_usd_jul1": 1.141311,
+  "fx_eur_usd_oct1": 1.132697,
+  "fx_impact_on_eur_investor_pct": 0.7606,
+  "real_eur_conservative_isikc0": {
+    "final_eur": 3305.22,
+    "profit_eur": 805.22,
+    "return_pct": 32.21,
+    "winners": 359,
+    "losers": 141,
+    "median_ticket_eur": 6.22,
+    "mean_ticket_eur": 6.61
+  },
+  "real_eur_lastprice_isikc": {
+    "final_eur": 3310.27,
+    "profit_eur": 810.27,
+    "return_pct": 32.41
+  },
+  "const_fx_usd_conservative_isikc0": {
+    "final_eur": 3280.27,
+    "profit_eur": 780.27,
+    "return_pct": 31.21,
+    "winners": 356,
+    "losers": 144,
+    "median_ticket_eur": 6.17,
+    "mean_ticket_eur": 6.56
+  },
+  "const_fx_usd_lastprice_isikc": {
+    "final_eur": 3285.28,
+    "profit_eur": 785.28,
+    "return_pct": 31.41
+  },
+  "ex_btw_499_coins_real_eur": {
+    "invested_eur": 2495.0,
+    "final_eur": 3199.12,
+    "profit_eur": 704.12,
+    "return_pct": 28.22
+  },
+  "ex_btw_499_coins_const_fx": {
+    "invested_eur": 2495.0,
+    "final_eur": 3174.97,
+    "profit_eur": 679.97,
+    "return_pct": 27.25
+  },
+  "tier_breakdown": [
+    {
+      "tier": "#001-#010",
+      "count": 10,
+      "invested_eur": 50.0,
+      "final_eur_real_fx": 65.28,
+      "pnl_eur_real_fx": 15.28,
+      "pct_eur_real_fx": 30.55,
+      "final_eur_const_fx": 64.78,
+      "pnl_eur_const_fx": 14.78,
+      "pct_usd": 29.57
+    },
+    {
+      "tier": "#011-#050",
+      "count": 40,
+      "invested_eur": 200.0,
+      "final_eur_real_fx": 280.7,
+      "pnl_eur_real_fx": 80.7,
+      "pct_eur_real_fx": 40.35,
+      "final_eur_const_fx": 278.58,
+      "pnl_eur_const_fx": 78.58,
+      "pct_usd": 39.29
+    },
+    {
+      "tier": "#051-#100",
+      "count": 50,
+      "invested_eur": 250.0,
+      "final_eur_real_fx": 398.97,
+      "pnl_eur_real_fx": 148.97,
+      "pct_eur_real_fx": 59.59,
+      "final_eur_const_fx": 395.96,
+      "pnl_eur_const_fx": 145.96,
+      "pct_usd": 58.38
+    },
+    {
+      "tier": "#101-#250",
+      "count": 150,
+      "invested_eur": 750.0,
+      "final_eur_real_fx": 1018.82,
+      "pnl_eur_real_fx": 268.82,
+      "pct_eur_real_fx": 35.84,
+      "final_eur_const_fx": 1011.13,
+      "pnl_eur_const_fx": 261.13,
+      "pct_usd": 34.82
+    },
+    {
+      "tier": "#251-#500",
+      "count": 250,
+      "invested_eur": 1250.0,
+      "final_eur_real_fx": 1541.45,
+      "pnl_eur_real_fx": 291.45,
+      "pct_eur_real_fx": 23.32,
+      "final_eur_const_fx": 1529.81,
+      "pnl_eur_const_fx": 279.81,
+      "pct_usd": 22.38
+    }
+  ],
+  "benchmarks_2500eur": {
+    "BTC": {
+      "final_eur_real_fx": 3562.21,
+      "pnl_eur_real_fx": 1062.21,
+      "pct_eur_real_fx": 42.49,
+      "final_eur_const_fx": 3535.32,
+      "pnl_eur_const_fx": 1035.32,
+      "pct_usd": 41.41
+    },
+    "ETH": {
+      "final_eur_real_fx": 4235.83,
+      "pnl_eur_real_fx": 1735.83,
+      "pct_eur_real_fx": 69.43,
+      "final_eur_const_fx": 4203.86,
+      "pnl_eur_const_fx": 1703.86,
+      "pct_usd": 68.15
+    },
+    "SOL": {
+      "final_eur_real_fx": 3854.12,
+      "pnl_eur_real_fx": 1354.12,
+      "pct_eur_real_fx": 54.16,
+      "final_eur_const_fx": 3825.02,
+      "pnl_eur_const_fx": 1325.02,
+      "pct_usd": 53.0
+    },
+    "BNB": {
+      "final_eur_real_fx": 3531.34,
+      "pnl_eur_real_fx": 1031.34,
+      "pct_eur_real_fx": 41.25,
+      "final_eur_const_fx": 3504.69,
+      "pnl_eur_const_fx": 1004.69,
+      "pct_usd": 40.19
+    },
+    "XRP": {
+      "final_eur_real_fx": 3576.97,
+      "pnl_eur_real_fx": 1076.97,
+      "pct_eur_real_fx": 43.08,
+      "final_eur_const_fx": 3549.97,
+      "pnl_eur_const_fx": 1049.97,
+      "pct_usd": 42.0
+    }
+  },
+  "top10_best_tickets": [
+    {
+      "rank": 143,
+      "name": "Bitway",
+      "symbol": "BTW",
+      "val_real_eur": 106.1,
+      "pnl_real_eur": 101.1,
+      "pct_real_eur": 2021.9,
+      "val_const_eur": 105.29,
+      "pct_usd": 2005.88
+    },
+    {
+      "rank": 325,
+      "name": "Bedrock",
+      "symbol": "BR",
+      "val_real_eur": 25.49,
+      "pnl_real_eur": 20.49,
+      "pct_real_eur": 409.79,
+      "val_const_eur": 25.3,
+      "pct_usd": 405.94
+    },
+    {
+      "rank": 388,
+      "name": "Non-Playable Coin",
+      "symbol": "NPC",
+      "val_real_eur": 24.59,
+      "pnl_real_eur": 19.59,
+      "pct_real_eur": 391.77,
+      "val_const_eur": 24.4,
+      "pct_usd": 388.06
+    },
+    {
+      "rank": 67,
+      "name": "Pump.fun",
+      "symbol": "PUMP",
+      "val_real_eur": 21.23,
+      "pnl_real_eur": 16.23,
+      "pct_real_eur": 324.64,
+      "val_const_eur": 21.07,
+      "pct_usd": 321.43
+    },
+    {
+      "rank": 284,
+      "name": "Mina",
+      "symbol": "MINA",
+      "val_real_eur": 19.06,
+      "pnl_real_eur": 14.06,
+      "pct_real_eur": 281.23,
+      "val_const_eur": 18.92,
+      "pct_usd": 278.35
+    },
+    {
+      "rank": 209,
+      "name": "Derive",
+      "symbol": "DRV",
+      "val_real_eur": 18.53,
+      "pnl_real_eur": 13.53,
+      "pct_real_eur": 270.69,
+      "val_const_eur": 18.39,
+      "pct_usd": 267.89
+    },
+    {
+      "rank": 51,
+      "name": "Quant",
+      "symbol": "QNT",
+      "val_real_eur": 18.43,
+      "pnl_real_eur": 13.43,
+      "pct_real_eur": 268.58,
+      "val_const_eur": 18.29,
+      "pct_usd": 265.8
+    },
+    {
+      "rank": 62,
+      "name": "Ethena",
+      "symbol": "ENA",
+      "val_real_eur": 17.19,
+      "pnl_real_eur": 12.19,
+      "pct_real_eur": 243.86,
+      "val_const_eur": 17.06,
+      "pct_usd": 241.26
+    },
+    {
+      "rank": 30,
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "val_real_eur": 16.22,
+      "pnl_real_eur": 11.22,
+      "pct_real_eur": 224.41,
+      "val_const_eur": 16.1,
+      "pct_usd": 221.96
+    },
+    {
+      "rank": 11,
+      "name": "Zcash",
+      "symbol": "ZEC",
+      "val_real_eur": 16.13,
+      "pnl_real_eur": 11.13,
+      "pct_real_eur": 222.54,
+      "val_const_eur": 16.01,
+      "pct_usd": 220.1
+    }
+  ],
+  "top10_worst_tickets": [
+    {
+      "rank": 467,
+      "name": "Isiklar Coin",
+      "symbol": "ISIKC",
+      "val_real_eur": 0.0,
+      "pnl_real_eur": -5.0,
+      "pct_real_eur": -100.0,
+      "val_const_eur": 0.0,
+      "pct_usd": -100.0
+    },
+    {
+      "rank": 124,
+      "name": "Union",
+      "symbol": "U",
+      "val_real_eur": 0.01,
+      "pnl_real_eur": -4.99,
+      "pct_real_eur": -99.72,
+      "val_const_eur": 0.01,
+      "pct_usd": -99.72
+    },
+    {
+      "rank": 23,
+      "name": "LAB",
+      "symbol": "LAB",
+      "val_real_eur": 0.03,
+      "pnl_real_eur": -4.97,
+      "pct_real_eur": -99.4,
+      "val_const_eur": 0.03,
+      "pct_usd": -99.41
+    },
+    {
+      "rank": 48,
+      "name": "Audiera",
+      "symbol": "BEAT",
+      "val_real_eur": 0.16,
+      "pnl_real_eur": -4.84,
+      "pct_real_eur": -96.8,
+      "val_const_eur": 0.16,
+      "pct_usd": -96.83
+    },
+    {
+      "rank": 63,
+      "name": "Velvet",
+      "symbol": "VELVET",
+      "val_real_eur": 0.2,
+      "pnl_real_eur": -4.8,
+      "pct_real_eur": -96.02,
+      "val_const_eur": 0.2,
+      "pct_usd": -96.05
+    },
+    {
+      "rank": 121,
+      "name": "TAC Protocol",
+      "symbol": "TAC",
+      "val_real_eur": 0.2,
+      "pnl_real_eur": -4.8,
+      "pct_real_eur": -95.99,
+      "val_const_eur": 0.2,
+      "pct_usd": -96.02
+    },
+    {
+      "rank": 28,
+      "name": "DeXe",
+      "symbol": "DEXE",
+      "val_real_eur": 0.42,
+      "pnl_real_eur": -4.58,
+      "pct_real_eur": -91.68,
+      "val_const_eur": 0.41,
+      "pct_usd": -91.75
+    },
+    {
+      "rank": 207,
+      "name": "RealLink",
+      "symbol": "REAL",
+      "val_real_eur": 0.42,
+      "pnl_real_eur": -4.58,
+      "pct_real_eur": -91.63,
+      "val_const_eur": 0.42,
+      "pct_usd": -91.7
+    },
+    {
+      "rank": 165,
+      "name": "Undeads Games",
+      "symbol": "UDS",
+      "val_real_eur": 0.49,
+      "pnl_real_eur": -4.51,
+      "pct_real_eur": -90.15,
+      "val_const_eur": 0.49,
+      "pct_usd": -90.23
+    },
+    {
+      "rank": 158,
+      "name": "Solstice",
+      "symbol": "SLX",
+      "val_real_eur": 0.64,
+      "pnl_real_eur": -4.36,
+      "pct_real_eur": -87.18,
+      "val_const_eur": 0.64,
+      "pct_usd": -87.28
+    }
+  ]
+}

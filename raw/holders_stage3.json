@@ -1,0 +1,412 @@
+{
+  "32966": {
+    "source": "TonAPI TON (Nov 2026)",
+    "chain": "TON",
+    "updatedate": "2026-11-24",
+    "holderCount": 1630002,
+    "top10_pct": 75.19,
+    "top20_pct": 93.21,
+    "top50_pct": 97.78,
+    "top100_pct": 98.55
+  },
+  "28850": {
+    "source": "TonAPI TON (Nov 2026)",
+    "chain": "TON",
+    "updatedate": "2026-11-24",
+    "holderCount": 2855228,
+    "top10_pct": 46.71,
+    "top20_pct": 57.05,
+    "top50_pct": 67.02,
+    "top100_pct": 71.84
+  },
+  "29270": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 18268,
+    "top10_pct": 81.26,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "30605": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 256836,
+    "top10_pct": 98.74,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "40047": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 33255,
+    "top10_pct": 70.21,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "36743": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 80006,
+    "top10_pct": 24.51,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "34958": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 62232,
+    "top10_pct": 87.18,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "36044": {
+    "source": "GoPlus Avalanche C-Chain (Nov 2026)",
+    "chain": "Avalanche C-Chain",
+    "updatedate": "2026-11-24",
+    "holderCount": 54674,
+    "top10_pct": 90.04,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "38841": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 6377,
+    "top10_pct": 83.99,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "36804": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 10136,
+    "top10_pct": 97.87,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "29743": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 909990,
+    "top10_pct": 33.25,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "36195": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 162793,
+    "top10_pct": 56.89,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "38908": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 3234,
+    "top10_pct": 93.42,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "32452": {
+    "source": "GoPlus Ethereum (Nov 2026)",
+    "chain": "Ethereum",
+    "updatedate": "2026-11-24",
+    "holderCount": 39193,
+    "top10_pct": 83.99,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "39883": {
+    "source": "GoPlus Ethereum (Nov 2026)",
+    "chain": "Ethereum",
+    "updatedate": "2026-11-24",
+    "holderCount": 4662,
+    "top10_pct": 83.69,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "39548": {
+    "source": "GoPlus Arbitrum (Nov 2026)",
+    "chain": "Arbitrum",
+    "updatedate": "2026-11-24",
+    "holderCount": 3790,
+    "top10_pct": 99.72,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "12894": {
+    "source": "GoPlus Arbitrum (Nov 2026)",
+    "chain": "Arbitrum",
+    "updatedate": "2026-11-24",
+    "holderCount": 17132,
+    "top10_pct": 46.71,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "39172": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 10101,
+    "top10_pct": 80.66,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "37534": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 7274,
+    "top10_pct": 96.39,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "36296": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 73687,
+    "top10_pct": 94.91,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "30712": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 18080,
+    "top10_pct": 54.15,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "38470": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 22024,
+    "top10_pct": 92.36,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "39800": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 6331,
+    "top10_pct": 91.21,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "37562": {
+    "source": "GoPlus BNB Smart Chain (BEP20) (Nov 2026)",
+    "chain": "BNB Smart Chain (BEP20)",
+    "updatedate": "2026-11-24",
+    "holderCount": 59655,
+    "top10_pct": 91.02,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "36539": {
+    "source": "GoPlus Base (Nov 2026)",
+    "chain": "Base",
+    "updatedate": "2026-11-24",
+    "holderCount": 9736,
+    "top10_pct": 84.39,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null
+  },
+  "1027": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 390602961,
+    "top10_pct": 61.02,
+    "top20_pct": 63.67,
+    "top50_pct": 68.61,
+    "top100_pct": 72.96
+  },
+  "5426": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 9154449,
+    "top10_pct": 6.58,
+    "top20_pct": 11.03,
+    "top50_pct": 17.52,
+    "top100_pct": 22.76
+  },
+  "11419": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 6972888,
+    "top10_pct": 60.76,
+    "top20_pct": 69.47,
+    "top50_pct": 83.76,
+    "top100_pct": 89.96
+  },
+  "5805": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 54685,
+    "top10_pct": 2.0,
+    "top20_pct": 2.9,
+    "top50_pct": 4.66,
+    "top100_pct": 5.66
+  },
+  "3635": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 1346129,
+    "top10_pct": 4.0,
+    "top20_pct": 4.17,
+    "top50_pct": 4.29,
+    "top100_pct": 4.38
+  },
+  "3897": {
+    "source": "CoinCarp Richlist (Ethereum)",
+    "chain": "Ethereum",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 18697,
+    "top10_pct": 67.45,
+    "top20_pct": 67.45,
+    "top50_pct": 67.45,
+    "top100_pct": 67.45
+  },
+  "20396": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 528799,
+    "top10_pct": 16.58,
+    "top20_pct": 22.11,
+    "top50_pct": 29.27,
+    "top100_pct": 35.48
+  },
+  "3794": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 3925449,
+    "top10_pct": 27.58,
+    "top20_pct": 37.33,
+    "top50_pct": 46.99,
+    "top100_pct": 57.72
+  },
+  "2634": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 2448108,
+    "top10_pct": 29.13,
+    "top20_pct": 30.88,
+    "top50_pct": 32.17,
+    "top100_pct": 32.17
+  },
+  "21794": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 6370406,
+    "top10_pct": 9.68,
+    "top20_pct": 11.8,
+    "top50_pct": 13.12,
+    "top100_pct": 13.77
+  },
+  "3077": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 0,
+    "top10_pct": 41.43,
+    "top20_pct": 50.27,
+    "top50_pct": 59.83,
+    "top100_pct": 64.6
+  },
+  "1684": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 221,
+    "top10_pct": 71.81,
+    "top20_pct": 79.63,
+    "top50_pct": 91.13,
+    "top100_pct": 97.38
+  },
+  "25028": {
+    "source": "CoinCarp Richlist (Ordinals)",
+    "chain": "Ordinals",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 22147,
+    "top10_pct": 71.07,
+    "top20_pct": 76.63,
+    "top50_pct": 84.15,
+    "top100_pct": 87.65
+  },
+  "2566": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 173005,
+    "top10_pct": 69.08,
+    "top20_pct": 82.46,
+    "top50_pct": 93.82,
+    "top100_pct": 97.11
+  },
+  "23254": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 62309766,
+    "top10_pct": 90.0,
+    "top20_pct": 95.09,
+    "top50_pct": 97.88,
+    "top100_pct": 98.32
+  },
+  "2405": {
+    "source": "CoinCarp Richlist (MainNet)",
+    "chain": "MainNet",
+    "updatedate": "CoinCarp Snapshot",
+    "holderCount": 1269782,
+    "top10_pct": 26.57,
+    "top20_pct": 30.25,
+    "top50_pct": 34.07,
+    "top100_pct": 35.31
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "target": "Clean Pure Crypto Top 500 (Points 1-3 Removed)",
+  "timestamp": "2026-11-24T12:31:51.453708+00:00",
+  "expected_counts": {
+    "clean500_cryptos": 500
+  },
+  "sources": [
+    "clean500_json=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.json:cryptocurrencies:forensic_id",
+    "clean500_csv=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.csv::forensic_id"
+  ],
+  "required_files": [
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\clean500_crypto_2026-07-01_vs_2026-10-01.csv",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\excluded_274_assets_clean500.csv",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\dashboard_pure500_crypto_2026.html"
+  ]
+}

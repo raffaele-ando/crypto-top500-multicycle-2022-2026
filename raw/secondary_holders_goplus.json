@@ -1,0 +1,210 @@
+{
+  "2": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x4338665cbb7b2485a8855a139b75d5e34ab0db94",
+    "holderCount": 115659,
+    "top10_pct": 66.05,
+    "top_holders_sample": 10
+  },
+  "38341": {
+    "source": "GoPlus (Arbitrum)",
+    "chain": "Arbitrum",
+    "contract": "0x25118290e6A5f4139381D072181157035864099d",
+    "holderCount": 177693,
+    "top10_pct": 86.12,
+    "top_holders_sample": 10
+  },
+  "2010": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+    "holderCount": 614896,
+    "top10_pct": 57.45,
+    "top_holders_sample": 10
+  },
+  "33223": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x7ec43Cf65F1663F820427C62A5780b8f2E25593A",
+    "holderCount": 34603,
+    "top10_pct": 64.37,
+    "top_holders_sample": 10
+  },
+  "20947": {
+    "source": "GoPlus (Sui Network)",
+    "chain": "Sui Network",
+    "contract": "0x2::sui::SUI",
+    "holderCount": 27369935,
+    "top10_pct": 8.49,
+    "top_holders_sample": 10
+  },
+  "52": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+    "holderCount": 560193,
+    "top10_pct": 65.21,
+    "top_holders_sample": 10
+  },
+  "36341": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x000Ae314E2A2172a039B26378814C252734f556A",
+    "holderCount": 259828,
+    "top10_pct": 94.3,
+    "top_holders_sample": 10
+  },
+  "5805": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
+    "holderCount": 141136,
+    "top10_pct": 28.56,
+    "top_holders_sample": 10
+  },
+  "1839": {
+    "source": "GoPlus (Ethereum)",
+    "chain": "Ethereum",
+    "contract": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+    "holderCount": 339225,
+    "top10_pct": 57.95,
+    "top_holders_sample": 10
+  },
+  "33391": {
+    "source": "GoPlus (Sui Network)",
+    "chain": "Sui Network",
+    "contract": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+    "holderCount": 95645,
+    "top10_pct": 57.08,
+    "top_holders_sample": 10
+  },
+  "1027": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+    "holderCount": 2552288,
+    "top10_pct": 56.37,
+    "top_holders_sample": 10
+  },
+  "39121": {
+    "source": "GoPlus (Sui Network)",
+    "chain": "Sui Network",
+    "contract": "0x9f854b3ad20f8161ec0886f15f4a1752bf75d22261556f14cc8d3a1c5d50e529::magma::MAGMA",
+    "holderCount": 18017,
+    "top10_pct": 83.2,
+    "top_holders_sample": 10
+  },
+  "36119": {
+    "source": "GoPlus (Sui Network)",
+    "chain": "Sui Network",
+    "contract": "0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL",
+    "holderCount": 149722,
+    "top10_pct": 54.62,
+    "top_holders_sample": 10
+  },
+  "39682": {
+    "source": "GoPlus (Base)",
+    "chain": "Base",
+    "contract": "0x8B7DdE054BE9D180c1Be7FaE0874697374A49832",
+    "holderCount": 4311,
+    "top10_pct": 89.53,
+    "top_holders_sample": 10
+  },
+  "35269": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0xf0ebb572643336834d516c485ad31d3299999999",
+    "holderCount": 384521,
+    "top10_pct": 8.91,
+    "top_holders_sample": 10
+  },
+  "29835": {
+    "source": "GoPlus (Solana)",
+    "chain": "Solana",
+    "contract": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+    "holderCount": 86287,
+    "top10_pct": 58.49,
+    "top_holders_sample": 10
+  },
+  "38309": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x1a5D7E4c3A7F940B240b7357a4bFED30D17f9497",
+    "holderCount": 9710,
+    "top10_pct": 93.59,
+    "top_holders_sample": 10
+  },
+  "38178": {
+    "source": "GoPlus (Sui Network)",
+    "chain": "Sui Network",
+    "contract": "0x0a48f85a3905cfa49a652bdb074d9e9fabad27892d54afaa5c9e0adeb7ac3cdf::swarm_network_token::SWARM_NETWORK_TOKEN",
+    "holderCount": 1592,
+    "top10_pct": 85.66,
+    "top_holders_sample": 10
+  },
+  "36352": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x783c3f003f172c6Ac5AC700218a357d2D66Ee2a2",
+    "holderCount": 33400,
+    "top10_pct": 85.09,
+    "top_holders_sample": 10
+  },
+  "38554": {
+    "source": "GoPlus (Base)",
+    "chain": "Base",
+    "contract": "0xF3d5b4c34Ed623478cc5141861776E6cf7AE3A1E",
+    "holderCount": 109,
+    "top10_pct": 99.95,
+    "top_holders_sample": 10
+  },
+  "31528": {
+    "source": "GoPlus (Solana)",
+    "chain": "Solana",
+    "contract": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+    "holderCount": 80388,
+    "top10_pct": 82.15,
+    "top_holders_sample": 10
+  },
+  "39665": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x000008D2175F9AEAdDb2430c26f8A6f73c5A0000",
+    "holderCount": 10748,
+    "top10_pct": 97.67,
+    "top_holders_sample": 10
+  },
+  "38231": {
+    "source": "GoPlus (Sui Network)",
+    "chain": "Sui Network",
+    "contract": "0x35169bc93e1fddfcf3a82a9eae726d349689ed59e4b065369af8789fe59f8608::mmt::MMT",
+    "holderCount": 29148,
+    "top10_pct": 60.22,
+    "top_holders_sample": 10
+  },
+  "39812": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
+    "holderCount": 36070,
+    "top10_pct": 80.65,
+    "top_holders_sample": 10
+  },
+  "35766": {
+    "source": "GoPlus (BNB Smart Chain (BEP20))",
+    "chain": "BNB Smart Chain (BEP20)",
+    "contract": "0x997a58129890bbda032231a52ed1ddc845fc18e1",
+    "holderCount": 96294,
+    "top10_pct": 84.07,
+    "top_holders_sample": 10
+  },
+  "38869": {
+    "source": "GoPlus (Sui Network)",
+    "chain": "Sui Network",
+    "contract": "0xee962a61432231c2ede6946515beb02290cb516ad087bb06a731e922b2a5f57a::us::US",
+    "holderCount": 2436,
+    "top10_pct": 73.16,
+    "top_holders_sample": 10
+  }
+}

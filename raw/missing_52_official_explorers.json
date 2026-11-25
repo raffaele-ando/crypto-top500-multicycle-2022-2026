@@ -1,0 +1,649 @@
+{
+  "512": {
+    "symbol": "XLM",
+    "name": "Stellar",
+    "slug": "stellar",
+    "explorers": [
+      "https://dashboard.stellar.org/",
+      "https://stellar.expert/explorer/public/",
+      "https://steexp.com/",
+      "https://blockchair.com/stellar"
+    ],
+    "websites": [
+      "https://www.stellar.org"
+    ]
+  },
+  "6535": {
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "slug": "near-protocol",
+    "explorers": [
+      "https://nearblocks.io/",
+      "https://getblock.io/explorers/near/"
+    ],
+    "websites": [
+      "https://near.org/"
+    ]
+  },
+  "22974": {
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "slug": "bittensor",
+    "explorers": [
+      "https://taostats.io/",
+      "https://explorer.bittensor.ai/",
+      "https://bittensor.ai/chain",
+      "https://basescan.org/token/0xf3081494b87e8d5fb7960f066e931d1d0e6e3d67",
+      "https://solscan.io/token/taoC6xyv2v8tDLcev4uaGUgV4vdQsWJrGft2kcBRrBY"
+    ],
+    "websites": [
+      "https://bittensor.com",
+      "https://docs.bittensor.com/"
+    ]
+  },
+  "35491": {
+    "symbol": "M",
+    "name": "MemeCore",
+    "slug": "memecore",
+    "explorers": [
+      "https://memecorescan.io/",
+      "https://bscscan.com/token/0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+      "https://web3.okx.com/explorer/memecore"
+    ],
+    "websites": [
+      "https://memecore.com/"
+    ]
+  },
+  "3897": {
+    "symbol": "OKB",
+    "name": "OKB",
+    "slug": "okb",
+    "explorers": [
+      "https://web3.okx.com/token/x-layer/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    ],
+    "websites": [
+      "https://www.okx.com/"
+    ]
+  },
+  "6636": {
+    "symbol": "DOT",
+    "name": "Polkadot",
+    "slug": "polkadot-new",
+    "explorers": [
+      "https://polkadot.subscan.io/",
+      "https://polkadot.statescan.io/",
+      "https://3xpl.com/polkadot",
+      "https://blockchair.com/polkadot"
+    ],
+    "websites": [
+      "https://polkadot.com",
+      "https://wiki.polkadot.network/"
+    ]
+  },
+  "35697": {
+    "symbol": "PI",
+    "name": "Pi",
+    "slug": "pi",
+    "explorers": [
+      "https://blockexplorer.minepi.com"
+    ],
+    "websites": [
+      "https://minepi.com",
+      "https://pinet.com"
+    ]
+  },
+  "23149": {
+    "symbol": "SEI",
+    "name": "Sei",
+    "slug": "sei",
+    "explorers": [
+      "https://seiscan.io/"
+    ],
+    "websites": [
+      "https://www.sei.io/"
+    ]
+  },
+  "4847": {
+    "symbol": "STX",
+    "name": "Stacks",
+    "slug": "stacks",
+    "explorers": [
+      "https://explorer.stacks.co"
+    ],
+    "websites": [
+      "https://stacks.co"
+    ]
+  },
+  "30495": {
+    "symbol": "MON",
+    "name": "Monad",
+    "slug": "monad",
+    "explorers": [
+      "https://monadvision.com/",
+      "https://monadscan.com/",
+      "https://solscan.io/token/CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2"
+    ],
+    "websites": [
+      "https://www.monad.xyz/"
+    ]
+  },
+  "7334": {
+    "symbol": "CFX",
+    "name": "Conflux",
+    "slug": "conflux-network",
+    "explorers": [
+      "https://www.confluxscan.org/",
+      "https://evm.confluxscan.org"
+    ],
+    "websites": [
+      "https://confluxnetwork.org/"
+    ]
+  },
+  "32880": {
+    "symbol": "KAIA",
+    "name": "Kaia",
+    "slug": "kaia",
+    "explorers": [
+      "https://www.kaiascan.io/"
+    ],
+    "websites": [
+      "https://www.kaia.io/"
+    ]
+  },
+  "7431": {
+    "symbol": "AKT",
+    "name": "Akash Network",
+    "slug": "akash-network",
+    "explorers": [
+      "https://www.mintscan.io/osmosis/assets/ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+      "https://stats.akash.network/",
+      "https://solscan.io/token/5d3fjPDdkYbtYcAMR9PC2TANaEyhzuyP8JxTEwqjVgBZ"
+    ],
+    "websites": [
+      "https://akash.network"
+    ]
+  },
+  "36645": {
+    "symbol": "XPL",
+    "name": "Plasma",
+    "slug": "plasma-xpl",
+    "explorers": [
+      "https://plasmascan.to/",
+      "https://bscscan.com/token/0x405FBc9004D857903bFD6b3357792D71a50726b0",
+      "https://solscan.io/token/XPLTrL1ZH3tZJBdFWbbtrNjK9qoqZWfuhQJnXibbdfT"
+    ],
+    "websites": [
+      "https://www.plasma.to/"
+    ]
+  },
+  "4157": {
+    "symbol": "RUNE",
+    "name": "THORChain",
+    "slug": "thorchain",
+    "explorers": [
+      "https://thorchain.net",
+      "https://runescan.io"
+    ],
+    "websites": [
+      "https://thorchain.org/"
+    ]
+  },
+  "5632": {
+    "symbol": "AR",
+    "name": "Arweave",
+    "slug": "arweave",
+    "explorers": [
+      "https://viewblock.io/arweave"
+    ],
+    "websites": [
+      "https://www.arweave.org"
+    ]
+  },
+  "28324": {
+    "symbol": "DYDX",
+    "name": "dYdX",
+    "slug": "dydx-chain",
+    "explorers": [
+      "https://www.mintscan.io/osmosis/assets/ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+      "https://www.mintscan.io/dydx/"
+    ],
+    "websites": [
+      "https://dydx.trade/?utm_source=cmc&utm_medium=media&utm_campaign=cmc-feed"
+    ]
+  },
+  "7548": {
+    "symbol": "WEMIX",
+    "name": "WEMIX",
+    "slug": "wemix",
+    "explorers": [
+      "https://scan.wemix.com/",
+      "https://wemixscan.com"
+    ],
+    "websites": [
+      "http://wemix.com/"
+    ]
+  },
+  "10791": {
+    "symbol": "XEC",
+    "name": "eCash",
+    "slug": "ecash",
+    "explorers": [
+      "https://explorer.e.cash/",
+      "https://blockchair.com/ecash",
+      "https://ecash.coin.dance/",
+      "https://explorer.be.cash/blocks"
+    ],
+    "websites": [
+      "https://e.cash/"
+    ]
+  },
+  "20964": {
+    "symbol": "LBT",
+    "name": "Law Blocks (AI)",
+    "slug": "law-blocks",
+    "explorers": [
+      "https://xdc.blocksscan.io/tokens/0x05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://xdcscan.com/token/0x05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://xdc.blocksscan.io/tokens/xdc05940b2df33d6371201e7ae099ced4c363855dfe"
+    ],
+    "websites": [
+      "https://lawblocks.io/"
+    ]
+  },
+  "32684": {
+    "symbol": "S",
+    "name": "Sonic",
+    "slug": "sonic",
+    "explorers": [
+      "https://sonicscan.org/"
+    ],
+    "websites": [
+      "https://www.soniclabs.com/"
+    ]
+  },
+  "39689": {
+    "symbol": "GCOIN",
+    "name": "Playnance",
+    "slug": "playnance",
+    "explorers": [
+      "https://explorer.playblock.io/token/0xC3B539972C522d883aaA904aAAdcfE69A2d9F26B"
+    ],
+    "websites": [
+      "https://playnance.com/",
+      "https://playw3.com/"
+    ]
+  },
+  "5034": {
+    "symbol": "KSM",
+    "name": "Kusama",
+    "slug": "kusama",
+    "explorers": [
+      "https://kusama.subscan.io/",
+      "https://kusama.statescan.io/",
+      "https://3xpl.com/kusama",
+      "https://blockchair.com/kusama",
+      "https://polkadot.js.org/apps/#/explorer"
+    ],
+    "websites": [
+      "https://kusama.network/"
+    ]
+  },
+  "32198": {
+    "symbol": "BABY",
+    "name": "Babylon",
+    "slug": "babylon",
+    "explorers": [
+      "https://www.mintscan.io/babylon",
+      "https://babylon-explorer.xangle.io/mainnet/home"
+    ],
+    "websites": [
+      "http://babylon.foundation",
+      "http://babylonlabs.io"
+    ]
+  },
+  "27657": {
+    "symbol": "LINEA",
+    "name": "Linea",
+    "slug": "linea",
+    "explorers": [
+      "https://lineascan.build/token/0x1789e0043623282D5DCc7F213d703C6D8BAfBB04"
+    ],
+    "websites": [
+      "https://linea.build/association"
+    ]
+  },
+  "8646": {
+    "symbol": "MINA",
+    "name": "Mina",
+    "slug": "mina",
+    "explorers": [
+      "https://minaexplorer.com/",
+      "https://minascan.io/",
+      "https://minataur.net/"
+    ],
+    "websites": [
+      "https://minaprotocol.com/"
+    ]
+  },
+  "18031": {
+    "symbol": "CCD",
+    "name": "Concordium",
+    "slug": "concordium",
+    "explorers": [
+      "https://ccdscan.io/",
+      "https://ccdexplorer.io/mainnet"
+    ],
+    "websites": [
+      "https://www.concordium.com"
+    ]
+  },
+  "36056": {
+    "symbol": "XP",
+    "name": "Xphere",
+    "slug": "xphere",
+    "explorers": [
+      "https://xp.tamsa.io/main"
+    ],
+    "websites": [
+      "https://x-phere.com/"
+    ]
+  },
+  "4846": {
+    "symbol": "KAVA",
+    "name": "Kava",
+    "slug": "kava",
+    "explorers": [
+      "https://www.mintscan.io/kava",
+      "https://kava.bigdipper.live",
+      "https://explorer.binance.org/asset/KAVA-10C",
+      "https://kavascan.com/"
+    ],
+    "websites": [
+      "https://www.kava.io/",
+      "https://app.kava.io/"
+    ]
+  },
+  "14588": {
+    "symbol": "PEAQ",
+    "name": "peaq",
+    "slug": "peaq",
+    "explorers": [
+      "https://peaq.subscan.io/",
+      "https://bscscan.com/token/0x8b9Ee39195eA99d6ddD68030F44131116bc218F6"
+    ],
+    "websites": [
+      "https://www.peaq.xyz/"
+    ]
+  },
+  "14101": {
+    "symbol": "RON",
+    "name": "Ronin",
+    "slug": "ronin",
+    "explorers": [
+      "https://app.roninchain.com/"
+    ],
+    "websites": [
+      "https://roninchain.com"
+    ]
+  },
+  "4558": {
+    "symbol": "FLOW",
+    "name": "Flow",
+    "slug": "flow",
+    "explorers": [
+      "https://www.flowscan.io/",
+      "https://evm.flowscan.io/",
+      "https://www.flowscan.io/ft/token/A.1654653399040a61.FlowToken.Vault"
+    ],
+    "websites": [
+      "https://flow.com"
+    ]
+  },
+  "10894": {
+    "symbol": "SRX",
+    "name": "StorX Network",
+    "slug": "storx-network",
+    "explorers": [
+      "https://xdcscan.com/token/0x5d5f074837f5d4618b3916ba74de1bf9662a3fed"
+    ],
+    "websites": [
+      "https://storx.tech",
+      "https://storx.io"
+    ]
+  },
+  "38337": {
+    "symbol": "0G",
+    "name": "0G",
+    "slug": "zero-gravity",
+    "explorers": [
+      "https://etherscan.io/token/0x4B948d64dE1F71fCd12fB586f4c776421a35b3eE",
+      "https://bscscan.com/token/0x4B948d64dE1F71fCd12fB586f4c776421a35b3eE",
+      "https://chainscan.0g.ai/"
+    ],
+    "websites": [
+      "https://www.0gfoundation.ai/"
+    ]
+  },
+  "1567": {
+    "symbol": "XNO",
+    "name": "Nano",
+    "slug": "nano",
+    "explorers": [
+      "https://blocklattice.io"
+    ],
+    "websites": [
+      "http://nano.org/en"
+    ]
+  },
+  "5275": {
+    "symbol": "PCI",
+    "name": "Paycoin",
+    "slug": "payprotocol",
+    "explorers": [
+      "https://etherscan.io/token/0x3c2a309d9005433c1bc2c92ef1be06489e5bf258",
+      "https://scan.payprotocol.io/#/"
+    ],
+    "websites": [
+      "https://payprotocol.io/",
+      "http://www.danalfintech.com/eng/"
+    ]
+  },
+  "32941": {
+    "symbol": "FB",
+    "name": "Fractal Bitcoin",
+    "slug": "fractal-bitcoin",
+    "explorers": [
+      "https://explorer.unisat.io/fractal-mainnet/",
+      "https://mempool.fractalbitcoin.io/",
+      "https://etherscan.io/token/0x6c28f8cab28121ed757edb36201511aa18cdd187"
+    ],
+    "websites": [
+      "https://fractalbitcoin.io",
+      "https://explorer.fractalbitcoin.io/"
+    ]
+  },
+  "20362": {
+    "symbol": "POLYX",
+    "name": "Polymesh",
+    "slug": "polymesh",
+    "explorers": [
+      "https://polymesh.subscan.io/"
+    ],
+    "websites": [
+      "https://polymesh.network/"
+    ]
+  },
+  "693": {
+    "symbol": "XVG",
+    "name": "Verge",
+    "slug": "verge",
+    "explorers": [
+      "https://verge-blockchain.info/",
+      "https://xvg.tokenview.com/"
+    ],
+    "websites": [
+      "http://vergecurrency.com/"
+    ]
+  },
+  "39611": {
+    "symbol": "MANTRA",
+    "name": "MANTRA",
+    "slug": "mantra-new",
+    "explorers": [
+      "https://blockscout.mantrascan.io",
+      "https://mantrascan.io/mainnet"
+    ],
+    "websites": [
+      "https://www.mantrachain.io"
+    ]
+  },
+  "1042": {
+    "symbol": "SC",
+    "name": "Siacoin",
+    "slug": "siacoin",
+    "explorers": [
+      "https://siascan.com",
+      "https://sc.tokenview.com/"
+    ],
+    "websites": [
+      "https://sia.tech/"
+    ]
+  },
+  "38356": {
+    "symbol": "FOGO",
+    "name": "Fogo",
+    "slug": "fogo",
+    "explorers": [
+      "https://explorer.fogo.io/"
+    ],
+    "websites": [
+      "https://www.fogo.io/"
+    ]
+  },
+  "1274": {
+    "symbol": "WAVES",
+    "name": "Waves",
+    "slug": "waves",
+    "explorers": [
+      "https://solscan.io/token/4XEjo9GZkKom3E26NQiidJLawwM9kbt76gUMDdGe1meQ",
+      "http://wavesexplorer.com/",
+      "https://wscan.io/"
+    ],
+    "websites": [
+      "https://waves.tech/",
+      "https://medium.com/wavesprotocol"
+    ]
+  },
+  "5899": {
+    "symbol": "CSPR",
+    "name": "Casper",
+    "slug": "casper",
+    "explorers": [
+      "https://cspr.live/"
+    ],
+    "websites": [
+      "https://casper.network/"
+    ]
+  },
+  "12220": {
+    "symbol": "OSMO",
+    "name": "Osmosis",
+    "slug": "osmosis",
+    "explorers": [
+      "https://www.mintscan.io/osmosis",
+      "https://ibc.range.org/",
+      "https://osmosis.valopers.com/",
+      "https://chainsco.pe/osmosis",
+      "https://celatone.osmosis.zone/"
+    ],
+    "websites": [
+      "https://osmosis.zone/"
+    ]
+  },
+  "5370": {
+    "symbol": "HIVE",
+    "name": "Hive",
+    "slug": "hive-blockchain",
+    "explorers": [
+      "https://explore.openhive.network",
+      "https://hivescan.info/"
+    ],
+    "websites": [
+      "https://hive.io/"
+    ]
+  },
+  "3801": {
+    "symbol": "BORA",
+    "name": "BORA",
+    "slug": "bora",
+    "explorers": [
+      "https://kaiascan.io/token/0x02cbe46fb8a1f579254a9b485788f2d86cad51aa",
+      "https://scope.klaytn.com/token/0x02cbe46fb8a1f579254a9b485788f2d86cad51aa?tabId=tokenTransfer",
+      "https://www.oklink.com/polygon/token/0x0EF39E52704Ad52E2882BBfA6781167E1b6c4510"
+    ],
+    "websites": [
+      "https://borachain.io"
+    ]
+  },
+  "9258": {
+    "symbol": "XCH",
+    "name": "Chia",
+    "slug": "chia-network",
+    "explorers": [
+      "https://www.spacescan.io/",
+      "https://www.coinset.org/",
+      "https://explorer.xchpool.org/",
+      "https://saffron.hashtunes.xyz/"
+    ],
+    "websites": [
+      "https://www.chia.net/"
+    ]
+  },
+  "28340": {
+    "symbol": "SMART",
+    "name": "SMART",
+    "slug": "smart-blockchain",
+    "explorers": [
+      "https://smartexplorer.com/"
+    ],
+    "websites": [
+      "https://smartblockchain.com/en/"
+    ]
+  },
+  "25264": {
+    "symbol": "SNEK",
+    "name": "Snek",
+    "slug": "snek",
+    "explorers": [
+      "https://cardanoscan.io/token/279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b"
+    ],
+    "websites": [
+      "https://www.snek.com"
+    ]
+  },
+  "1320": {
+    "symbol": "ARDR",
+    "name": "Ardor",
+    "slug": "ardor",
+    "explorers": [
+      "https://ardor.tools/",
+      "https://ardorportal.org"
+    ],
+    "websites": [
+      "https://www.jelurida.com/ardor"
+    ]
+  },
+  "1230": {
+    "symbol": "STEEM",
+    "name": "Steem",
+    "slug": "steem",
+    "explorers": [
+      "https://steemdb.io",
+      "https://steemscan.com"
+    ],
+    "websites": [
+      "https://steem.com/",
+      "https://steemit.com/"
+    ]
+  }
+}

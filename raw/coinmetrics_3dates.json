@@ -1,0 +1,882 @@
+{
+  "1": {
+    "symbol": "BTC",
+    "cm_asset": "btc",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 56718168,
+      "active_addrs": 742127,
+      "sply_cur": 20050773.01461212
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 57103666,
+      "active_addrs": 712825,
+      "sply_cur": 20092091.75155868
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 57198398,
+      "active_addrs": 702867,
+      "sply_cur": 20115407.34934775
+    }
+  },
+  "1027": {
+    "symbol": "ETH",
+    "cm_asset": "eth",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 197967555,
+      "active_addrs": 849632,
+      "sply_cur": 121829414.16651522
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 208726501,
+      "active_addrs": 834251,
+      "sply_cur": 122093086.47356158
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 214138909,
+      "active_addrs": 884450,
+      "sply_cur": 122240606.59852082
+    }
+  },
+  "52": {
+    "symbol": "XRP",
+    "cm_asset": "xrp",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 7979563,
+      "active_addrs": 37756,
+      "sply_cur": 99985575945.2229
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 8206005,
+      "active_addrs": 41137,
+      "sply_cur": 99985539849.07628
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 8372879,
+      "active_addrs": 61009,
+      "sply_cur": 99985474126.49048
+    }
+  },
+  "74": {
+    "symbol": "DOGE",
+    "cm_asset": "doge",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 8325324,
+      "active_addrs": 50640,
+      "sply_cur": 154895532872.91525
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 8430000,
+      "active_addrs": 35717,
+      "sply_cur": 156150042865.81424
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 8440237,
+      "active_addrs": 37265,
+      "sply_cur": 156847262860.16806
+    }
+  },
+  "1437": {
+    "symbol": "ZEC",
+    "cm_asset": "zec",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 844520,
+      "active_addrs": 4196,
+      "sply_cur": 16751551.47795783
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 848858,
+      "active_addrs": 7250,
+      "sply_cur": 16896587.84735783
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 859807,
+      "active_addrs": 6157,
+      "sply_cur": 16977035.91477933
+    }
+  },
+  "512": {
+    "symbol": "XLM",
+    "cm_asset": "xlm",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 9876426,
+      "active_addrs": 1682332,
+      "sply_cur": 104717631419.54672
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 9973335,
+      "active_addrs": 2042622,
+      "sply_cur": 104533885495.91751
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 10064661,
+      "active_addrs": 118475,
+      "sply_cur": 104593987924.2335
+    }
+  },
+  "2010": {
+    "symbol": "ADA",
+    "cm_asset": "ada",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 4593925,
+      "active_addrs": 15547,
+      "sply_cur": 36790005729.32153
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 4483742,
+      "active_addrs": 27548,
+      "sply_cur": 37105024240.16867
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 4449041,
+      "active_addrs": 15117,
+      "sply_cur": 37144764953.543625
+    }
+  },
+  "1975": {
+    "symbol": "LINK",
+    "cm_asset": "link",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 896067,
+      "active_addrs": 4880,
+      "sply_cur": 1000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 912217,
+      "active_addrs": 4574,
+      "sply_cur": 1000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 923284,
+      "active_addrs": 4681,
+      "sply_cur": 1000000000.0
+    }
+  },
+  "1831": {
+    "symbol": "BCH",
+    "cm_asset": "bch",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 22095653,
+      "active_addrs": 22677,
+      "sply_cur": 20055294.8929013
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 22097725,
+      "active_addrs": 23886,
+      "sply_cur": 20096856.81718603
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 22083023,
+      "active_addrs": 22843,
+      "sply_cur": 20119713.06704203
+    }
+  },
+  "2": {
+    "symbol": "LTC",
+    "cm_asset": "ltc",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 8805124,
+      "active_addrs": 288311,
+      "sply_cur": 77340164.32109731
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 8927415,
+      "active_addrs": 291706,
+      "sply_cur": 77671363.07357547
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 8982087,
+      "active_addrs": 238752,
+      "sply_cur": 77854967.88697916
+    }
+  },
+  "3635": {
+    "symbol": "CRO",
+    "cm_asset": "cro",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 344055,
+      "active_addrs": 310,
+      "sply_cur": 100000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 345852,
+      "active_addrs": 399,
+      "sply_cur": 100000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 346502,
+      "active_addrs": 325,
+      "sply_cur": 100000000000.0
+    }
+  },
+  "7083": {
+    "symbol": "UNI",
+    "cm_asset": "uni",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 385096,
+      "active_addrs": 1661,
+      "sply_cur": 1000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 380489,
+      "active_addrs": 2385,
+      "sply_cur": 1000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 405468,
+      "active_addrs": 2438,
+      "sply_cur": 1000000000.0
+    }
+  },
+  "7278": {
+    "symbol": "AAVE",
+    "cm_asset": "aave",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 199632,
+      "active_addrs": 1869,
+      "sply_cur": 16000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 188413,
+      "active_addrs": 1856,
+      "sply_cur": 16000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 187153,
+      "active_addrs": 1786,
+      "sply_cur": 16000000.0
+    }
+  },
+  "8916": {
+    "symbol": "ICP",
+    "cm_asset": "icp",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 956333,
+      "active_addrs": 3743,
+      "sply_cur": 554255463.4117298
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 971274,
+      "active_addrs": 3467,
+      "sply_cur": 557004127.2241814
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 981037,
+      "active_addrs": 6080,
+      "sply_cur": 559081808.9479345
+    }
+  },
+  "1321": {
+    "symbol": "ETC",
+    "cm_asset": "etc",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 2854290,
+      "active_addrs": 3556,
+      "sply_cur": 157387231.19773
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 2861938,
+      "active_addrs": 4398,
+      "sply_cur": 158405123.34493
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 2864917,
+      "active_addrs": 3967,
+      "sply_cur": 158940739.65213
+    }
+  },
+  "3155": {
+    "symbol": "QNT",
+    "cm_asset": "qnt",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 167457,
+      "active_addrs": 979,
+      "sply_cur": 24431259.031815365
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 180618,
+      "active_addrs": 7469,
+      "sply_cur": 24431259.031815365
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 189773,
+      "active_addrs": 1822,
+      "sply_cur": 24431259.031815365
+    }
+  },
+  "4030": {
+    "symbol": "ALGO",
+    "cm_asset": "algo",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 22057213,
+      "active_addrs": 23362,
+      "sply_cur": 10000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 22525552,
+      "active_addrs": 47989,
+      "sply_cur": 10000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 22778699,
+      "active_addrs": 40747,
+      "sply_cur": 10000000002.14655
+    }
+  },
+  "131": {
+    "symbol": "DASH",
+    "cm_asset": "dash",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 1737498,
+      "active_addrs": 28482,
+      "sply_cur": 12753195.17262668
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 1748452,
+      "active_addrs": 35965,
+      "sply_cur": 12850185.06524549
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 1753178,
+      "active_addrs": 25846,
+      "sply_cur": 12905753.76933689
+    }
+  },
+  "6538": {
+    "symbol": "CRV",
+    "cm_asset": "crv",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 100413,
+      "active_addrs": 1041,
+      "sply_cur": 2395874548.8567333
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 100671,
+      "active_addrs": 1253,
+      "sply_cur": 2422708159.4131737
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 102580,
+      "active_addrs": 1084,
+      "sply_cur": 2436144681.135823
+    }
+  },
+  "1659": {
+    "symbol": "GNO",
+    "cm_asset": "gno",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 20254,
+      "active_addrs": 140,
+      "sply_cur": 10000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 20157,
+      "active_addrs": 125,
+      "sply_cur": 10000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 20243,
+      "active_addrs": 119,
+      "sply_cur": 10000000.0
+    }
+  },
+  "8000": {
+    "symbol": "LDO",
+    "cm_asset": "ldo",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 65540,
+      "active_addrs": 481,
+      "sply_cur": 1000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 66304,
+      "active_addrs": 582,
+      "sply_cur": 1000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 64383,
+      "active_addrs": 583,
+      "sply_cur": 1000000000.0
+    }
+  },
+  "1168": {
+    "symbol": "DCR",
+    "cm_asset": "dcr",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 578989,
+      "active_addrs": 34716,
+      "sply_cur": 17694381.28451985
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 582330,
+      "active_addrs": 31108,
+      "sply_cur": 17839476.7984022
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 578397,
+      "active_addrs": 32381,
+      "sply_cur": 17926275.32892263
+    }
+  },
+  "5692": {
+    "symbol": "COMP",
+    "cm_asset": "comp",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 220222,
+      "active_addrs": 301,
+      "sply_cur": 10000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 219164,
+      "active_addrs": 434,
+      "sply_cur": 10000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 220044,
+      "active_addrs": 314,
+      "sply_cur": 10000000.0
+    }
+  },
+  "1966": {
+    "symbol": "MANA",
+    "cm_asset": "mana",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 281269,
+      "active_addrs": 416,
+      "sply_cur": 2193179327.320146
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 280627,
+      "active_addrs": 329,
+      "sply_cur": 2193179327.320146
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 275881,
+      "active_addrs": 333,
+      "sply_cur": 2193179327.320146
+    }
+  },
+  "1697": {
+    "symbol": "BAT",
+    "cm_asset": "bat",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 420489,
+      "active_addrs": 317,
+      "sply_cur": 1500000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 420826,
+      "active_addrs": 303,
+      "sply_cur": 1500000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 420978,
+      "active_addrs": 337,
+      "sply_cur": 1500000000.0
+    }
+  },
+  "8104": {
+    "symbol": "1INCH",
+    "cm_asset": "1inch",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 111530,
+      "active_addrs": 292,
+      "sply_cur": 1499999999.997
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 112326,
+      "active_addrs": 397,
+      "sply_cur": 1499999999.997
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 111443,
+      "active_addrs": 348,
+      "sply_cur": 1499999999.997
+    }
+  },
+  "3640": {
+    "symbol": "LPT",
+    "cm_asset": "lpt",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 2167704,
+      "active_addrs": 147,
+      "sply_cur": 24918514.377941355
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 1770778,
+      "active_addrs": 203,
+      "sply_cur": 24918514.377941355
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 1765113,
+      "active_addrs": 154,
+      "sply_cur": 24918514.377941355
+    }
+  },
+  "2586": {
+    "symbol": "SNX",
+    "cm_asset": "snx",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 132882,
+      "active_addrs": 286,
+      "sply_cur": 347382487.1428773
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 133250,
+      "active_addrs": 256,
+      "sply_cur": 583846843.1428773
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 133658,
+      "active_addrs": 209,
+      "sply_cur": 583846843.1428773
+    }
+  },
+  "1896": {
+    "symbol": "ZRX",
+    "cm_asset": "zrx",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 189697,
+      "active_addrs": 191,
+      "sply_cur": 1000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 189832,
+      "active_addrs": 246,
+      "sply_cur": 1000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 188308,
+      "active_addrs": 152,
+      "sply_cur": 1000000000.0
+    }
+  },
+  "5864": {
+    "symbol": "YFI",
+    "cm_asset": "yfi",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 52256,
+      "active_addrs": 224,
+      "sply_cur": 36666.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 52565,
+      "active_addrs": 243,
+      "sply_cur": 36666.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 53013,
+      "active_addrs": 194,
+      "sply_cur": 36666.0
+    }
+  },
+  "2299": {
+    "symbol": "ELF",
+    "cm_asset": "elf",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 49874,
+      "active_addrs": 20,
+      "sply_cur": 879999999.9864658
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 49764,
+      "active_addrs": 9,
+      "sply_cur": 879999999.9864658
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 49744,
+      "active_addrs": 7,
+      "sply_cur": 879999999.9864658
+    }
+  },
+  "109": {
+    "symbol": "DGB",
+    "cm_asset": "dgb",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 1182657,
+      "active_addrs": 2711,
+      "sply_cur": 18360288944.900845
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 1147721,
+      "active_addrs": 2835,
+      "sply_cur": 18497165105.620945
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 1147746,
+      "active_addrs": 4080,
+      "sply_cur": 18570212940.853664
+    }
+  },
+  "6758": {
+    "symbol": "SUSHI",
+    "cm_asset": "sushi",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 126619,
+      "active_addrs": 262,
+      "sply_cur": 291514753.92083925
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 126506,
+      "active_addrs": 322,
+      "sply_cur": 291514753.92083925
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 122006,
+      "active_addrs": 240,
+      "sply_cur": 291514753.92083925
+    }
+  },
+  "693": {
+    "symbol": "XVG",
+    "cm_asset": "xvg",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 209046,
+      "active_addrs": 129,
+      "sply_cur": 1652195123484.1335
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 210215,
+      "active_addrs": 115,
+      "sply_cur": 1652195123484.1335
+    },
+    "nov21": {
+      "date": "2026-10-17",
+      "holders_cnt": 210358,
+      "active_addrs": 42,
+      "sply_cur": 1652195652680.4485
+    }
+  },
+  "5617": {
+    "symbol": "UMA",
+    "cm_asset": "uma",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 26124,
+      "active_addrs": 116,
+      "sply_cur": 129053911.54732351
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 26230,
+      "active_addrs": 115,
+      "sply_cur": 131410958.39125733
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 25459,
+      "active_addrs": 100,
+      "sply_cur": 131954114.51964816
+    }
+  },
+  "1759": {
+    "symbol": "SNT",
+    "cm_asset": "snt",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 75932,
+      "active_addrs": 51,
+      "sply_cur": 6804870174.878168
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 75797,
+      "active_addrs": 30,
+      "sply_cur": 6804870174.878168
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 75818,
+      "active_addrs": 155,
+      "sply_cur": 6804870174.878168
+    }
+  },
+  "1757": {
+    "symbol": "FUN",
+    "cm_asset": "fun",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 81429,
+      "active_addrs": 141,
+      "sply_cur": 10806201658.398026
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 73382,
+      "active_addrs": 157,
+      "sply_cur": 10806201658.398026
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 73281,
+      "active_addrs": 72,
+      "sply_cur": 10806201658.398026
+    }
+  },
+  "2132": {
+    "symbol": "POWR",
+    "cm_asset": "powr",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 53547,
+      "active_addrs": 110,
+      "sply_cur": 1000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 50991,
+      "active_addrs": 86,
+      "sply_cur": 1000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 49618,
+      "active_addrs": 58,
+      "sply_cur": 1000000000.0
+    }
+  },
+  "9444": {
+    "symbol": "KNC",
+    "cm_asset": "knc",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 79379,
+      "active_addrs": 34,
+      "sply_cur": 11318801.7706376
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 79295,
+      "active_addrs": 12,
+      "sply_cur": 11252857.43055591
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 79264,
+      "active_addrs": 20,
+      "sply_cur": 11238113.760039777
+    }
+  },
+  "1816": {
+    "symbol": "CVC",
+    "cm_asset": "cvc",
+    "jul1": {
+      "date": "2026-07-01",
+      "holders_cnt": 61705,
+      "active_addrs": 79,
+      "sply_cur": 1000000000.0
+    },
+    "oct1": {
+      "date": "2026-10-01",
+      "holders_cnt": 61742,
+      "active_addrs": 108,
+      "sply_cur": 1000000000.0
+    },
+    "nov21": {
+      "date": "2026-11-21",
+      "holders_cnt": 61225,
+      "active_addrs": 65,
+      "sply_cur": 1000000000.0
+    }
+  }
+}

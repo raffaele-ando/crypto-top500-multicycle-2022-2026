@@ -1,0 +1,16 @@
+{
+  "target": "Step-by-Step Marginal Portfolio Curve N=1..500",
+  "timestamp": "2026-11-24T14:34:19.797639+00:00",
+  "expected_counts": {
+    "steps_500": 500
+  },
+  "sources": [
+    "curve_steps=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.json:steps:step_id",
+    "curve_coins=C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.csv::forensic_id"
+  ],
+  "required_files": [
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.json",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_cumulativa_N1_a_N500.csv",
+    "C:\\Users\\Administrator\\.gemini\\antigravity\\scratch\\crypto_top500_jul_oct_2026\\curva_rendimento_N1_to_N500.html"
+  ]
+}

@@ -1,0 +1,1704 @@
+{
+  "matched_jul": 284,
+  "matched_both": 279,
+  "median_rel_diff_jul_pct": 0.0605,
+  "median_rel_diff_oct_pct": 0.0543,
+  "within_2pct_jul": 278,
+  "within_2pct_oct": 276,
+  "coins": {
+    "1": {
+      "dl_jul_price": 59979.90070833996,
+      "rel_diff_jul_pct": 0.0398,
+      "dl_oct_price": 84841.66634358242,
+      "rel_diff_oct_pct": 0.0135
+    },
+    "1027": {
+      "dl_jul_price": 1608.4281927120421,
+      "rel_diff_jul_pct": 0.0331,
+      "dl_oct_price": 2705.2959032354674,
+      "rel_diff_oct_pct": 0.0089
+    },
+    "825": {
+      "dl_jul_price": 0.9989425900128377,
+      "rel_diff_jul_pct": 0.0013,
+      "dl_oct_price": 0.9997228229236466,
+      "rel_diff_oct_pct": 0.0077
+    },
+    "3408": {
+      "dl_jul_price": 0.9997320621667334,
+      "rel_diff_jul_pct": 0.0057,
+      "dl_oct_price": 0.9999095115838291,
+      "rel_diff_oct_pct": 0.0074
+    },
+    "5426": {
+      "dl_jul_price": 77.37451155446554,
+      "rel_diff_jul_pct": 0.0119,
+      "dl_oct_price": 118.38176764361535,
+      "rel_diff_oct_pct": 0.0136
+    },
+    "1958": {
+      "dl_jul_price": 0.3157524982468287,
+      "rel_diff_jul_pct": 0.0146,
+      "dl_oct_price": 0.3347434898827222,
+      "rel_diff_oct_pct": 0.0246
+    },
+    "32196": {
+      "dl_jul_price": 62.38174876626123,
+      "rel_diff_jul_pct": 0.0064,
+      "dl_oct_price": 87.65681727335395,
+      "rel_diff_oct_pct": 0.0322
+    },
+    "74": {
+      "dl_jul_price": 0.07217193387055837,
+      "rel_diff_jul_pct": 0.0074,
+      "dl_oct_price": 0.09433709107844468,
+      "rel_diff_oct_pct": 0.01
+    },
+    "1437": {
+      "dl_jul_price": 416.4615639500419,
+      "rel_diff_jul_pct": 0.0414,
+      "dl_oct_price": 1335.0090515999366,
+      "rel_diff_oct_pct": 0.1018
+    },
+    "512": {
+      "dl_jul_price": 0.1975284864060856,
+      "rel_diff_jul_pct": 0.0308,
+      "dl_oct_price": 0.21907156431500094,
+      "rel_diff_oct_pct": 0.0097
+    },
+    "328": {
+      "dl_jul_price": 309.3412094185692,
+      "rel_diff_jul_pct": 0.1064,
+      "dl_oct_price": 543.8685266654059,
+      "rel_diff_oct_pct": 0.0418
+    },
+    "2010": {
+      "dl_jul_price": 0.15400788273264585,
+      "rel_diff_jul_pct": 0.021,
+      "dl_oct_price": 0.24628949729163252,
+      "rel_diff_oct_pct": 0.009
+    },
+    "37263": {
+      "dl_jul_price": 0.14076647099683398,
+      "rel_diff_jul_pct": 0.0123,
+      "dl_oct_price": 0.11999061863514911,
+      "rel_diff_oct_pct": 0.0138
+    },
+    "1975": {
+      "dl_jul_price": 7.3528775971944675,
+      "rel_diff_jul_pct": 0.0376,
+      "dl_oct_price": 14.380407345220966,
+      "rel_diff_oct_pct": 0.0172
+    },
+    "36148": {
+      "dl_jul_price": 1.0738308393979183,
+      "rel_diff_jul_pct": 7.4992
+    },
+    "29470": {
+      "dl_jul_price": 0.9984200797960955,
+      "rel_diff_jul_pct": 0.0055,
+      "dl_oct_price": 0.9996505335901098,
+      "rel_diff_oct_pct": 0.0101
+    },
+    "1831": {
+      "dl_jul_price": 210.07702300826756,
+      "rel_diff_jul_pct": 0.0751,
+      "dl_oct_price": 309.29022189341225,
+      "rel_diff_oct_pct": 0.0274
+    },
+    "2": {
+      "dl_jul_price": 42.66038850074512,
+      "rel_diff_jul_pct": 0.0115,
+      "dl_oct_price": 68.0877967963229,
+      "rel_diff_oct_pct": 0.0363
+    },
+    "20947": {
+      "dl_jul_price": 0.715271612875782,
+      "rel_diff_jul_pct": 0.0262,
+      "dl_oct_price": 1.176653373482609,
+      "rel_diff_oct_pct": 0.0901
+    },
+    "27772": {
+      "dl_jul_price": 0.9997442862714708,
+      "rel_diff_jul_pct": 0.0024,
+      "dl_oct_price": 1.0001079962490742,
+      "rel_diff_oct_pct": 0.007
+    },
+    "5994": {
+      "dl_jul_price": 4.2768721197593446e-06,
+      "rel_diff_jul_pct": 0.0265,
+      "dl_oct_price": 5.791071889189513e-06,
+      "rel_diff_oct_pct": 0.0578
+    },
+    "5176": {
+      "dl_jul_price": 4027.064693427844,
+      "rel_diff_jul_pct": 0.0005,
+      "dl_oct_price": 4182.303240510127,
+      "rel_diff_oct_pct": 0.0059
+    },
+    "22974": {
+      "dl_jul_price": 202.46389556725308,
+      "rel_diff_jul_pct": 0.0394,
+      "dl_oct_price": 303.28046624595544,
+      "rel_diff_oct_pct": 0.0217
+    },
+    "7326": {
+      "dl_jul_price": 23.08564545948025,
+      "rel_diff_jul_pct": 0.0142,
+      "dl_oct_price": 1.9029608471490325,
+      "rel_diff_oct_pct": 0.0981
+    },
+    "4705": {
+      "dl_jul_price": 4028.636358970179,
+      "rel_diff_jul_pct": 0.02,
+      "dl_oct_price": 4190.280957868353,
+      "rel_diff_oct_pct": 0.0155
+    },
+    "7083": {
+      "dl_jul_price": 2.7868218153275937,
+      "rel_diff_jul_pct": 0.0576,
+      "dl_oct_price": 8.97736802280314,
+      "rel_diff_oct_pct": 0.0026
+    },
+    "35491": {
+      "dl_jul_price": 1.2787077847436958,
+      "rel_diff_jul_pct": 0.133,
+      "dl_oct_price": 1.0503785581703609,
+      "rel_diff_oct_pct": 0.0132
+    },
+    "3897": {
+      "dl_jul_price": 79.9278567767132,
+      "rel_diff_jul_pct": 0.0105,
+      "dl_oct_price": 121.15588837893739,
+      "rel_diff_oct_pct": 0.0402
+    },
+    "21159": {
+      "dl_jul_price": 0.3246469126864605,
+      "rel_diff_jul_pct": 0.0112,
+      "dl_oct_price": 0.49715806880559055,
+      "rel_diff_oct_pct": 0.0317
+    },
+    "34387": {
+      "dl_jul_price": 0.999998884488902,
+      "rel_diff_jul_pct": 0.0175,
+      "dl_oct_price": 1.0000588267324395,
+      "rel_diff_oct_pct": 0.0023
+    },
+    "27075": {
+      "dl_jul_price": 0.4225547842844545,
+      "rel_diff_jul_pct": 0.0726,
+      "dl_oct_price": 0.6808668442676181,
+      "rel_diff_oct_pct": 0.0527
+    },
+    "19891": {
+      "dl_jul_price": 0.9988666720299144,
+      "rel_diff_jul_pct": 0.003,
+      "dl_oct_price": 0.9995632994873584,
+      "rel_diff_oct_pct": 0.004
+    },
+    "7278": {
+      "dl_jul_price": 83.13362917676618,
+      "rel_diff_jul_pct": 0.0253,
+      "dl_oct_price": 171.36728996431114,
+      "rel_diff_oct_pct": 0.1646
+    },
+    "33038": {
+      "dl_jul_price": 0.05277939203169125,
+      "rel_diff_jul_pct": 0.018,
+      "dl_oct_price": 0.08427985227207507,
+      "rel_diff_oct_pct": 0.0073
+    },
+    "8916": {
+      "dl_jul_price": 2.14701079429576,
+      "rel_diff_jul_pct": 0.0066,
+      "dl_oct_price": 3.2918200155155164,
+      "rel_diff_oct_pct": 0.1371
+    },
+    "1321": {
+      "dl_jul_price": 7.004220472783016,
+      "rel_diff_jul_pct": 0.0161,
+      "dl_oct_price": 8.861420139255367,
+      "rel_diff_oct_pct": 0.0944
+    },
+    "34104": {
+      "dl_jul_price": 2.0662236736536417,
+      "rel_diff_jul_pct": 0.0228,
+      "dl_oct_price": 2.582208586320727,
+      "rel_diff_oct_pct": 0.0123
+    },
+    "39120": {
+      "dl_jul_price": 0.9995003668105645,
+      "rel_diff_jul_pct": 0.0161,
+      "dl_oct_price": 0.9994514181710603,
+      "rel_diff_oct_pct": 0.0073
+    },
+    "24478": {
+      "dl_jul_price": 2.324221423897241e-06,
+      "rel_diff_jul_pct": 0.017,
+      "dl_oct_price": 4.4311196754319615e-06,
+      "rel_diff_oct_pct": 0.0987
+    },
+    "38837": {
+      "dl_jul_price": 2.8803759073544257,
+      "rel_diff_jul_pct": 0.0558,
+      "dl_oct_price": 0.09142500439983069,
+      "rel_diff_oct_pct": 0.0035
+    },
+    "20396": {
+      "dl_jul_price": 0.030806215932350927,
+      "rel_diff_jul_pct": 0.0434,
+      "dl_oct_price": 0.041379764103123585,
+      "rel_diff_oct_pct": 0.0448
+    },
+    "3794": {
+      "dl_jul_price": 1.5385929454924592,
+      "rel_diff_jul_pct": 0.0559,
+      "dl_oct_price": 1.7076430791764443,
+      "rel_diff_oct_pct": 0.0506
+    },
+    "28321": {
+      "dl_jul_price": 0.07122223646350423,
+      "rel_diff_jul_pct": 0.0919,
+      "dl_oct_price": 0.10772053698114524,
+      "rel_diff_oct_pct": 0.0425
+    },
+    "4030": {
+      "dl_jul_price": 0.08438788194306746,
+      "rel_diff_jul_pct": 0.0605,
+      "dl_oct_price": 0.12250322529807667,
+      "rel_diff_oct_pct": 0.1192
+    },
+    "5488": {
+      "dl_jul_price": 0.08807155719276119,
+      "rel_diff_jul_pct": 0.1236,
+      "dl_oct_price": 0.13103290816627883,
+      "rel_diff_oct_pct": 0.0337
+    },
+    "38590": {
+      "dl_jul_price": 0.7007195128538307,
+      "rel_diff_jul_pct": 0.0064,
+      "dl_oct_price": 0.5023998874046366,
+      "rel_diff_oct_pct": 0.0556
+    },
+    "30171": {
+      "dl_jul_price": 0.07123389054161638,
+      "rel_diff_jul_pct": 0.0214,
+      "dl_oct_price": 0.24321125119897466,
+      "rel_diff_oct_pct": 0.0261
+    },
+    "37298": {
+      "dl_jul_price": 1.5210011135186428,
+      "rel_diff_jul_pct": 0.138,
+      "dl_oct_price": 0.06003859964203386,
+      "rel_diff_oct_pct": 0.1919
+    },
+    "35509": {
+      "dl_jul_price": 13.323342132842106,
+      "rel_diff_jul_pct": 0.205,
+      "dl_oct_price": 26.214931098367536,
+      "rel_diff_oct_pct": 0.0461
+    },
+    "2280": {
+      "dl_jul_price": 0.7357331448038893,
+      "rel_diff_jul_pct": 0.0316,
+      "dl_oct_price": 1.0199585897418417,
+      "rel_diff_oct_pct": 0.0071
+    },
+    "36507": {
+      "dl_jul_price": 0.0013844414171521329,
+      "rel_diff_jul_pct": 0.034,
+      "dl_oct_price": 0.005826541171016885,
+      "rel_diff_oct_pct": 0.1698
+    },
+    "39125": {
+      "dl_jul_price": 2.0582981238158693,
+      "rel_diff_jul_pct": 0.2013,
+      "dl_oct_price": 3.807104027806875,
+      "rel_diff_oct_pct": 0.0342
+    },
+    "11841": {
+      "dl_jul_price": 0.07666126969612196,
+      "rel_diff_jul_pct": 0.0287,
+      "dl_oct_price": 0.19971460399822455,
+      "rel_diff_oct_pct": 0.0552
+    },
+    "21794": {
+      "dl_jul_price": 0.5857633537025121,
+      "rel_diff_jul_pct": 0.0139,
+      "dl_oct_price": 0.7759410084395155,
+      "rel_diff_oct_pct": 0.0186
+    },
+    "2694": {
+      "dl_jul_price": 0.7497658337128897,
+      "rel_diff_jul_pct": 0.2485,
+      "dl_oct_price": 0.8454155585149927,
+      "rel_diff_oct_pct": 0.0086
+    },
+    "29270": {
+      "dl_jul_price": 0.4696330059354421,
+      "rel_diff_jul_pct": 0.1081,
+      "dl_oct_price": 0.7889857673941447,
+      "rel_diff_oct_pct": 0.136
+    },
+    "20641": {
+      "dl_jul_price": 1.1378401181184299,
+      "rel_diff_jul_pct": 0.012,
+      "dl_oct_price": 1.1246060369219015,
+      "rel_diff_oct_pct": 0.0176
+    },
+    "131": {
+      "dl_jul_price": 33.152397637307274,
+      "rel_diff_jul_pct": 0.146,
+      "dl_oct_price": 58.22398427271249,
+      "rel_diff_oct_pct": 0.0026
+    },
+    "35336": {
+      "dl_jul_price": 1.681938651310273,
+      "rel_diff_jul_pct": 0.0493,
+      "dl_oct_price": 2.0603419747177547,
+      "rel_diff_oct_pct": 0.0416
+    },
+    "34466": {
+      "dl_jul_price": 0.006128796163820771,
+      "rel_diff_jul_pct": 0.0866,
+      "dl_oct_price": 0.009442780813575824,
+      "rel_diff_oct_pct": 0.0861
+    },
+    "3077": {
+      "dl_jul_price": 0.004467297202241346,
+      "rel_diff_jul_pct": 0.0484,
+      "dl_oct_price": 0.00880226787125684,
+      "rel_diff_oct_pct": 0.0125
+    },
+    "29420": {
+      "dl_jul_price": 0.5457388035300187,
+      "rel_diff_jul_pct": 0.185,
+      "dl_oct_price": 0.7821112736699906,
+      "rel_diff_oct_pct": 0.1479
+    },
+    "26081": {
+      "dl_jul_price": 0.9969017279077325,
+      "rel_diff_jul_pct": 0.0194,
+      "dl_oct_price": 0.9987959965725822,
+      "rel_diff_oct_pct": 0.011
+    },
+    "4172": {
+      "dl_jul_price": 6.021280960367572e-05,
+      "rel_diff_jul_pct": 0.0258,
+      "dl_oct_price": 5.2884602398156996e-05,
+      "rel_diff_oct_pct": 0.1915
+    },
+    "22861": {
+      "dl_jul_price": 0.35701689515674806,
+      "rel_diff_jul_pct": 0.0937,
+      "dl_oct_price": 0.4281423294479586,
+      "rel_diff_oct_pct": 0.1075
+    },
+    "28081": {
+      "dl_jul_price": 0.3506062028095499,
+      "rel_diff_jul_pct": 0.04,
+      "dl_oct_price": 0.44005642284470875,
+      "rel_diff_oct_pct": 0.1259
+    },
+    "10529": {
+      "dl_jul_price": 0.01651192456150422,
+      "rel_diff_jul_pct": 0.0429,
+      "dl_oct_price": 0.017067677023365427,
+      "rel_diff_oct_pct": 0.0466
+    },
+    "6538": {
+      "dl_jul_price": 0.20474505076621732,
+      "rel_diff_jul_pct": 0.115,
+      "dl_oct_price": 0.3739365123928974,
+      "rel_diff_oct_pct": 0.0014
+    },
+    "28177": {
+      "dl_jul_price": 0.03758736850970183,
+      "rel_diff_jul_pct": 0.0214,
+      "dl_oct_price": 0.07425837450908902,
+      "rel_diff_oct_pct": 0.05
+    },
+    "26997": {
+      "dl_jul_price": 0.8137270722566453,
+      "rel_diff_jul_pct": 0.0542,
+      "dl_oct_price": 1.8030514411226835,
+      "rel_diff_oct_pct": 0.1384
+    },
+    "9816": {
+      "dl_jul_price": 2.63872022052577e-07,
+      "rel_diff_jul_pct": 0.0375,
+      "dl_oct_price": 2.401591799267703e-07,
+      "rel_diff_oct_pct": 0.0755
+    },
+    "9481": {
+      "dl_jul_price": 1.4240425332115205,
+      "rel_diff_jul_pct": 0.0215,
+      "dl_oct_price": 2.3793297988973765,
+      "rel_diff_oct_pct": 0.1843
+    },
+    "10603": {
+      "dl_jul_price": 0.11877387096003798,
+      "rel_diff_jul_pct": 0.0027,
+      "dl_oct_price": 0.1702274453705066,
+      "rel_diff_oct_pct": 0.0113
+    },
+    "30495": {
+      "dl_jul_price": 0.020029667264220327,
+      "rel_diff_jul_pct": 0.038,
+      "dl_oct_price": 0.033691516563183865,
+      "rel_diff_oct_pct": 0.1541
+    },
+    "2011": {
+      "dl_jul_price": 0.2098907559367498,
+      "rel_diff_jul_pct": 0.0769,
+      "dl_oct_price": 0.32440573786662874,
+      "rel_diff_oct_pct": 0.3135
+    },
+    "38515": {
+      "dl_jul_price": 0.0643134359536352,
+      "rel_diff_jul_pct": 0.0368,
+      "dl_oct_price": 0.05658157540187806,
+      "rel_diff_oct_pct": 0.102
+    },
+    "32880": {
+      "dl_jul_price": 0.03486147392407132,
+      "rel_diff_jul_pct": 0.097,
+      "dl_oct_price": 0.036831021366960766,
+      "rel_diff_oct_pct": 0.2176
+    },
+    "2394": {
+      "dl_jul_price": 0.002290823846375154,
+      "rel_diff_jul_pct": 0.0531,
+      "dl_oct_price": 0.002126916585698893,
+      "rel_diff_oct_pct": 0.1995
+    },
+    "30636": {
+      "dl_jul_price": 0.0021895094628647553,
+      "rel_diff_jul_pct": 0.0662,
+      "dl_oct_price": 0.00258986722705399,
+      "rel_diff_oct_pct": 0.1302
+    },
+    "8000": {
+      "dl_jul_price": 0.24638645918999535,
+      "rel_diff_jul_pct": 0.0332,
+      "dl_oct_price": 0.43748878313392026,
+      "rel_diff_oct_pct": 0.1396
+    },
+    "6719": {
+      "dl_jul_price": 0.01773520094806352,
+      "rel_diff_jul_pct": 0.0065,
+      "dl_oct_price": 0.02809618768158331,
+      "rel_diff_oct_pct": 0.0869
+    },
+    "1168": {
+      "dl_jul_price": 10.932243515234367,
+      "rel_diff_jul_pct": 0.0268,
+      "dl_oct_price": 18.163590507341247,
+      "rel_diff_oct_pct": 0.239
+    },
+    "4066": {
+      "dl_jul_price": 0.017730019425645924,
+      "rel_diff_jul_pct": 0.0794,
+      "dl_oct_price": 0.01615172236474193,
+      "rel_diff_oct_pct": 0.0325
+    },
+    "38828": {
+      "dl_jul_price": 0.7243963238462006,
+      "rel_diff_jul_pct": 609.9207,
+      "dl_oct_price": 0.5276230115947198,
+      "rel_diff_oct_pct": 247.5639
+    },
+    "38482": {
+      "dl_jul_price": 0.06327834389425714,
+      "rel_diff_jul_pct": 0.0429,
+      "dl_oct_price": 0.12300340100783302,
+      "rel_diff_oct_pct": 0.101
+    },
+    "38849": {
+      "dl_jul_price": 0.6698808368273343,
+      "rel_diff_jul_pct": 0.0682,
+      "dl_oct_price": 1.4001474399221923,
+      "rel_diff_oct_pct": 0.025
+    },
+    "6783": {
+      "dl_jul_price": 1.0097866261171418,
+      "rel_diff_jul_pct": 0.0116,
+      "dl_oct_price": 1.1478305633699195,
+      "rel_diff_oct_pct": 0.2016
+    },
+    "7431": {
+      "dl_jul_price": 0.593591015526616,
+      "rel_diff_jul_pct": 0.3449,
+      "dl_oct_price": 0.6512958418992895,
+      "rel_diff_oct_pct": 0.0985
+    },
+    "8526": {
+      "dl_jul_price": 0.6462749557344396,
+      "rel_diff_jul_pct": 0.1593,
+      "dl_oct_price": 1.8720304856149872,
+      "rel_diff_oct_pct": 0.1769
+    },
+    "1720": {
+      "dl_jul_price": 0.037497331950384495,
+      "rel_diff_jul_pct": 0.0121,
+      "dl_oct_price": 0.05483507919930069,
+      "rel_diff_oct_pct": 0.0039
+    },
+    "13855": {
+      "dl_jul_price": 4.088718918921951,
+      "rel_diff_jul_pct": 0.0889,
+      "dl_oct_price": 6.878414791722873,
+      "rel_diff_oct_pct": 0.016
+    },
+    "5964": {
+      "dl_jul_price": 0.3576528011054634,
+      "rel_diff_jul_pct": 0.0655,
+      "dl_oct_price": 0.592794671794002,
+      "rel_diff_oct_pct": 0.0226
+    },
+    "4041": {
+      "dl_jul_price": 1.6583043052816444,
+      "rel_diff_jul_pct": 0.0112,
+      "dl_oct_price": 1.8637698182710836,
+      "rel_diff_oct_pct": 0.0301
+    },
+    "35763": {
+      "dl_jul_price": 0.6192243664808389,
+      "rel_diff_jul_pct": 0.3047,
+      "dl_oct_price": 0.34706781042815876,
+      "rel_diff_oct_pct": 0.0678
+    },
+    "6210": {
+      "dl_jul_price": 0.04752758834295985,
+      "rel_diff_jul_pct": 0.0082,
+      "dl_oct_price": 0.045015020697126325,
+      "rel_diff_oct_pct": 0.1685
+    },
+    "33597": {
+      "dl_jul_price": 0.13568813056165074,
+      "rel_diff_jul_pct": 0.0517,
+      "dl_oct_price": 0.17608328092944278,
+      "rel_diff_oct_pct": 0.1055
+    },
+    "1376": {
+      "dl_jul_price": 1.9163492427619013,
+      "rel_diff_jul_pct": 0.0453,
+      "dl_oct_price": 2.526581231983737,
+      "rel_diff_oct_pct": 0.055
+    },
+    "4157": {
+      "dl_jul_price": 0.3889613484820707,
+      "rel_diff_jul_pct": 0.054,
+      "dl_oct_price": 0.7777670675976802,
+      "rel_diff_oct_pct": 0.0475
+    },
+    "2467": {
+      "dl_jul_price": 0.2567635390736557,
+      "rel_diff_jul_pct": 0.4362,
+      "dl_oct_price": 0.42677384547858094,
+      "rel_diff_oct_pct": 2.3083
+    },
+    "5632": {
+      "dl_jul_price": 1.9536322781741733,
+      "rel_diff_jul_pct": 0.1211,
+      "dl_oct_price": 4.292176308096478,
+      "rel_diff_oct_pct": 0.0605
+    },
+    "1966": {
+      "dl_jul_price": 0.06313232741226141,
+      "rel_diff_jul_pct": 0.0798,
+      "dl_oct_price": 0.08862785335782801,
+      "rel_diff_oct_pct": 0.0983
+    },
+    "12147": {
+      "dl_jul_price": 0.5185866661709331,
+      "rel_diff_jul_pct": 1.6017,
+      "dl_oct_price": 0.18463463905272468,
+      "rel_diff_oct_pct": 0.0872
+    },
+    "28324": {
+      "dl_jul_price": 0.14396481291678936,
+      "rel_diff_jul_pct": 0.4002,
+      "dl_oct_price": 0.15289578257170408,
+      "rel_diff_oct_pct": 0.0457
+    },
+    "1697": {
+      "dl_jul_price": 0.0790091452831086,
+      "rel_diff_jul_pct": 0.2093,
+      "dl_oct_price": 0.0892883506635558,
+      "rel_diff_oct_pct": 0.113
+    },
+    "32956": {
+      "dl_jul_price": 0.46554982799804895,
+      "rel_diff_jul_pct": 0.2301,
+      "dl_oct_price": 0.6981829472527162,
+      "rel_diff_oct_pct": 0.0206
+    },
+    "7080": {
+      "dl_jul_price": 0.0023035108855343866,
+      "rel_diff_jul_pct": 0.0516,
+      "dl_oct_price": 0.0022579446001267218,
+      "rel_diff_oct_pct": 0.0464
+    },
+    "8119": {
+      "dl_jul_price": 0.22328484345022367,
+      "rel_diff_jul_pct": 0.0231,
+      "dl_oct_price": 0.30590341766827256,
+      "rel_diff_oct_pct": 0.0262
+    },
+    "9903": {
+      "dl_jul_price": 1.1284063491214866,
+      "rel_diff_jul_pct": 0.27,
+      "dl_oct_price": 2.0867330095052194,
+      "rel_diff_oct_pct": 0.0896
+    },
+    "6748": {
+      "dl_jul_price": 0.18989668361289982,
+      "rel_diff_jul_pct": 0.0887,
+      "dl_oct_price": 0.1509513553281961,
+      "rel_diff_oct_pct": 1.8968
+    },
+    "36462": {
+      "dl_jul_price": 0.06404474852113161,
+      "rel_diff_jul_pct": 0.1421,
+      "dl_oct_price": 0.09610160211121015,
+      "rel_diff_oct_pct": 0.0309
+    },
+    "39545": {
+      "dl_jul_price": 0.04340374377835214,
+      "rel_diff_jul_pct": 0.1099,
+      "dl_oct_price": 0.011536620958710638,
+      "rel_diff_oct_pct": 0.1514
+    },
+    "10791": {
+      "dl_jul_price": 5.142692413041961e-06,
+      "rel_diff_jul_pct": 0.0716,
+      "dl_oct_price": 8.098765904864017e-06,
+      "rel_diff_oct_pct": 0.3658
+    },
+    "34958": {
+      "dl_jul_price": 0.0009437621714076927,
+      "rel_diff_jul_pct": 0.0008,
+      "dl_oct_price": 0.0008552621409023722,
+      "rel_diff_oct_pct": 0.1949
+    },
+    "36300": {
+      "dl_jul_price": 0.10156267437119026,
+      "rel_diff_jul_pct": 0.0186,
+      "dl_oct_price": 0.042759182071543805,
+      "rel_diff_oct_pct": 0.0546
+    },
+    "24091": {
+      "dl_jul_price": 0.009933158550462463,
+      "rel_diff_jul_pct": 0.0942,
+      "dl_oct_price": 0.012163181450800304,
+      "rel_diff_oct_pct": 0.0517
+    },
+    "8104": {
+      "dl_jul_price": 0.06837180312895333,
+      "rel_diff_jul_pct": 0.1625,
+      "dl_oct_price": 0.10230611011445576,
+      "rel_diff_oct_pct": 0.076
+    },
+    "38353": {
+      "dl_jul_price": 0.17799683446823922,
+      "rel_diff_jul_pct": 0.1107,
+      "dl_oct_price": 0.30083619597143213,
+      "rel_diff_oct_pct": 0.0362
+    },
+    "38868": {
+      "dl_jul_price": 0.012960912166426638,
+      "rel_diff_jul_pct": 0.0577,
+      "dl_oct_price": 0.021795583748091294,
+      "rel_diff_oct_pct": 0.0354
+    },
+    "39720": {
+      "dl_jul_price": 0.2574903550241977,
+      "rel_diff_jul_pct": 0.1086,
+      "dl_oct_price": 0.4977451718721554,
+      "rel_diff_oct_pct": 0.0294
+    },
+    "40092": {
+      "dl_jul_price": 0.5610822485048349,
+      "rel_diff_jul_pct": 0.0234,
+      "dl_oct_price": 0.5388884452158409,
+      "rel_diff_oct_pct": 0.0535
+    },
+    "38151": {
+      "dl_jul_price": 0.2944158810535922,
+      "rel_diff_jul_pct": 0.0048,
+      "dl_oct_price": 0.29404009835113254,
+      "rel_diff_oct_pct": 0.0102
+    },
+    "30083": {
+      "dl_jul_price": 0.0042467413496560255,
+      "rel_diff_jul_pct": 0.0176,
+      "dl_oct_price": 0.005831151227401661,
+      "rel_diff_oct_pct": 0.1025
+    },
+    "19269": {
+      "dl_jul_price": 0.14502543206905422,
+      "rel_diff_jul_pct": 0.0568,
+      "dl_oct_price": 0.163466231347033,
+      "rel_diff_oct_pct": 0.0306
+    },
+    "10508": {
+      "dl_jul_price": 1.0293268237852473,
+      "rel_diff_jul_pct": 1.0862,
+      "dl_oct_price": 1.5002604138020947,
+      "rel_diff_oct_pct": 0.2466
+    },
+    "36066": {
+      "dl_jul_price": 0.13766621831791778,
+      "rel_diff_jul_pct": 0.0529,
+      "dl_oct_price": 0.0687885869810325,
+      "rel_diff_oct_pct": 0.0327
+    },
+    "3640": {
+      "dl_jul_price": 1.5496895684963294,
+      "rel_diff_jul_pct": 0.0238,
+      "dl_oct_price": 1.715857008205096,
+      "rel_diff_oct_pct": 0.1321
+    },
+    "4195": {
+      "dl_jul_price": 0.2336566016774611,
+      "rel_diff_jul_pct": 0.1589,
+      "dl_oct_price": 0.25486950217714677,
+      "rel_diff_oct_pct": 0.0534
+    },
+    "38341": {
+      "dl_jul_price": 0.015537664033438212,
+      "rel_diff_jul_pct": 0.0021,
+      "dl_oct_price": 0.012053483943528018,
+      "rel_diff_oct_pct": 0.0903
+    },
+    "33039": {
+      "dl_jul_price": 0.9996763503618784,
+      "rel_diff_jul_pct": 0.0158,
+      "dl_oct_price": 0.9998137119375153,
+      "rel_diff_oct_pct": 0.0069
+    },
+    "3717": {
+      "dl_jul_price": 59977.20330488163,
+      "rel_diff_jul_pct": 0.1952,
+      "dl_oct_price": 84785.05910802042,
+      "rel_diff_oct_pct": 0.1405
+    },
+    "24760": {
+      "dl_jul_price": 1770.1521405456792,
+      "rel_diff_jul_pct": 0.0606,
+      "dl_oct_price": 2989.0974164059157,
+      "rel_diff_oct_pct": 0.2284
+    },
+    "2396": {
+      "dl_jul_price": 1609.4537988604136,
+      "rel_diff_jul_pct": 0.2976,
+      "dl_oct_price": 2703.4235819289247,
+      "rel_diff_oct_pct": 0.0417
+    },
+    "32994": {
+      "dl_jul_price": 59998.80730544495,
+      "rel_diff_jul_pct": 0.3444,
+      "dl_oct_price": 84839.38578066842,
+      "rel_diff_oct_pct": 0.1281
+    },
+    "38517": {
+      "dl_jul_price": 0.9988875487634189,
+      "rel_diff_jul_pct": 0.0279,
+      "dl_oct_price": 0.9996019423995305,
+      "rel_diff_oct_pct": 0.0011
+    },
+    "28695": {
+      "dl_jul_price": 1766.65351412136,
+      "rel_diff_jul_pct": 0.1263,
+      "dl_oct_price": 2986.893303887532,
+      "rel_diff_oct_pct": 0.1986
+    },
+    "33223": {
+      "dl_jul_price": 8.891774267296856,
+      "rel_diff_jul_pct": 0.0825,
+      "dl_oct_price": 0.05278265620079217,
+      "rel_diff_oct_pct": 0.1183
+    },
+    "29256": {
+      "dl_jul_price": 1.1350891800512732,
+      "rel_diff_jul_pct": 0.2147,
+      "dl_oct_price": 1.1477495111491123,
+      "rel_diff_oct_pct": 0.0205
+    },
+    "29471": {
+      "dl_jul_price": 1.2350497255339008,
+      "rel_diff_jul_pct": 0.0076,
+      "dl_oct_price": 1.2505229992284608,
+      "rel_diff_oct_pct": 0.0057
+    },
+    "18579": {
+      "dl_jul_price": 0.3157520684747631,
+      "rel_diff_jul_pct": 0.011,
+      "dl_oct_price": 0.3350624073680085,
+      "rel_diff_oct_pct": 0.0126
+    },
+    "35721": {
+      "dl_jul_price": 0.9957042000417656,
+      "rel_diff_jul_pct": 0.0008,
+      "dl_oct_price": 0.9959462844320347,
+      "rel_diff_oct_pct": 0.041
+    },
+    "37760": {
+      "dl_jul_price": 0.9985597991094954,
+      "rel_diff_jul_pct": 0.0071,
+      "dl_oct_price": 0.9992224339316191,
+      "rel_diff_oct_pct": 0.0021
+    },
+    "9486": {
+      "dl_jul_price": 60122.040649137096,
+      "rel_diff_jul_pct": 0.0239,
+      "dl_oct_price": 84474.79122342503,
+      "rel_diff_oct_pct": 0.0013
+    },
+    "7192": {
+      "dl_jul_price": 550.1637670154767,
+      "rel_diff_jul_pct": 0.0958,
+      "dl_oct_price": 770.0929068323785,
+      "rel_diff_oct_pct": 0.0612
+    },
+    "39683": {
+      "dl_jul_price": 0.9999944756295435,
+      "rel_diff_jul_pct": 0.0043,
+      "dl_oct_price": 1.000147033180318,
+      "rel_diff_oct_pct": 0.0102
+    },
+    "29242": {
+      "dl_jul_price": 1725.7584242488426,
+      "rel_diff_jul_pct": 2.7845,
+      "dl_oct_price": 2916.1652747712865,
+      "rel_diff_oct_pct": 0.2258
+    },
+    "22533": {
+      "dl_jul_price": 99.70802905042743,
+      "rel_diff_jul_pct": 0.0391,
+      "dl_oct_price": 154.08924666354713,
+      "rel_diff_oct_pct": 0.099
+    },
+    "32882": {
+      "dl_jul_price": 86.4703793103062,
+      "rel_diff_jul_pct": 0.1081,
+      "dl_oct_price": 134.07629173569194,
+      "rel_diff_oct_pct": 0.0112
+    },
+    "37745": {
+      "dl_jul_price": 0.17306459158767276,
+      "rel_diff_jul_pct": 0.2011,
+      "dl_oct_price": 0.23282028981944677,
+      "rel_diff_oct_pct": 0.5799
+    },
+    "33652": {
+      "dl_jul_price": 60093.96140165415,
+      "rel_diff_jul_pct": 0.6,
+      "dl_oct_price": 85000.07383872333,
+      "rel_diff_oct_pct": 0.0299
+    },
+    "3987": {
+      "dl_jul_price": 0.08686075393233374,
+      "rel_diff_jul_pct": 0.0313,
+      "dl_oct_price": 0.07273627616560664,
+      "rel_diff_oct_pct": 0.8642
+    },
+    "32306": {
+      "dl_jul_price": 60251.25748532962,
+      "rel_diff_jul_pct": 0.2177,
+      "dl_oct_price": 84814.2807295968,
+      "rel_diff_oct_pct": 0.349
+    },
+    "15060": {
+      "dl_jul_price": 1883.18942861031,
+      "rel_diff_jul_pct": 0.3668,
+      "dl_oct_price": 3161.5824304434927,
+      "rel_diff_oct_pct": 0.0304
+    },
+    "23508": {
+      "dl_jul_price": 0.9979503480479336,
+      "rel_diff_jul_pct": 0.0044,
+      "dl_oct_price": 0.9992894939402288,
+      "rel_diff_oct_pct": 0.006
+    },
+    "39925": {
+      "dl_jul_price": 1.002636043970657,
+      "rel_diff_jul_pct": 0.2167,
+      "dl_oct_price": 1.0001860293502027,
+      "rel_diff_oct_pct": 0.0051
+    },
+    "32307": {
+      "dl_jul_price": 0.99851858197554,
+      "rel_diff_jul_pct": 0.0008,
+      "dl_oct_price": 0.9986766602865914,
+      "rel_diff_oct_pct": 0.0248
+    },
+    "28183": {
+      "dl_jul_price": 0.00644190158048334,
+      "rel_diff_jul_pct": 0.0214,
+      "dl_oct_price": 0.0073797569153636125,
+      "rel_diff_oct_pct": 0.2055
+    },
+    "33981": {
+      "dl_jul_price": 0.9641776547561438,
+      "rel_diff_jul_pct": 0.0001,
+      "dl_oct_price": 0.9728046535390633,
+      "rel_diff_oct_pct": 0.0686
+    },
+    "38562": {
+      "dl_jul_price": 0.9998087698769584,
+      "rel_diff_jul_pct": 0.0078,
+      "dl_oct_price": 1.0000832253048413,
+      "rel_diff_oct_pct": 0.0383
+    },
+    "38192": {
+      "dl_jul_price": 92.52276732423158,
+      "rel_diff_jul_pct": 0.4173,
+      "dl_oct_price": 143.4492586293513,
+      "rel_diff_oct_pct": 0.0314
+    },
+    "29035": {
+      "dl_jul_price": 1759.4923608086938,
+      "rel_diff_jul_pct": 0.1262,
+      "dl_oct_price": 2972.3594706198783,
+      "rel_diff_oct_pct": 0.0245
+    },
+    "33312": {
+      "dl_jul_price": 59925.65416917599,
+      "rel_diff_jul_pct": 0.0848,
+      "dl_oct_price": 84571.67936187575,
+      "rel_diff_oct_pct": 0.1351
+    },
+    "7962": {
+      "dl_jul_price": 1216.5738525877587,
+      "rel_diff_jul_pct": 0.4544,
+      "dl_oct_price": 1729.148001182038,
+      "rel_diff_oct_pct": 0.026
+    },
+    "21535": {
+      "dl_jul_price": 1823.3218657410914,
+      "rel_diff_jul_pct": 0.3029,
+      "dl_oct_price": 3086.40441040863,
+      "rel_diff_oct_pct": 0.1309
+    },
+    "33852": {
+      "dl_jul_price": 9.013191119101707e-08,
+      "rel_diff_jul_pct": 99.985
+    },
+    "6952": {
+      "dl_jul_price": 0.9902621895852024,
+      "rel_diff_jul_pct": 0.0381,
+      "dl_oct_price": 0.9931834522772109,
+      "rel_diff_oct_pct": 0.0299
+    },
+    "36175": {
+      "dl_jul_price": 59414.631195818074,
+      "rel_diff_jul_pct": 0.1807,
+      "dl_oct_price": 84324.96876987141,
+      "rel_diff_oct_pct": 1.2024
+    },
+    "38339": {
+      "dl_jul_price": 0.087807903465529,
+      "rel_diff_jul_pct": 0.0969,
+      "dl_oct_price": 0.14481792615622432,
+      "rel_diff_oct_pct": 0.1914
+    },
+    "7184": {
+      "dl_jul_price": 63.85807456251862,
+      "rel_diff_jul_pct": 1.3044,
+      "dl_oct_price": 65.68391098104641,
+      "rel_diff_oct_pct": 0.0294
+    },
+    "27048": {
+      "dl_jul_price": 9.99485898502092e-07,
+      "rel_diff_jul_pct": 0.01,
+      "dl_oct_price": 1.2797407501729173e-06,
+      "rel_diff_oct_pct": 0.1133
+    },
+    "24875": {
+      "dl_jul_price": 0.4071229346255916,
+      "rel_diff_jul_pct": 0.0161,
+      "dl_oct_price": 0.4517863852353341,
+      "rel_diff_oct_pct": 0.2008
+    },
+    "7957": {
+      "dl_jul_price": 0.02633711786344963,
+      "rel_diff_jul_pct": 0.003,
+      "dl_oct_price": 0.0265233546497101,
+      "rel_diff_oct_pct": 0.0056
+    },
+    "36246": {
+      "dl_jul_price": 82.99989517225197,
+      "rel_diff_jul_pct": 0.0389,
+      "dl_oct_price": 170.87696392769553,
+      "rel_diff_oct_pct": 0.0515
+    },
+    "27566": {
+      "dl_jul_price": 1754.7968676152748,
+      "rel_diff_jul_pct": 0.8707,
+      "dl_oct_price": 2967.789812270926,
+      "rel_diff_oct_pct": 0.0195
+    },
+    "37574": {
+      "dl_jul_price": 2003.6762434889745,
+      "rel_diff_jul_pct": 0.8604,
+      "dl_oct_price": 3383.7122766077414,
+      "rel_diff_oct_pct": 0.0366
+    },
+    "24927": {
+      "dl_jul_price": 0.9991309369175715,
+      "rel_diff_jul_pct": 0.0085,
+      "dl_oct_price": 0.9997716025325041,
+      "rel_diff_oct_pct": 0.0056
+    },
+    "2499": {
+      "dl_jul_price": 0.16143088769254427,
+      "rel_diff_jul_pct": 0.5143,
+      "dl_oct_price": 0.1752840721528663,
+      "rel_diff_oct_pct": 0.0566
+    },
+    "18523": {
+      "dl_jul_price": 8.429492679192352,
+      "rel_diff_jul_pct": 0.0583,
+      "dl_oct_price": 14.14820634311131,
+      "rel_diff_oct_pct": 0.7951
+    },
+    "38330": {
+      "dl_jul_price": 0.9978928609716575,
+      "rel_diff_jul_pct": 0.0697,
+      "dl_oct_price": 0.9981489865433892,
+      "rel_diff_oct_pct": 0.0002
+    },
+    "4691": {
+      "dl_jul_price": 9.09253305002911,
+      "rel_diff_jul_pct": 0.1304,
+      "dl_oct_price": 5.533963391552684,
+      "rel_diff_oct_pct": 0.16
+    },
+    "30605": {
+      "dl_jul_price": 0.2571912306815117,
+      "rel_diff_jul_pct": 0.0339,
+      "dl_oct_price": 0.269512598086261,
+      "rel_diff_oct_pct": 0.003
+    },
+    "40047": {
+      "dl_jul_price": 0.5004381197849619,
+      "rel_diff_jul_pct": 0.0328,
+      "dl_oct_price": 0.06361795915741603,
+      "rel_diff_oct_pct": 0.0143
+    },
+    "39177": {
+      "dl_jul_price": 0.6305257386314728,
+      "rel_diff_jul_pct": 0.0598,
+      "dl_oct_price": 0.20767428740506402,
+      "rel_diff_oct_pct": 0.4751
+    },
+    "29933": {
+      "dl_jul_price": 1.1504156828314713,
+      "rel_diff_jul_pct": 0.5422,
+      "dl_oct_price": 0.11181667401618778,
+      "rel_diff_oct_pct": 0.0052
+    },
+    "36039": {
+      "dl_jul_price": 0.9997810143193384,
+      "rel_diff_jul_pct": 0.0094,
+      "dl_oct_price": 0.9999854417487003,
+      "rel_diff_oct_pct": 0.0033
+    },
+    "2933": {
+      "dl_jul_price": 0.3332638783081765,
+      "rel_diff_jul_pct": 0.0918
+    },
+    "14926": {
+      "dl_jul_price": 105.03404600280749,
+      "rel_diff_jul_pct": 0.0539,
+      "dl_oct_price": 161.70025104044723,
+      "rel_diff_oct_pct": 0.2045
+    },
+    "36762": {
+      "dl_jul_price": 0.9983741638192201,
+      "rel_diff_jul_pct": 0.0189,
+      "dl_oct_price": 0.9986930771262131,
+      "rel_diff_oct_pct": 0.0057
+    },
+    "36743": {
+      "dl_jul_price": 0.10414690832814191,
+      "rel_diff_jul_pct": 0.1282,
+      "dl_oct_price": 0.2726450966890155,
+      "rel_diff_oct_pct": 0.2536
+    },
+    "15271": {
+      "dl_jul_price": 0.06297283003859903,
+      "rel_diff_jul_pct": 0.1544,
+      "dl_oct_price": 0.08254874992007984,
+      "rel_diff_oct_pct": 0.2862
+    },
+    "38947": {
+      "dl_jul_price": 1.0367832200594536,
+      "rel_diff_jul_pct": 0.6688,
+      "dl_oct_price": 1.0460661630376653,
+      "rel_diff_oct_pct": 0.8631
+    },
+    "28656": {
+      "dl_jul_price": 16.370277269432606,
+      "rel_diff_jul_pct": 0.0974,
+      "dl_oct_price": 19.07673938271409,
+      "rel_diff_oct_pct": 0.2725
+    },
+    "36707": {
+      "dl_jul_price": 1.0517443122620813,
+      "rel_diff_jul_pct": 0.4041,
+      "dl_oct_price": 1.4934546888553886,
+      "rel_diff_oct_pct": 0.0271
+    },
+    "35818": {
+      "dl_jul_price": 0.2838440106590081,
+      "rel_diff_jul_pct": 0.1315,
+      "dl_oct_price": 0.2984860102368995,
+      "rel_diff_oct_pct": 0.0781
+    },
+    "33834": {
+      "dl_jul_price": 89.52766031497713,
+      "rel_diff_jul_pct": 0.1609,
+      "dl_oct_price": 138.16877070222847,
+      "rel_diff_oct_pct": 0.0024
+    },
+    "20969": {
+      "dl_jul_price": 0.2131605560337272,
+      "rel_diff_jul_pct": 0.0297,
+      "dl_oct_price": 0.27808342746322945,
+      "rel_diff_oct_pct": 0.0153
+    },
+    "38283": {
+      "dl_jul_price": 0.21983398678473928,
+      "rel_diff_jul_pct": 0.0331,
+      "dl_oct_price": 0.21272015393087723,
+      "rel_diff_oct_pct": 0.0818
+    },
+    "34926": {
+      "dl_jul_price": 0.08308845193246528,
+      "rel_diff_jul_pct": 0.083,
+      "dl_oct_price": 0.07226296787916124,
+      "rel_diff_oct_pct": 0.0481
+    },
+    "14721": {
+      "dl_jul_price": 0.0596032965780382,
+      "rel_diff_jul_pct": 0.0286,
+      "dl_oct_price": 0.004935289139789937,
+      "rel_diff_oct_pct": 0.2416
+    },
+    "29520": {
+      "dl_jul_price": 1737.2349136692674,
+      "rel_diff_jul_pct": 0.1034,
+      "dl_oct_price": 2932.8514647433612,
+      "rel_diff_oct_pct": 0.1098
+    },
+    "35014": {
+      "dl_jul_price": 0.10734500206466202,
+      "rel_diff_jul_pct": 0.3042,
+      "dl_oct_price": 0.3958049973696924,
+      "rel_diff_oct_pct": 0.0794
+    },
+    "35347": {
+      "dl_jul_price": 0.07443237779305001,
+      "rel_diff_jul_pct": 0.1841,
+      "dl_oct_price": 0.10476250533037786,
+      "rel_diff_oct_pct": 0.0781
+    },
+    "38841": {
+      "dl_jul_price": 0.30952034529057026,
+      "rel_diff_jul_pct": 0.0592,
+      "dl_oct_price": 0.3606800580196883,
+      "rel_diff_oct_pct": 0.2454
+    },
+    "36804": {
+      "dl_jul_price": 4.967583956367783,
+      "rel_diff_jul_pct": 0.0528
+    },
+    "39332": {
+      "dl_jul_price": 0.033515660909165766,
+      "rel_diff_jul_pct": 0.2246,
+      "dl_oct_price": 0.07686646503946587,
+      "rel_diff_oct_pct": 0.1277
+    },
+    "11165": {
+      "dl_jul_price": 1.1950803325923067,
+      "rel_diff_jul_pct": 0.0582,
+      "dl_oct_price": 1.7032407217465018,
+      "rel_diff_oct_pct": 0.1218
+    },
+    "20964": {
+      "dl_jul_price": 0.29530731721046555,
+      "rel_diff_jul_pct": 0.1673,
+      "dl_oct_price": 0.320011936266744,
+      "rel_diff_oct_pct": 0.0267
+    },
+    "1684": {
+      "dl_jul_price": 0.6810541526249481,
+      "rel_diff_jul_pct": 0.0427,
+      "dl_oct_price": 0.9853553956654036,
+      "rel_diff_oct_pct": 0.0028
+    },
+    "3661": {
+      "dl_jul_price": 0.004102045877511004,
+      "rel_diff_jul_pct": 0.0027,
+      "dl_oct_price": 0.007381001522144897,
+      "rel_diff_oct_pct": 0.4588
+    },
+    "39121": {
+      "dl_jul_price": 0.3791728415290493,
+      "rel_diff_jul_pct": 0.0662,
+      "dl_oct_price": 0.2262278423671639,
+      "rel_diff_oct_pct": 0.0705
+    },
+    "38967": {
+      "dl_jul_price": 0.28432764405207933,
+      "rel_diff_jul_pct": 0.1301,
+      "dl_oct_price": 0.19850994968882832,
+      "rel_diff_oct_pct": 0.1678
+    },
+    "38236": {
+      "dl_jul_price": 0.01760062875624054,
+      "rel_diff_jul_pct": 0.1287,
+      "dl_oct_price": 0.020644795164886882,
+      "rel_diff_oct_pct": 0.4558
+    },
+    "31525": {
+      "dl_jul_price": 0.26402496785056007,
+      "rel_diff_jul_pct": 26.4401,
+      "dl_oct_price": 0.08934179234467675,
+      "rel_diff_oct_pct": 0.1238
+    },
+    "38417": {
+      "dl_jul_price": 3.6205668535167663,
+      "rel_diff_jul_pct": 0.0605,
+      "dl_oct_price": 1.1980127621253172,
+      "rel_diff_oct_pct": 0.0357
+    },
+    "33881": {
+      "dl_jul_price": 0.07094183198690175,
+      "rel_diff_jul_pct": 0.0025,
+      "dl_oct_price": 0.06550501144615278,
+      "rel_diff_oct_pct": 0.0333
+    },
+    "1732": {
+      "dl_jul_price": 9.453250643259521,
+      "rel_diff_jul_pct": 0.1577,
+      "dl_oct_price": 11.324436156273272,
+      "rel_diff_oct_pct": 0.2305
+    },
+    "28862": {
+      "dl_jul_price": 100.87934774627135,
+      "rel_diff_jul_pct": 0.274,
+      "dl_oct_price": 155.96994002555664,
+      "rel_diff_oct_pct": 0.0551
+    },
+    "36576": {
+      "dl_jul_price": 0.021253567749376128,
+      "rel_diff_jul_pct": 1.7756,
+      "dl_oct_price": 0.03361983439032618,
+      "rel_diff_oct_pct": 0.0065
+    },
+    "1896": {
+      "dl_jul_price": 0.08148983313118766,
+      "rel_diff_jul_pct": 0.0429,
+      "dl_oct_price": 0.12205943733931406,
+      "rel_diff_oct_pct": 0.0543
+    },
+    "1785": {
+      "dl_jul_price": 1.040122917395723,
+      "rel_diff_jul_pct": 0.0427,
+      "dl_oct_price": 1.4058829592732367,
+      "rel_diff_oct_pct": 0.0338
+    },
+    "38942": {
+      "dl_jul_price": 0.9993207550638923,
+      "rel_diff_jul_pct": 0.0118,
+      "dl_oct_price": 1.0007594160659832,
+      "rel_diff_oct_pct": 0.1052
+    },
+    "9104": {
+      "dl_jul_price": 0.052677101365939276,
+      "rel_diff_jul_pct": 0.2078,
+      "dl_oct_price": 0.11258586661892013,
+      "rel_diff_oct_pct": 0.0042
+    },
+    "36302": {
+      "dl_jul_price": 0.07822839798652799,
+      "rel_diff_jul_pct": 0.1245,
+      "dl_oct_price": 0.07822267852233661,
+      "rel_diff_oct_pct": 0.0043
+    },
+    "40588": {
+      "dl_jul_price": 0.15736980044968116,
+      "rel_diff_jul_pct": 0.0408,
+      "dl_oct_price": 0.14109013013317206,
+      "rel_diff_oct_pct": 0.0481
+    },
+    "30030": {
+      "dl_jul_price": 99.57186198572315,
+      "rel_diff_jul_pct": 0.024,
+      "dl_oct_price": 154.4518629030926,
+      "rel_diff_oct_pct": 1.213
+    },
+    "21846": {
+      "dl_jul_price": 0.033001296843354226,
+      "rel_diff_jul_pct": 0.0242,
+      "dl_oct_price": 0.03652295875216138,
+      "rel_diff_oct_pct": 0.0799
+    },
+    "20279": {
+      "dl_jul_price": 3.7006329774392186,
+      "rel_diff_jul_pct": 0.3829
+    },
+    "39549": {
+      "dl_jul_price": 0.9986294958008642,
+      "rel_diff_jul_pct": 0.0149,
+      "dl_oct_price": 0.9997706105243883,
+      "rel_diff_oct_pct": 0.0268
+    },
+    "5864": {
+      "dl_jul_price": 1744.2389367562603,
+      "rel_diff_jul_pct": 0.0061,
+      "dl_oct_price": 2466.707827701423,
+      "rel_diff_oct_pct": 0.1075
+    },
+    "39689": {
+      "dl_jul_price": 0.002489059683113519,
+      "rel_diff_jul_pct": 0.0167,
+      "dl_oct_price": 0.0009535601996845796,
+      "rel_diff_oct_pct": 0.0003
+    },
+    "2577": {
+      "dl_jul_price": 0.0037632175085059484,
+      "rel_diff_jul_pct": 0.0468,
+      "dl_oct_price": 0.0023774490599355893,
+      "rel_diff_oct_pct": 5.1812
+    },
+    "7959": {
+      "dl_jul_price": 0.022187270194606108,
+      "rel_diff_jul_pct": 0.5296,
+      "dl_oct_price": 0.022271327982914542,
+      "rel_diff_oct_pct": 0.1727
+    },
+    "35537": {
+      "dl_jul_price": 0.05970199821360745,
+      "rel_diff_jul_pct": 0.0616,
+      "dl_oct_price": 0.05761544528570656,
+      "rel_diff_oct_pct": 0.0722
+    },
+    "30651": {
+      "dl_jul_price": 58.98279776020478,
+      "rel_diff_jul_pct": 0.0992,
+      "dl_oct_price": 18.588038362395462,
+      "rel_diff_oct_pct": 0.4677
+    },
+    "2469": {
+      "dl_jul_price": 0.002928895892033267,
+      "rel_diff_jul_pct": 0.0957,
+      "dl_oct_price": 0.003497286496525781,
+      "rel_diff_oct_pct": 0.0856
+    },
+    "34880": {
+      "dl_jul_price": 0.06866422142489025,
+      "rel_diff_jul_pct": 0.1797,
+      "dl_oct_price": 0.05198102756311194,
+      "rel_diff_oct_pct": 0.004
+    },
+    "11857": {
+      "dl_jul_price": 5.5910911869368904,
+      "rel_diff_jul_pct": 0.0482,
+      "dl_oct_price": 7.889589334400498,
+      "rel_diff_oct_pct": 0.0139
+    },
+    "35364": {
+      "dl_jul_price": 0.009670371922400688,
+      "rel_diff_jul_pct": 0.0821,
+      "dl_oct_price": 0.018359519577870263,
+      "rel_diff_oct_pct": 0.1166
+    },
+    "30933": {
+      "dl_jul_price": 0.0005795284192547322,
+      "rel_diff_jul_pct": 0.4069,
+      "dl_oct_price": 0.000994803936766239,
+      "rel_diff_oct_pct": 0.0908
+    },
+    "24911": {
+      "dl_jul_price": 0.0008371691447876551,
+      "rel_diff_jul_pct": 0.1102,
+      "dl_oct_price": 0.0010228018714146428,
+      "rel_diff_oct_pct": 0.0693
+    },
+    "5034": {
+      "dl_jul_price": 3.0709032926656734,
+      "rel_diff_jul_pct": 0.6938,
+      "dl_oct_price": 5.080573696000001,
+      "rel_diff_oct_pct": 0.0857
+    },
+    "35269": {
+      "dl_jul_price": 0.05776164021846773,
+      "rel_diff_jul_pct": 0.1079,
+      "dl_oct_price": 0.023556557997833412,
+      "rel_diff_oct_pct": 0.1618
+    },
+    "29587": {
+      "dl_jul_price": 0.009255434252047298,
+      "rel_diff_jul_pct": 0.1376,
+      "dl_oct_price": 0.013227249787985604,
+      "rel_diff_oct_pct": 0.2073
+    },
+    "36238": {
+      "dl_jul_price": 0.0014401960676641702,
+      "rel_diff_jul_pct": 0.1053,
+      "dl_oct_price": 0.0008992549050513214,
+      "rel_diff_oct_pct": 0.0054
+    },
+    "7127": {
+      "dl_jul_price": 0.003170072611636423,
+      "rel_diff_jul_pct": 0.1937,
+      "dl_oct_price": 0.006087036223344095,
+      "rel_diff_oct_pct": 0.2047
+    },
+    "3822": {
+      "dl_jul_price": 0.007494152462612252,
+      "rel_diff_jul_pct": 0.1037,
+      "dl_oct_price": 0.01032205381191227,
+      "rel_diff_oct_pct": 0.0193
+    },
+    "38489": {
+      "dl_jul_price": 0.29207056758590894,
+      "rel_diff_jul_pct": 0.1948,
+      "dl_oct_price": 0.3284450142647748,
+      "rel_diff_oct_pct": 0.0472
+    },
+    "39071": {
+      "dl_jul_price": 0.3393524954154127,
+      "rel_diff_jul_pct": 0.1287,
+      "dl_oct_price": 0.16139456800586052,
+      "rel_diff_oct_pct": 0.4042
+    },
+    "38569": {
+      "dl_jul_price": 0.2206333244232892,
+      "rel_diff_jul_pct": 0.0783,
+      "dl_oct_price": 0.13239676881561188,
+      "rel_diff_oct_pct": 0.1716
+    },
+    "5350": {
+      "dl_jul_price": 0.0018368059066057104,
+      "rel_diff_jul_pct": 0.1578,
+      "dl_oct_price": 0.0023526626545611593,
+      "rel_diff_oct_pct": 0.1916
+    },
+    "32198": {
+      "dl_jul_price": 0.013368347199590853,
+      "rel_diff_jul_pct": 0.0866,
+      "dl_oct_price": 0.01375392183837849,
+      "rel_diff_oct_pct": 0.0084
+    },
+    "21259": {
+      "dl_jul_price": 0.035218944213522646,
+      "rel_diff_jul_pct": 0.0478,
+      "dl_oct_price": 0.05129133923476196,
+      "rel_diff_oct_pct": 0.2384
+    },
+    "27657": {
+      "dl_jul_price": 0.0023534819269820247,
+      "rel_diff_jul_pct": 0.0667,
+      "dl_oct_price": 0.0028591289082791575,
+      "rel_diff_oct_pct": 0.0761
+    },
+    "10407": {
+      "dl_jul_price": 2.9024357962805834e-10,
+      "rel_diff_jul_pct": 0.1973,
+      "dl_oct_price": 4.070441459331366e-10,
+      "rel_diff_oct_pct": 0.2258
+    },
+    "29743": {
+      "dl_jul_price": 0.005133521366390217,
+      "rel_diff_jul_pct": 0.426,
+      "dl_oct_price": 0.005574997211389295,
+      "rel_diff_oct_pct": 0.0418
+    },
+    "38770": {
+      "dl_jul_price": 0.04512048982858163,
+      "rel_diff_jul_pct": 0.0058,
+      "dl_oct_price": 0.050240243323164784,
+      "rel_diff_oct_pct": 0.3889
+    },
+    "10240": {
+      "dl_jul_price": 0.0284,
+      "rel_diff_jul_pct": 23.2503,
+      "dl_oct_price": 0.0389679341026044,
+      "rel_diff_oct_pct": 1.5606
+    },
+    "17799": {
+      "dl_jul_price": 0.041420567935601955,
+      "rel_diff_jul_pct": 0.1082,
+      "dl_oct_price": 0.051501356443475386,
+      "rel_diff_oct_pct": 0.1925
+    },
+    "35637": {
+      "dl_jul_price": 0.6050335822567362,
+      "rel_diff_jul_pct": 0.0361,
+      "dl_oct_price": 0.3766676751766094,
+      "rel_diff_oct_pct": 0.0534
+    },
+    "38889": {
+      "dl_jul_price": 0.22130679025538696,
+      "rel_diff_jul_pct": 0.039,
+      "dl_oct_price": 0.10011905862327777,
+      "rel_diff_oct_pct": 0.0026
+    },
+    "38909": {
+      "dl_jul_price": 0.004268227989497634,
+      "rel_diff_jul_pct": 0.015,
+      "dl_oct_price": 0.0016832744046987465,
+      "rel_diff_oct_pct": 0.0477
+    },
+    "18031": {
+      "dl_jul_price": 0.003827349617086286,
+      "rel_diff_jul_pct": 0.0057,
+      "dl_oct_price": 0.003635034215759535,
+      "rel_diff_oct_pct": 0.1894
+    },
+    "36912": {
+      "dl_jul_price": 10.822189072386541,
+      "rel_diff_jul_pct": 0.0173,
+      "dl_oct_price": 15.700758305489558,
+      "rel_diff_oct_pct": 0.6049
+    },
+    "2299": {
+      "dl_jul_price": 0.05875767349485945,
+      "rel_diff_jul_pct": 1.4466,
+      "dl_oct_price": 0.07697066229471948,
+      "rel_diff_oct_pct": 0.2662
+    },
+    "3951": {
+      "dl_jul_price": 0.24132014008407277,
+      "rel_diff_jul_pct": 0.4248,
+      "dl_oct_price": 0.2995151649657893,
+      "rel_diff_oct_pct": 0.9227
+    },
+    "35268": {
+      "dl_jul_price": 0.009021682309139543,
+      "rel_diff_jul_pct": 0.0322,
+      "dl_oct_price": 0.010355669303166903,
+      "rel_diff_oct_pct": 0.0261
+    },
+    "36056": {
+      "dl_jul_price": 0.016797544141268633,
+      "rel_diff_jul_pct": 0.1934,
+      "dl_oct_price": 0.009752118585692485,
+      "rel_diff_oct_pct": 0.2186
+    },
+    "4846": {
+      "dl_jul_price": 0.0433951940960772,
+      "rel_diff_jul_pct": 0.1347,
+      "dl_oct_price": 0.068702183206911,
+      "rel_diff_oct_pct": 0.0245
+    },
+    "39970": {
+      "dl_jul_price": 0.22368647056518415,
+      "rel_diff_jul_pct": 0.0929,
+      "dl_oct_price": 0.2836295452982386,
+      "rel_diff_oct_pct": 0.2355
+    },
+    "32372": {
+      "dl_jul_price": 1.0000406768516326,
+      "rel_diff_jul_pct": 0.002,
+      "dl_oct_price": 0.9997284191167612,
+      "rel_diff_oct_pct": 0.0046
+    },
+    "38427": {
+      "dl_jul_price": 0.15088924895189149,
+      "rel_diff_jul_pct": 0.1702,
+      "dl_oct_price": 0.08590554988468582,
+      "rel_diff_oct_pct": 0.0466
+    },
+    "7958": {
+      "dl_jul_price": 0.026518812404438444,
+      "rel_diff_jul_pct": 0.0021,
+      "dl_oct_price": 0.02670768775524711,
+      "rel_diff_oct_pct": 0.0092
+    },
+    "16093": {
+      "dl_jul_price": 0.6730472200831138,
+      "rel_diff_jul_pct": 0.0694,
+      "dl_oct_price": 0.6095800259570466,
+      "rel_diff_oct_pct": 0.0457
+    },
+    "38767": {
+      "dl_jul_price": 0.020891498702097933,
+      "rel_diff_jul_pct": 0.2119,
+      "dl_oct_price": 0.019894001301397832,
+      "rel_diff_oct_pct": 0.4637
+    },
+    "14101": {
+      "dl_jul_price": 0.05947597851329244,
+      "rel_diff_jul_pct": 0.1128,
+      "dl_oct_price": 0.0655251664992132,
+      "rel_diff_oct_pct": 0.3493
+    },
+    "36195": {
+      "dl_jul_price": 0.019813160762518794,
+      "rel_diff_jul_pct": 0.3474,
+      "dl_oct_price": 0.025607402004769787,
+      "rel_diff_oct_pct": 0.2276
+    },
+    "38908": {
+      "dl_jul_price": 0.22614297098978786,
+      "rel_diff_jul_pct": 0.6314,
+      "dl_oct_price": 0.2775720594159767,
+      "rel_diff_oct_pct": 0.1705
+    },
+    "5665": {
+      "dl_jul_price": 0.24093191033249708,
+      "rel_diff_jul_pct": 0.2385,
+      "dl_oct_price": 0.5083978180678832,
+      "rel_diff_oct_pct": 0.0352
+    },
+    "4558": {
+      "dl_jul_price": 0.02680719340724689,
+      "rel_diff_jul_pct": 0.2243,
+      "dl_oct_price": 0.031182581170993328,
+      "rel_diff_oct_pct": 0.0339
+    },
+    "35954": {
+      "dl_jul_price": 0.0014444341271768974,
+      "rel_diff_jul_pct": 0.2221,
+      "dl_oct_price": 0.001548339921977316,
+      "rel_diff_oct_pct": 0.6435
+    },
+    "7653": {
+      "dl_jul_price": 0.005694142691046915,
+      "rel_diff_jul_pct": 0.0549,
+      "dl_oct_price": 0.008504528007883488,
+      "rel_diff_oct_pct": 0.1642
+    },
+    "32452": {
+      "dl_jul_price": 0.01112694877411795,
+      "rel_diff_jul_pct": 0.1779,
+      "dl_oct_price": 0.010080066625254302,
+      "rel_diff_oct_pct": 0.8124
+    },
+    "39883": {
+      "dl_jul_price": 0.03389183814071749,
+      "rel_diff_jul_pct": 0.0047,
+      "dl_oct_price": 0.020326028442855137,
+      "rel_diff_oct_pct": 0.1468
+    },
+    "109": {
+      "dl_jul_price": 0.002398211467875124,
+      "rel_diff_jul_pct": 0.1485,
+      "dl_oct_price": 0.004368401836711327,
+      "rel_diff_oct_pct": 0.0145
+    },
+    "34212": {
+      "dl_jul_price": 3998.0351805654846,
+      "rel_diff_jul_pct": 0.0081,
+      "dl_oct_price": 4170.788906972872,
+      "rel_diff_oct_pct": 0.0125
+    }
+  }
+}

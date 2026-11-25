@@ -1,0 +1,459 @@
+{
+  "10894": {
+    "cmc_id": 10894,
+    "symbol": "SRX",
+    "source": "XDCScan Official Mainnet (Nov 2026)",
+    "chain": "XDC Network",
+    "holder_count": 209618,
+    "base_supply": 977000000.0,
+    "top10_pct": 61.67,
+    "top20_pct": 40.7154,
+    "top50_pct": 72.28,
+    "top100_pct": 78.06,
+    "wallets": [
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 87500000.0,
+        "pct": 8.956,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 61500000.0,
+        "pct": 6.2948,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 60196381.0,
+        "pct": 6.1613,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 50000000.0,
+        "pct": 5.1177,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 28860600.9254,
+        "pct": 2.954,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 20719833.2923,
+        "pct": 2.1208,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 19755705.6587,
+        "pct": 2.0221,
+        "label": null,
+        "is_contract": true,
+        "is_locked": false
+      },
+      {
+        "address": "0xC1b519019639c7e684C6626440B448582CbE0A75",
+        "balance": 16940402.338,
+        "pct": 1.7339,
+        "label": "Bitrue 3",
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 14350100.0,
+        "pct": 1.4688,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 12500000.0,
+        "pct": 1.2794,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 6085127.3892,
+        "pct": 0.6228,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xF29f049144467b3dc55e19205c30C1737942F23a",
+        "balance": 5113674.9172,
+        "pct": 0.5234,
+        "label": "MEXC 35",
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 2009831.0,
+        "pct": 0.2057,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1899318.0,
+        "pct": 0.1944,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1866646.0,
+        "pct": 0.1911,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1781900.0,
+        "pct": 0.1824,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1739493.0,
+        "pct": 0.178,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1725172.0,
+        "pct": 0.1766,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1640108.0,
+        "pct": 0.1679,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1604763.0,
+        "pct": 0.1643,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0xcC4a939c8289bFeFb9723Ef68B9CD14187f2097A",
+        "balance": 1604334.3205,
+        "pct": 0.1642,
+        "label": "Fake_Phishing5683828",
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1587423.0,
+        "pct": 0.1625,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1522370.0,
+        "pct": 0.1558,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1501441.0,
+        "pct": 0.1537,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1481415.8975,
+        "pct": 0.1516,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x86C334119Af88d8daa1dBbd4e982B24c410a0301",
+        "balance": 1473337.3049,
+        "pct": 0.1508,
+        "label": "HiTBTC 47",
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1436502.0,
+        "pct": 0.147,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1408750.0,
+        "pct": 0.1442,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1385081.0,
+        "pct": 0.1418,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1363902.0,
+        "pct": 0.1396,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1360526.0,
+        "pct": 0.1393,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1350384.0,
+        "pct": 0.1382,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1328791.0,
+        "pct": 0.136,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1304702.0,
+        "pct": 0.1335,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1303858.0,
+        "pct": 0.1335,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1278971.0,
+        "pct": 0.1309,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1268663.0,
+        "pct": 0.1299,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1242135.0,
+        "pct": 0.1271,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1237953.0,
+        "pct": 0.1267,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1228676.0,
+        "pct": 0.1258,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1220499.0,
+        "pct": 0.1249,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1173532.0,
+        "pct": 0.1201,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1160809.0,
+        "pct": 0.1188,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1146734.0,
+        "pct": 0.1174,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1092709.0,
+        "pct": 0.1118,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1071896.0,
+        "pct": 0.1097,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1066280.3516,
+        "pct": 0.1091,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1026177.0,
+        "pct": 0.105,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 1011180.0,
+        "pct": 0.1035,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      },
+      {
+        "address": "0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+        "balance": 989506.0,
+        "pct": 0.1013,
+        "label": null,
+        "is_contract": false,
+        "is_locked": false
+      }
+    ],
+    "note": null
+  },
+  "28324": {
+    "cmc_id": 28324,
+    "symbol": "DYDX",
+    "source": "CoinLore Rich-List (coin, Nov 2026)",
+    "chain": "DYDX",
+    "holder_count": null,
+    "base_supply": 958342962.317931,
+    "top10_pct": 96.96,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null,
+    "wallets": [],
+    "note": null
+  },
+  "1274": {
+    "cmc_id": 1274,
+    "symbol": "WAVES",
+    "source": "CoinLore Rich-List (coin, Nov 2026)",
+    "chain": "WAVES",
+    "holder_count": null,
+    "base_supply": 139085286.0,
+    "top10_pct": 41.1,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null,
+    "wallets": [],
+    "note": null
+  },
+  "3801": {
+    "cmc_id": 3801,
+    "symbol": "BORA",
+    "source": "CoinLore Rich-List (coin, Nov 2026)",
+    "chain": "BORA",
+    "holder_count": null,
+    "base_supply": 1205750000.0,
+    "top10_pct": 66.57,
+    "top20_pct": null,
+    "top50_pct": null,
+    "top100_pct": null,
+    "wallets": [],
+    "note": null
+  }
+}
