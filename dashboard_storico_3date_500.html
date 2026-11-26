@@ -127,7 +127,7 @@ function render() {
       const inf = x.supply_inflation_jul_to_nov21_pct;
       const t10 = (x.top10_hist_jul1_pct !== null || x.top10_hist_nov21_pct !== null)
         ? `${FMT.pct(x.top10_hist_jul1_pct, false, 1)} &rarr; <b>${FMT.pct(x.top10_hist_nov21_pct, false, 1)}</b>`
-        : `<span class="small">N/D stor. (24N: ${FMT.pct(x.top10_ref_nov24_pct, false, 1)})</span>`;
+        : `<span class="small">N/D stor. (24N: <b style="color:var(--ink-secondary)">${FMT.pct(x.top10_ref_nov24_pct, false, 1)}</b>)</span>`;
       const eoa = (x.eoa_whale_hist_jul1_pct !== null || x.eoa_whale_hist_nov21_pct !== null)
         ? `${FMT.pct(x.eoa_whale_hist_jul1_pct, false, 1)} &rarr; <b>${FMT.pct(x.eoa_whale_hist_nov21_pct, false, 1)}</b>`
         : '<span class="mut">N/D</span>';

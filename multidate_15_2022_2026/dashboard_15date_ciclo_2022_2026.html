@@ -73,7 +73,10 @@
 .tbl-compact tbody td { padding: 7px 6px; height: 46px; }
 .stato-col { padding-left: 18px !important; text-align: center !important; }
 .asset-col-va { width: 152px; min-width: 136px; max-width: 156px; overflow: hidden; }
-.asset-col-vb { width: 162px; min-width: 152px; max-width: 162px; overflow: hidden; }
+.asset-col-vb { width: 146px; min-width: 140px; max-width: 148px; overflow: hidden; }
+@media (min-width: 1360px) {
+  #vbTable thead th, #vbTable tbody td { padding: 6px 4.5px; font-size: 11.5px; }
+}
 #trSummary { white-space: normal; max-width: 100%; border-radius: 10px; line-height: 1.35; padding: 5px 10px; }
 @media (max-width: 1100px) {
   .hm-wrap { overflow: auto; max-height: 62vh; }
@@ -409,10 +412,10 @@ function renderVistaB() {
     return dir === "asc" ? va - vb : vb - va;
   });
   document.getElementById("vbCount").textContent = `${rows.length} / 500 criptovalute coorte 1° Luglio 2026`;
-  let html = "<thead><tr><th class='l sticky-col asset-col-vb'># / Asset</th><th class='l'>1a Data</th><th>Date</th><th>D01 Dic22</th><th>D02 Apr24</th><th>D04 Nov24</th><th>D06 Apr25</th><th>D08 Ott25</th><th>D10 Gen26</th><th>D12 Mag26</th><th>D13 Lug26</th><th>D14 Ott26</th><th>D15 Nov26</th><th>1a&rarr;D15</th><th>Lug&rarr;21N</th><th>Top10</th></tr></thead><tbody>";
+  let html = "<thead><tr><th class='l sticky-col asset-col-vb'># / Asset</th><th class='l'>1a Data</th><th>Date</th><th>D01 '22</th><th>D02 '24</th><th>D04 '24</th><th>D06 '25</th><th>D08 '25</th><th>D10 '26</th><th>D12 '26</th><th>D13 '26</th><th>D14 '26</th><th>D15 '26</th><th>1a&rarr;D15</th><th>Lug&rarr;21N</th><th>Top10</th></tr></thead><tbody>";
   for (const r of rows) {
     const fsShort = r.fs ? r.fs.replace(" (20", " '").replace(")", "") : "—";
-    html += `<tr><td class='l sticky-col asset-col-vb'><b>#${r.rk} ${r.sym}</b><span class='small cell-clip' title="${r.nm} (${r.fid})">${r.nm} &middot; ${r.fid}</span></td><td class='l mut' style='min-width:96px' title="${r.fs}">${fsShort}</td><td>${r.nl}/15</td><td>${fmtP(r.p01)}</td><td>${fmtP(r.p02)}</td><td>${fmtP(r.p04)}</td><td>${fmtP(r.p06)}</td><td>${fmtP(r.p08)}</td><td>${fmtP(r.p10)}</td><td>${fmtP(r.p12)}</td><td>${fmtP(r.p13)}</td><td>${fmtP(r.p14)}</td><td>${fmtP(r.p15)}</td><td>${fmtPct(r.rf)}</td><td>${fmtPct(r.rn)}</td><td>${r.t10!==null ? FMT.dec1(r.t10)+"%" : "<span class='mut'>N/D</span>"}</td></tr>`;
+    html += `<tr><td class='l sticky-col asset-col-vb'><b>#${r.rk} ${r.sym}</b><span class='small cell-clip' title="${r.nm} (${r.fid})">${r.nm} &middot; ${r.fid}</span></td><td class='l mut' style='min-width:86px' title="${r.fs}">${fsShort}</td><td>${r.nl}/15</td><td>${fmtP(r.p01)}</td><td>${fmtP(r.p02)}</td><td>${fmtP(r.p04)}</td><td>${fmtP(r.p06)}</td><td>${fmtP(r.p08)}</td><td>${fmtP(r.p10)}</td><td>${fmtP(r.p12)}</td><td>${fmtP(r.p13)}</td><td>${fmtP(r.p14)}</td><td>${fmtP(r.p15)}</td><td>${fmtPct(r.rf)}</td><td>${fmtPct(r.rn)}</td><td>${r.t10!==null ? FMT.dec1(r.t10)+"%" : "<span class='mut'>N/D</span>"}</td></tr>`;
   }
   html += "</tbody>";
   document.getElementById("vbTable").innerHTML = html;

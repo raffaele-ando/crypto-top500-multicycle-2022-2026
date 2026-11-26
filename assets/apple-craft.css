@@ -14,8 +14,8 @@
   --border-strong: rgba(255, 255, 255, 0.22);
   --field-border: #6c6c75;
   --ink: #ffffff;
-  --ink-secondary: #d8d8de;
-  --muted: #b5b5be;           /* #B5B5BE on #1C1C1E = 8.5:1 AAA */
+  --ink-secondary: #dedee4;
+  --muted: #c0c0ca;           /* #C0C0CA on #1C1C1E = 9.6:1 AAA */
   --accent: #005ec4;          /* #FFF on #005EC4 = 6.23:1 AA+ */
   --accent-hover: #006ee6;
   --accent-text: #7cc0ff;     /* #7CC0FF on #000/#1C1C1E = 9.5:1 AAA */
