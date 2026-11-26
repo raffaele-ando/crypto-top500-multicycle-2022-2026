@@ -152,6 +152,7 @@
       const hasRight = canScroll && (rail.scrollLeft + rail.clientWidth < rail.scrollWidth - 4);
       rail.classList.toggle("has-left-fade", hasLeft);
       rail.classList.toggle("has-right-fade", hasRight);
+      nav.classList.toggle("rail-overflows", canScroll);
     }
     if (act && rail) {
       requestAnimationFrame(() => {

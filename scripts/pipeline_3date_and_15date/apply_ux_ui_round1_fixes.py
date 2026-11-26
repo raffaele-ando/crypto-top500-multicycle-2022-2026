@@ -284,7 +284,7 @@ footer a {{
     <div class="eyebrow">100% Forensic Completeness Gate PASS &middot; Zero Survivorship Bias &middot; Zero Look-Ahead</div>
     <h1>Analisi Forense Multi-Ciclo sulle Pure Crypto Top 500 <span style="white-space:nowrap">(2022–2026)</span></h1>
     <p class="lead">
-      Dataset point-in-time su <strong>15 date storiche</strong> dal minimo del bear market (30 Dicembre 2022) al picco del ciclo (7 Ottobre 2025) fino al 21 Novembre 2026 05:30&nbsp;CET. Include backtest <strong>5 EUR/coin</strong> su 105 finestre, tranche Top 50..500, 498 curve ufficiali di vesting CMC, 446 asset EVM ricostruiti crittograficamente via Archive RPC Multicall3 e 24 migrazioni ufficiali risolte al rapporto reale.
+      Dataset point-in-time su <strong>15 date storiche</strong> dal minimo del bear market (30 Dicembre 2022) al picco del ciclo (7 Ottobre 2025) fino al 21 Novembre 2026 05:30&nbsp;CET. Include backtest <strong class="nowrap">5&nbsp;EUR/coin</strong> su 105 finestre, tranche Top 50..500, 498 curve ufficiali di vesting CMC, 446 asset EVM ricostruiti crittograficamente via Archive RPC Multicall3 e 24 migrazioni ufficiali risolte al rapporto reale.
     </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="./multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html">Apri Dashboard Flagship 15 Date &rarr;</a>
@@ -534,7 +534,7 @@ def upgrade_flagship15():
 .tbl-compact thead th {{ padding: 8px 6px; font-size: 11px; }}
 .tbl-compact tbody td {{ padding: 7px 6px; height: 46px; }}
 .stato-col {{ padding-left: 18px !important; text-align: center !important; }}
-.asset-cell {{ min-width: 118px; max-width: 148px; }}
+.asset-col-va {{ width: 152px; min-width: 136px; max-width: 156px; overflow: hidden; }}
 .asset-col-vb {{ width: 162px; min-width: 152px; max-width: 162px; overflow: hidden; }}
 #trSummary {{ white-space: normal; max-width: 100%; border-radius: 10px; line-height: 1.35; padding: 5px 10px; }}
 @media (max-width: 1100px) {{
@@ -851,9 +851,9 @@ function renderVistaA() {{
     return dir === "asc" ? va - vb : vb - va;
   }});
   document.getElementById("vaMeta").textContent = `${{rows.length}}/500 coin · BTC ${{FMT.dec2(cMeta.btc_usd)}} USD · FX ${{FMT.fx(cMeta.fx_eur_usd)}} · MCap ${{FMT.dec2(cMeta.cohort_mcap_usd_b)}} Mld USD`;
-  let html = "<thead><tr><th class='l sticky-col'># / CMC</th><th class='l'>Asset</th><th>Prezzo USD</th><th>MCap</th><th>Vol 24h</th><th>Da Sbl.</th><th>Holders</th><th>Top10%</th><th>EOA%</th><th>Tappa +1</th><th>A D08</th><th>A D14</th><th>A D15</th><th class='stato-col'>Stato D15</th></tr></thead><tbody>";
+  let html = "<thead><tr><th class='l sticky-col asset-col-va'># / Asset</th><th>Prezzo USD</th><th>MCap</th><th>Vol 24h</th><th>Da Sbl.</th><th>Holders</th><th>Top10%</th><th>EOA%</th><th>Tappa +1</th><th>A D08</th><th>A D14</th><th>A D15</th><th class='stato-col'>Stato D15</th></tr></thead><tbody>";
   for (const r of rows) {{
-    html += `<tr><td class='l sticky-col'><b>#${{r[0]}}</b><span class='small'>CMC ${{r[1]}}</span></td><td class='l asset-cell'><b>${{r[2]}}</b><span class='small cell-clip' title='${{r[3]}}'>${{r[3]}}</span></td><td>${{fmtP(r[4])}}</td><td title="${{FMT.dec1(r[5])}} M USD">${{FMT.compact(r[5]*1e6, "$")}}</td><td title="${{FMT.dec1(r[6])}} M USD">${{FMT.compact(r[6]*1e6, "$")}}</td><td>${{r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}}</td><td>${{r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{fmtPct(r[11])}}</td><td>${{fmtPct(r[12])}}</td><td>${{fmtPct(r[13])}}</td><td>${{fmtPct(r[14])}}</td><td class='stato-col'>${{statusBadge(r[15])}}</td></tr>`;
+    html += `<tr><td class='l sticky-col asset-col-va'><b>#${{r[0]}} ${{r[2]}}</b><span class='small cell-clip' title='${{r[3]}} (CMC #${{r[1]}})'>${{r[3]}} &middot; CMC ${{r[1]}}</span></td><td>${{fmtP(r[4])}}</td><td title="${{FMT.dec1(r[5])}} M USD">${{FMT.compact(r[5]*1e6, "$")}}</td><td title="${{FMT.dec1(r[6])}} M USD">${{FMT.compact(r[6]*1e6, "$")}}</td><td>${{r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}}</td><td>${{r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{fmtPct(r[11])}}</td><td>${{fmtPct(r[12])}}</td><td>${{fmtPct(r[13])}}</td><td>${{fmtPct(r[14])}}</td><td class='stato-col'>${{statusBadge(r[15])}}</td></tr>`;
   }}
   html += "</tbody>";
   document.getElementById("vaTable").innerHTML = html;
@@ -941,11 +941,17 @@ def upgrade_storico3():
 <style>
 .wrap {{ max-width: 1520px; }}
 .tbl-wrap {{ max-height: 70vh; }}
-.asset-col {{ max-width: 148px; min-width: 112px; }}
-.asset-col .cell-clip {{ max-width: 132px; }}
-@media (min-width: 1100px) {{
-  #stWrap thead th, #stWrap tbody td {{ padding: 8px 11px; }}
+.asset-col {{ max-width: 146px; min-width: 110px; }}
+.asset-col .cell-clip {{ max-width: 130px; }}
+#stWrap .note-clamp {{ max-width: 185px; min-width: 135px; }}
+@media (min-width: 960px) {{
   .controls.controls-grid {{ flex-wrap: nowrap; }}
+  .controls.controls-grid > select {{ flex: 0 1 255px; }}
+}}
+@media (min-width: 1280px) {{
+  #stWrap thead th, #stWrap tbody td {{ padding: 8px 8px; }}
+  #stWrap thead th:nth-child(4), #stWrap tbody td:nth-child(4) {{ padding-left: 14px; }}
+  #stWrap thead th:last-child, #stWrap tbody td:last-child {{ padding-right: 12px; }}
 }}
 </style>
 </head>
@@ -1414,6 +1420,18 @@ def upgrade_curva():
 {ANTI_FOUC}
 <link rel="stylesheet" href="./assets/apple-craft.css">
 <style>
+:root, [data-theme="dark"] {{
+  --chart-port: #60a5fa;
+  --chart-struct: #30d158;
+  --chart-median: #fbbf24;
+  --chart-btc: #d8b4fe;
+}}
+[data-theme="light"] {{
+  --chart-port: #005ec4;
+  --chart-struct: #137333;
+  --chart-median: #b45309;
+  --chart-btc: #7e22ce;
+}}
 .wrap {{ max-width: 1480px; }}
 .chart-card {{
   background: var(--surface);
@@ -1488,10 +1506,10 @@ canvas#cv {{
 
   <div class="chart-card">
     <div class="legend">
-      <div class="leg-item"><span class="swatch" style="background:#3b82f6"></span>Portafoglio % EUR (con BTW)</div>
-      <div class="leg-item"><span class="swatch" style="background:#10b981"></span>Strutturale % EUR (ex-BTW)</div>
-      <div class="leg-item"><span class="swatch" style="background:#f59e0b"></span>Mediana % quote portafoglio</div>
-      <div class="leg-item"><span class="swatch" style="background:#a855f7"></span>Benchmark 100% BTC (+42,49%)</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-port)"></span>Portafoglio % EUR (con BTW)</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-struct)"></span>Strutturale % EUR (ex-BTW)</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-median)"></span>Mediana % quote portafoglio</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-btc)"></span>Benchmark 100% BTC (+42,49%)</div>
     </div>
     <canvas id="cv" role="img" aria-label="Grafico della curva di rendimento cumulativa da N=1 a N=500"></canvas>
     <div id="tooltip"></div>
@@ -1537,34 +1555,39 @@ let lastHoverIdx = -1;
 
 function chartPalette() {{
   const light = document.documentElement.getAttribute("data-theme") === "light";
+  const cs = getComputedStyle(document.documentElement);
+  const cPort = cs.getPropertyValue("--chart-port").trim() || (light ? "#005ec4" : "#60a5fa");
+  const cStruct = cs.getPropertyValue("--chart-struct").trim() || (light ? "#137333" : "#30d158");
+  const cMed = cs.getPropertyValue("--chart-median").trim() || (light ? "#b45309" : "#fbbf24");
+  const cBtc = cs.getPropertyValue("--chart-btc").trim() || (light ? "#7e22ce" : "#d8b4fe");
   return light ? {{
     grid: "#e2e2e8",
     axis: "#55555c",
     cross: "#636366",
     pillBgBlue: "#eff6ff",
     pillBgGreen: "#ecfdf5",
-    blue: "#005ec4",
+    blue: cPort,
     blueText: "#004999",
-    green: "#137333",
+    green: cStruct,
     greenText: "#137333",
-    amber: "#b45309",
-    purple: "#7e22ce"
+    amber: cMed,
+    purple: cBtc
   }} : {{
     grid: "#2c2c2e",
-    axis: "#a1a1aa",
+    axis: "#b5b5be",
     cross: "#8e8e93",
     pillBgBlue: "#0d1f38",
     pillBgGreen: "#0b2416",
-    blue: "#60a5fa",
+    blue: cPort,
     blueText: "#93c5fd",
-    green: "#30d158",
+    green: cStruct,
     greenText: "#4ade80",
-    amber: "#fbbf24",
-    purple: "#d8b4fe"
+    amber: cMed,
+    purple: cBtc
   }};
 }}
 
-function drawCallout(px, py, text, strokeCol, textCol, bgCol, alignRight) {{
+function drawCallout(px, py, text, strokeCol, textCol, bgCol, alignRight, yLift = 11) {{
   ctx.save();
   ctx.setLineDash([3, 3]);
   ctx.strokeStyle = strokeCol;
@@ -1576,7 +1599,15 @@ function drawCallout(px, py, text, strokeCol, textCol, bgCol, alignRight) {{
   ctx.font = "600 10.5px -apple-system, BlinkMacSystemFont, sans-serif";
   const tw = ctx.measureText(text).width + 12;
   const bx = alignRight ? px - tw - 6 : px + 6;
-  const by = Math.max(8, py - 11);
+  const by = Math.max(6, py - yLift);
+  if (yLift > 14) {{
+    ctx.strokeStyle = strokeCol;
+    ctx.lineWidth = 1.1;
+    ctx.beginPath();
+    ctx.moveTo(px, py - 4);
+    ctx.lineTo(alignRight ? bx + tw : bx, by + 10);
+    ctx.stroke();
+  }}
   ctx.fillStyle = bgCol;
   ctx.strokeStyle = strokeCol;
   ctx.lineWidth = 1.1;
@@ -1635,11 +1666,11 @@ function drawChart(hoverIdx = -1) {{
   plotLine("portfolio_pct_eur_ex_btw", pal.green, 2.0);
   plotLine("portfolio_pct_eur_real", pal.blue, 2.4);
 
-  // Dedicated Peak Callouts (N=93 ex-BTW & N=143 +BTW) with WCAG AAA contrast
+  // Dedicated Peak Callouts (N=93 ex-BTW lifted cleanly above early peak & N=143 +BTW) with WCAG AAA contrast
   if (W >= 420) {{
     const s93 = STEPS[92], s143 = STEPS[142];
-    if (s93) drawCallout(xOf(93), yOf(s93.portfolio_pct_eur_ex_btw), "N=93 (+49,77% ex-BTW)", pal.green, pal.greenText, pal.pillBgGreen, true);
-    if (s143) drawCallout(xOf(143), yOf(s143.portfolio_pct_eur_real), "N=143 (+56,65% +BTW)", pal.blue, pal.blueText, pal.pillBgBlue, false);
+    if (s93) drawCallout(xOf(93), yOf(s93.portfolio_pct_eur_ex_btw), "N=93 (+49,77% ex-BTW)", pal.green, pal.greenText, pal.pillBgGreen, true, 36);
+    if (s143) drawCallout(xOf(143), yOf(s143.portfolio_pct_eur_real), "N=143 (+56,65% +BTW)", pal.blue, pal.blueText, pal.pillBgBlue, false, 11);
   }}
 
   if (hoverIdx >= 0 && hoverIdx < STEPS.length) {{

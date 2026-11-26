@@ -72,7 +72,7 @@
 .tbl-compact thead th { padding: 8px 6px; font-size: 11px; }
 .tbl-compact tbody td { padding: 7px 6px; height: 46px; }
 .stato-col { padding-left: 18px !important; text-align: center !important; }
-.asset-cell { min-width: 118px; max-width: 148px; }
+.asset-col-va { width: 152px; min-width: 136px; max-width: 156px; overflow: hidden; }
 .asset-col-vb { width: 162px; min-width: 152px; max-width: 162px; overflow: hidden; }
 #trSummary { white-space: normal; max-width: 100%; border-radius: 10px; line-height: 1.35; padding: 5px 10px; }
 @media (max-width: 1100px) {
@@ -389,9 +389,9 @@ function renderVistaA() {
     return dir === "asc" ? va - vb : vb - va;
   });
   document.getElementById("vaMeta").textContent = `${rows.length}/500 coin · BTC ${FMT.dec2(cMeta.btc_usd)} USD · FX ${FMT.fx(cMeta.fx_eur_usd)} · MCap ${FMT.dec2(cMeta.cohort_mcap_usd_b)} Mld USD`;
-  let html = "<thead><tr><th class='l sticky-col'># / CMC</th><th class='l'>Asset</th><th>Prezzo USD</th><th>MCap</th><th>Vol 24h</th><th>Da Sbl.</th><th>Holders</th><th>Top10%</th><th>EOA%</th><th>Tappa +1</th><th>A D08</th><th>A D14</th><th>A D15</th><th class='stato-col'>Stato D15</th></tr></thead><tbody>";
+  let html = "<thead><tr><th class='l sticky-col asset-col-va'># / Asset</th><th>Prezzo USD</th><th>MCap</th><th>Vol 24h</th><th>Da Sbl.</th><th>Holders</th><th>Top10%</th><th>EOA%</th><th>Tappa +1</th><th>A D08</th><th>A D14</th><th>A D15</th><th class='stato-col'>Stato D15</th></tr></thead><tbody>";
   for (const r of rows) {
-    html += `<tr><td class='l sticky-col'><b>#${r[0]}</b><span class='small'>CMC ${r[1]}</span></td><td class='l asset-cell'><b>${r[2]}</b><span class='small cell-clip' title='${r[3]}'>${r[3]}</span></td><td>${fmtP(r[4])}</td><td title="${FMT.dec1(r[5])} M USD">${FMT.compact(r[5]*1e6, "$")}</td><td title="${FMT.dec1(r[6])} M USD">${FMT.compact(r[6]*1e6, "$")}</td><td>${r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}</td><td>${r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}</td><td>${fmtPct(r[11])}</td><td>${fmtPct(r[12])}</td><td>${fmtPct(r[13])}</td><td>${fmtPct(r[14])}</td><td class='stato-col'>${statusBadge(r[15])}</td></tr>`;
+    html += `<tr><td class='l sticky-col asset-col-va'><b>#${r[0]} ${r[2]}</b><span class='small cell-clip' title='${r[3]} (CMC #${r[1]})'>${r[3]} &middot; CMC ${r[1]}</span></td><td>${fmtP(r[4])}</td><td title="${FMT.dec1(r[5])} M USD">${FMT.compact(r[5]*1e6, "$")}</td><td title="${FMT.dec1(r[6])} M USD">${FMT.compact(r[6]*1e6, "$")}</td><td>${r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}</td><td>${r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}</td><td>${fmtPct(r[11])}</td><td>${fmtPct(r[12])}</td><td>${fmtPct(r[13])}</td><td>${fmtPct(r[14])}</td><td class='stato-col'>${statusBadge(r[15])}</td></tr>`;
   }
   html += "</tbody>";
   document.getElementById("vaTable").innerHTML = html;

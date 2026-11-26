@@ -15,7 +15,7 @@
   --field-border: #6c6c75;
   --ink: #ffffff;
   --ink-secondary: #d8d8de;
-  --muted: #aeaeb6;           /* #AEAEB6 on #1C1C1E = 7.8:1 AAA */
+  --muted: #b5b5be;           /* #B5B5BE on #1C1C1E = 8.5:1 AAA */
   --accent: #005ec4;          /* #FFF on #005EC4 = 6.23:1 AA+ */
   --accent-hover: #006ee6;
   --accent-text: #7cc0ff;     /* #7CC0FF on #000/#1C1C1E = 9.5:1 AAA */
@@ -144,9 +144,13 @@ button, input, select, textarea { font-family: inherit; color: inherit; }
   -webkit-overflow-scrolling: touch;
   flex: 1 1 auto;
   min-width: 0;
-  padding: 5px 14px 5px 4px;
+  padding: 5px 22px 5px 4px;
   margin: -3px 0;
   scroll-padding-inline: 24px;
+}
+.agy-hub-nav.rail-overflows .agy-hub-actions {
+  border-left: 1px solid var(--border-strong);
+  padding-left: 10px;
 }
 .agy-hub-rail::-webkit-scrollbar { display: none; }
 .agy-hub-rail.has-right-fade {
@@ -651,7 +655,7 @@ thead th.sticky-col { z-index: 12; background: var(--surface2); }
 }
 /* Compact navbar below 1120px so ALL 7 links fit at 1024px tablet landscape! */
 @media (max-width: 1120px) {
-  .agy-hub-nav { padding: 5px 10px; gap: 6px; }
+  .agy-hub-nav { padding: 5px 10px; gap: 10px; }
   .agy-hub-rail { gap: 4px; }
   .agy-hub-nav .hub-pill { padding: 0 9px; font-size: 12px; }
   .agy-hub-actions .gh-lbl { display: none; }
@@ -691,8 +695,8 @@ thead th.sticky-col { z-index: 12; background: var(--surface2); }
     line-height: 1.2;
   }
 }
-/* Compact 2-column filters on Tablet Portrait (640px–1024px) to keep data tables high above the fold! */
-@media (min-width: 640px) and (max-width: 1024px) {
+/* Compact 2-column filters on Tablet Portrait (640px–959px) to keep data tables high above the fold! */
+@media (min-width: 640px) and (max-width: 959px) {
   .controls.controls-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
