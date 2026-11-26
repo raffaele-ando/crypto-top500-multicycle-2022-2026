@@ -11,6 +11,10 @@
 .tbl-wrap { max-height: 70vh; }
 .asset-col { max-width: 148px; min-width: 112px; }
 .asset-col .cell-clip { max-width: 132px; }
+@media (min-width: 1100px) {
+  #stWrap thead th, #stWrap tbody td { padding: 8px 11px; }
+  .controls.controls-grid { flex-wrap: nowrap; }
+}
 </style>
 </head>
 <body>
@@ -31,7 +35,7 @@
   </div>
 
   <div class="controls controls-grid">
-    <div class="search-box ctrl-full">
+    <div class="search-box">
       <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
       <input id="q" type="search" placeholder="Cerca nome o ticker...">
       <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
@@ -52,10 +56,10 @@
       <option value="eoa_whale_hist_jul1_pct:asc">Ordina: Meno Whale EOA (1 Lug) &uarr;</option>
       <option value="ret_jul_to_nov21_usd_pct:desc">Ordina: Rend. 1 Lug&rarr;21 Nov &darr;</option>
     </select>
+    <span id="shown" class="pill p-muted" style="justify-self:start">500 / 500</span>
   </div>
 
-  <div class="tbl-head-bar">
-    <span id="shown" class="pill p-muted">500 / 500</span>
+  <div class="tbl-sub-bar">
     <span class="scroll-hint" data-scroll-hint="stWrap">&larr; Scorri tabella &rarr;</span>
   </div>
 

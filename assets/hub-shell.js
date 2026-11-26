@@ -145,34 +145,54 @@
 
     const rail = nav.querySelector(".agy-hub-rail");
     const act = nav.querySelector(".hub-active");
-    if (act && rail && rail.scrollWidth > rail.clientWidth + 4) {
-      try { act.scrollIntoView({ inline: "center", block: "nearest", behavior: "instant" }); } catch (_) {}
-    }
     function syncRailFade() {
       if (!rail) return;
       const canScroll = rail.scrollWidth > rail.clientWidth + 4;
-      const hasLeft = canScroll && rail.scrollLeft > 4;
+      const hasLeft = canScroll && rail.scrollLeft > 2;
       const hasRight = canScroll && (rail.scrollLeft + rail.clientWidth < rail.scrollWidth - 4);
       rail.classList.toggle("has-left-fade", hasLeft);
       rail.classList.toggle("has-right-fade", hasRight);
+    }
+    if (act && rail) {
+      requestAnimationFrame(() => {
+        if (rail.scrollWidth > rail.clientWidth + 4) {
+          try { act.scrollIntoView({ inline: "center", block: "nearest", behavior: "instant" }); } catch (_) {}
+        }
+        syncRailFade();
+      });
     }
     if (rail) {
       rail.addEventListener("scroll", syncRailFade, { passive: true });
       window.addEventListener("resize", syncRailFade);
       syncRailFade();
-      setTimeout(syncRailFade, 60);
+      setTimeout(syncRailFade, 80);
+      setTimeout(syncRailFade, 220);
     }
 
     window.agyRefreshScrollHints();
     window.addEventListener("resize", window.agyRefreshScrollHints);
   };
 
+  function ensureTableShell(wrap) {
+    if (!wrap) return null;
+    if (wrap.parentElement && wrap.parentElement.classList.contains("tbl-shell")) return wrap.parentElement;
+    // Only wrap horizontal-scroll containers (skip desktop overflow:visible heatmap)
+    const shell = document.createElement("div");
+    shell.className = "tbl-shell";
+    wrap.parentNode.insertBefore(shell, wrap);
+    shell.appendChild(wrap);
+    return shell;
+  }
+
   function bindTableShadow(wrap) {
     if (!wrap || wrap.dataset.shadowBound) return;
     wrap.dataset.shadowBound = "1";
     const sync = () => {
-      const hasRight = wrap.scrollWidth > wrap.clientWidth + 6 && (wrap.scrollLeft + wrap.clientWidth < wrap.scrollWidth - 4);
-      wrap.classList.toggle("can-scroll-right", hasRight);
+      const shell = wrap.parentElement && wrap.parentElement.classList.contains("tbl-shell") ? wrap.parentElement : null;
+      const cs = getComputedStyle(wrap);
+      const isScrollableBox = cs.overflowX !== "visible";
+      const hasRight = isScrollableBox && wrap.scrollWidth > wrap.clientWidth + 6 && (wrap.scrollLeft + wrap.clientWidth < wrap.scrollWidth - 4);
+      if (shell) shell.classList.toggle("can-scroll-right", hasRight);
     };
     wrap.addEventListener("scroll", sync, { passive: true });
     sync();
@@ -183,11 +203,17 @@
       const targetId = hint.getAttribute("data-scroll-hint");
       const wrap = document.getElementById(targetId);
       if (!wrap) return;
-      const hasX = wrap.scrollWidth > wrap.clientWidth + 6;
+      const cs = getComputedStyle(wrap);
+      const isScrollableBox = cs.overflowX !== "visible";
+      const hasX = isScrollableBox && wrap.scrollWidth > wrap.clientWidth + 6;
       hint.classList.toggle("visible", hasX);
+      if (hasX) ensureTableShell(wrap);
       bindTableShadow(wrap);
-      const hasRight = hasX && (wrap.scrollLeft + wrap.clientWidth < wrap.scrollWidth - 4);
-      wrap.classList.toggle("can-scroll-right", hasRight);
+      const shell = wrap.parentElement && wrap.parentElement.classList.contains("tbl-shell") ? wrap.parentElement : null;
+      if (shell) {
+        const hasRight = hasX && (wrap.scrollLeft + wrap.clientWidth < wrap.scrollWidth - 4);
+        shell.classList.toggle("can-scroll-right", hasRight);
+      }
     });
   };
 

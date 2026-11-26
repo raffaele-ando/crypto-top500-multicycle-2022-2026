@@ -295,7 +295,7 @@ footer a {{
   </section>
 
   <section class="kpis" aria-label="Indicatori chiave della ricerca">
-    <div class="kpi"><div class="lbl">Orizzonte Temporale</div><div class="val">15 Date &middot; 4 Anni</div><div class="note">30 Dic 2022 &rarr; 21 Nov 2026 &middot; 05:30&nbsp;CET</div></div>
+    <div class="kpi"><div class="lbl">Orizzonte Temporale</div><div class="val">15 Date &middot; 4 Anni</div><div class="note">30 Dic 2022 &rarr; 21 Nov 2026<span class="kpi-sep"> &middot; </span><span class="nowrap">05:30&nbsp;CET</span></div></div>
     <div class="kpi"><div class="lbl">Record Point-in-Time</div><div class="val">15.000 Righe</div><div class="note">7.500 Vista A + 7.500 Vista B</div></div>
     <div class="kpi"><div class="lbl">On-Chain Archive RPC</div><div class="val">446 Asset EVM</div><div class="note">Multicall3 su ETH, Base, Arbitrum e&nbsp;OP</div></div>
     <div class="kpi"><div class="lbl">Curve Vesting Ufficiali</div><div class="val">498 Curve CMC</div><div class="note">Unlocks point-in-time dal Dicembre&nbsp;2022</div></div>
@@ -309,7 +309,7 @@ footer a {{
     <a class="app-card featured" href="./multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html">
       <div>
         <span class="tag tag-blue">Flagship &middot; 15 Date (2022–2026)</span>
-        <h3>Dashboard Multi-Ciclo 15 Date &amp; Backtest 14&times;15</h3>
+        <h3>Dashboard Multi-Ciclo 15 Date (14&times;15)</h3>
         <p>Heatmap interattiva su tutte le 105 finestre di investimento 5 EUR/coin, confronto Conservative vs Active-Only vs Bitcoin, grafici divergenti Tranche Top 50..500, esploratore completo Vista A (500 coin/data) e Vista B (500/500) + fattori on-chain 4 anni.</p>
       </div>
       <div class="app-foot"><span>Apri Dashboard 15 Date</span><span>&rarr;</span></div>
@@ -532,7 +532,8 @@ def upgrade_flagship15():
 .insp-lbl {{ font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; margin-bottom: 3px; }}
 .tbl-compact table {{ font-size: 12px; }}
 .tbl-compact thead th {{ padding: 8px 6px; font-size: 11px; }}
-.tbl-compact tbody td {{ padding: 6px 6px; }}
+.tbl-compact tbody td {{ padding: 7px 6px; height: 46px; }}
+.stato-col {{ padding-left: 18px !important; text-align: center !important; }}
 .asset-cell {{ min-width: 118px; max-width: 148px; }}
 .asset-col-vb {{ width: 162px; min-width: 152px; max-width: 162px; overflow: hidden; }}
 #trSummary {{ white-space: normal; max-width: 100%; border-radius: 10px; line-height: 1.35; padding: 5px 10px; }}
@@ -579,10 +580,7 @@ def upgrade_flagship15():
   <!-- TAB 1: BACKTEST -->
   <section id="tab-bt">
     <div class="card">
-      <div class="tbl-head-bar">
-        <h2 style="margin:0">Matrice Completa 14&times;15 — Investimento 5 EUR/coin (2.500 EUR/coorte)</h2>
-        <span class="scroll-hint" data-scroll-hint="hmWrap">&larr; Scorri D02..D15 &rarr;</span>
-      </div>
+      <h2>Matrice Completa 14&times;15 — Investimento 5 EUR/coin (2.500 EUR/coorte)</h2>
       <div class="controls">
         <label>Metrica heatmap:
           <select id="hmMode" onchange="renderHeatmap()">
@@ -594,6 +592,7 @@ def upgrade_flagship15():
         </label>
         <span class="mut" style="font-size:12px">Tocca o clicca una cella per dettagli e confronto BTC</span>
       </div>
+      <div class="tbl-sub-bar"><span class="scroll-hint" data-scroll-hint="hmWrap">&larr; Scorri D02..D15 &rarr;</span></div>
       <div class="hm-wrap" id="hmWrap"><table id="hmTable"></table></div>
       <div id="hmInspector" class="inspector"></div>
     </div>
@@ -621,10 +620,7 @@ def upgrade_flagship15():
   <!-- TAB 2: VISTA A -->
   <section id="tab-va" class="hidden">
     <div class="card">
-      <div class="tbl-head-bar">
-        <h2 style="margin:0">Vista A — Coorte Indipendente Pure Top 500 alla Data Selezionata</h2>
-        <span class="scroll-hint" data-scroll-hint="vaWrap">&larr; Scorri tabella &rarr;</span>
-      </div>
+      <h2>Vista A — Coorte Indipendente Pure Top 500 alla Data Selezionata</h2>
       <div class="controls controls-grid">
         <label>Data: <select id="vaDate" onchange="renderVistaA()"></select></label>
         <label>Ordina: <select id="vaSort" onchange="renderVistaA()">
@@ -643,6 +639,7 @@ def upgrade_flagship15():
         </div>
         <span id="vaMeta" class="mut ctrl-full" style="font-size:12px"></span>
       </div>
+      <div class="tbl-sub-bar"><span class="scroll-hint" data-scroll-hint="vaWrap">&larr; Scorri tabella &rarr;</span></div>
       <div class="tbl-wrap tbl-compact" id="vaWrap"><table id="vaTable"></table></div>
     </div>
   </section>
@@ -650,10 +647,7 @@ def upgrade_flagship15():
   <!-- TAB 3: VISTA B -->
   <section id="tab-vb" class="hidden">
     <div class="card">
-      <div class="tbl-head-bar">
-        <h2 style="margin:0">Vista B — Storico Completo 15 Date delle 500 Crypto (Coorte 1&deg; Luglio 2026)</h2>
-        <span class="scroll-hint" data-scroll-hint="vbWrap">&larr; Scorri tabella &rarr;</span>
-      </div>
+      <h2>Vista B — Storico Completo 15 Date delle 500 Crypto (Coorte 1&deg; Luglio 2026)</h2>
       <div class="controls controls-grid">
         <div class="search-box">
           <span class="s-ico">{SEARCH_SVG}</span>
@@ -669,6 +663,7 @@ def upgrade_flagship15():
         </select></label>
         <span id="vbCount" class="mut ctrl-full" style="font-size:12px"></span>
       </div>
+      <div class="tbl-sub-bar"><span class="scroll-hint" data-scroll-hint="vbWrap">&larr; Scorri tabella &rarr;</span></div>
       <div class="tbl-wrap tbl-compact" id="vbWrap"><table id="vbTable"></table></div>
     </div>
   </section>
@@ -757,7 +752,7 @@ function initKPIs() {{
     ["Righe Totali (A+B)", "15.000 Record", "", "7.500 Vista A + 7.500 Vista B"],
     ["Miglior Finestra", FMT.pct(bestM.ret_eur_cons_pct, true, 1), "pos", `${{bestM.entry_code}} &rarr; ${{bestM.exit_code}} (${{FMT.eur(bestM.final_eur_cons)}})`],
     ["Peggior Finestra", FMT.pct(worstM.ret_eur_cons_pct, true, 1), "neg", `${{worstM.entry_code}} &rarr; ${{worstM.exit_code}} (${{FMT.eur(worstM.final_eur_cons)}})`],
-    ["Hold 4 Anni (D01&rarr;D15)", FMT.pct(d01_15.ret_eur_cons_pct, true, 1), d01_15.ret_eur_cons_pct >= 0 ? "pos" : "neg", `${{FMT.eur(d01_15.final_eur_cons)}} (BTC: ${{FMT.pct(d01_15.btc_bench_ret_eur_pct, true, 1)}})`],
+    ["Hold 4 Anni (D01&rarr;D15)", FMT.pct(d01_15.ret_eur_cons_pct, true, 1), d01_15.ret_eur_cons_pct >= 0 ? "pos" : "neg", `${{FMT.eur(d01_15.final_eur_cons)}} <span class="nowrap">(BTC: ${{FMT.pct(d01_15.btc_bench_ret_eur_pct, true, 1)}})</span>`],
     ["Integrit&agrave; On-Chain", `${{D.migrations_n}} Migrazioni`, "acc", "446 EVM Archive + 498 Curve CMC"],
   ];
   document.getElementById("kpiStrip").innerHTML = kpis.map(k =>
@@ -856,9 +851,9 @@ function renderVistaA() {{
     return dir === "asc" ? va - vb : vb - va;
   }});
   document.getElementById("vaMeta").textContent = `${{rows.length}}/500 coin · BTC ${{FMT.dec2(cMeta.btc_usd)}} USD · FX ${{FMT.fx(cMeta.fx_eur_usd)}} · MCap ${{FMT.dec2(cMeta.cohort_mcap_usd_b)}} Mld USD`;
-  let html = "<thead><tr><th class='l sticky-col'># / CMC</th><th class='l'>Asset</th><th>Prezzo USD</th><th>MCap</th><th>Vol 24h</th><th>Da Sbl.</th><th>Holders</th><th>Top10%</th><th>EOA%</th><th>Tappa +1</th><th>A D08</th><th>A D14</th><th>A D15</th><th class='l'>Stato D15</th></tr></thead><tbody>";
+  let html = "<thead><tr><th class='l sticky-col'># / CMC</th><th class='l'>Asset</th><th>Prezzo USD</th><th>MCap</th><th>Vol 24h</th><th>Da Sbl.</th><th>Holders</th><th>Top10%</th><th>EOA%</th><th>Tappa +1</th><th>A D08</th><th>A D14</th><th>A D15</th><th class='stato-col'>Stato D15</th></tr></thead><tbody>";
   for (const r of rows) {{
-    html += `<tr><td class='l sticky-col'><b>#${{r[0]}}</b><span class='small'>CMC ${{r[1]}}</span></td><td class='l asset-cell'><b>${{r[2]}}</b><span class='small cell-clip' title='${{r[3]}}'>${{r[3]}}</span></td><td>${{fmtP(r[4])}}</td><td title="${{FMT.dec1(r[5])}} M USD">${{FMT.compact(r[5]*1e6, "$")}}</td><td title="${{FMT.dec1(r[6])}} M USD">${{FMT.compact(r[6]*1e6, "$")}}</td><td>${{r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}}</td><td>${{r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{fmtPct(r[11])}}</td><td>${{fmtPct(r[12])}}</td><td>${{fmtPct(r[13])}}</td><td>${{fmtPct(r[14])}}</td><td class='l'>${{statusBadge(r[15])}}</td></tr>`;
+    html += `<tr><td class='l sticky-col'><b>#${{r[0]}}</b><span class='small'>CMC ${{r[1]}}</span></td><td class='l asset-cell'><b>${{r[2]}}</b><span class='small cell-clip' title='${{r[3]}}'>${{r[3]}}</span></td><td>${{fmtP(r[4])}}</td><td title="${{FMT.dec1(r[5])}} M USD">${{FMT.compact(r[5]*1e6, "$")}}</td><td title="${{FMT.dec1(r[6])}} M USD">${{FMT.compact(r[6]*1e6, "$")}}</td><td>${{r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}}</td><td>${{r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}}</td><td>${{fmtPct(r[11])}}</td><td>${{fmtPct(r[12])}}</td><td>${{fmtPct(r[13])}}</td><td>${{fmtPct(r[14])}}</td><td class='stato-col'>${{statusBadge(r[15])}}</td></tr>`;
   }}
   html += "</tbody>";
   document.getElementById("vaTable").innerHTML = html;
@@ -948,6 +943,10 @@ def upgrade_storico3():
 .tbl-wrap {{ max-height: 70vh; }}
 .asset-col {{ max-width: 148px; min-width: 112px; }}
 .asset-col .cell-clip {{ max-width: 132px; }}
+@media (min-width: 1100px) {{
+  #stWrap thead th, #stWrap tbody td {{ padding: 8px 11px; }}
+  .controls.controls-grid {{ flex-wrap: nowrap; }}
+}}
 </style>
 </head>
 <body>
@@ -968,7 +967,7 @@ def upgrade_storico3():
   </div>
 
   <div class="controls controls-grid">
-    <div class="search-box ctrl-full">
+    <div class="search-box">
       <span class="s-ico">{SEARCH_SVG}</span>
       <input id="q" type="search" placeholder="Cerca nome o ticker...">
       <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
@@ -989,10 +988,10 @@ def upgrade_storico3():
       <option value="eoa_whale_hist_jul1_pct:asc">Ordina: Meno Whale EOA (1 Lug) &uarr;</option>
       <option value="ret_jul_to_nov21_usd_pct:desc">Ordina: Rend. 1 Lug&rarr;21 Nov &darr;</option>
     </select>
+    <span id="shown" class="pill p-muted" style="justify-self:start">500 / 500</span>
   </div>
 
-  <div class="tbl-head-bar">
-    <span id="shown" class="pill p-muted">500 / 500</span>
+  <div class="tbl-sub-bar">
     <span class="scroll-hint" data-scroll-hint="stWrap">&larr; Scorri tabella &rarr;</span>
   </div>
 
@@ -1178,6 +1177,10 @@ def upgrade_tokenomics():
 .asset-col {{ max-width: 138px; min-width: 108px; }}
 .asset-col .cell-clip {{ max-width: 126px; }}
 .sort-ind {{ opacity: 0.9; margin-left: 3px; color: var(--accent-text); }}
+@media (min-width: 1100px) {{
+  .controls.controls-grid {{ flex-wrap: nowrap; }}
+  .controls.controls-grid > select {{ flex: 0 1 auto; }}
+}}
 </style>
 </head>
 <body>
@@ -1231,10 +1234,10 @@ def upgrade_tokenomics():
       <option value="to_unlock_pct:desc">Ordina: % Da Sbloccare &darr;</option>
       <option value="ret_q3_pct:desc">Ordina: Rendimento Q3 &darr;</option>
     </select>
+    <span id="shown" class="pill p-muted" style="justify-self:start">500 / 500</span>
   </div>
 
-  <div class="tbl-head-bar">
-    <span id="shown" class="pill p-muted">500 / 500</span>
+  <div class="tbl-sub-bar">
     <span class="scroll-hint" data-scroll-hint="tokWrap">&larr; Scorri Decomp. &amp; Audit &rarr;</span>
   </div>
 
@@ -1477,10 +1480,10 @@ canvas#cv {{
   </div>
 
   <div class="kpis kpis-4">
-    <div class="kpi"><div class="lbl">Picco Globale (con BTW)</div><div class="val pos">N = 143 (+56,65%)</div><div class="det">715 EUR &rarr; 1.120,08&nbsp;EUR &middot; <span style="white-space:nowrap">N&nbsp;&ge;&nbsp;10</span></div></div>
-    <div class="kpi"><div class="lbl">Benchmark 100% Bitcoin</div><div class="val acc">N = 1 (+42,49%)</div><div class="det">5,00 EUR &rarr; 7,12&nbsp;EUR &middot; Riferimento BTC</div></div>
-    <div class="kpi"><div class="lbl">Picco Strutturale <span style="white-space:nowrap">(ex-BTW)</span></div><div class="val pos">N = 93 (+49,77%)</div><div class="det">465 EUR &rarr; 696,43&nbsp;EUR &middot; Win 83,9%</div></div>
-    <div class="kpi"><div class="lbl">Portafoglio N = 500</div><div class="val pos">+32,21% (<span style="white-space:nowrap">3.305,21&nbsp;EUR</span>)</div><div class="det">2.500 EUR &rarr; +805,21&nbsp;EUR &middot; Med. <span style="white-space:nowrap">+24,36%</span></div></div>
+    <div class="kpi"><div class="lbl">Picco Globale (con BTW)</div><div class="val pos">N = 143 (+56,65%)</div><div class="det">715 EUR &rarr; 1.120,08&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">N&nbsp;&ge;&nbsp;10</span></div></div>
+    <div class="kpi"><div class="lbl">Benchmark 100% Bitcoin</div><div class="val acc">N = 1 (+42,49%)</div><div class="det">5,00 EUR &rarr; 7,12&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">Riferimento BTC</span></div></div>
+    <div class="kpi"><div class="lbl">Picco Strutturale <span class="nowrap">(ex-BTW)</span></div><div class="val pos">N = 93 (+49,77%)</div><div class="det">465 EUR &rarr; 696,43&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">Win&nbsp;83,9%</span></div></div>
+    <div class="kpi"><div class="lbl">Portafoglio N = 500</div><div class="val pos">+32,21% (<span class="nowrap">3.305,21&nbsp;EUR</span>)</div><div class="det">2.500 EUR &rarr; +805,21&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">Med.&nbsp;+24,36%</span></div></div>
   </div>
 
   <div class="chart-card">
