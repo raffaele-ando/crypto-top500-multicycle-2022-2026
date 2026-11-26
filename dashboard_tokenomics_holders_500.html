@@ -3,18 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Audit Forense, Tokenomics &amp; Decomposizione Wallet — Top 500 Pure Crypto 2026</title>
+<title>Tokenomics, Sblocchi e Composizione Top 10 Wallet — Top 500 Pure (2026)</title>
 <script>(function(){try{var t=localStorage.getItem('crypto_hub_theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
 <link rel="stylesheet" href="./assets/apple-craft.css">
 <style>
 .wrap { max-width: 1520px; }
-.legend {
+.legend-row {
   display: flex;
-  gap: 8px 16px;
+  gap: 6px 14px;
   font-size: 12px;
   color: var(--ink-secondary);
-  margin-bottom: 10px;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
   flex-wrap: wrap;
+  align-items: center;
 }
 .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: middle; }
 .segbar {
@@ -31,7 +34,7 @@
 .seg-cex { background: #38bdf8; }
 .seg-proto { background: #a855f7; }
 .seg-eoa { background: #ff5a52; }
-.tbl-wrap { max-height: 64vh; }
+.tbl-wrap { max-height: 60vh; }
 .tbl-compact table { font-size: 12px; }
 .tbl-compact thead th { padding: 8px 6px; font-size: 11px; }
 .tbl-compact tbody td { padding: 6px 6px; }
@@ -51,56 +54,62 @@
 
 <div class="wrap">
   <div class="page-head">
-    <h1>Audit Forense 1-a-1, Sblocchi &amp; Decomposizione Wallet — Top 500 Pure Crypto (2026)</h1>
+    <h1>Tokenomics, Sblocchi e Composizione dei Top 10 Wallet — Top 500 Pure (2026)</h1>
     <div class="sub" id="tokSub">Verifica individuale su 500/500 crypto...</div>
   </div>
 
   <div class="kpis kpis-5" id="tokKpis"></div>
 
-  <div class="legend">
-    <span><span class="dot" style="background:#94a3b8"></span>Burn / Dead</span>
-    <span><span class="dot" style="background:#38bdf8"></span>Custodia CEX (Binance, Coinbase, Upbit...)</span>
-    <span><span class="dot" style="background:#a855f7"></span>Smart Contract / Staking / Vesting / LP</span>
-    <span><span class="dot" style="background:#ff5a52"></span>Whale / EOA Residui</span>
-  </div>
-
   <div class="controls controls-grid">
     <div class="search-box">
       <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-      <input id="q" type="search" placeholder="Cerca nome, ticker, wallet o flag...">
+      <input id="q" type="search" placeholder="Cerca nome, ticker, wallet o avviso...">
       <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
     </div>
-    <select id="grade" aria-label="Filtro Grade affidabilità">
-      <option value="">Tutti i Grade (A+/A/B/C/N/D)</option>
-      <option value="A+">Solo Grade A+ (Live Top 100 + Decomp)</option>
-      <option value="A">Solo Grade A (Live Nov 2026)</option>
-      <option value="A+A">Alta Affidabilit&agrave; (A+ e A)</option>
-      <option value="B">Grade B (Snapshot 2025–2026)</option>
-      <option value="C">Grade C (Datato / Parziale)</option>
-      <option value="N/D">Grade N/D (Privacy / L1 senza API)</option>
+    <select id="grade" aria-label="Filtro livello fonte on-chain">
+      <option value="">Tutti i gradi fonte (A+, A, B, C, N/D)</option>
+      <option value="A+">Solo Grado A+ (explorer nativo + scomp.)</option>
+      <option value="A">Solo Grado A (on-chain live nov 2026)</option>
+      <option value="A+A">Alta affidabilit&agrave; fonte (A+ e A)</option>
+      <option value="B">Grado B (snapshot 2025–2026)</option>
+      <option value="C">Grado C (copertura parziale / complessa)</option>
+      <option value="N/D">Grado N/D (privacy o L1 senza API)</option>
     </select>
-    <select id="verdict" aria-label="Filtro Verdetto Audit">
-      <option value="">Tutti i Verdetti Audit</option>
-      <option value="PASS_VERIFIED">Verificato (PASS_VERIFIED)</option>
-      <option value="PASS_WITH_CAVEATS">Con Riserve (PASS_WITH_CAVEATS)</option>
-      <option value="WARNING_CHECK_NOTE">Verifica Nota (WARNING)</option>
-      <option value="STRUCTURAL_ND">N/D Strutturale (Privacy)</option>
-      <option value="DATA_GAP_ND">Gap Dati (DATA_GAP_ND)</option>
+    <select id="verdict" aria-label="Filtro esito verifica">
+      <option value="">Tutti gli esiti verifica</option>
+      <option value="PASS_VERIFIED">Verificato (senza riserve)</option>
+      <option value="PASS_WITH_CAVEATS">Con riserve (staking / vesting / conc.)</option>
+      <option value="WARNING_CHECK_NOTE">Verifica nota (avviso)</option>
+      <option value="STRUCTURAL_ND">N/D strutturale (privacy)</option>
+      <option value="DATA_GAP_ND">Dato on-chain mancante</option>
     </select>
     <select id="sortBy" aria-label="Ordinamento tabella">
-      <option value="rank_clean_jul1:asc">Ordina: # Clean (1 &rarr; 500)</option>
-      <option value="top10_eoa_whale_residual_pct:asc">Ordina: Meno Whale EOA &uarr;</option>
-      <option value="top10_eoa_whale_residual_pct:desc">Ordina: Pi&ugrave; Whale EOA &darr;</option>
+      <option value="rank_clean_jul1:asc">Ordina: Posizione Pure (1 &rarr; 500)</option>
+      <option value="top10_eoa_whale_residual_pct:asc">Ordina: Meno balene EOA &uarr;</option>
+      <option value="top10_eoa_whale_residual_pct:desc">Ordina: Pi&ugrave; balene EOA &darr;</option>
       <option value="top10_holders_pct:desc">Ordina: Top 10 Lordo &darr;</option>
-      <option value="fdv_to_mcap_ratio:desc">Ordina: FDV / Market Cap &darr;</option>
-      <option value="to_unlock_pct:desc">Ordina: % Da Sbloccare &darr;</option>
-      <option value="ret_q3_pct:desc">Ordina: Rendimento Q3 &darr;</option>
+      <option value="fdv_to_mcap_ratio:desc">Ordina: Multiplo FDV / Cap. &darr;</option>
+      <option value="to_unlock_pct:desc">Ordina: % Da sbloccare &darr;</option>
+      <option value="ret_q3_pct:desc">Ordina: Var. USD Lug&rarr;Ott &darr;</option>
     </select>
-    <span id="shown" class="pill p-muted" style="justify-self:start">500 / 500</span>
+    <span id="shown" class="pill p-muted" style="justify-self:start">Mostrate 500 di 500</span>
+  </div>
+
+  <!-- Explicit Data-Quality & Wallet-Composition Legend directly above table -->
+  <div class="info-banner">
+    <div><strong>Affidabilit&agrave; fonte dati (A+–C, non &egrave; un rating dell'investimento):</strong> <strong>A+/A</strong> = explorer nativo o API on-chain live &middot; <strong>B</strong> = snapshot recente &middot; <strong>C</strong> = copertura parziale o contratti complessi (es. staking ETH) &middot; <strong>N/D</strong> = privacy o rete senza API.</div>
+    <div class="legend-row">
+      <strong>Composizione Top 10:</strong>
+      <span><span class="dot" style="background:#94a3b8"></span>Burn / Dead (<strong>B</strong>)</span>
+      <span><span class="dot" style="background:#38bdf8"></span>Exchange CEX (<strong>C</strong>)</span>
+      <span><span class="dot" style="background:#a855f7"></span>Smart Contract / Staking / Vesting (<strong>S</strong>)</span>
+      <span><span class="dot" style="background:#ff5a52"></span>Balene Private (<strong>EOA</strong>)</span>
+    </div>
   </div>
 
   <div class="tbl-sub-bar">
-    <span class="scroll-hint" data-scroll-hint="tokWrap">&larr; Scorri Decomp. &amp; Audit &rarr;</span>
+    <span class="tbl-note">Variazioni percentuali Q3 e 21 nov espresse in <strong>USD</strong> dal 1&deg; luglio 2026.</span>
+    <span class="scroll-hint" data-scroll-hint="tokWrap">&larr; Scorri tabella &rarr;</span>
   </div>
 
   <div class="tbl-wrap tbl-compact" id="tokWrap">
@@ -108,14 +117,14 @@
       <thead>
         <tr>
           <th class="l sticky-col" data-k="rank_clean_jul1"># / Asset</th>
-          <th class="l" data-k="reliability_grade">Grade</th>
+          <th class="l" data-k="reliability_grade">Affidabilit&agrave; Dato</th>
           <th class="num" data-k="unlocked_pct">Sbloccati / FDV</th>
-          <th class="num" data-k="top10_holders_pct">Top 10</th>
-          <th class="l">Decomp. Top 10</th>
-          <th class="num" data-k="top10_eoa_whale_residual_pct">Whale EOA</th>
-          <th class="l">#1 Wallet &amp; DC</th>
-          <th class="num" data-k="ret_q3_pct">Q3 / 21 Nov</th>
-          <th class="l">Nota Audit</th>
+          <th class="num" data-k="top10_holders_pct">Top 10 Lordo</th>
+          <th class="l">Scomposizione Top 10</th>
+          <th class="num" data-k="top10_eoa_whale_residual_pct">Balene (EOA)</th>
+          <th class="l">Wallet #1 &amp; Vesting</th>
+          <th class="num" data-k="ret_q3_pct">Var. USD (Lug&rarr;Ott/Nov)</th>
+          <th class="l">Note di Verifica</th>
         </tr>
       </thead>
       <tbody id="tb"></tbody>
@@ -131,8 +140,19 @@ const VERDICT_LABELS = {
   PASS_WITH_CAVEATS: "Con riserve",
   WARNING_CHECK_NOTE: "Verifica nota",
   STRUCTURAL_ND: "N/D strutt.",
-  DATA_GAP_ND: "Gap dati"
+  DATA_GAP_ND: "Dato mancante"
 };
+
+function cleanNote(s) {
+  if (!s) return "—";
+  let t = s
+    .replace(/CMC DAPI Live \(fgp esatto ex-Others; etichette ufficiali CMC incluse\)/gi, "CoinMarketCap on-chain live (etichette ufficiali, escl. quota aggregata)")
+    .replace(/CMC DAPI Live \([^)]*\)/gi, "CoinMarketCap on-chain live")
+    .replace(/Verificata 8\/8 \(CoinMarketCap On-Chain\)/gi, "8/8 controlli superati (CoinMarketCap On-Chain)")
+    .replace(/Verificata 8\/8/gi, "8/8 controlli superati")
+    .replace(/CMC_BRIDGED_CLEANED/gi, "Fonte bridge corretta su rete nativa");
+  return t;
+}
 
 function median(vals) {
   if (!vals.length) return null;
@@ -141,7 +161,6 @@ function median(vals) {
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
 }
 
-// Dynamic single-source-of-truth KPIs & Subtitle (Zero hardcoded 54 vs 58 contradiction!)
 (function initHeaderStats() {
   const tot = DATA.length;
   const nTop10 = DATA.filter(x => x.top10_holders_pct !== null).length;
@@ -158,14 +177,14 @@ function median(vals) {
   const medEoa = median(DATA.map(x => x.top10_eoa_whale_residual_pct).filter(v => v !== null));
 
   document.getElementById("tokSub").innerHTML =
-    `Verifica individuale su <b>${tot}/${tot}</b> crypto &middot; Concentrazione On-Chain Primaria: <b>${nTop10}/${tot} (${FMT.dec1(nTop10/tot*100)}%)</b> &middot; Decomposizione Burn/CEX/SC/EOA: <b>${nDecomp}/${tot} (${FMT.dec1(nDecomp/tot*100)}%)</b> &middot; <b>${nBridge}</b> bug bridge CMC bonificati`;
+    `Verifica individuale su <b>${tot}/${tot}</b> crypto: dati on-chain nativi su <b>${nTop10}/${tot} (${FMT.dec1(nTop10/tot*100)}%)</b>, scomposizione Top 10 su <b>${nDecomp}/${tot} (${FMT.dec1(nDecomp/tot*100)}%)</b> e <b>${nBridge}</b> fonti bridge CoinMarketCap corrette su blockchain nativa.`;
 
   document.getElementById("tokKpis").innerHTML = [
-    ["Grade A+ / A (Live)", `${nAp + nA} / ${tot}`, "pos", `A+: ${nAp} · A: ${nA}<br>B: ${nB} · C: ${nC} · N/D: ${nND}`],
-    ["Top 10 Lordo &rarr; Whale EOA", `${FMT.dec1(medTop10)}% &rarr; ${FMT.dec1(medEoa)}%`, "acc", "Mediana reale EOA al netto di Burn, CEX e Smart Contract"],
-    ["Bug Bridge CMC Bonificati", `${nBridge}`, "acc", "Sostituiti con explorer nativi primari o marcati N/D"],
-    ["Rischio Doppio Conteggio", `${nDC}`, "warn", "Asset dove il vesting bloccato rientra nei Top 10 wallet"],
-    ["Micro-Base (&lt;500 Holder)", `${nMicro}`, "neg", "Segnalate con flag di rischio concentrazione elevata"],
+    ["Qualit&agrave; fonte dati (A+/A)", `${nAp + nA} / ${tot}`, "pos", `A+: ${nAp} · A: ${nA}<br>B: ${nB} · C: ${nC} · N/D: ${nND}`],
+    ["Top 10 Lordo &rarr; Balene (EOA)", `${FMT.dec1(medTop10)}% &rarr; ${FMT.dec1(medEoa)}%`, "acc", "Mediana in wallet privati, esclusi burn, exchange e smart contract"],
+    ["Fonti bridge CMC corrette", `${nBridge}`, "acc", "Token su reti secondarie sostituiti con explorer nativo"],
+    ["Doppio conteggio vesting", `${nDC}`, "warn", "Asset i cui token in vesting rientrano nei primi 10 wallet"],
+    ["Base detentori ristretta (<500)", `${nMicro} asset`, "neg", "Asset segnalati per rischio di elevata concentrazione"],
   ].map(k => `<div class="kpi"><div class="lbl">${k[0]}</div><div class="val ${k[2]}">${k[1]}</div><div class="det">${k[3]}</div></div>`).join("");
 })();
 
@@ -204,37 +223,38 @@ function render() {
     return dir === "asc" ? va - vb : vb - va;
   });
   updateSortIndicators();
-  document.getElementById("shown").textContent = `${arr.length} / ${DATA.length}`;
+  document.getElementById("shown").textContent = `Mostrate ${arr.length} di ${DATA.length}`;
   document.getElementById("tb").innerHTML = arr.map(x => {
-    const fdv = x.fdv_to_mcap_ratio ? FMT.dec2(x.fdv_to_mcap_ratio) + "x" : null;
+    const fdv = x.fdv_to_mcap_ratio ? "FDV " + FMT.dec2(x.fdv_to_mcap_ratio) + "×" : null;
     const subUnl = (fdv === null && x.to_unlock_pct === null)
-      ? "Supply &infin; (No Cap)"
-      : `${fdv || "No Cap"} &middot; ${x.to_unlock_pct !== null ? "Da sbl: " + FMT.dec1(x.to_unlock_pct) + "%" : "Supply &infin;"}`;
+      ? "Supply illimitata"
+      : `${fdv || "Supply illimitata"} &middot; ${x.to_unlock_pct !== null ? "Da sbl. " + FMT.dec1(x.to_unlock_pct) + "%" : "No cap"}`;
     const seg = x.top10_burn_pct !== null
-      ? `<div class="segbar" title="Burn ${FMT.dec1(x.top10_burn_pct)}% | CEX ${FMT.dec1(x.top10_cex_pct)}% | SC ${FMT.dec1(x.top10_contract_lock_lp_pct)}% | EOA ${FMT.dec1(x.top10_eoa_whale_residual_pct)}%">
+      ? `<div class="segbar" title="Burn ${FMT.dec1(x.top10_burn_pct)}% | Exchange CEX ${FMT.dec1(x.top10_cex_pct)}% | Smart Contract ${FMT.dec1(x.top10_contract_lock_lp_pct)}% | Balene EOA ${FMT.dec1(x.top10_eoa_whale_residual_pct)}%">
            <div class="seg-burn" style="width:${x.top10_burn_pct}%"></div>
            <div class="seg-cex" style="width:${x.top10_cex_pct}%"></div>
            <div class="seg-proto" style="width:${x.top10_contract_lock_lp_pct}%"></div>
            <div class="seg-eoa" style="width:${x.top10_eoa_whale_residual_pct}%"></div>
          </div>
-         <span class="small">B:${FMT.dec1(x.top10_burn_pct)} · C:${FMT.dec1(x.top10_cex_pct)} · S:${FMT.dec1(x.top10_contract_lock_lp_pct)}%</span>`
+         <span class="small">B ${FMT.dec1(x.top10_burn_pct)}% &middot; C ${FMT.dec1(x.top10_cex_pct)}% &middot; S ${FMT.dec1(x.top10_contract_lock_lp_pct)}%</span>`
       : `<span class="small">${x.wallet_decomposition_status || "N/D"}</span>`;
     const w1 = x.top1_wallet_label ? `${x.top1_wallet_label} (${FMT.dec1(x.top1_wallet_pct)}%)` : "—";
-    const dc = (x.vesting_whale_overlap_flag || "").startsWith("SI") ? '<span class="pill g-c" style="margin-top:2px" title="Doppio conteggio vesting/whale">DC: S&igrave;</span>' : "";
+    const dc = (x.vesting_whale_overlap_flag || "").startsWith("SI") ? '<span class="pill g-c" style="margin-top:2px" title="Doppio conteggio: i token in vesting rientrano nei primi 10 wallet">Vesting in Top 10</span>' : "";
     const q3c = FMT.pctClass(x.ret_q3_pct);
     const n21c = FMT.pctClass(x.ret_nov21_pct);
     const vLbl = VERDICT_LABELS[x.coin_audit_verdict] || x.coin_audit_verdict;
-    const note = x.coin_audit_note || "—";
+    const rawNote = x.coin_audit_note || "—";
+    const noteClean = cleanNote(rawNote);
     return `<tr>
-      <td class="l sticky-col asset-col"><b class="cell-clip" title="${x.name} (CMC #${x.cmc_rank_jul1})">#${String(x.rank_clean_jul1).padStart(3,"0")} ${x.name}</b><span class="small">${x.symbol} &middot; CMC #${x.cmc_rank_jul1}</span></td>
+      <td class="l sticky-col asset-col"><b class="cell-clip" title="${x.name} (Rank CMC #${x.cmc_rank_jul1})">#${String(x.rank_clean_jul1).padStart(3,"0")} ${x.name}</b><span class="small">${x.symbol} &middot; CMC #${x.cmc_rank_jul1}</span></td>
       <td class="l"><span class="pill ${gCls(x.reliability_grade)}">${x.reliability_grade}</span><span class="small" title="${x.coin_audit_verdict}">${vLbl}</span></td>
       <td class="num"><b>${FMT.pct(x.unlocked_pct, false, 2)}</b><span class="small">${subUnl}</span></td>
-      <td class="num"><b>${FMT.pct(x.top10_holders_pct, false, 2)}</b><span class="small">Distr: ${FMT.pct(x.distributed_outside_top10_pct, false, 1)}</span></td>
+      <td class="num"><b>${FMT.pct(x.top10_holders_pct, false, 2)}</b><span class="small">Altri wallet: ${FMT.pct(x.distributed_outside_top10_pct, false, 1)}</span></td>
       <td class="l">${seg}</td>
-      <td class="num"><b>${FMT.pct(x.top10_eoa_whale_residual_pct, false, 2)}</b><span class="small">ex-B: ${FMT.pct(x.top10_ex_burn_pct, false, 1)}</span></td>
+      <td class="num"><b>${FMT.pct(x.top10_eoa_whale_residual_pct, false, 2)}</b><span class="small">Escl. burn: ${FMT.pct(x.top10_ex_burn_pct, false, 1)}</span></td>
       <td class="l"><div class="small wallet-clamp" style="color:var(--ink)" title="${w1}">${w1}</div>${dc}</td>
       <td class="num"><span class="${q3c}">${FMT.pct(x.ret_q3_pct, true, 2)}</span><span class="small ${n21c}">${FMT.pct(x.ret_nov21_pct, true, 2)}</span></td>
-      <td class="l"><div class="small note-clamp" title="${note}">${note}</div></td>
+      <td class="l"><div class="small note-clamp" title="${rawNote}">${noteClean}</div></td>
     </tr>`;
   }).join("");
   agyRefreshScrollHints();

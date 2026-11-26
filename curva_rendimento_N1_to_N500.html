@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Curva di Rendimento Cumulativa Step-by-Step (N = 1 &rarr; 500)</title>
+<title>Curva Top N (Q3 2026): Rendimento da 1 a 500 Crypto</title>
 <script>(function(){try{var t=localStorage.getItem('crypto_hub_theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
 <link rel="stylesheet" href="./assets/apple-craft.css">
 <style>
@@ -80,35 +80,39 @@ canvas#cv {
 
 <div class="wrap">
   <div class="page-head">
-    <h1>Curva di Rendimento Step-by-Step: da N = 1 fino a N = 500 (5 EUR per Crypto)</h1>
-    <div class="sub">1&deg; Luglio 2026 &rarr; 1&deg; Ottobre 2026 (Euro Reali, FX 1,1413 &rarr; 1,1327) &middot; Tocca o scorri sul grafico per ispezionare ogni singolo passo N</div>
+    <h1>Rendimento Progressivo Q3 2026: da 1 a 500 Crypto (5&nbsp;&euro; ciascuna)</h1>
+    <div class="sub">Finestra 1&deg; luglio &ndash; 1&deg; ottobre 2026 (in EUR al cambio storico EUR/USD 1,1413 &rarr; 1,1327). Mostra come cambia il rendimento aggiungendo una criptovaluta alla volta per capitalizzazione (da Top 1 Bitcoin fino alle Top 500).</div>
   </div>
 
   <div class="kpis kpis-4">
-    <div class="kpi"><div class="lbl">Picco Globale (con BTW)</div><div class="val pos">N = 143 (+56,65%)</div><div class="det">715 EUR &rarr; 1.120,08&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">N&nbsp;&ge;&nbsp;10</span></div></div>
-    <div class="kpi"><div class="lbl">Benchmark 100% Bitcoin</div><div class="val acc">N = 1 (+42,49%)</div><div class="det">5,00 EUR &rarr; 7,12&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">Riferimento BTC</span></div></div>
-    <div class="kpi"><div class="lbl">Picco Strutturale <span class="nowrap">(ex-BTW)</span></div><div class="val pos">N = 93 (+49,77%)</div><div class="det">465 EUR &rarr; 696,43&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">Win&nbsp;83,9%</span></div></div>
-    <div class="kpi"><div class="lbl">Portafoglio N = 500</div><div class="val pos">+32,21% (<span class="nowrap">3.305,21&nbsp;EUR</span>)</div><div class="det">2.500 EUR &rarr; +805,21&nbsp;EUR<span class="kpi-sep"> &middot; </span><span class="nowrap">Med.&nbsp;+24,36%</span></div></div>
+    <div class="kpi"><div class="lbl">Picco con outlier BTW (#143)</div><div class="val pos">Top 143 (+56,65%)</div><div class="det">715&nbsp;&euro; &rarr; 1.120,08&nbsp;&euro;<span class="kpi-sep"> &middot; </span><span class="nowrap">portafogli &ge;&nbsp;10 asset</span></div></div>
+    <div class="kpi"><div class="lbl">Solo Bitcoin (benchmark)</div><div class="val acc">Top 1 (+42,49%)</div><div class="det">5&nbsp;&euro; &rarr; 7,12&nbsp;&euro;<span class="kpi-sep"> &middot; </span><span class="nowrap">riferimento 100% BTC</span></div></div>
+    <div class="kpi"><div class="lbl">Picco strutturale <span class="nowrap">(senza BTW)</span></div><div class="val pos">Top 93 (+49,77%)</div><div class="det">465&nbsp;&euro; &rarr; 696,43&nbsp;&euro;<span class="kpi-sep"> &middot; </span><span class="nowrap">Vincenti: 83,9%</span></div></div>
+    <div class="kpi"><div class="lbl">Intero portafoglio (Top 500)</div><div class="val pos">+32,21% EUR</div><div class="det">2.500&nbsp;&euro; &rarr; 3.305,21&nbsp;&euro; (+805,21&nbsp;&euro;)<span class="kpi-sep"> &middot; </span><span class="nowrap">Mediana EUR: +24,36%</span></div></div>
+  </div>
+
+  <div class="info-banner">
+    <strong>Nota sull'outlier BTW (#143):</strong> lo scalino verticale a N&nbsp;=&nbsp;143 &egrave; generato dal singolo token anomalo <strong>Bitway (BTW)</strong>. La curva verde (<em>Senza BTW</em>) lo esclude per mostrare il rendimento strutturale del mercato. Tocca o scorri sul grafico per ispezionare ogni passo N.
   </div>
 
   <div class="chart-card">
     <div class="legend">
-      <div class="leg-item"><span class="swatch" style="background:var(--chart-port)"></span>Portafoglio % EUR (con BTW)</div>
-      <div class="leg-item"><span class="swatch" style="background:var(--chart-struct)"></span>Strutturale % EUR (ex-BTW)</div>
-      <div class="leg-item"><span class="swatch" style="background:var(--chart-median)"></span>Mediana % quote portafoglio</div>
-      <div class="leg-item"><span class="swatch" style="background:var(--chart-btc)"></span>Benchmark 100% BTC (+42,49%)</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-port)"></span>Portafoglio EUR % (con outlier BTW)</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-struct)"></span>Trend strutturale EUR % (senza BTW)</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-median)"></span>Rendimento mediano singole crypto (EUR)</div>
+      <div class="leg-item"><span class="swatch" style="background:var(--chart-btc)"></span>Solo Bitcoin (+42,49% EUR)</div>
     </div>
-    <canvas id="cv" role="img" aria-label="Grafico della curva di rendimento cumulativa da N=1 a N=500"></canvas>
+    <canvas id="cv" role="img" aria-label="Grafico della curva di rendimento progressiva da Top 1 a Top 500 nel Q3 2026"></canvas>
     <div id="tooltip"></div>
   </div>
 
   <div class="controls">
     <div class="search-box">
       <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-      <input type="search" id="q" placeholder="Filtra per N, nome o ticker...">
+      <input type="search" id="q" placeholder="Cerca per posizione (1–500), nome o ticker...">
       <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
     </div>
-    <span id="shown" class="pill p-muted">500 / 500</span>
+    <span id="shown" class="pill p-muted">Mostrati 500 di 500 passi</span>
     <span class="scroll-hint" data-scroll-hint="curvaWrap">&larr; Scorri tabella &rarr;</span>
   </div>
 
@@ -117,14 +121,14 @@ canvas#cv {
       <thead>
         <tr>
           <th class="l sticky-col" data-k="N">N / Crypto Aggiunta</th>
-          <th data-k="added_coin_pct_eur">Rend. Singola</th>
-          <th data-k="invested_eur">Investito</th>
-          <th data-k="portfolio_val_eur_real">Valore Finale</th>
-          <th data-k="portfolio_pnl_eur_real">Guadagno</th>
-          <th data-k="portfolio_pct_eur_real">Cum. % EUR</th>
-          <th data-k="portfolio_pct_eur_ex_btw">Cum. ex-BTW</th>
-          <th data-k="marginal_impact_pp">Impatto &Delta;pp</th>
-          <th data-k="median_return_pct">Mediana %</th>
+          <th data-k="added_coin_pct_eur">Rend. Asset (EUR)</th>
+          <th data-k="invested_eur">Investito (&euro;)</th>
+          <th data-k="portfolio_val_eur_real">Valore Finale (&euro;)</th>
+          <th data-k="portfolio_pnl_eur_real">Guadagno (&euro;)</th>
+          <th data-k="portfolio_pct_eur_real">Cum. EUR %</th>
+          <th data-k="portfolio_pct_eur_ex_btw">Cum. Senza BTW %</th>
+          <th data-k="marginal_impact_pp">Effetto Marg. (pp)</th>
+          <th data-k="median_return_pct">Mediana EUR %</th>
           <th data-k="win_rate_pct">Vincenti %</th>
         </tr>
       </thead>
@@ -161,7 +165,7 @@ function chartPalette() {
     purple: cBtc
   } : {
     grid: "#2c2c2e",
-    axis: "#b5b5be",
+    axis: "#c0c0ca",
     cross: "#8e8e93",
     pillBgBlue: "#0d1f38",
     pillBgGreen: "#0b2416",
@@ -236,7 +240,6 @@ function drawChart(hoverIdx = -1) {
     ctx.fillText("N=" + n, Math.min(W - 38, Math.max(pad.l, px - 14)), H - 10);
   }
 
-  // BTC benchmark line
   ctx.save(); ctx.setLineDash([5, 5]); ctx.strokeStyle = pal.purple; ctx.lineWidth = 1.4;
   ctx.beginPath(); ctx.moveTo(pad.l, yOf(42.49)); ctx.lineTo(W - pad.r, yOf(42.49)); ctx.stroke();
   ctx.restore();
@@ -253,11 +256,10 @@ function drawChart(hoverIdx = -1) {
   plotLine("portfolio_pct_eur_ex_btw", pal.green, 2.0);
   plotLine("portfolio_pct_eur_real", pal.blue, 2.4);
 
-  // Dedicated Peak Callouts (N=93 ex-BTW lifted cleanly above early peak & N=143 +BTW) with WCAG AAA contrast
   if (W >= 420) {
     const s93 = STEPS[92], s143 = STEPS[142];
-    if (s93) drawCallout(xOf(93), yOf(s93.portfolio_pct_eur_ex_btw), "N=93 (+49,77% ex-BTW)", pal.green, pal.greenText, pal.pillBgGreen, true, 36);
-    if (s143) drawCallout(xOf(143), yOf(s143.portfolio_pct_eur_real), "N=143 (+56,65% +BTW)", pal.blue, pal.blueText, pal.pillBgBlue, false, 11);
+    if (s93) drawCallout(xOf(93), yOf(s93.portfolio_pct_eur_ex_btw), "Top 93 (+49,77% senza BTW)", pal.green, pal.greenText, pal.pillBgGreen, true, 36);
+    if (s143) drawCallout(xOf(143), yOf(s143.portfolio_pct_eur_real), "Top 143 (+56,65% con BTW)", pal.blue, pal.blueText, pal.pillBgBlue, false, 11);
   }
 
   if (hoverIdx >= 0 && hoverIdx < STEPS.length) {
@@ -281,11 +283,11 @@ function inspectAtClientX(clientX) {
   const left = Math.min(rect.width - 240, Math.max(10, mx + 14));
   tip.style.left = left + "px";
   tip.style.top = "44px";
-  tip.innerHTML = `<strong>N = ${s.N} &middot; ${s.added_name} [${s.added_symbol}]</strong><br>` +
-    `Singola: <span class="${s.added_coin_pct_eur >= 0 ? "pos" : "neg"}">${FMT.pct(s.added_coin_pct_eur, true, 2)}</span> (${FMT.eur(s.added_coin_val_oct1_eur)})<br>` +
-    `Portafoglio: ${FMT.int(s.invested_eur)} EUR &rarr; <strong>${FMT.eur(s.portfolio_val_eur_real)}</strong> (${FMT.eurSigned(s.portfolio_pnl_eur_real)})<br>` +
-    `Cumulativo: <strong class="pos">${FMT.pct(s.portfolio_pct_eur_real, true, 2)}</strong> (ex-BTW: ${FMT.pct(s.portfolio_pct_eur_ex_btw, true, 2)})<br>` +
-    `Mediana: ${FMT.pct(s.median_return_pct, true, 2)} &middot; Vincenti: ${FMT.dec1(s.win_rate_pct)}%`;
+  tip.innerHTML = `<strong>Top ${s.N} &middot; ${s.added_name} (${s.added_symbol})</strong><br>` +
+    `Singola crypto: <span class="${FMT.pctClass(s.added_coin_pct_eur)}">${FMT.pct(s.added_coin_pct_eur, true, 2)} EUR</span> (${FMT.eur(s.added_coin_val_oct1_eur)})<br>` +
+    `Portafoglio: ${FMT.eurInt(s.invested_eur)} &rarr; <strong>${FMT.eur(s.portfolio_val_eur_real)}</strong> (${FMT.eurSigned(s.portfolio_pnl_eur_real)})<br>` +
+    `Cumulativo EUR: <strong class="pos">${FMT.pct(s.portfolio_pct_eur_real, true, 2)}</strong> (senza BTW: ${FMT.pct(s.portfolio_pct_eur_ex_btw, true, 2)})<br>` +
+    `Mediana EUR: ${FMT.pct(s.median_return_pct, true, 2)} &middot; Vincenti: ${FMT.dec1(s.win_rate_pct)}%`;
 }
 
 cv.addEventListener("pointermove", e => inspectAtClientX(e.clientX));
@@ -314,14 +316,14 @@ function renderTable() {
   let rows = STEPS.filter(s => !q || String(s.N) === q || s.added_name.toLowerCase().includes(q) || s.added_symbol.toLowerCase().includes(q));
   rows.sort((a, b) => typeof a[sortKey] === "string" ? a[sortKey].localeCompare(b[sortKey]) * sortDir : (a[sortKey] - b[sortKey]) * sortDir);
   updateSortIndicators();
-  document.getElementById("shown").textContent = `${rows.length} / ${STEPS.length}`;
+  document.getElementById("shown").textContent = `Mostrati ${rows.length} di ${STEPS.length} passi`;
   document.getElementById("tb").innerHTML = rows.map(s => `
     <tr>
       <td class="l sticky-col"><strong>#${s.N} ${s.added_name}</strong> <span class="mut">(${s.added_symbol})</span></td>
-      <td class="${s.added_coin_pct_eur >= 0 ? "pos" : "neg"}">${FMT.pct(s.added_coin_pct_eur, true, 2)}</td>
+      <td class="${FMT.pctClass(s.added_coin_pct_eur)}">${FMT.pct(s.added_coin_pct_eur, true, 2)}</td>
       <td>${FMT.eur(s.invested_eur)}</td>
       <td>${FMT.eur(s.portfolio_val_eur_real)}</td>
-      <td class="${s.portfolio_pnl_eur_real >= 0 ? "pos" : "neg"}">${FMT.eurSigned(s.portfolio_pnl_eur_real)}</td>
+      <td class="${FMT.pctClass(s.portfolio_pnl_eur_real)}">${FMT.eurSigned(s.portfolio_pnl_eur_real)}</td>
       <td class="pos">${FMT.pct(s.portfolio_pct_eur_real, true, 2)}</td>
       <td>${FMT.pct(s.portfolio_pct_eur_ex_btw, true, 2)}</td>
       <td class="${s.marginal_impact_pp >= 0 ? "pos" : "neg"}">${s.marginal_impact_pp >= 0 ? "+" : ""}${s.marginal_impact_pp.toFixed(3).replace(".", ",")}</td>

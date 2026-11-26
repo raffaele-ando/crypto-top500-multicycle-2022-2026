@@ -5,7 +5,7 @@
   const THEME_KEY = "crypto_hub_theme";
   const REPO_URL = "https://github.com/raffaele-ando/crypto-top500-multicycle-2022-2026";
 
-  // 1. Unified Italian Financial Number Formatter (useGrouping:'always' so 4-digit numbers ALWAYS get thousands dot!)
+  // 1. Unified Italian Financial Number Formatter (useGrouping:'always' for 4-digit thousands dots!)
   const nfInt = new Intl.NumberFormat("it-IT", { maximumFractionDigits: 0, useGrouping: "always" });
   const nf1 = new Intl.NumberFormat("it-IT", { minimumFractionDigits: 1, maximumFractionDigits: 1, useGrouping: "always" });
   const nf2 = new Intl.NumberFormat("it-IT", { minimumFractionDigits: 2, maximumFractionDigits: 2, useGrouping: "always" });
@@ -24,12 +24,16 @@
     fx: (v) => (v === null || v === undefined || v === "" || isNaN(v)) ? "N/D" : nf4.format(Number(v)),
     eur: (v, withUnit = true) => {
       if (v === null || v === undefined || v === "" || isNaN(v)) return "N/D";
-      return nf2.format(cleanZero(Number(v), 2)) + (withUnit ? "\u00A0EUR" : "");
+      return nf2.format(cleanZero(Number(v), 2)) + (withUnit ? "\u00A0\u20AC" : "");
+    },
+    eurInt: (v) => {
+      if (v === null || v === undefined || v === "" || isNaN(v)) return "N/D";
+      return nfInt.format(Math.round(Number(v))) + "\u00A0\u20AC";
     },
     eurSigned: (v) => {
       if (v === null || v === undefined || v === "" || isNaN(v)) return "N/D";
       const n = cleanZero(Number(v), 2);
-      return (n > 0 ? "+" : "") + nf2.format(n) + "\u00A0EUR";
+      return (n > 0 ? "+" : "") + nf2.format(n) + "\u00A0\u20AC";
     },
     pct: (v, signed = true, decimals = 2) => {
       if (v === null || v === undefined || v === "" || isNaN(v)) return "N/D";
@@ -67,6 +71,23 @@
       if (a >= 1e6) return prefix + nf2.format(n / 1e6) + "\u00A0M";
       if (a >= 1e3) return prefix + nf1.format(n / 1e3) + "\u00A0K";
       return prefix + nfInt.format(Math.round(n));
+    },
+    dateIt: (iso) => {
+      if (!iso) return "—";
+      const mNames = ["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
+      const parts = String(iso).slice(0, 10).split("-");
+      if (parts.length !== 3) return iso;
+      const d = parseInt(parts[2], 10);
+      const m = mNames[parseInt(parts[1], 10) - 1] || parts[1];
+      return `${d === 1 ? "1°" : d} ${m} ${parts[0]}`;
+    },
+    dateShort: (iso) => {
+      if (!iso) return "—";
+      const mNames = ["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"];
+      const parts = String(iso).slice(0, 10).split("-");
+      if (parts.length !== 3) return iso;
+      const m = mNames[parseInt(parts[1], 10) - 1] || parts[1];
+      return `${m} ${parts[0].slice(2)}`;
     }
   };
 
@@ -74,16 +95,16 @@
   const MOON_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
   const GH_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.09.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.12 2.91.85.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05A9.35 9.35 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.95-2.34 4.82-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.59.69.49A10.27 10.27 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>';
 
-  // 2. Theme Engine (persisted across all 7 pages + reacts to external data-theme changes!)
+  // 2. Theme Engine (persisted across all pages + reacts to external data-theme changes!)
   function syncThemeUI(theme) {
     const btn = document.getElementById("agyThemeToggle");
     if (btn) {
       btn.setAttribute("aria-pressed", theme === "light" ? "true" : "false");
-      btn.setAttribute("aria-label", theme === "dark" ? "Passa alla modalità chiara" : "Passa alla modalità scura OLED");
-      btn.title = theme === "dark" ? "Passa alla modalità chiara" : "Passa alla modalità scura OLED";
+      btn.setAttribute("aria-label", theme === "dark" ? "Attiva tema chiaro" : "Attiva tema scuro OLED");
+      btn.title = theme === "dark" ? "Attiva tema chiaro" : "Attiva tema scuro OLED";
       btn.innerHTML = theme === "dark"
-        ? `${SUN_SVG}<span class="theme-lbl">Chiara</span>`
-        : `${MOON_SVG}<span class="theme-lbl">Scura</span>`;
+        ? `${SUN_SVG}<span class="theme-lbl">Tema chiaro</span>`
+        : `${MOON_SVG}<span class="theme-lbl">Tema scuro</span>`;
     }
   }
   function applyTheme(t) {
@@ -107,36 +128,36 @@
     }
   }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
-  // 3. Unified Single-Row Hub Navbar Renderer (with Bilateral Scroll Fade & Compact Tablet/Mobile Ergonomics)
+  // 3. Task-Oriented 6-Item Hub Navbar (Mutually Exclusive, Clear Horizons & Zero Overlap)
   window.agyInitHubNav = function (activeId, basePrefix) {
     const pref = basePrefix || "./";
+    const normActive = (activeId === "raw500" || activeId === "pure500") ? "dataset2026" : activeId;
     const pages = [
-      { id: "home", href: pref + "index.html", label: "Home", cls: "hub-home" },
-      { id: "flagship15", href: pref + "multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html", label: "15 Date (2022–2026)" },
-      { id: "storico3", href: pref + "dashboard_storico_3date_500.html", label: "Storico 3 Date" },
-      { id: "tokenomics", href: pref + "dashboard_tokenomics_holders_500.html", label: "Tokenomics & Whale" },
-      { id: "curva", href: pref + "curva_rendimento_N1_to_N500.html", label: "Curva N=1..500" },
-      { id: "pure500", href: pref + "dashboard_pure500_crypto_2026.html", label: "Pure 500 Q3" },
-      { id: "raw500", href: pref + "dashboard_top500_crypto_2026.html", label: "Raw Top 500" },
+      { id: "home", href: pref + "index.html", label: "Panoramica", cls: "hub-home" },
+      { id: "flagship15", href: pref + "multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html", label: "Backtest 2022–2026" },
+      { id: "storico3", href: pref + "dashboard_storico_3date_500.html", label: "Focus 2026 (3 Date)" },
+      { id: "tokenomics", href: pref + "dashboard_tokenomics_holders_500.html", label: "Tokenomics & Balene" },
+      { id: "curva", href: pref + "curva_rendimento_N1_to_N500.html", label: "Curva Top N (Q3)" },
+      { id: "dataset2026", href: pref + "dashboard_pure500_crypto_2026.html", label: "Dataset 2026 (Pure/Raw)" },
     ];
     let nav = document.querySelector("nav.agy-hub-nav");
     if (!nav) {
       nav = document.createElement("nav");
       nav.className = "agy-hub-nav";
-      nav.setAttribute("aria-label", "Navigazione principale suite");
+      nav.setAttribute("aria-label", "Navigazione principale");
       document.body.insertBefore(nav, document.body.firstChild);
     }
     const linksHtml = pages.map(p => {
-      const active = p.id === activeId ? " hub-active" : "";
+      const active = p.id === normActive ? " hub-active" : "";
       const extra = p.cls ? " " + p.cls : "";
-      const aria = p.id === activeId ? ' aria-current="page"' : "";
+      const aria = p.id === normActive ? ' aria-current="page"' : "";
       return `<a href="${p.href}" class="hub-pill${extra}${active}"${aria}>${p.label}</a>`;
     }).join("");
     nav.innerHTML =
       `<div class="agy-hub-rail">${linksHtml}</div>` +
       `<div class="agy-hub-actions">` +
         `<button type="button" id="agyThemeToggle" class="hub-pill hub-theme" onclick="agyToggleTheme()"></button>` +
-        `<a href="${REPO_URL}" target="_blank" rel="noopener" class="hub-pill hub-gh" aria-label="Apri repository su GitHub" title="Apri repository su GitHub">${GH_SVG}<span class="gh-txt">GitHub<span class="gh-lbl"> Repo</span> &nearr;</span></a>` +
+        `<a href="${REPO_URL}" target="_blank" rel="noopener" class="hub-pill hub-gh" aria-label="Apri codice sorgente su GitHub" title="Apri codice sorgente su GitHub">${GH_SVG}<span class="gh-txt"><span class="gh-lbl">Codice </span>GitHub &nearr;</span></a>` +
       `</div>`;
 
     let saved = "dark";
@@ -177,7 +198,6 @@
   function ensureTableShell(wrap) {
     if (!wrap) return null;
     if (wrap.parentElement && wrap.parentElement.classList.contains("tbl-shell")) return wrap.parentElement;
-    // Only wrap horizontal-scroll containers (skip desktop overflow:visible heatmap)
     const shell = document.createElement("div");
     shell.className = "tbl-shell";
     wrap.parentNode.insertBefore(shell, wrap);
