@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dataset 2026: Top 500 Pure Crypto (Post-Filtro) — Lug–Nov 2026</title>
+<title>Prezzi e Filtro CMC 2026: Top 500 Pure Crypto (Post-Filtro) — Lug–Nov 2026</title>
 <script>(function(){try{var t=localStorage.getItem('crypto_hub_theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
 <link rel="stylesheet" href="./assets/apple-craft.css">
 <style>
@@ -25,26 +25,26 @@
 
 <div class="wrap">
   <div class="page-head">
-    <h1>Dataset 2026: Top 500 Pure Crypto (1&deg; Luglio – 21 Novembre 2026)</h1>
-    <div class="sub">Le 500 criptovalute native liquide al 1&deg; luglio 2026, selezionate scartando 274 asset tra stablecoin, wrapped/liquid staking, asset tokenizzati RWA e token illiquidi (&lt;100.000&nbsp;$ di volume 24h). Portafoglio 5&nbsp;&euro;/coin: 2.500&nbsp;&euro; &rarr; 3.305,21&nbsp;&euro; (1&deg; ott) &rarr; 2.728,87&nbsp;&euro; (21 nov 05:30&nbsp;CET).</div>
+    <h1>Prezzi e Filtro CMC 2026: Top 500 Pure Crypto (1&deg; Lug – 21 Nov)</h1>
+    <div class="sub">Le 500 criptovalute native liquide al 1&deg; luglio 2026 (23:59&nbsp;UTC), selezionate scartando 274 asset lungo la classifica CoinMarketCap (182 nella Top 500 iniziale e 92 tra #501 e #774 per completare 500 asset Pure: stablecoin, wrapped/LST, RWA e token con volume giornaliero &lt;100.000&nbsp;USD). Portafoglio 5&nbsp;&euro;/asset: 2.500&nbsp;&euro; &rarr; 3.305,21&nbsp;&euro; (1&deg; ott) &rarr; 2.728,87&nbsp;&euro; (21 nov 05:30&nbsp;CET).</div>
   </div>
 
-  <div class="page-switch" role="navigation" aria-label="Seleziona versione dataset 2026"><a class="btn active" href="./dashboard_pure500_crypto_2026.html" aria-current="page">Top 500 Pure (Post-Filtro &middot; 500)</a><a class="btn" href="./dashboard_top500_crypto_2026.html">Top 500 Originali CMC (Pre-Filtro &middot; 182 escluse)</a></div>
+  <div class="page-switch" role="navigation" aria-label="Seleziona vista Top 500 2026"><a class="btn active" href="./dashboard_pure500_crypto_2026.html" aria-current="page">Top 500 Pure (Post-Filtro &middot; 500 asset)</a><a class="btn" href="./dashboard_top500_crypto_2026.html">Top 500 Originali CMC (Pre-Filtro &middot; 182 escluse)</a></div>
 
   <div class="kpis kpis-4" id="kpiStrip"></div>
 
   <div class="controls">
     <div class="search-box">
       <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-      <input id="q" type="search" placeholder="Cerca per nome o ticker (es. Bitcoin, ETH)...">
+      <input id="q" type="search" placeholder="Cerca nome o ticker (es. BTC, ETH)">
       <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
     </div>
     
-    <span id="shown" class="pill p-muted">Mostrate 500 di 500</span>
+    <span id="shown" class="pill p-muted">Mostrati 500 di 500</span>
   </div>
 
   <div class="tbl-sub-bar">
-    <span class="tbl-note">Prezzi, capitalizzazioni e variazioni percentuali in tabella sono espressi in <strong>USD ($)</strong>. Clicca le intestazioni per ordinare.</span>
+    <span class="tbl-note">Prezzi, capitalizzazioni (mln = milioni, mld = miliardi) e variazioni in tabella sono espressi in <strong>USD</strong> (i KPI di portafoglio sopra sono in <strong>EUR</strong>). Clicca le intestazioni per ordinare.</span>
     <span class="scroll-hint" data-scroll-hint="tblWrap">&larr; Scorri tabella &rarr;</span>
   </div>
 
@@ -52,17 +52,17 @@
     <table>
       <thead>
         <tr>
-          <th class="l sticky-col" data-k="rank_clean_jul1"># Pure</th><th data-k="cmc_rank_jul1">Rank CMC</th>
+          <th class="l sticky-col" data-k="rank_clean_jul1">Pos. Pure</th><th data-k="cmc_rank_jul1">Pos. CMC</th>
           <th class="l" data-k="name">Criptovaluta</th>
-          <th data-k="price_jul1_usd">Prezzo 1 Lug ($)</th>
-          <th data-k="mcap_jul1_usd">Cap. 1 Lug ($)</th>
-          <th data-k="price_oct1_usd">Prezzo 1 Ott ($)</th>
-          <th data-k="mcap_oct1_usd">Cap. 1 Ott ($)</th>
-          <th data-k="price_nov21_0530_usd">Prezzo 21 Nov ($)</th>
-          <th data-k="mcap_nov21_0530_usd">Cap. 21 Nov ($)</th>
-          <th data-k="price_change_pct">&Delta;% USD (Lug&rarr;Ott)</th>
-          <th data-k="price_change_jul_to_nov21_pct">&Delta;% USD (Lug&rarr;Nov)</th>
-          <th data-k="price_change_oct_to_nov21_pct">&Delta;% USD (Ott&rarr;Nov)</th>
+          <th data-k="price_jul1_usd">Prezzo 1&deg; lug (USD)</th>
+          <th data-k="mcap_jul1_usd">Cap. 1&deg; lug (USD)</th>
+          <th data-k="price_oct1_usd">Prezzo 1&deg; ott (USD)</th>
+          <th data-k="mcap_oct1_usd">Cap. 1&deg; ott (USD)</th>
+          <th data-k="price_nov21_0530_usd">Prezzo 21 nov (USD)</th>
+          <th data-k="mcap_nov21_0530_usd">Cap. 21 nov (USD)</th>
+          <th data-k="price_change_pct">Var. USD (Lug&rarr;Ott)</th>
+          <th data-k="price_change_jul_to_nov21_pct">Var. USD (Lug&rarr;Nov)</th>
+          <th data-k="price_change_oct_to_nov21_pct">Var. USD (Ott&rarr;Nov)</th>
         </tr>
       </thead>
       <tbody id="tb"></tbody>
@@ -75,15 +75,15 @@ const RAW = {"summary": {"universe_type": "CLEAN_PURE_CRYPTO_TOP_500 (Excluded: 
 const D = RAW.rows;
 const EXCL = {};
 const S = RAW.summary;
-const fxRatioQ3 = 1.141311 / 1.132697;
-const q3EurRets = D.map(r => r.price_change_pct != null ? (((1 + r.price_change_pct / 100) * fxRatioQ3 - 1) * 100) : null).filter(v => v !== null).sort((a,b) => a - b);
+const fxRatioQ3 = 1.141311 / 1.132735;
+const q3EurRets = D.map(r => r.price_change_pct != null ? (((1 + r.price_change_pct / 100) * fxRatioQ3 - 1) * 100) : -100).sort((a,b) => a - b);
 const midQ3 = Math.floor(q3EurRets.length / 2);
 const medQ3Eur = q3EurRets.length % 2 ? q3EurRets[midQ3] : (q3EurRets[midQ3 - 1] + q3EurRets[midQ3]) / 2;
 document.getElementById("kpiStrip").innerHTML = [
   ["Portafoglio 1° ott (Q3)", FMT.eur(S.portfolio_2500eur_oct1_eur), "pos", "+32,21% EUR · Mediana EUR: " + FMT.pct(medQ3Eur, true, 2)],
   ["Portafoglio 21 novembre", FMT.eur(S.portfolio_2500eur_nov21_0530_eur), S.portfolio_2500eur_jul_to_nov21_pct >= 0 ? "pos" : "neg", FMT.pct(S.portfolio_2500eur_jul_to_nov21_pct, true, 2) + " EUR · Mediana EUR: " + FMT.pct(S.median_jul_to_nov21_eur_pct, true, 2)],
-  ["Cap. coorte 1° ottobre", FMT.compact(S.total_cohort_mcap_oct1_active_usd, "$"), "pos", FMT.pct(S.cohort_mcap_growth_pct, true, 2) + " da " + FMT.compact(S.total_cohort_mcap_jul1_usd, "$") + " (1° lug)"],
-  ["Cap. coorte 21 novembre", FMT.compact(S.total_cohort_mcap_nov21_0530_usd, "$"), S.cohort_mcap_jul_to_nov21_pct >= 0 ? "pos" : "neg", FMT.pct(S.cohort_mcap_jul_to_nov21_pct, true, 2) + " vs 1° lug · Attive: " + S.active_priced_on_nov21_0530 + "/500"],
+  ["Cap. coorte 1° ottobre", FMT.compact(S.total_cohort_mcap_oct1_active_usd, " USD"), "pos", FMT.pct(S.cohort_mcap_growth_pct, true, 2) + " da " + FMT.compact(S.total_cohort_mcap_jul1_usd, " USD") + " (1° lug)"],
+  ["Cap. coorte 21 novembre", FMT.compact(S.total_cohort_mcap_nov21_0530_usd, " USD"), S.cohort_mcap_jul_to_nov21_pct >= 0 ? "pos" : "neg", FMT.pct(S.cohort_mcap_jul_to_nov21_pct, true, 2) + " vs 1° lug · Attive: " + S.active_priced_on_nov21_0530 + "/500"],
 ].map(k => `<div class="kpi"><div class="lbl">${k[0]}</div><div class="val ${k[2]}">${k[1]}</div><div class="det">${k[3]}</div></div>`).join("");
 
 let sk = "rank_clean_jul1", sd = 1, ef = "all";
@@ -101,7 +101,7 @@ function updateSortIndicators() {
 }
 
 function rawUsdTitle(v) {
-  return v == null ? "N/D" : "$" + FMT.int(v) + " USD";
+  return v == null ? "N/D" : FMT.int(v) + " USD";
 }
 
 function ren() {
@@ -121,19 +121,19 @@ function ren() {
     return typeof va === "string" ? va.localeCompare(vb) * sd : (va - vb) * sd;
   });
   updateSortIndicators();
-  document.getElementById("shown").textContent = `Mostrate ${rs.length} di ${D.length}`;
+  document.getElementById("shown").textContent = `Mostrati ${rs.length} di ${D.length}`;
   document.getElementById("tb").innerHTML = rs.map(r => {
     const ex = EXCL[String(r.cmc_id)];
     const exBadge = ex ? ` <span class="pill ${ex[1]}" title="${ex[2]}">${ex[0]}</span>` : "";
     return `<tr>
       <td class="l sticky-col"><b>#${r.rank_clean_jul1}</b></td><td class="mut">#${r.cmc_rank_jul1}</td>
       <td class="l asset-col"><div class="asset-title-row"><strong class="cell-clip" title="${r.name}">${r.name}</strong>${exBadge}</div><span class="small">${r.symbol}</span></td>
-      <td>${FMT.price(r.price_jul1_usd, "$")}</td>
-      <td title="${rawUsdTitle(r.mcap_jul1_usd)}">${FMT.compact(r.mcap_jul1_usd, "$")}</td>
-      <td>${FMT.price(r.price_oct1_usd, "$")}</td>
-      <td title="${rawUsdTitle(r.mcap_oct1_usd)}">${FMT.compact(r.mcap_oct1_usd, "$")}</td>
-      <td>${FMT.price(r.price_nov21_0530_usd, "$")}</td>
-      <td title="${rawUsdTitle(r.mcap_nov21_0530_usd)}">${FMT.compact(r.mcap_nov21_0530_usd, "$")}</td>
+      <td>${FMT.price(r.price_jul1_usd)}</td>
+      <td title="${rawUsdTitle(r.mcap_jul1_usd)}">${FMT.compact(r.mcap_jul1_usd)}</td>
+      <td>${FMT.price(r.price_oct1_usd)}</td>
+      <td title="${rawUsdTitle(r.mcap_oct1_usd)}">${FMT.compact(r.mcap_oct1_usd)}</td>
+      <td>${FMT.price(r.price_nov21_0530_usd)}</td>
+      <td title="${rawUsdTitle(r.mcap_nov21_0530_usd)}">${FMT.compact(r.mcap_nov21_0530_usd)}</td>
       <td class="${FMT.pctClass(r.price_change_pct)}">${FMT.pct(r.price_change_pct, true, 2)}</td>
       <td class="${FMT.pctClass(r.price_change_jul_to_nov21_pct)}">${FMT.pct(r.price_change_jul_to_nov21_pct, true, 2)}</td>
       <td class="${FMT.pctClass(r.price_change_oct_to_nov21_pct)}">${FMT.pct(r.price_change_oct_to_nov21_pct, true, 2)}</td>

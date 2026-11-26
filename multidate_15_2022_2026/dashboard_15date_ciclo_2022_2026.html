@@ -106,16 +106,16 @@
 
 <div class="wrap">
   <div class="page-head">
-    <h1>Backtest Multi-Ciclo e Classifiche Storiche — Pure Crypto Top 500 <span class="nowrap">(2022–2026)</span></h1>
-    <div class="sub">Confronto su 15 date (30 dic 2022 – 21 nov 2026) tra le Top 500 reali di ciascuna epoca (senza bias di sopravvivenza) e il paniere fisso del 1&deg; luglio 2026, integrato con sblocchi di supply e dati on-chain.</div>
+    <h1>Backtest sull'Intero Ciclo — Pure Crypto Top 500 <span class="nowrap">(2022–2026)</span></h1>
+    <div class="sub">Confronto su 15 date (dic 2022 – nov 2026) tra le Top 500 reali di ogni data (senza bias di sopravvivenza) e il paniere fisso del 1&deg; luglio 2026 (base del focus Q3), integrato con sblocchi di offerta e dati on-chain.</div>
   </div>
 
-  <!-- Tabs scoped immediately below header so all 4 perspectives are visible above the fold even on 320px! -->
+  <!-- 4 100% Italian task-oriented tabs immediately below header (ZERO orphan letter wrap at 320px!) -->
   <div class="tabs" role="tablist">
-    <button class="btn active" role="tab" onclick="showTab('tab-bt', this)">Backtest &amp; Fasce Top-N</button>
-    <button class="btn" role="tab" onclick="showTab('tab-va', this)">Classifiche per Data (No Bias)</button>
-    <button class="btn" role="tab" onclick="showTab('tab-vb', this)">Storico per Token (Lug 26)</button>
-    <button class="btn" role="tab" onclick="showTab('tab-fac', this)">Fattori Unlocks &amp; Balene</button>
+    <button class="btn active" role="tab" onclick="showTab('tab-bt', this)">Matrice e Fasce</button>
+    <button class="btn" role="tab" onclick="showTab('tab-va', this)">Classifiche Storiche (Senza Bias)</button>
+    <button class="btn" role="tab" onclick="showTab('tab-vb', this)">Paniere Fisso (Lug 2026)</button>
+    <button class="btn" role="tab" onclick="showTab('tab-fac', this)">Correlazione Sblocchi e Balene</button>
   </div>
 
   <!-- TAB 1: BACKTEST & FASCE -->
@@ -123,17 +123,17 @@
     <div class="kpis kpis-6" id="kpiStrip"></div>
 
     <div class="card">
-      <h2>Matrice Rendimenti su 105 Finestre (15 Date) — 5&nbsp;&euro; per coin (2.500&nbsp;&euro; per coorte)</h2>
+      <h2>Matrice dei rendimenti — 105 finestre ingresso/uscita (15 date)</h2>
+      <p class="tbl-note" style="margin:-4px 0 10px">Simulazione di <strong>5&nbsp;&euro; per criptovaluta</strong> (2.500&nbsp;&euro; per portafoglio Top 500). Seleziona una cella per il dettaglio e il confronto con Bitcoin.</p>
       <div class="controls">
         <label>Metrica:
           <select id="hmMode" onchange="renderHeatmap()">
-            <option value="ret_eur_cons_pct">Rendimento EUR % (prudenziale: delisting = 0 &euro;)</option>
-            <option value="ret_eur_active_pct">Rendimento EUR % (esclusi delisting, ribasato)</option>
-            <option value="alpha_vs_btc_pp">Scarto vs Bitcoin EUR (punti %)</option>
-            <option value="ret_usd_cons_pct">Rendimento USD % (prudenziale)</option>
+            <option value="ret_eur_cons_pct">Rendimento EUR % (delisting = 0 &euro;)</option>
+            <option value="ret_eur_active_pct">Rendimento EUR % (solo sopravvissute)</option>
+            <option value="alpha_vs_btc_pp">Scarto EUR vs Bitcoin (punti %)</option>
+            <option value="ret_usd_cons_pct">Rendimento USD % (delisting = 0 $)</option>
           </select>
         </label>
-        <span class="mut" style="font-size:12px">Seleziona una cella per il dettaglio e il confronto con Bitcoin</span>
       </div>
       <div class="tbl-sub-bar">
         <span class="tbl-note">Righe = data di ingresso &middot; Colonne = data di uscita</span>
@@ -144,8 +144,8 @@
     </div>
 
     <div class="card">
-      <h2>Confronto per Fascia di Classifica (Top 50 – Top 500)</h2>
-      <p class="tbl-note" style="margin:-4px 0 10px">Selettore indipendente dalla matrice: confronta portafogli cumulativi (sinistra) e singole fasce marginali da 50 coin (destra). <strong>&#9733;</strong> indica la fascia migliore.</p>
+      <h2>Confronto per fascia di classifica (Top 50 – Top 500)</h2>
+      <p class="tbl-note" style="margin:-4px 0 10px">Selettore indipendente dalla matrice sopra: confronta i portafogli cumulativi (Top 50, Top 100&hellip; Top 500) con i singoli scaglioni separati da 50 asset (es. #51–100). <strong>&#9733;</strong> indica la fascia migliore.</p>
       <div class="controls">
         <label>Data di ingresso: <select id="trEntry" onchange="syncHorizons(); renderTranches()"></select></label>
         <label>Data di uscita: <select id="trHoriz" onchange="renderTranches()"></select></label>
@@ -153,11 +153,11 @@
       </div>
       <div class="bars-grid">
         <div>
-          <h3 style="margin:0 0 8px;font-size:13.5px;color:var(--ink-secondary)">Portafogli Cumulativi (dalla #1 alla #N)</h3>
+          <h3 style="margin:0 0 8px;font-size:13.5px;color:var(--ink-secondary)">Portafogli cumulativi (dalla #1 alla #N)</h3>
           <div id="barsCum"></div>
         </div>
         <div>
-          <h3 style="margin:0 0 8px;font-size:13.5px;color:var(--ink-secondary)">Singole Fasce da 50 Coin (1–50 &rarr; 451–500)</h3>
+          <h3 style="margin:0 0 8px;font-size:13.5px;color:var(--ink-secondary)">Singoli scaglioni da 50 asset (#1–50 &rarr; #451–500)</h3>
           <div id="barsMarg"></div>
         </div>
       </div>
@@ -167,7 +167,7 @@
   <!-- TAB 2: CLASSIFICHE PER DATA (EX VISTA A) -->
   <section id="tab-va" class="hidden">
     <div class="card">
-      <h2>Classifica Top 500 Pure alla Data Selezionata (Senza Bias di Sopravvivenza)</h2>
+      <h2>Classifica Top 500 Pure alla data selezionata (senza bias di sopravvivenza)</h2>
       <div class="controls controls-grid">
         <label>Data: <select id="vaDate" onchange="renderVistaA()"></select></label>
         <label>Ordina per: <select id="vaSort" onchange="renderVistaA()">
@@ -175,19 +175,19 @@
           <option value="14-desc">Rendimento EUR al 21 nov 2026 &darr;</option>
           <option value="14-asc">Rendimento EUR al 21 nov 2026 &uarr;</option>
           <option value="11-desc">Rendimento EUR data successiva &darr;</option>
-          <option value="7-desc">Quota da sbloccare (%) &darr;</option>
-          <option value="9-desc">Top 10 Wallet storico (%) &darr;</option>
+          <option value="7-desc">Offerta da emettere (%) &darr;</option>
+          <option value="9-desc">Top 10 wallet storico (%) &darr;</option>
           <option value="8-desc">Numero detentori storici &darr;</option>
         </select></label>
         <div class="search-box ctrl-full">
           <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-          <input type="search" id="vaSearch" placeholder="Cerca per nome o ticker (es. Bitcoin, ETH)..." oninput="renderVistaA()">
+          <input type="search" id="vaSearch" placeholder="Cerca nome o ticker (es. BTC, ETH)" oninput="renderVistaA()">
           <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
         </div>
         <span id="vaMeta" class="mut ctrl-full" style="font-size:12px"></span>
       </div>
       <div class="tbl-sub-bar">
-        <span class="tbl-note">Prezzi, cap. e volumi in USD ($); rendimenti successivi in <strong>EUR</strong> (cambio storico). N/D = dato on-chain non applicabile (reti non-EVM) o non rilevato.</span>
+        <span class="tbl-note">Prezzi, capitalizzazione e volumi in <strong>USD</strong> (mln = milioni, mld = miliardi); rendimenti futuri in <strong>EUR</strong> al cambio storico. &laquo;CMC #&raquo; = posizione CoinMarketCap prima dei filtri Pure. &laquo;Da emettere %&raquo; = offerta residua non ancora circolante alla data. &laquo;Balene EOA %&raquo; = quota nei primi 10 wallet privati (esclusi exchange, smart contract e burn). N/D = metrica non disponibile per questa rete o data.</span>
         <span class="scroll-hint" data-scroll-hint="vaWrap">&larr; Scorri tabella &rarr;</span>
       </div>
       <div class="tbl-wrap tbl-compact" id="vaWrap"><table id="vaTable"></table></div>
@@ -197,11 +197,11 @@
   <!-- TAB 3: STORICO PER TOKEN (EX VISTA B) -->
   <section id="tab-vb" class="hidden">
     <div class="card">
-      <h2>Storico Prezzi (USD) e Rendimenti (EUR) — Coorte Fissa 1&deg; Luglio 2026 (10 tappe su 15)</h2>
+      <h2>Paniere fisso 1&deg; luglio 2026 — prezzi USD e rendimenti EUR (10 tappe su 15)</h2>
       <div class="controls controls-grid">
         <div class="search-box">
           <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-          <input type="search" id="vbSearch" placeholder="Cerca per nome o ticker (es. Bitcoin, Solana)..." oninput="renderVistaB()">
+          <input type="search" id="vbSearch" placeholder="Cerca nome o ticker (es. BTC, SOL)" oninput="renderVistaB()">
           <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
         </div>
         <label>Ordina per: <select id="vbSort" onchange="renderVistaB()">
@@ -209,23 +209,23 @@
           <option value="rf-desc">Rendimento EUR 1&ordf; data &rarr; nov 2026 &darr;</option>
           <option value="rn-desc">Rendimento EUR lug &rarr; nov 2026 &darr;</option>
           <option value="nl-desc">Anzianit&agrave; (date quotate su 15) &darr;</option>
-          <option value="t10-desc">Top 10 Lordo nov 2026 (%) &darr;</option>
+          <option value="t10-desc">Top 10 lordo nov 2026 (%) &darr;</option>
         </select></label>
         <span id="vbCount" class="mut ctrl-full" style="font-size:12px"></span>
       </div>
       <div class="tbl-sub-bar">
-        <span class="tbl-note">Prezzi nelle 10 colonne centrali in USD ($); variazioni a destra in <strong>EUR</strong>. N/Q = token non ancora quotato alla data. Top 10 Lordo rilevato a nov 2026.</span>
+        <span class="tbl-note">Prezzi nelle 10 colonne centrali in <strong>USD</strong>; variazioni a destra in <strong>EUR</strong> al cambio storico. &laquo;1&ordf; Data&rarr;Nov (EUR)&raquo; = rendimento dalla prima rilevazione storica del singolo asset fino al 21 nov 2026 (anche se precedente alle 10 tappe mostrate). &laquo;Top 10 Lordo (%)&raquo; (nov 2026) = quota nei primi 10 indirizzi inclusi exchange, staking e burn. N/Q = non ancora quotato.</span>
         <span class="scroll-hint" data-scroll-hint="vbWrap">&larr; Scorri tabella &rarr;</span>
       </div>
       <div class="tbl-wrap tbl-compact" id="vbWrap"><table id="vbTable"></table></div>
     </div>
   </section>
 
-  <!-- TAB 4: FATTORI UNLOCKS & BALENE (Fattori PRIMA del Censimento!) -->
+  <!-- TAB 4: CORRELAZIONE SBLOCCHI E BALENE (Fattori PRIMA del Censimento!) -->
   <section id="tab-fac" class="hidden">
     <div class="card">
-      <h2>Impatto di Sblocchi e Concentrazione On-Chain sui Rendimenti EUR (Zero Look-Ahead)</h2>
-      <p class="tbl-note" style="margin:-4px 0 10px">I gruppi sono classificati esclusivamente sui valori noti alla <strong>data di ingresso</strong>, verificando i rendimenti EUR realizzati fino alla data di uscita.</p>
+      <h2>Impatto di sblocchi e concentrazione on-chain sui rendimenti EUR (senza dati futuri)</h2>
+      <p class="tbl-note" style="margin:-4px 0 10px">I gruppi sono classificati esclusivamente sui valori noti alla <strong>data di ingresso</strong>, verificando i rendimenti EUR realizzati fino alla data di uscita. Per gli sblocchi il campione copre 500/500 asset (196–261 da calendari ufficiali CoinMarketCap + resto da offerta storica).</p>
       <div class="controls">
         <label>Finestra analizzata: <select id="facWin" onchange="renderFactors()"></select></label>
       </div>
@@ -238,10 +238,11 @@
 
     <div class="card">
       <div class="tbl-head-bar">
-        <h2 style="margin:0">Censimento Macro e Copertura Dati sulle 15 Date (2022–2026)</h2>
+        <h2 style="margin:0">Censimento macro e copertura dati sulle 15 date (2022–2026)</h2>
         <span class="scroll-hint" data-scroll-hint="censusWrap">&larr; Scorri tabella &rarr;</span>
       </div>
       <div class="tbl-wrap no-maxh" id="censusWrap"><table id="censusTable"></table></div>
+      <div class="tbl-note" style="margin-top:8px">&laquo;Curve sblocchi CMC&raquo; = asset della data con calendario ufficiale CoinMarketCap; &laquo;Paniere Lug 26 gi&agrave; attivo&raquo; = quante delle 500 cripto di luglio 2026 esistevano gi&agrave; alla data.</div>
     </div>
   </section>
 </div>
@@ -306,13 +307,14 @@ function initKPIs() {
   const d01_15 = MAT_MAP["D01_D15"];
   const bEn = FMT.dateShort(bestM.entry_date), bEx = FMT.dateShort(bestM.exit_date);
   const wEn = FMT.dateShort(worstM.entry_date), wEx = FMT.dateShort(worstM.exit_date);
+  // Insight-first order: financial outcomes in Row 1 (immediately visible above the fold on Mobile Landscape!)
   const kpis = [
-    ["Orizzonte analisi", "15 Date (4 Anni)", "", "30 dic 2022 &rarr; 21 nov 2026"],
-    ["Osservazioni totali", "15.000 Righe", "", "7.500 per data + 7.500 coorte Lug 26"],
-    ["Miglior finestra", FMT.pct(bestM.ret_eur_cons_pct, true, 1), "pos", `${bEn} &rarr; ${bEx} (${FMT.eurInt(bestM.final_eur_cons)} su 2.500&nbsp;&euro;)`],
-    ["Peggior finestra", FMT.pct(worstM.ret_eur_cons_pct, true, 1), "neg", `${wEn} &rarr; ${wEx} (${FMT.eurInt(worstM.final_eur_cons)} su 2.500&nbsp;&euro;)`],
-    ["Intero ciclo (4 anni)", FMT.pct(d01_15.ret_eur_cons_pct, true, 1), d01_15.ret_eur_cons_pct >= 0 ? "pos" : "neg", `${FMT.eurInt(d01_15.final_eur_cons)} <span class="nowrap">(BTC: ${FMT.pct(d01_15.btc_bench_ret_eur_pct, true, 1)})</span>`],
-    ["Migrazioni risolte", `${D.migrations_n} Conversioni`, "acc", "446 wallet EVM &middot; 498 curve vesting"],
+    ["Intero ciclo (Top 500 · 4 anni)", FMT.pct(d01_15.ret_eur_cons_pct, true, 1) + " EUR", d01_15.ret_eur_cons_pct >= 0 ? "pos" : "neg", `Dic 22 &rarr; Nov 26 (${FMT.eurInt(d01_15.final_eur_cons)} su 2.500&nbsp;&euro; &middot; <span class="nowrap">BTC ${FMT.pct(d01_15.btc_bench_ret_eur_pct, true, 1)}</span>)`],
+    ["Miglior finestra (Top 500)", FMT.pct(bestM.ret_eur_cons_pct, true, 1) + " EUR", "pos", `${bEn} &rarr; ${bEx} (${FMT.eurInt(bestM.final_eur_cons)} su 2.500&nbsp;&euro;)`],
+    ["Peggior finestra (Top 500)", FMT.pct(worstM.ret_eur_cons_pct, true, 1) + " EUR", "neg", `${wEn} &rarr; ${wEx} (${FMT.eurInt(worstM.final_eur_cons)} su 2.500&nbsp;&euro;)`],
+    ["Orizzonte analisi", "15 date (4 anni)", "", "Dic 2022 &rarr; Nov 2026 &middot; 105 finestre"],
+    ["Osservazioni totali", "15.000 osservazioni", "", "7.500 classifiche storiche + 7.500 paniere Lug 26"],
+    ["Migrazioni risolte", `${D.migrations_n} conversioni`, "acc", "Cambi ticker/contratto al rapporto ufficiale (es. MATIC&rarr;POL)"],
   ];
   document.getElementById("kpiStrip").innerHTML = kpis.map(k =>
     `<div class="kpi"><div class="lbl">${k[0]}</div><div class="val ${k[2]}">${k[1]}</div><div class="note">${k[3]}</div></div>`
@@ -323,12 +325,13 @@ function renderHeatmap() {
   const mode = document.getElementById("hmMode").value;
   const colHeaders = CODES.slice(1).map(c => {
     const ds = FMT.dateShort(CENSUS_BY_CODE[c].date);
-    return `<th class='c' title='${c} — ${FMT.dateIt(CENSUS_BY_CODE[c].date)}'>${c}<span class='hm-th-d'>${ds}</span></th>`;
+    const [mon, yr] = ds.split(" ");
+    return `<th class='c' title='${FMT.dateIt(CENSUS_BY_CODE[c].date)}'>${mon}<span class='hm-th-d'>20${yr}</span></th>`;
   }).join("");
   let html = `<thead><tr><th class='l sticky-col'>Ingresso &darr; / Uscita &rarr;</th>${colHeaders}</tr></thead><tbody>`;
   for (let i = 0; i < 14; i++) {
     const ec = CODES[i], ed = D.census[i].date;
-    html += `<tr><td class='hm-entry sticky-col'><b>${FMT.dateIt(ed)}</b><span class='hm-d'>${ec}</span></td>`;
+    html += `<tr><td class='hm-entry sticky-col'><b>${FMT.dateIt(ed)}</b></td>`;
     for (let j = 1; j < 15; j++) {
       const xc = CODES[j];
       const r = MAT_MAP[ec + "_" + xc];
@@ -336,7 +339,7 @@ function renderHeatmap() {
       const v = r[mode];
       const key = ec + "_" + xc;
       const sel = key === selPair ? " hm-sel" : "";
-      html += `<td class="hm-cell${sel}" style="${heatStyle(v)}" onclick="selectPair('${key}')" title="${FMT.dateIt(ed)} (${ec}) &rarr; ${FMT.dateIt(r.exit_date)} (${xc}): ${FMT.pct(v, true, 2)}">${FMT.pct(v, true, 1)}</td>`;
+      html += `<td class="hm-cell${sel}" style="${heatStyle(v)}" onclick="selectPair('${key}')" title="${FMT.dateIt(ed)} &rarr; ${FMT.dateIt(r.exit_date)}: ${FMT.pct(v, true, 2)}">${FMT.pct(v, true, 1)}</td>`;
     }
     html += "</tr>";
   }
@@ -351,15 +354,17 @@ function renderInspector() {
   const r = MAT_MAP[selPair];
   if (!r) return;
   const survN = (r.n_active || 0) + (r.n_migrated || 0);
+  const dur = FMT.durationIt(r.entry_date, r.exit_date);
+  const bestClean = String(r.best_coin || "").replace(/\(#(\d+)\)/, "(pos. #$1 all'ingresso)");
   document.getElementById("hmInspector").innerHTML = [
-    ["Finestra selezionata", `<b>${FMT.dateIt(r.entry_date)} &rarr; ${FMT.dateIt(r.exit_date)}</b><br><span class='mut'>Codici ${r.entry_code} &rarr; ${r.exit_code}</span>`],
-    ["Prudenziale (Delisting = 0 €)", `<b>${FMT.eur(r.final_eur_cons)}</b><br>${fmtPct(r.ret_eur_cons_pct)} EUR su 2.500&nbsp;&euro;`],
-    ["Esclusi delisting (ribasato)", `<b>${FMT.eur(r.final_eur_active_norm)}</b><br>${fmtPct(r.ret_eur_active_pct)} EUR (${survN} attive)`],
+    ["Finestra selezionata", `<b>${FMT.dateIt(r.entry_date)} &rarr; ${FMT.dateIt(r.exit_date)}</b><br><span class='mut'>Durata: ${dur}</span>`],
+    ["Prudenziale (delisting = 0 €)", `<b>${FMT.eur(r.final_eur_cons)}</b><br>${fmtPct(r.ret_eur_cons_pct)} EUR su 2.500&nbsp;&euro;`],
+    ["Solo sopravvissute (escl. delisting)", `<b>${FMT.eur(r.final_eur_active_norm)}</b><br>${fmtPct(r.ret_eur_active_pct)} EUR (${survN} sopravvissute su 2.500&nbsp;&euro;)`],
     ["Se investiti in Bitcoin", `<b>${FMT.eur(r.btc_bench_final_eur)}</b><br>${fmtPct(r.btc_bench_ret_eur_pct)} EUR`],
     ["Scarto vs Bitcoin", `<b class="${FMT.pctClass(r.alpha_vs_btc_pp)}">${r.alpha_vs_btc_pp >= 0 ? "+" : ""}${FMT.dec2(r.alpha_vs_btc_pp)} punti %</b><br><span class='mut'>Differenziale Top 500 vs BTC</span>`],
-    ["Distribuzione coorte", `Mediana: ${fmtPct(r.median_ret_eur_pct)}<br>In profitto: <b>${FMT.dec1(r.win_rate_pct)}%</b>`],
-    ["Stato dei 500 asset", `Attive: <b>${r.n_active}</b> &middot; Migrate: <b>${r.n_migrated}</b><br>Delistate (0&nbsp;&euro;): <b class='neg'>${r.n_delisted_0eur}</b>`],
-    ["Miglior singolo asset", `<b>${r.best_coin}</b><br>${fmtPct(r.best_ret_pct)} EUR nella finestra`],
+    ["Distribuzione dei 500 asset", `Mediana: ${fmtPct(r.median_ret_eur_pct)} EUR<br>In profitto: <b>${FMT.dec1(r.win_rate_pct)}%</b>`],
+    ["Stato dei 500 asset", `Attive: <b>${r.n_active}</b> &middot; Migrate: <b>${r.n_migrated}</b> (=${survN})<br>Delistate (0&nbsp;&euro;): <b class='neg'>${r.n_delisted_0eur}</b>`],
+    ["Miglior singolo asset", `<b>${bestClean}</b><br>${fmtPct(r.best_ret_pct)} EUR nella finestra`],
   ].map(x => `<div><div class='insp-lbl'>${x[0]}</div><div>${x[1]}</div></div>`).join("");
 }
 
@@ -369,10 +374,10 @@ function syncHorizons() {
   const idx = CODES.indexOf(ec);
   const nextC = idx >= 0 && idx + 1 < CODES.length ? CENSUS_BY_CODE[CODES[idx + 1]] : null;
   const labels = {
-    NEXT_LEG: nextC ? `${FMT.dateIt(nextC.date)} · ${nextC.code} (data succ.)` : "Data successiva",
-    TO_D08_PEAK: "7 ott 2025 · D08 (picco ciclo)",
-    TO_D14_OCT1: "1° ott 2026 · D14",
-    TO_D15_NOV21: "21 nov 2026 · D15"
+    NEXT_LEG: nextC ? `${FMT.dateIt(nextC.date)} (data successiva)` : "Data successiva",
+    TO_D08_PEAK: "7 ott 2025 (picco ciclo)",
+    TO_D14_OCT1: "1° ott 2026",
+    TO_D15_NOV21: "21 nov 2026 (fine ciclo)"
   };
   const sel = document.getElementById("trHoriz");
   const prev = sel.value;
@@ -405,7 +410,7 @@ function renderTranches() {
   const best = cums.reduce((a,b) => b.ret_eur_cons_pct > a.ret_eur_cons_pct ? b : a);
   document.getElementById("trSummary").innerHTML = `Miglior fascia: Top ${best.tranche_k} (${FMT.pct(best.ret_eur_cons_pct, true, 2)} EUR) &middot; Bitcoin: ${FMT.pct(best.btc_bench_ret_eur_pct, true, 2)} EUR`;
   renderBars("barsCum", cums, "lbl", "Portafoglio");
-  renderBars("barsMarg", margs, "lbl", "Fascia");
+  renderBars("barsMarg", margs, "lbl", "Scaglione");
 }
 
 function renderVistaA() {
@@ -416,7 +421,7 @@ function renderVistaA() {
   const cMeta = CENSUS_BY_CODE[dc];
   const dIdx = CODES.indexOf(dc);
   const nextC = dIdx >= 0 && dIdx + 1 < CODES.length ? CENSUS_BY_CODE[CODES[dIdx + 1]] : null;
-  const nextLbl = nextC ? `${FMT.dateShort(nextC.date)} (EUR)` : "Succ. (EUR)";
+  const nextLbl = nextC ? `&rarr; ${FMT.dateShort(nextC.date)} (EUR)` : "Succ. (EUR)";
   let rows = D.va[dc] || [];
   if (q) rows = rows.filter(r => r[2].toLowerCase().includes(q) || r[3].toLowerCase().includes(q));
   rows = [...rows].sort((a,b) => {
@@ -425,10 +430,10 @@ function renderVistaA() {
     if (va === null) return 1; if (vb === null) return -1;
     return dir === "asc" ? va - vb : vb - va;
   });
-  document.getElementById("vaMeta").textContent = `Mostrate ${rows.length} di 500 crypto · BTC $${FMT.dec2(cMeta.btc_usd)} · Cambio EUR/USD ${FMT.fx(cMeta.fx_eur_usd)} · Cap. totale $${FMT.dec2(cMeta.cohort_mcap_usd_b)} B`;
-  let html = `<thead><tr><th class='l sticky-col asset-col-va'># / Asset</th><th>Prezzo ($)</th><th>Cap. ($)</th><th>Vol. 24h ($)</th><th>Da Sbl. %</th><th>Detentori</th><th>Top 10</th><th>Balene EOA</th><th>${nextLbl}</th><th>Ott 25 (EUR)</th><th>Ott 26 (EUR)</th><th>Nov 26 (EUR)</th><th class='stato-col'>Stato Nov 26</th></tr></thead><tbody>`;
+  document.getElementById("vaMeta").textContent = `Mostrati ${rows.length} di 500 asset · BTC ${FMT.dec2(cMeta.btc_usd)} USD · Cambio EUR/USD ${FMT.fx(cMeta.fx_eur_usd)} · Cap. totale ${FMT.dec2(cMeta.cohort_mcap_usd_b)} mld USD`;
+  let html = `<thead><tr><th class='l sticky-col asset-col-va'># / Asset</th><th>Prezzo (USD)</th><th>Cap. (USD)</th><th>Vol. 24h (USD)</th><th>Da emettere %</th><th>Detentori</th><th>Top 10 wallet %</th><th>Balene EOA %</th><th>${nextLbl}</th><th>Ott 25 (EUR)</th><th>Ott 26 (EUR)</th><th>Nov 26 (EUR)</th><th class='stato-col'>Stato Nov 26</th></tr></thead><tbody>`;
   for (const r of rows) {
-    html += `<tr><td class='l sticky-col asset-col-va'><b>#${r[0]} ${r[2]}</b><span class='small cell-clip' title='${r[3]} (Rank CMC #${r[1]})'>${r[3]} &middot; CMC #${r[1]}</span></td><td>${fmtP(r[4])}</td><td title="$${FMT.dec1(r[5])} M">${FMT.compact(r[5]*1e6, "$")}</td><td title="$${FMT.dec1(r[6])} M">${FMT.compact(r[6]*1e6, "$")}</td><td>${r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}</td><td>${r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}</td><td>${fmtPct(r[11])}</td><td>${fmtPct(r[12])}</td><td>${fmtPct(r[13])}</td><td>${fmtPct(r[14])}</td><td class='stato-col'>${statusBadge(r[15])}</td></tr>`;
+    html += `<tr><td class='l sticky-col asset-col-va'><b>#${r[0]} ${r[2]}</b><span class='small cell-clip' title='${r[3]} (Pos. CoinMarketCap #${r[1]})'>${r[3]} &middot; CMC #${r[1]}</span></td><td>${fmtP(r[4])}</td><td title="${FMT.dec1(r[5])} mln USD">${FMT.compact(r[5]*1e6)}</td><td title="${FMT.dec1(r[6])} mln USD">${FMT.compact(r[6]*1e6)}</td><td>${r[7]!==null ? FMT.dec1(r[7])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[8]!==null ? FMT.int(r[8]) : "<span class='mut'>N/D</span>"}</td><td>${r[9]!==null ? FMT.dec1(r[9])+"%" : "<span class='mut'>N/D</span>"}</td><td>${r[10]!==null ? FMT.dec1(r[10])+"%" : "<span class='mut'>N/D</span>"}</td><td>${fmtPct(r[11])}</td><td>${fmtPct(r[12])}</td><td>${fmtPct(r[13])}</td><td>${fmtPct(r[14])}</td><td class='stato-col'>${statusBadge(r[15])}</td></tr>`;
   }
   html += "</tbody>";
   document.getElementById("vaTable").innerHTML = html;
@@ -445,12 +450,12 @@ function renderVistaB() {
     if (va === null || va === "") return 1; if (vb === null || vb === "") return -1;
     return dir === "asc" ? va - vb : vb - va;
   });
-  document.getElementById("vbCount").textContent = `Mostrate ${rows.length} di 500 crypto della coorte 1° luglio 2026`;
-  let html = "<thead><tr><th class='l sticky-col asset-col-vb'># / Asset</th><th class='l'>1&ordf; Rilev.</th><th>Cop.</th><th>Dic 22 ($)</th><th>Apr 24 ($)</th><th>Nov 24 ($)</th><th>Apr 25 ($)</th><th>Ott 25 ($)</th><th>Gen 26 ($)</th><th>Mag 26 ($)</th><th>Lug 26 ($)</th><th>Ott 26 ($)</th><th>Nov 26 ($)</th><th>Inizio&rarr;Nov (EUR)</th><th>Lug&rarr;Nov (EUR)</th><th>Top 10 Lordo</th></tr></thead><tbody>";
+  document.getElementById("vbCount").textContent = `Mostrati ${rows.length} di 500 asset del paniere 1° luglio 2026`;
+  let html = "<thead><tr><th class='l sticky-col asset-col-vb'># / Asset</th><th class='l'>1&ordf; Data</th><th>Date quot.</th><th>Dic 22 (USD)</th><th>Apr 24 (USD)</th><th>Nov 24 (USD)</th><th>Apr 25 (USD)</th><th>Ott 25 (USD)</th><th>Gen 26 (USD)</th><th>Mag 26 (USD)</th><th>Lug 26 (USD)</th><th>Ott 26 (USD)</th><th>Nov 26 (USD)</th><th>1&ordf; Data&rarr;Nov (EUR)</th><th>Lug&rarr;Nov (EUR)</th><th>Top 10 Lordo (%)</th></tr></thead><tbody>";
   for (const r of rows) {
     const fsIso = r.fs && r.fs.includes("(") ? r.fs.split("(")[1].replace(")", "") : "";
     const fsLbl = fsIso ? FMT.dateShort(fsIso) : (r.fs || "—");
-    html += `<tr><td class='l sticky-col asset-col-vb'><b>#${r.rk} ${r.sym}</b><span class='small cell-clip' title="${r.nm} (${r.fid})">${r.nm}</span></td><td class='l mut' title="${r.fs}">${fsLbl}</td><td>${r.nl}/15</td><td>${fmtP(r.p01)}</td><td>${fmtP(r.p02)}</td><td>${fmtP(r.p04)}</td><td>${fmtP(r.p06)}</td><td>${fmtP(r.p08)}</td><td>${fmtP(r.p10)}</td><td>${fmtP(r.p12)}</td><td>${fmtP(r.p13)}</td><td>${fmtP(r.p14)}</td><td>${fmtP(r.p15)}</td><td>${fmtPct(r.rf)}</td><td>${fmtPct(r.rn)}</td><td>${r.t10!==null ? FMT.dec1(r.t10)+"%" : "<span class='mut'>N/D</span>"}</td></tr>`;
+    html += `<tr><td class='l sticky-col asset-col-vb'><b>#${r.rk} ${r.sym}</b><span class='small cell-clip' title="${r.nm}">${r.nm}</span></td><td class='l mut' title="${r.fs}">${fsLbl}</td><td>${r.nl}/15</td><td>${fmtP(r.p01)}</td><td>${fmtP(r.p02)}</td><td>${fmtP(r.p04)}</td><td>${fmtP(r.p06)}</td><td>${fmtP(r.p08)}</td><td>${fmtP(r.p10)}</td><td>${fmtP(r.p12)}</td><td>${fmtP(r.p13)}</td><td>${fmtP(r.p14)}</td><td>${fmtP(r.p15)}</td><td>${fmtPct(r.rf)}</td><td>${fmtPct(r.rn)}</td><td>${r.t10!==null ? FMT.dec1(r.t10)+"%" : "<span class='mut'>N/D</span>"}</td></tr>`;
   }
   html += "</tbody>";
   document.getElementById("vbTable").innerHTML = html;
@@ -458,9 +463,9 @@ function renderVistaB() {
 }
 
 function renderCensus() {
-  let html = "<thead><tr><th class='l sticky-col'>Cod</th><th class='l'>Data</th><th>EUR/USD</th><th>BTC ($)</th><th>ETH ($)</th><th>Cap. Pure 500 ($ B)</th><th class='l'>Soglia #500</th><th>Curve Sblocchi</th><th>Detentori Stor.</th><th>Top 10 Stor.</th><th>Balene EOA</th><th>Quotate (Lug 26)</th></tr></thead><tbody>";
+  let html = "<thead><tr><th class='l sticky-col'>Data</th><th>EUR/USD</th><th>BTC (USD)</th><th>ETH (USD)</th><th>Cap. Pure 500 (mld USD)</th><th class='l'>Soglia #500 (mln USD)</th><th>Curve sblocchi CMC</th><th>N. detentori (storico)</th><th>Top 10 wallet (storico)</th><th>Balene EOA (storico)</th><th>Paniere Lug 26 gi&agrave; attivo</th></tr></thead><tbody>";
   for (const c of D.census) {
-    html += `<tr><td class='l sticky-col'><b>${c.code}</b></td><td class='l'>${FMT.dateIt(c.date)}</td><td>${FMT.fx(c.fx_eur_usd)}</td><td>${FMT.dec1(c.btc_usd)}</td><td>${FMT.dec1(c.eth_usd)}</td><td>${FMT.dec2(c.cohort_mcap_usd_b)}</td><td class='l'><b>${c.cutoff_rank500_sym}</b> <span class='mut'>($${FMT.dec1(c.cutoff_rank500_mcap_m)} M)</span></td><td>${c.n_unlock_official_curve}/500</td><td>${c.n_hist_holders_cnt}/500</td><td>${c.n_hist_top10_conc}/500</td><td>${c.n_hist_eoa_whale}/500</td><td>${c.n_vistaB_already_listed}/500</td></tr>`;
+    html += `<tr><td class='l sticky-col'><b>${FMT.dateIt(c.date)}</b></td><td>${FMT.fx(c.fx_eur_usd)}</td><td>${FMT.dec1(c.btc_usd)}</td><td>${FMT.dec1(c.eth_usd)}</td><td>${FMT.dec2(c.cohort_mcap_usd_b)}</td><td class='l'><b>${c.cutoff_rank500_sym}</b> <span class='mut'>(${FMT.dec1(c.cutoff_rank500_mcap_m)} mln)</span></td><td>${c.n_unlock_official_curve}/500</td><td>${c.n_hist_holders_cnt}/500</td><td>${c.n_hist_top10_conc}/500</td><td>${c.n_hist_eoa_whale}/500</td><td>${c.n_vistaB_already_listed}/500</td></tr>`;
   }
   html += "</tbody>";
   document.getElementById("censusTable").innerHTML = html;
@@ -468,28 +473,47 @@ function renderCensus() {
 
 function formatWinLabel(k) {
   const map = {
-    D01_to_D08: "30 dic 2022 → 7 ott 2025 (Ciclo Bull · D01→D08)",
-    D01_to_D15: "30 dic 2022 → 21 nov 2026 (Intero Ciclo 4 Anni · D01→D15)",
-    D08_to_D15: "7 ott 2025 → 21 nov 2026 (Fase Ribassista · D08→D15)",
-    D13_to_D14: "1° lug 2026 → 1° ott 2026 (Trimestre Q3 · D13→D14)",
-    D13_to_D15: "1° lug 2026 → 21 nov 2026 (Q3–Nov 2026 · D13→D15)"
+    D01_to_D08_BearToPeak: "Minimo → Picco: 30 dic 2022 → 7 ott 2025",
+    D01_to_D15_Full4YrHold: "Intero ciclo (4 anni): 30 dic 2022 → 21 nov 2026",
+    D02_to_D08_HalvingToPeak: "Pre-Halving → Picco: 9 apr 2024 → 7 ott 2025",
+    D06_to_D08_Apr25DipToPeak: "Minimo primaverile → Picco: 8 apr 2025 → 7 ott 2025",
+    D08_to_D15_PeakToBearNov26: "Picco → Ribasso: 7 ott 2025 → 21 nov 2026",
+    D12_to_D15_May26ToNov26: "Semestre ribassista: 12 mag 2026 → 21 nov 2026"
   };
   return map[k] || k.replaceAll("_to_", " → ").replaceAll("_", " ");
+}
+
+function cleanBucketLabel(bk) {
+  const map = {
+    "0-10% (Matura)": "0–10% (Basso)",
+    "10-30% (Moderato)": "10–30% (Moderato)",
+    "30-60% (Alto)": "30–60% (Alto)",
+    ">60% (Overhang Estremo)": ">60% (Estremo)",
+    "<35% (Distribuita)": "<35% (Distribuita)",
+    "35-65% (Media)": "35–65% (Media)",
+    "65-85% (Alta)": "65–85% (Alta)",
+    ">85% (Estrema)": ">85% (Estrema)",
+    "<10% EOA Whale": "<10% (Bassa)",
+    "10-35% EOA Whale": "10–35% (Media)",
+    ">35% EOA Whale": ">35% (Alta)"
+  };
+  return map[bk] || bk;
 }
 
 function renderFactors() {
   const w = document.getElementById("facWin").value;
   const fb = D.factors[w];
   const groups = [
-    ["unlock_overhang", "Quota di token ancora da sbloccare (%)"],
-    ["hist_top10", "Concentrazione Top 10 Wallet storica (%)"],
-    ["hist_eoa_whale", "Quota in Balene Private (EOA) storica (%)"]
+    ["unlock_overhang", "1. Offerta ancora da emettere / sbloccare alla data di ingresso (%)"],
+    ["hist_top10", "2. Concentrazione storica nei primi 10 wallet alla data di ingresso (%)"],
+    ["hist_eoa_whale", "3. Quota storica in balene private (wallet EOA) alla data di ingresso (%)"]
   ];
-  let html = "<thead><tr><th class='l'>Fattore noto alla data di ingresso</th><th class='l'>Fascia</th><th>N. Asset</th><th>Media EUR %</th><th>Mediana EUR %</th><th>In profitto (%)</th></tr></thead><tbody>";
+  let html = "<thead><tr><th class='l'>Fascia del fattore (all'ingresso)</th><th>N. asset</th><th>Media EUR %</th><th>Mediana EUR %</th><th>In profitto (%)</th></tr></thead><tbody>";
   for (const [gk, gt] of groups) {
+    html += `<tr class='sec-row'><td class='l' colspan='5'>${gt}</td></tr>`;
     for (const [bk, bv] of Object.entries(fb[gk])) {
       if (!bv.n) continue;
-      html += `<tr><td class='l'><b>${gt}</b></td><td class='l'>${bk}</td><td>${FMT.int(bv.n)}</td><td>${fmtPct(bv.mean_eur_pct)}</td><td>${fmtPct(bv.median_eur_pct)}</td><td>${FMT.dec1(bv.win_rate_pct)}%</td></tr>`;
+      html += `<tr><td class='l'><b>${cleanBucketLabel(bk)}</b></td><td>${FMT.int(bv.n)}</td><td>${fmtPct(bv.mean_eur_pct)}</td><td>${fmtPct(bv.median_eur_pct)}</td><td>${FMT.dec1(bv.win_rate_pct)}%</td></tr>`;
     }
   }
   html += "</tbody>";
@@ -497,8 +521,8 @@ function renderFactors() {
 }
 
 initKPIs();
-document.getElementById("trEntry").innerHTML = D.census.slice(0,14).map(c => `<option value="${c.code}">${FMT.dateIt(c.date)} · ${c.code}</option>`).join("");
-document.getElementById("vaDate").innerHTML = D.census.map(c => `<option value="${c.code}">${FMT.dateIt(c.date)} · ${c.code}</option>`).join("");
+document.getElementById("trEntry").innerHTML = D.census.slice(0,14).map(c => `<option value="${c.code}">${FMT.dateIt(c.date)}</option>`).join("");
+document.getElementById("vaDate").innerHTML = D.census.map(c => `<option value="${c.code}">${FMT.dateIt(c.date)}</option>`).join("");
 document.getElementById("facWin").innerHTML = Object.keys(D.factors).map(k => `<option value="${k}">${formatWinLabel(k)}</option>`).join("");
 agyBindSearchClear("vaSearch", renderVistaA);
 agyBindSearchClear("vbSearch", renderVistaB);

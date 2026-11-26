@@ -46,7 +46,7 @@
       const n = cleanZero(Number(v), 2);
       return n >= 0 ? "pos" : "neg";
     },
-    price: (v, currencyPrefix = "") => {
+    price: (v, withUsd = false) => {
       if (v === null || v === undefined || v === "" || isNaN(v)) return "N/Q";
       const n = Number(v);
       const a = Math.abs(n);
@@ -61,16 +61,18 @@
         const trimmed = dec.length > 8 ? dec.slice(0, Math.min(dec.length, Math.max(8, dec.search(/[1-9]/) + 3))) : dec;
         s = (n < 0 ? "-" : "") + "0," + trimmed;
       }
-      return currencyPrefix + s;
+      return withUsd ? (s + "\u00A0USD") : s;
     },
-    compact: (v, prefix = "") => {
+    // Pure Italian compact scale: mld (miliardi), mln (milioni), mila — ZERO English T/B/M ambiguity!
+    compact: (v, suffix = "") => {
       if (v === null || v === undefined || v === "" || isNaN(v)) return "N/D";
       const n = Number(v), a = Math.abs(n);
-      if (a >= 1e12) return prefix + nf2.format(n / 1e12) + "\u00A0T";
-      if (a >= 1e9) return prefix + nf2.format(n / 1e9) + "\u00A0B";
-      if (a >= 1e6) return prefix + nf2.format(n / 1e6) + "\u00A0M";
-      if (a >= 1e3) return prefix + nf1.format(n / 1e3) + "\u00A0K";
-      return prefix + nfInt.format(Math.round(n));
+      if (a >= 1e11) return nf1.format(n / 1e9) + "\u00A0mld" + suffix;
+      if (a >= 1e9) return nf2.format(n / 1e9) + "\u00A0mld" + suffix;
+      if (a >= 1e8) return nf1.format(n / 1e6) + "\u00A0mln" + suffix;
+      if (a >= 1e6) return nf2.format(n / 1e6) + "\u00A0mln" + suffix;
+      if (a >= 1e3) return nf1.format(n / 1e3) + "\u00A0mila" + suffix;
+      return nfInt.format(Math.round(n)) + suffix;
     },
     dateIt: (iso) => {
       if (!iso) return "—";
@@ -88,12 +90,28 @@
       if (parts.length !== 3) return iso;
       const m = mNames[parseInt(parts[1], 10) - 1] || parts[1];
       return `${m} ${parts[0].slice(2)}`;
+    },
+    durationIt: (isoStart, isoEnd) => {
+      if (!isoStart || !isoEnd) return "";
+      const d1 = new Date(String(isoStart).slice(0, 10) + "T00:00:00Z");
+      const d2 = new Date(String(isoEnd).slice(0, 10) + "T00:00:00Z");
+      const days = Math.max(1, Math.round((d2 - d1) / 86400000));
+      const months = Math.round(days / 30.4375);
+      if (months < 2) return `${days} giorni`;
+      if (months < 12) return `${months} mesi (${days} giorni)`;
+      const yrs = Math.floor(months / 12);
+      const rem = months % 12;
+      const yStr = yrs === 1 ? "1 anno" : `${yrs} anni`;
+      if (rem === 0) return `${yStr} (${months} mesi)`;
+      const mStr = rem === 1 ? "1 mese" : `${rem} mesi`;
+      return `${yStr} e ${mStr} (${months} mesi)`;
     }
   };
 
   const SUN_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>';
   const MOON_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
   const GH_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.09.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.12 2.91.85.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05A9.35 9.35 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.95-2.34 4.82-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.59.69.49A10.27 10.27 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>';
+  const MENU_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>';
 
   // 2. Theme Engine (persisted across all pages + reacts to external data-theme changes!)
   function syncThemeUI(theme) {
@@ -128,18 +146,20 @@
     }
   }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
-  // 3. Task-Oriented 6-Item Hub Navbar (Mutually Exclusive, Clear Horizons & Zero Overlap)
+  // 3. Task-Oriented 6-Item Hub Navbar — ZERO mid-word truncation from 1440px down to 320px!
   window.agyInitHubNav = function (activeId, basePrefix) {
     const pref = basePrefix || "./";
     const normActive = (activeId === "raw500" || activeId === "pure500") ? "dataset2026" : activeId;
     const pages = [
-      { id: "home", href: pref + "index.html", label: "Panoramica", cls: "hub-home" },
-      { id: "flagship15", href: pref + "multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html", label: "Backtest 2022–2026" },
-      { id: "storico3", href: pref + "dashboard_storico_3date_500.html", label: "Focus 2026 (3 Date)" },
-      { id: "tokenomics", href: pref + "dashboard_tokenomics_holders_500.html", label: "Tokenomics & Balene" },
-      { id: "curva", href: pref + "curva_rendimento_N1_to_N500.html", label: "Curva Top N (Q3)" },
-      { id: "dataset2026", href: pref + "dashboard_pure500_crypto_2026.html", label: "Dataset 2026 (Pure/Raw)" },
+      { id: "home", href: pref + "index.html", label: "Panoramica", shortLabel: "Panoramica", desc: "Sintesi dei risultati sul ciclo 2022–2026", cls: "hub-home" },
+      { id: "flagship15", href: pref + "multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html", label: "Backtest 2022–2026", shortLabel: "Backtest 22–26", desc: "15 date, 105 finestre, fasce Top N e correlazioni" },
+      { id: "storico3", href: pref + "dashboard_storico_3date_500.html", label: "Evoluzione 2026", shortLabel: "Evoluzione 2026", desc: "Confronto su 3 date (lug, ott, nov 2026)" },
+      { id: "tokenomics", href: pref + "dashboard_tokenomics_holders_500.html", label: "Tokenomics e Balene", shortLabel: "Tokenomics", desc: "Registro on-chain, wallet e fonti dei 500 asset" },
+      { id: "curva", href: pref + "curva_rendimento_N1_to_N500.html", label: "Curva Top 1–500", shortLabel: "Curva Top N", desc: "Diversificazione da 1 a 500 asset (lug–ott 2026)" },
+      { id: "dataset2026", href: pref + "dashboard_pure500_crypto_2026.html", label: "Prezzi e Filtro CMC", shortLabel: "Prezzi e Filtro", desc: "Prezzi USD 2026 e confronto Pure vs Originali CMC" },
     ];
+    const activePage = pages.find(p => p.id === normActive) || pages[0];
+
     let nav = document.querySelector("nav.agy-hub-nav");
     if (!nav) {
       nav = document.createElement("nav");
@@ -151,21 +171,53 @@
       const active = p.id === normActive ? " hub-active" : "";
       const extra = p.cls ? " " + p.cls : "";
       const aria = p.id === normActive ? ' aria-current="page"' : "";
-      return `<a href="${p.href}" class="hub-pill${extra}${active}"${aria}>${p.label}</a>`;
+      return `<a href="${p.href}" class="hub-pill${extra}${active}"${aria}><span class="nav-full">${p.label}</span><span class="nav-short">${p.shortLabel}</span></a>`;
     }).join("");
+
+    const drawerLinksHtml = pages.map(p => {
+      const active = p.id === normActive ? " is-active" : "";
+      const aria = p.id === normActive ? ' aria-current="page"' : "";
+      return `<a href="${p.href}" class="hub-drawer-item${active}"${aria}><span class="hub-drawer-title">${p.label}${p.id === normActive ? ' <span class="hub-drawer-cur">Corrente</span>' : ""}</span><span class="hub-drawer-desc">${p.desc}</span></a>`;
+    }).join("");
+
     nav.innerHTML =
       `<div class="agy-hub-rail">${linksHtml}</div>` +
+      `<div class="agy-mob-bar">` +
+        `<a href="${activePage.href}" class="hub-pill hub-active agy-mob-cur" aria-current="page">${activePage.shortLabel}</a>` +
+        `<button type="button" id="agyMenuToggle" class="hub-pill hub-menu-btn" aria-expanded="false" aria-controls="agyNavDrawer">${MENU_SVG}<span>Sezioni (6) &#9662;</span></button>` +
+      `</div>` +
       `<div class="agy-hub-actions">` +
         `<button type="button" id="agyThemeToggle" class="hub-pill hub-theme" onclick="agyToggleTheme()"></button>` +
         `<a href="${REPO_URL}" target="_blank" rel="noopener" class="hub-pill hub-gh" aria-label="Apri codice sorgente su GitHub" title="Apri codice sorgente su GitHub">${GH_SVG}<span class="gh-txt"><span class="gh-lbl">Codice </span>GitHub &nearr;</span></a>` +
-      `</div>`;
+      `</div>` +
+      `<div id="agyNavDrawer" class="agy-nav-drawer" hidden role="region" aria-label="Tutte le 6 sezioni del portale">${drawerLinksHtml}</div>`;
+
+    const menuBtn = document.getElementById("agyMenuToggle");
+    const drawer = document.getElementById("agyNavDrawer");
+    if (menuBtn && drawer) {
+      const setOpen = (open) => {
+        drawer.hidden = !open;
+        menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+        nav.classList.toggle("drawer-open", open);
+      };
+      menuBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        setOpen(drawer.hidden);
+      });
+      document.addEventListener("click", (e) => {
+        if (!drawer.hidden && !nav.contains(e.target)) setOpen(false);
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && !drawer.hidden) { setOpen(false); menuBtn.focus(); }
+      });
+    }
 
     let saved = "dark";
     try { saved = localStorage.getItem(THEME_KEY) || document.documentElement.getAttribute("data-theme") || "dark"; } catch (_) {}
     applyTheme(saved);
 
     const rail = nav.querySelector(".agy-hub-rail");
-    const act = nav.querySelector(".hub-active");
+    const act = nav.querySelector(".agy-hub-rail .hub-active");
     function syncRailFade() {
       if (!rail) return;
       const canScroll = rail.scrollWidth > rail.clientWidth + 4;

@@ -9,17 +9,16 @@
 <style>
 .wrap { max-width: 1520px; }
 .tbl-wrap { max-height: 68vh; }
-.asset-col { max-width: 152px; min-width: 112px; }
-.asset-col .cell-clip { max-width: 136px; }
-#stWrap .note-clamp { max-width: 185px; min-width: 135px; }
+.asset-col { max-width: 144px; min-width: 108px; }
+.asset-col .cell-clip { max-width: 132px; }
 @media (min-width: 960px) {
   .controls.controls-grid { flex-wrap: nowrap; }
-  .controls.controls-grid > select { flex: 0 1 255px; }
+  .controls.controls-grid > select { flex: 0 1 245px; }
 }
 @media (min-width: 1280px) {
-  #stWrap thead th, #stWrap tbody td { padding: 8px 8px; }
-  #stWrap thead th:nth-child(4), #stWrap tbody td:nth-child(4) { padding-left: 14px; }
-  #stWrap thead th:last-child, #stWrap tbody td:last-child { padding-right: 12px; }
+  #stWrap table { font-size: 11.5px; }
+  #stWrap thead th, #stWrap tbody td { padding: 7px 6px; }
+  #stWrap thead th:last-child, #stWrap tbody td:last-child { padding-right: 10px; }
 }
 </style>
 </head>
@@ -29,8 +28,8 @@
 
 <div class="wrap">
   <div class="page-head">
-    <h1>Evoluzione su 3 Date (Luglio – Novembre 2026) — Top 500 Pure Crypto</h1>
-    <div class="sub">Parametri storici esatti al <b>1&deg; luglio</b>, <b>1&deg; ottobre</b> e <b>21 novembre 2026 (05:30&nbsp;CET)</b>. Sblocchi storici: <b>500/500</b> &middot; Concentrazione on-chain storica (3 date): <b>193/500</b>. Dove l'archivio storico non &egrave; disponibile, viene mostrato solo il riferimento corrente del 24 nov (non utilizzato nei backtest).</div>
+    <h1>Evoluzione 2026 su 3 Date (Luglio – Novembre) — Top 500 Pure Crypto</h1>
+    <div class="sub">Parametri storici esatti al <b>1&deg; luglio (23:59&nbsp;UTC)</b>, <b>1&deg; ottobre (23:59&nbsp;UTC)</b> e <b>21 novembre 2026 (05:30&nbsp;CET)</b>. Copertura offerta/sblocchi: <b>500/500</b> (258 da calendari ufficiali CoinMarketCap + 242 da offerta storica) &middot; Serie storica detentori: <b>334/500</b> &middot; Concentrazione Top 10 storica su 3 date: <b>193/500</b>. Per gli altri asset &egrave; indicato lo stato corrente del 24 nov 2026 (escluso dai backtest).</div>
   </div>
 
   <div class="tabs" role="tablist">
@@ -43,30 +42,34 @@
   <div class="controls controls-grid">
     <div class="search-box">
       <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-      <input id="q" type="search" placeholder="Cerca per nome o ticker (es. Bitcoin, ETH)...">
+      <input id="q" type="search" placeholder="Cerca nome o ticker (es. BTC, ETH)">
       <button type="button" class="s-clr" aria-label="Pulisci ricerca">&times;</button>
     </div>
     <select id="hFilter" aria-label="Filtro copertura dati">
-      <option value="">Tutte le 500 crypto Pure</option>
+      <option value="">Tutti i 500 asset Pure Crypto</option>
       <option value="hist_t10">Con concentrazione storica 3 date (193)</option>
-      <option value="official_ul">Con curva vesting ufficiale CMC (258)</option>
-      <option value="diluted">Diluizione supply &gt;5% (lug &rarr; nov)</option>
+      <option value="official_ul">Con calendario ufficiale CMC (258)</option>
+      <option value="diluted">Diluizione offerta &gt;5% (lug &rarr; nov)</option>
     </select>
     <select id="sortBy" aria-label="Ordinamento tabella">
-      <option value="rank_clean_jul1:asc">Ordina: Posizione Pure (1&deg; lug)</option>
-      <option value="rank_clean_oct1:asc">Ordina: Posizione Pure (1&deg; ott)</option>
-      <option value="rank_clean_nov21:asc">Ordina: Posizione Pure (21 nov)</option>
+      <option value="rank_clean_jul1:asc">Ordina: Pos. Pure (1&deg; lug)</option>
+      <option value="rank_clean_oct1:asc">Ordina: Pos. Pure (1&deg; ott)</option>
+      <option value="rank_clean_nov21:asc">Ordina: Pos. Pure (21 nov)</option>
       <option value="delta_rank_clean_jul_to_nov21:desc">Ordina: Maggior scalata Pure &darr;</option>
-      <option value="supply_inflation_jul_to_nov21_pct:desc">Ordina: Maggior diluizione supply &darr;</option>
-      <option value="to_unlock_pct_jul1:desc">Ordina: Pi&ugrave; da sbloccare (1&deg; lug) &darr;</option>
+      <option value="supply_inflation_jul_to_nov21_pct:desc">Ordina: Maggior diluizione &darr;</option>
+      <option value="to_unlock_pct_jul1:desc">Ordina: Pi&ugrave; da emettere (1&deg; lug) &darr;</option>
       <option value="eoa_whale_hist_jul1_pct:asc">Ordina: Meno balene EOA (1&deg; lug) &uarr;</option>
       <option value="ticket_5eur_nov21_eur:desc">Ordina: Valore 5 &euro; al 21 nov &darr;</option>
     </select>
-    <span id="shown" class="pill p-muted" style="justify-self:start">Mostrate 500 di 500</span>
+    <span id="shown" class="pill p-muted" style="justify-self:start">Mostrati 500 di 500</span>
+  </div>
+
+  <div class="info-banner">
+    <div><strong>Note metodologiche:</strong> &laquo;CMC #&raquo; = posizione su CoinMarketCap prima dei filtri Pure. Capitalizzazioni in <strong>USD</strong> (mln = milioni, mld = miliardi); rendimenti del ticket da 5&nbsp;&euro; in <strong>EUR</strong> al cambio storico. &laquo;Offerta circ. %&raquo; = offerta circolante sul tetto massimo/totale (100% per asset senza tetto massimo come ETH/DOGE, dove <em>Var. offerta</em> riflette inflazione o burn). Su Ethereum il Top 10 storico on-chain (8,4% &rarr; 8,2%) esclude il contratto ufficiale di deposito staking (Beacon Chain); per il Top 10 lordo scomposto consulta la sezione <strong>Tokenomics e Balene</strong>.</div>
   </div>
 
   <div class="tbl-sub-bar">
-    <span class="tbl-note">*Su Ethereum il Top 10 storico Archive RPC (8,4% &rarr; 8,2%) esclude il contratto staking ETH2 Beacon Chain; per il Top 10 lordo scomposto vedi <strong>Tokenomics &amp; Balene</strong>.</span>
+    <span class="tbl-note">Confronto puntuale tra 1&deg; luglio, 1&deg; ottobre e 21 novembre 2026.</span>
     <span class="scroll-hint" data-scroll-hint="stWrap">&larr; Scorri tabella &rarr;</span>
   </div>
 
@@ -84,18 +87,31 @@ let mode = "compare";
 let curSort = ["rank_clean_jul1", "asc"];
 
 function badge(tier) {
-  if (tier && tier.startsWith("ARCHIVE")) return '<span class="pill p-arch">Archive RPC</span>';
-  if (tier && tier.startsWith("COINCARD")) return '<span class="pill p-cc">CoinCarp Stor.</span>';
-  return '<span class="pill p-ref" title="Dati storici non disponibili: mostrato riferimento corrente 24 nov">Solo dato 24 nov</span>';
+  if (tier && tier.startsWith("ARCHIVE")) return '<span class="pill p-arch">On-chain EVM</span>';
+  if (tier && tier.startsWith("COINCARD")) return '<span class="pill p-cc">CoinCarp</span>';
+  if (tier && (tier.includes("CNT_ONLY"))) return '<span class="pill p-blue">Detentori 3 date</span>';
+  return '<span class="pill p-ref" title="Archivio storico non disponibile: mostrato stato corrente 24 nov 2026">Solo stato 24 nov</span>';
 }
 
 function cleanSource(s) {
   if (!s) return "";
-  if (s.includes("ex-Beacon")) return "Archive RPC Ethereum (escl. Beacon)";
-  if (s.includes("Archive RPC")) return s.replace(/\(blk[^)]*\)/g, "").trim();
-  if (s.includes("CMC DAPI Holders Count")) return "CoinMarketCap detentori (conc. solo 24 nov)";
-  if (s.includes("Solo Ref. 24 Nov")) return "Nessun archivio storico (solo ref. 24 nov)";
-  return s;
+  let t = s
+    .replace(/\(blk[^)]*\)/gi, "")
+    .replace(/Archive RPC Ethereum Multicall3/gi, "Storico Ethereum on-chain")
+    .replace(/Archive RPC Base Multicall3/gi, "Storico Base on-chain")
+    .replace(/Archive RPC/gi, "Storico on-chain")
+    .replace(/ex-Beacon/gi, "escl. staking Beacon")
+    .replace(/CoinMetrics AdrBalCnt/gi, "detentori CoinMetrics")
+    .replace(/CMC DAPI Holders Count 3-date \([^)]*\)/gi, "Detentori CMC 3 date (Top 10 solo 24 nov)")
+    .replace(/CoinMetrics Holders Count 3-date \([^)]*\)/gi, "Detentori CoinMetrics 3 date (Top 10 solo 24 nov)")
+    .replace(/CoinCarp Daily[^\(]*\((\d{4}-\d{2}-\d{2})[^)]*\)/gi, (_, iso) => "Archivio CoinCarp (dal " + FMT.dateIt(iso) + ")")
+    .replace(/CoinCarp Daily/gi, "Archivio CoinCarp")
+    .replace(/Solo Ref\. 24 Nov \([^)]*\)/gi, "Nessun archivio pubblico (stato 24 nov)")
+    .replace(/Nessuna richlist API pubblica/gi, "Nessun archivio pubblico")
+    .replace(/(\d{4}-\d{2}-\d{2})/g, (_, iso) => FMT.dateIt(iso))
+    .replace(/\s+/g, " ")
+    .trim();
+  return t;
 }
 
 function render() {
@@ -117,19 +133,19 @@ function render() {
     if (typeof va === "string") return dir === "asc" ? va.localeCompare(vb) : vb.localeCompare(va);
     return dir === "asc" ? va - vb : vb - va;
   });
-  document.getElementById("shown").textContent = `Mostrate ${arr.length} di ${DATA.length}`;
+  document.getElementById("shown").textContent = `Mostrati ${arr.length} di ${DATA.length}`;
 
   if (mode === "compare") {
     document.getElementById("th").innerHTML = `<tr>
-      <th class="l sticky-col">Asset (# Pure Lug)</th>
-      <th class="num">Pos. Pure (Lug&rarr;Ott&rarr;Nov)</th>
-      <th class="num">Cap. USD (Lug&rarr;Ott&rarr;Nov)</th>
-      <th class="num">Sbloccati % (Lug&rarr;Ott&rarr;Nov)</th>
-      <th class="num">Var. Supply (Lug&rarr;Nov)</th>
-      <th class="num">Top 10 Storico* (Lug&rarr;Nov)</th>
-      <th class="num">Balene EOA (Lug&rarr;Nov)</th>
-      <th class="num">5 &euro; dal 1&deg; Lug (Ott / Nov)</th>
-      <th class="l">Fonte Storica</th>
+      <th class="l sticky-col">Asset (Pos. Pure)</th>
+      <th class="num">Pos. Pure<br><span class="mut" style="font-weight:500">Lug&rarr;Ott&rarr;Nov</span></th>
+      <th class="num">Cap. (USD)<br><span class="mut" style="font-weight:500">Lug&rarr;Ott&rarr;Nov</span></th>
+      <th class="num">Offerta circ. %<br><span class="mut" style="font-weight:500">Lug&rarr;Ott&rarr;Nov</span></th>
+      <th class="num">Var. offerta<br><span class="mut" style="font-weight:500">Lug&rarr;Nov</span></th>
+      <th class="num">Top 10 storico<br><span class="mut" style="font-weight:500">Lug&rarr;Nov</span></th>
+      <th class="num">Balene EOA<br><span class="mut" style="font-weight:500">Lug&rarr;Nov</span></th>
+      <th class="num">5 &euro; dal 1&deg; lug<br><span class="mut" style="font-weight:500">Ott / Nov (EUR)</span></th>
+      <th class="l">Fonte dati</th>
     </tr>`;
     document.getElementById("tb").innerHTML = arr.map(x => {
       const dcl = x.delta_rank_clean_jul_to_nov21;
@@ -137,38 +153,37 @@ function render() {
       const inf = x.supply_inflation_jul_to_nov21_pct;
       const t10 = (x.top10_hist_jul1_pct !== null || x.top10_hist_nov21_pct !== null)
         ? `${FMT.pct(x.top10_hist_jul1_pct, false, 1)} &rarr; <b>${FMT.pct(x.top10_hist_nov21_pct, false, 1)}</b>`
-        : `<span class="small">Storico N/D (24 nov: <b style="color:var(--ink-secondary)">${FMT.pct(x.top10_ref_nov24_pct, false, 1)}</b>)</span>`;
+        : `<span class="small">Storico N/D<br>(24 nov: <b style="color:var(--ink-secondary)">${FMT.pct(x.top10_ref_nov24_pct, false, 1)}</b>)</span>`;
       const eoa = (x.eoa_whale_hist_jul1_pct !== null || x.eoa_whale_hist_nov21_pct !== null)
         ? `${FMT.pct(x.eoa_whale_hist_jul1_pct, false, 1)} &rarr; <b>${FMT.pct(x.eoa_whale_hist_nov21_pct, false, 1)}</b>`
         : '<span class="mut">N/D</span>';
-      // Compute coherent EUR % directly from EUR ticket values (eliminates EUR value vs USD % contradiction!)
       const retOctEur = x.ticket_5eur_oct1_eur ? ((x.ticket_5eur_oct1_eur / 5 - 1) * 100) : null;
       const retNovEur = x.ticket_5eur_nov21_eur ? ((x.ticket_5eur_nov21_eur / 5 - 1) * 100) : null;
       const srcRaw = x.hist_holders_source || "";
       const srcClean = cleanSource(srcRaw);
       return `<tr>
-        <td class="l sticky-col asset-col"><b class="cell-clip" title="${x.name} (Rank CMC 1 lug: #${x.cmc_rank_jul1})">#${String(x.rank_clean_jul1).padStart(3,"0")} ${x.name}</b><span class="small">${x.symbol} &middot; CMC #${x.cmc_rank_jul1}</span></td>
+        <td class="l sticky-col asset-col"><b class="cell-clip" title="${x.name} (Pos. CoinMarketCap 1 lug: #${x.cmc_rank_jul1})">#${x.rank_clean_jul1} ${x.name}</b><span class="small">${x.symbol} &middot; CMC #${x.cmc_rank_jul1}</span></td>
         <td class="num">#${x.rank_clean_jul1} &rarr; #${x.rank_clean_oct1 || "—"} &rarr; <b>#${x.rank_clean_nov21 || "—"}</b><span class="small">${dclS}</span></td>
-        <td class="num">${FMT.compact(x.mcap_usd_jul1, "$")} &rarr; ${FMT.compact(x.mcap_usd_oct1, "$")} &rarr; <b>${FMT.compact(x.mcap_usd_nov21, "$")}</b></td>
-        <td class="num">${FMT.pct(x.unlocked_pct_jul1, false, 1)} &rarr; ${FMT.pct(x.unlocked_pct_oct1, false, 1)} &rarr; <b>${FMT.pct(x.unlocked_pct_nov21, false, 1)}</b></td>
+        <td class="num">${FMT.compact(x.mcap_usd_jul1)} &rarr; ${FMT.compact(x.mcap_usd_oct1)}<br><span class="small">&rarr; <b style="color:var(--ink)">${FMT.compact(x.mcap_usd_nov21)}</b></span></td>
+        <td class="num">${FMT.pct(x.unlocked_pct_jul1, false, 1)} &rarr; ${FMT.pct(x.unlocked_pct_oct1, false, 1)}<br><span class="small">&rarr; <b style="color:var(--ink)">${FMT.pct(x.unlocked_pct_nov21, false, 1)}</b></span></td>
         <td class="num"><span class="${(inf || 0) > 5 ? "neg" : ""}">${FMT.pct(inf, true, 2)}</span></td>
         <td class="num">${t10}</td>
         <td class="num">${eoa}</td>
         <td class="num"><b>${x.ticket_5eur_oct1_eur ? FMT.eur(x.ticket_5eur_oct1_eur) : "N/D"}</b> / <b>${x.ticket_5eur_nov21_eur ? FMT.eur(x.ticket_5eur_nov21_eur) : "N/D"}</b><span class="small">${FMT.pct(retOctEur, true, 1)} / ${FMT.pct(retNovEur, true, 1)} EUR</span></td>
-        <td class="l">${badge(x.hist_holders_tier)}<span class="small note-clamp" title="${srcRaw}">${srcClean}</span></td>
+        <td class="l src-cell">${badge(x.hist_holders_tier)}<span class="small" style="margin-top:2px" title="${srcRaw}">${srcClean}</span></td>
       </tr>`;
     }).join("");
   } else {
     const d = mode;
     const dlbl = d === "jul1" ? "1° lug" : (d === "oct1" ? "1° ott" : "21 nov");
     document.getElementById("th").innerHTML = `<tr>
-      <th class="l sticky-col">Asset (# Pure ${dlbl})</th>
-      <th class="num">Rank CMC</th>
+      <th class="l sticky-col">Asset (Pos. Pure ${dlbl})</th>
+      <th class="num">Pos. CMC</th>
       <th class="num">Prezzo USD / EUR</th>
-      <th class="num">Cap. ($) / FDV</th>
-      <th class="num">Vol. 24h ($)</th>
-      <th class="num">Sbloccati (%)</th>
-      <th class="num">Da Sbloccare</th>
+      <th class="num">Cap. (USD) / FDV</th>
+      <th class="num">Vol. 24h (USD)</th>
+      <th class="num">Offerta circ. (%)</th>
+      <th class="num">Da emettere</th>
       <th class="num">Top 10 / Altri</th>
       <th class="num">EOA / Detentori</th>
     </tr>`;
@@ -182,11 +197,11 @@ function render() {
       const t10 = x["top10_hist_" + d + "_pct"], d10 = x["dist_out_top10_hist_" + d + "_pct"];
       const eoa = x["eoa_whale_hist_" + d + "_pct"], hc = x["holders_cnt_hist_" + d];
       return `<tr>
-        <td class="l sticky-col asset-col"><b class="cell-clip" title="${x.name}">${rkc ? "#" + String(rkc).padStart(3,"0") : "N/D"} ${x.name}</b><span class="small">${x.symbol}</span></td>
+        <td class="l sticky-col asset-col"><b class="cell-clip" title="${x.name}">${rkc ? "#" + rkc : "N/D"} ${x.name}</b><span class="small">${x.symbol}</span></td>
         <td class="num">${rkm ? "#" + rkm : "N/D"}</td>
-        <td class="num">${FMT.price(pu, "$")}<span class="small">${FMT.price(pe)} &euro;</span></td>
-        <td class="num">${FMT.compact(mc, "$")}<span class="small">${fr ? "FDV/Cap " + FMT.dec2(fr) + "×" : "Supply illimitata"}</span></td>
-        <td class="num">${FMT.compact(v24, "$")}<span class="small">${prs ? FMT.int(prs) + " mercati" : ""}</span></td>
+        <td class="num">${FMT.price(pu, true)}<span class="small">${FMT.price(pe)} &euro;</span></td>
+        <td class="num">${FMT.compact(mc)}<span class="small">${fr ? "FDV/Cap " + FMT.dec2(fr) + "×" : "Offerta max illimitata"}</span></td>
+        <td class="num">${FMT.compact(v24)}<span class="small">${prs ? FMT.int(prs) + " mercati" : ""}</span></td>
         <td class="num"><b>${FMT.pct(ulp, false, 2)}</b><span class="small">${FMT.compact(ult)}</span></td>
         <td class="num"><b>${tulp !== null ? FMT.pct(tulp, false, 2) : "Illimitata"}</b><span class="small">${tult !== null ? FMT.compact(tult) : "Emissione continua"}</span></td>
         <td class="num">${t10 !== null ? `<b>${FMT.pct(t10, false, 2)}</b> / ${FMT.pct(d10, false, 1)}` : '<span class="mut">Storico N/D</span>'}</td>
