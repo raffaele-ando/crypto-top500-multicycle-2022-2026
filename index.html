@@ -5,127 +5,219 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pure Crypto Top 500 — Ricerca Forense Multi-Ciclo (2022–2026)</title>
 <meta name="description" content="Analisi forense zero-survivorship-bias e zero-look-ahead sulle Pure Crypto Top 500 attraverso 15 date dal 30 Dicembre 2022 al 21 Novembre 2026: backtest 5 EUR, tranche 50-500, curve vesting CMC e concentrazione on-chain EVM Archive Multicall3.">
+<script>(function(){try{var t=localStorage.getItem('crypto_hub_theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<link rel="stylesheet" href="./assets/apple-craft.css">
 <style>
-:root {
-  --bg: #000000; --surface: #111216; --surface2: #181a20; --border: rgba(255,255,255,0.09);
-  --text: #f5f5f7; --muted: #98989f; --accent: #0a84ff; --green: #30d158; --red: #ff453a;
-  --amber: #ff9f0a; --purple: #bf5af2; --radius: 18px;
-}
-[data-theme="light"] {
-  --bg: #f5f5f7; --surface: #ffffff; --surface2: #eef0f4; --border: rgba(0,0,0,0.08);
-  --text: #1d1d1f; --muted: #6e6e73; --accent: #0071e3; --green: #248a3d; --red: #d70015;
-  --amber: #c96a00; --purple: #8944ab;
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
-  background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; line-height: 1.5;
-}
-.topbar {
-  position: sticky; top: 0; z-index: 100; backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
-  background: color-mix(in srgb, var(--bg) 82%, transparent); border-bottom: 1px solid var(--border);
-}
-.topbar-in {
-  max-width: 1280px; margin: 0 auto; padding: 12px 22px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
-}
-.brand { font-weight: 700; font-size: 15px; letter-spacing: -0.015em; display: flex; align-items: center; gap: 8px; }
-.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--green); box-shadow: 0 0 10px var(--green); }
-.nav-links { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 13px; }
-.nav-links a { color: var(--muted); text-decoration: none; font-weight: 500; }
-.nav-links a:hover { color: var(--text); }
-.btn {
-  display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 999px;
-  font-size: 13px; font-weight: 600; text-decoration: none; cursor: pointer;
-  border: 1px solid var(--border); background: var(--surface2); color: var(--text); transition: all .15s;
-}
-.btn:hover { border-color: var(--accent); transform: translateY(-1px); }
-.btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
-.btn-primary:hover { filter: brightness(1.08); }
-.wrap { max-width: 1280px; margin: 0 auto; padding: 36px 22px 72px; }
-.hero { padding: 28px 0 32px; }
+.wrap { max-width: 1320px; }
+.hero { padding: 14px 0 22px; }
 .eyebrow {
-  display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600;
-  color: var(--accent); background: rgba(10,132,255,0.12); border: 1px solid rgba(10,132,255,0.28);
-  padding: 5px 12px; border-radius: 999px; margin-bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-soft-border);
+  padding: 6px 13px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+  line-height: 1.35;
+  max-width: 100%;
 }
-h1 {
-  margin: 0 0 14px; font-size: clamp(30px, 4.5vw, 52px); font-weight: 800;
-  letter-spacing: -0.03em; line-height: 1.08; max-width: 960px;
+.hero h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.58rem, 3.8vw, 2.85rem);
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  line-height: 1.12;
+  max-width: 920px;
 }
-.lead { color: var(--muted); font-size: clamp(15px, 1.5vw, 18px); max-width: 820px; margin: 0 0 24px; }
-.hero-cta { display: flex; flex-wrap: wrap; gap: 10px; }
-.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 28px 0 44px; }
-.kpi { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; }
-.kpi .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
-.kpi .val { font-size: 24px; font-weight: 800; font-variant-numeric: tabular-nums; margin: 4px 0 2px; letter-spacing: -0.02em; }
-.kpi .note { font-size: 12px; color: var(--muted); }
-.sec-title { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; margin: 42px 0 8px; }
-.sec-sub { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
-.grid-apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; }
+.lead {
+  color: var(--muted);
+  font-size: clamp(14.5px, 1.35vw, 17px);
+  max-width: 840px;
+  margin: 0 0 20px;
+  line-height: 1.54;
+}
+.lead strong { color: var(--ink); font-weight: 600; }
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hero-cta .btn { min-height: 44px; padding: 0 18px; font-size: 13.5px; }
+[data-theme="light"] .hero-cta .btn:not(.btn-primary) {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.sec-title {
+  font-size: clamp(1.18rem, 2vw, 1.42rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 34px 0 6px;
+}
+.sec-sub { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+.grid-apps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 14px;
+}
 .app-card {
-  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 22px; display: flex; flex-direction: column; justify-content: space-between;
-  text-decoration: none; color: inherit; transition: all .18s; position: relative; overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.16s var(--ease), border-color 0.16s var(--ease), box-shadow 0.16s var(--ease);
+  min-width: 0;
 }
-.app-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.28); }
+@media (hover: hover) {
+  .app-card:hover {
+    border-color: var(--accent-text);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  }
+}
 .app-card.featured {
-  border-color: rgba(10,132,255,0.5);
-  background: linear-gradient(155deg, rgba(10,132,255,0.13) 0%, var(--surface) 58%);
+  border-color: var(--accent-soft-border);
+  background: linear-gradient(155deg, var(--accent-soft) 0%, var(--surface) 58%);
 }
-.tag { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 9px; border-radius: 999px; margin-bottom: 10px; }
-.tag-blue { background: rgba(10,132,255,0.18); color: var(--accent); }
-.tag-green { background: rgba(48,209,88,0.16); color: var(--green); }
-.tag-purple { background: rgba(191,90,242,0.16); color: var(--purple); }
-.tag-amber { background: rgba(255,159,10,0.16); color: var(--amber); }
-.app-card h3 { margin: 0 0 8px; font-size: 18px; font-weight: 700; letter-spacing: -0.015em; }
-.app-card p { margin: 0 0 16px; font-size: 13.5px; color: var(--muted); }
-.app-foot { display: flex; align-items: center; justify-content: space-between; font-size: 13px; font-weight: 600; color: var(--accent); }
-.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; margin-bottom: 18px; }
-.tbl-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; }
-table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
-th, td { padding: 9px 11px; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
-th { background: var(--surface2); color: var(--muted); font-weight: 600; font-size: 12px; }
-th.l, td.l { text-align: left; }
-.pos { color: var(--green); font-weight: 700; }
-.neg { color: var(--red); font-weight: 700; }
-.findings { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 14px; }
-.f-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; }
-.f-box h4 { margin: 0 0 6px; font-size: 15px; font-weight: 700; }
-.f-box p { margin: 0; font-size: 13.5px; color: var(--muted); }
-.dl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+.tag-blue { background: var(--accent-soft); color: var(--accent-text); }
+.tag-green { background: var(--green-soft); color: var(--green-text); }
+.tag-purple { background: var(--purple-soft); color: var(--purple-text); }
+.tag-amber { background: var(--amber-soft); color: var(--amber-text); }
+.app-card h3 { margin: 0 0 8px; font-size: 17px; font-weight: 700; letter-spacing: -0.015em; }
+.app-card p { margin: 0 0 16px; font-size: 13.5px; color: var(--muted); line-height: 1.48; }
+.app-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--accent-text);
+  min-height: 24px;
+}
+.findings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
+  gap: 13px;
+}
+.f-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-card);
+  min-width: 0;
+}
+.f-box h4 { margin: 0 0 8px; font-size: 15.5px; font-weight: 700; line-height: 1.3; }
+.f-box p { margin: 0; font-size: 13.5px; color: var(--muted); line-height: 1.5; }
+.f-box strong { color: var(--ink-secondary); font-weight: 600; }
+.code-chip {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  padding: 1px 6px;
+  border-radius: 5px;
+  background: var(--surface2);
+  color: var(--ink);
+  border: 1px solid var(--border);
+}
+.dl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 215px), 1fr));
+  gap: 10px;
+}
 .dl-chip {
-  display: flex; flex-direction: column; gap: 2px; padding: 11px 14px; border-radius: 12px;
-  background: var(--surface2); border: 1px solid var(--border); text-decoration: none; color: var(--text);
-  font-size: 13px; transition: all .15s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  min-height: 50px;
+  padding: 10px 13px;
+  border-radius: var(--r-sm);
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 13px;
+  transition: border-color 0.15s var(--ease), transform 0.15s var(--ease);
+  min-width: 0;
 }
-.dl-chip:hover { border-color: var(--accent); transform: translateY(-1px); }
+@media (hover: hover) {
+  .dl-chip:hover { border-color: var(--accent-text); transform: translateY(-1px); }
+}
 .dl-chip span { font-size: 11.5px; color: var(--muted); }
-footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12.5px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; }
-footer a { color: var(--accent); text-decoration: none; }
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12.5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+footer a {
+  color: var(--accent-text);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+}
+/* Tablet 2x2 CTA grid */
+@media (max-width: 960px) and (min-width: 541px) {
+  .hero-cta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hero-cta .btn { width: 100%; }
+}
+/* Mobile full-width CTA stack + clean multi-line badge radius */
+@media (max-width: 540px) {
+  .eyebrow { border-radius: 14px; font-size: 11.5px; padding: 6px 11px; margin-bottom: 10px; }
+  .hero { padding: 8px 0 16px; }
+  .hero h1 { font-size: clamp(1.38rem, 6.2vw, 1.85rem); margin-bottom: 9px; }
+  .lead { font-size: 14px; margin-bottom: 14px; }
+  .hero-cta { display: grid; grid-template-columns: 1fr; gap: 8px; }
+  .hero-cta .btn { width: 100%; }
+}
+/* Short Mobile Landscape (667x375): fit hero + Primary CTA cleanly above the fold */
+@media (max-height: 480px) and (max-width: 900px) {
+  .hero { padding: 6px 0 12px; }
+  .eyebrow { padding: 4px 10px; font-size: 11px; margin-bottom: 8px; }
+  .hero h1 { font-size: 1.38rem; margin-bottom: 6px; }
+  .lead { font-size: 13px; margin-bottom: 12px; line-height: 1.4; }
+  .hero-cta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
+  .hero-cta .btn { min-height: 40px; font-size: 12.5px; padding: 0 10px; width: 100%; }
+}
 </style>
 </head>
 <body>
-<header class="topbar">
-  <div class="topbar-in">
-    <div class="brand"><span class="dot"></span> Pure Crypto Top 500 &middot; Multi-Cycle Lab</div>
-    <nav class="nav-links">
-      <a href="#dashboards">6 Dashboard Interattive</a>
-      <a href="#evidenze">Evidenze Empiriche</a>
-      <a href="#timeline">15 Date (2022–2026)</a>
-      <a href="#downloads">Dataset &amp; Dossier</a>
-      <a class="btn" href="https://github.com/raffaele-ando/crypto-top500-multicycle-2022-2026" target="_blank" rel="noopener">GitHub Repo &nearr;</a>
-      <button class="btn" onclick="toggleTheme()" id="themeBtn">Chiaro / Scuro</button>
-    </nav>
-  </div>
-</header>
+<script src="./assets/hub-shell.js"></script>
+<script>agyInitHubNav("home", "./");</script>
 
 <main class="wrap">
   <section class="hero">
     <div class="eyebrow">100% Forensic Completeness Gate PASS &middot; Zero Survivorship Bias &middot; Zero Look-Ahead</div>
-    <h1>Analisi Forense Multi-Ciclo sulle Pure Crypto Top 500 (2022–2026)</h1>
+    <h1>Analisi Forense Multi-Ciclo sulle Pure Crypto Top 500 <span style="white-space:nowrap">(2022–2026)</span></h1>
     <p class="lead">
-      Dataset point-in-time su <strong>15 date storiche</strong> dal minimo del bear market (30 Dicembre 2022) al picco del ciclo (7 Ottobre 2025) fino al 21 Novembre 2026 05:30 CET. Include backtest <strong>5 EUR/coin</strong> su 105 finestre, tranche <code>Top 50..500</code>, <strong>498 curve ufficiali di vesting CMC</strong>, <strong>446 asset EVM ricostruiti crittograficamente via Archive RPC Multicall3</strong> e <strong>24 migrazioni ufficiali</strong> risolte al rapporto reale.
+      Dataset point-in-time su <strong>15 date storiche</strong> dal minimo del bear market (30 Dicembre 2022) al picco del ciclo (7 Ottobre 2025) fino al 21 Novembre 2026 05:30&nbsp;CET. Include backtest <strong>5 EUR/coin</strong> su 105 finestre, tranche Top 50..500, 498 curve ufficiali di vesting CMC, 446 asset EVM ricostruiti crittograficamente via Archive RPC Multicall3 e 24 migrazioni ufficiali risolte al rapporto reale.
     </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="./multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html">Apri Dashboard Flagship 15 Date &rarr;</a>
@@ -135,23 +227,23 @@ footer a { color: var(--accent); text-decoration: none; }
     </div>
   </section>
 
-  <section class="kpis">
-    <div class="kpi"><div class="lbl">Orizzonte Temporale</div><div class="val">15 Date &middot; 4 Anni</div><div class="note">30 Dic 2022 &rarr; 21 Nov 2026 05:30 CET</div></div>
+  <section class="kpis" aria-label="Indicatori chiave della ricerca">
+    <div class="kpi"><div class="lbl">Orizzonte Temporale</div><div class="val">15 Date &middot; 4 Anni</div><div class="note">30 Dic 2022 &rarr; 21 Nov 2026 &middot; 05:30&nbsp;CET</div></div>
     <div class="kpi"><div class="lbl">Record Point-in-Time</div><div class="val">15.000 Righe</div><div class="note">7.500 Vista A + 7.500 Vista B</div></div>
-    <div class="kpi"><div class="lbl">On-Chain Archive RPC</div><div class="val">446 Asset EVM</div><div class="note">Multicall3 su ETH, Base, Arb, OP</div></div>
-    <div class="kpi"><div class="lbl">Curve Vesting Ufficiali</div><div class="val">498 Curve CMC</div><div class="note">Unlocks point-in-time dal 2022</div></div>
-    <div class="kpi"><div class="lbl">Copertura Holders Nativa</div><div class="val">95,2% (476/500)</div><div class="note">96,0% dei 496 asset non-privacy</div></div>
-    <div class="kpi"><div class="lbl">Migrazioni &amp; Integrit&agrave;</div><div class="val">24 Swap Mappati</div><div class="note">MATIC&rarr;POL, FTM&rarr;S, MKR&rarr;SKY, ecc.</div></div>
+    <div class="kpi"><div class="lbl">On-Chain Archive RPC</div><div class="val">446 Asset EVM</div><div class="note">Multicall3 su ETH, Base, Arbitrum e&nbsp;OP</div></div>
+    <div class="kpi"><div class="lbl">Curve Vesting Ufficiali</div><div class="val">498 Curve CMC</div><div class="note">Unlocks point-in-time dal Dicembre&nbsp;2022</div></div>
+    <div class="kpi"><div class="lbl">Holders Nativi</div><div class="val">95,2% (476/500)</div><div class="note">96,0% dei 496 asset non&#8209;privacy</div></div>
+    <div class="kpi"><div class="lbl">Migrazioni &amp; Integrit&agrave;</div><div class="val">24 Swap Mappati</div><div class="note">MATIC&rarr;POL, FTM&rarr;S, MKR&rarr;SKY e altri</div></div>
   </section>
 
   <h2 class="sec-title" id="dashboards">Suite delle 6 Dashboard Web Interattive</h2>
-  <p class="sec-sub">Tutte le applicazioni sono zero-dependency, filtrabili, ordinabili e funzionanti interamente lato client con tutti i record 1:1 incorporati.</p>
+  <p class="sec-sub">Tutte le applicazioni sono zero-dependency, filtrabili, ordinabili, dotate di tema Light/OLED Dark e funzionanti lato client con tutti i record 1:1 incorporati.</p>
   <section class="grid-apps">
     <a class="app-card featured" href="./multidate_15_2022_2026/dashboard_15date_ciclo_2022_2026.html">
       <div>
         <span class="tag tag-blue">Flagship &middot; 15 Date (2022–2026)</span>
         <h3>Dashboard Multi-Ciclo 15 Date &amp; Backtest 14&times;15</h3>
-        <p>Heatmap interattiva su tutte le 105 finestre di investimento 5 EUR/coin, confronto Conservative vs Active-Only vs Bitcoin, grafici Tranche Top 50..500 e fasce marginali, esploratore completo Vista A (500 coin/data) e Vista B (500/500) + fattori on-chain 4 anni.</p>
+        <p>Heatmap interattiva su tutte le 105 finestre di investimento 5 EUR/coin, confronto Conservative vs Active-Only vs Bitcoin, grafici divergenti Tranche Top 50..500, esploratore completo Vista A (500 coin/data) e Vista B (500/500) + fattori on-chain 4 anni.</p>
       </div>
       <div class="app-foot"><span>Apri Dashboard 15 Date</span><span>&rarr;</span></div>
     </a>
@@ -160,7 +252,7 @@ footer a { color: var(--accent); text-decoration: none; }
       <div>
         <span class="tag tag-green">Point-in-Time 2026</span>
         <h3>Storico 3 Date — 1 Lug, 1 Ott &amp; 21 Nov 2026</h3>
-        <p>Confronto ad alta risoluzione dei parametri storici esatti sulle 3 date del 2026 (inclusa rilevazione intraday 05:30 CET del 21 Novembre): evoluzione rank, supply inflation, token sbloccati, holders storici (334/500) e delta concentrazione Archive RPC.</p>
+        <p>Confronto ad alta risoluzione dei parametri storici esatti sulle 3 date del 2026 (inclusa rilevazione intraday 05:30&nbsp;CET del 21 Novembre): evoluzione rank, supply inflation, token sbloccati, holders storici (334/500) e delta concentrazione Archive RPC.</p>
       </div>
       <div class="app-foot"><span>Apri Storico 3 Date</span><span>&rarr;</span></div>
     </a>
@@ -169,7 +261,7 @@ footer a { color: var(--accent); text-decoration: none; }
       <div>
         <span class="tag tag-purple">On-Chain Forensics &middot; 95,2%</span>
         <h3>Tokenomics, Unlocks &amp; Decomposizione Wallet</h3>
-        <p>Analisi integrale dei 500 asset puri su token sbloccati/da sbloccare, numero holder e decomposizione dei Top-10 wallet on-chain in Burn, CEX, Protocol/Lock/LP ed EOA Whale Residua, con punteggio affidabilit&agrave; A–D e flag di rischio.</p>
+        <p>Analisi integrale dei 500 asset puri su token sbloccati/da sbloccare, numero holder e decomposizione dei Top-10 wallet on-chain in Burn, CEX, Protocol/Lock/LP ed EOA Whale Residua, con punteggio affidabilit&agrave; A+–C e 58 bug bridge bonificati.</p>
       </div>
       <div class="app-foot"><span>Apri Audit On-Chain</span><span>&rarr;</span></div>
     </a>
@@ -178,7 +270,7 @@ footer a { color: var(--accent); text-decoration: none; }
       <div>
         <span class="tag tag-amber">Ottimizzazione N = 1..500</span>
         <h3>Curva Cumulativa Passo-Passo (da 1 a 500 Coin)</h3>
-        <p>Valutazione marginale di ogni singola aggiunta di criptovaluta dalla #1 alla #500 con ticket da 5 EUR: identifica esattamente il punto di massimo rendimento cumulativo, il contributo di ogni ingresso e il profilo rischio/rendimento lungo la curva.</p>
+        <p>Valutazione marginale di ogni singola aggiunta di criptovaluta dalla #1 alla #500 con ticket da 5 EUR: identifica il punto di massimo rendimento cumulativo (N=143 +BTW / N=93 ex-BTW), il contributo di ogni ingresso e il profilo rischio/rendimento.</p>
       </div>
       <div class="app-foot"><span>Apri Curva N=1..500</span><span>&rarr;</span></div>
     </a>
@@ -187,7 +279,7 @@ footer a { color: var(--accent); text-decoration: none; }
       <div>
         <span class="tag tag-green">Coorte Pulita Q3 2026</span>
         <h3>Clean Pure Top 500 &amp; Analisi Tranche Q3 2026</h3>
-        <p>Esplorazione della coorte filtrata del 1° Luglio 2026 (depurata da 274 asset non puri: stablecoin, wrapped, LST/LRT, RWA, illiquide &lt;100k USD, zombie e subnet) con backtest Q3 al 1° Ottobre e al 21 Novembre 2026.</p>
+        <p>Esplorazione della coorte filtrata del 1&deg; Luglio 2026 (depurata da 274 asset non puri: stablecoin, wrapped, LST/LRT, RWA, illiquide &lt;100k USD, zombie e subnet) con backtest Q3 al 1&deg; Ottobre e al 21 Novembre 2026.</p>
       </div>
       <div class="app-foot"><span>Apri Pure 500 Q3</span><span>&rarr;</span></div>
     </a>
@@ -196,37 +288,42 @@ footer a { color: var(--accent); text-decoration: none; }
       <div>
         <span class="tag tag-blue">Baseline Pre-Filtro</span>
         <h3>Snapshot Raw Top 500 Originale (Pre-Pulizia)</h3>
-        <p>Snapshot integrale originale delle prime 500 capitalizzazioni CMC al 1° Luglio 2026 prima delle esclusioni forensi, utile per verificare l'impatto quantitativo della rimozione di stablecoin, wrapped e asset sintetici.</p>
+        <p>Snapshot integrale originale delle prime 500 capitalizzazioni CMC al 1&deg; Luglio 2026 prima delle esclusioni forensi, con badge di classificazione sui 182 asset esclusi per verificare l'impatto quantitativo della pulizia.</p>
       </div>
       <div class="app-foot"><span>Apri Raw Top 500</span><span>&rarr;</span></div>
     </a>
   </section>
 
-  <h2 class="sec-title" id="evidenze">Evidenze Empiriche Principali (Ciclo 2022–2026)</h2>
+  <h2 class="sec-title" id="evidenze">Evidenze Empiriche Principali <span style="white-space:nowrap">(Ciclo 2022–2026)</span></h2>
   <p class="sec-sub">Sintesi quantitativa certificata su 5 EUR per coin (2.500 EUR per coorte Top 500), con delisting valutati a 0 EUR (-100%) e migrazioni ufficiali convertite al tasso reale.</p>
   <section class="findings">
     <div class="f-box">
       <h4>Miglior Finestra (Top 500): <span class="pos">+173,00% EUR</span></h4>
-      <p>Entrando al minimo <code>D01 (30 Dic 2022)</code> ed uscendo a <code>D02 (09 Apr 2024)</code>, 2.500 EUR diventano <strong>6.825,12 EUR</strong> (BTC Buy&amp;Hold: <strong>+308,72% EUR</strong>). Sul ciclo di 4 anni fino al 21 Nov 2026, <code>Top 500</code> chiude a <strong>1.067,15 EUR (-57,31%)</strong> con 44 delisting, mentre <code>Top 50</code> registra <strong>+37,53% EUR</strong> e BTC <strong>+226,09% EUR</strong>.</p>
+      <p>Entrando al minimo <strong>D01 (30 Dic 2022)</strong> ed uscendo a <strong>D02 (09 Apr 2024)</strong>, 2.500 EUR diventano <strong>6.825,12 EUR</strong> (BTC Buy&amp;Hold: <strong>+308,72% EUR</strong>). Sul ciclo di 4 anni fino al 21 Nov 2026, la Top 500 chiude a <strong>1.067,15 EUR (-57,31%)</strong> con 44 delisting, mentre la Top 50 registra <strong>+37,53% EUR</strong> e BTC <strong>+226,09% EUR</strong>.</p>
     </div>
     <div class="f-box">
-      <h4>Dominio Strutturale delle Large-Cap (<code>Top 50–100</code>)</h4>
-      <p>Su tutti gli ingressi 2022–Set 2025 (<code>D01..D07</code>) tenuti al 21 Nov 2026, le tranche <strong>Top 50 / Top 100 / Top 150</strong> battono sistematicamente la Top 500 di <strong>+17 / +95 punti %</strong>. Nel 2026 (<code>D08..D13</code>) le tranche 250–450 prevalgono solo per il singolo outlier <code>DHN</code> (+8.207%..+13.148%); ex-DHN vincono ancora le Top 50–100.</p>
+      <h4>Dominio Strutturale delle Large-Cap (Top 50–100)</h4>
+      <p>Su tutti gli ingressi 2022–Set 2025 (D01–D07) tenuti al 21 Nov 2026, le tranche <strong>Top 50 / Top 100 / Top 150</strong> battono sistematicamente la Top 500 di <strong>+17 / +95 punti %</strong>. Nel 2026 (D08–D13) le tranche 250–450 prevalgono solo per il singolo outlier <strong>DHN</strong> (+8.207%..+13.148%); ex-DHN vincono ancora le Top 50–100.</p>
     </div>
     <div class="f-box">
       <h4>Fattore Unlocks: Degrado Monotonico su 4 Anni</h4>
-      <p>Misurando l'overhang <code>to_unlock_pct</code> alla sola data di ingresso (zero look-ahead): su <code>D01&rarr;D08</code> la mediana EUR crolla da <strong>-25,6%</strong> (0–10% bloccati) a <strong>-31,5%</strong> (10–30%), <strong>-46,6%</strong> (30–60%) fino a <strong>-66,9%</strong> (&gt;60% bloccati). Stesso gradiente nel bear <code>D08&rarr;D15</code> (-76,9% vs -86,1%).</p>
+      <p>Misurando l'overhang <code class="code-chip">to_unlock_pct</code> alla sola data di ingresso (zero look-ahead): su D01&rarr;D08 la mediana EUR crolla da <strong>-25,6%</strong> (0–10% bloccati) a <strong>-31,5%</strong> (10–30%), <strong>-46,6%</strong> (30–60%) fino a <strong>-66,9%</strong> (&gt;60% bloccati). Stesso gradiente nel bear D08&rarr;D15 (-76,9% vs -86,1%).</p>
     </div>
     <div class="f-box">
       <h4>EOA Whale Residua: Amplificatore di Drawdown</h4>
-      <p>Grazie alla ricostruzione crittografica <code>EVM Archive RPC Multicall3</code>, nel ribasso <code>D08&rarr;D15</code> la perdita media peggiora monotonicamente con la quota in mano a whale EOA: <strong>-41,6%</strong> (&lt;10% EOA), <strong>-75,0%</strong> (10–35% EOA) e <strong>-77,2%</strong> (&gt;35% EOA).</p>
+      <p>Grazie alla ricostruzione crittografica <strong>EVM Archive RPC Multicall3</strong>, nel ribasso D08&rarr;D15 la perdita media peggiora monotonicamente con la quota in mano a whale EOA: <strong>-41,6%</strong> (&lt;10% EOA), <strong>-75,0%</strong> (10–35% EOA) e <strong>-77,2%</strong> (&gt;35% EOA).</p>
     </div>
   </section>
 
-  <h2 class="sec-title" id="timeline">Censimento Macro delle 15 Date (30 Dic 2022 – 21 Nov 2026)</h2>
-  <p class="sec-sub">Ogni data dispone di cambio EUR/USD storico esatto, filtro di purezza identico, correzione sub-cent (&lt;0,0001 USD) e stato point-in-time di unlocks e holders.</p>
-  <div class="card" style="padding:0">
-    <div class="tbl-wrap" style="border:none"><table id="timelineTbl"></table></div>
+  <div class="tbl-head-bar" style="margin-top:34px">
+    <div>
+      <h2 class="sec-title" id="timeline" style="margin:0 0 4px">Censimento Macro delle 15 Date <span style="white-space:nowrap">(30 Dic 2022 – 21 Nov 2026)</span></h2>
+      <p class="sec-sub" style="margin:0">Cambio EUR/USD storico esatto, filtro di purezza identico, correzione sub-cent (&lt;0,0001 USD) e stato point-in-time di unlocks e holders.</p>
+    </div>
+    <span class="scroll-hint" data-scroll-hint="timelineWrap">&larr; Scorri tabella &rarr;</span>
+  </div>
+  <div class="card" style="padding:0;overflow:hidden">
+    <div class="tbl-wrap no-maxh" id="timelineWrap" style="border:none"><table id="timelineTbl"></table></div>
   </div>
 
   <h2 class="sec-title" id="downloads">Centro Download Dataset (CSV / JSON) e Dossier Forensi (Markdown)</h2>
@@ -267,25 +364,19 @@ footer a { color: var(--accent); text-decoration: none; }
 
   <footer>
     <div>Pure Crypto Top 500 Multi-Cycle Forensic Research (2022–2026) &middot; Open Data &amp; Reproducible Python Pipeline</div>
-    <div><a href="https://github.com/raffaele-ando/crypto-top500-multicycle-2022-2026" target="_blank" rel="noopener">Repository GitHub (raffaele-ando/crypto-top500-multicycle-2022-2026)</a></div>
+    <div><a href="https://github.com/raffaele-ando/crypto-top500-multicycle-2022-2026" target="_blank" rel="noopener">Repository GitHub (raffaele-ando/crypto-top500-multicycle-2022-2026) &nearr;</a></div>
   </footer>
 </main>
 
 <script>
 const CENSUS = [{"code":"D01","date":"2022-12-30","it_label":"30 Dic 2022 01:00 CET","fx_eur_usd":1.066055,"btc_usd":16602.59,"btc_eur":15573.85,"eth_usd":1199.23,"cohort_mcap_usd_b":663.19,"cohort_vol24h_usd_b":27.54,"cutoff_rank500_sym":"AHT","cutoff_rank500_mcap_m":14.17,"n_unlock_official_curve":196,"n_unlock_total":500,"n_hist_holders_cnt":55,"n_hist_top10_conc":182,"n_hist_eoa_whale":72,"n_ref_top10_nov24":438,"n_vistaB_already_listed":228,"raw_snapshot_total_coins":8789},{"code":"D02","date":"2024-04-09","it_label":"09 Apr 2024 02:00 CEST","fx_eur_usd":1.08617,"btc_usd":69139.02,"btc_eur":63653.95,"eth_usd":3505.16,"cohort_mcap_usd_b":2452.16,"cohort_vol24h_usd_b":95.17,"cutoff_rank500_sym":"EWT","cutoff_rank500_mcap_m":73.2,"n_unlock_official_curve":227,"n_unlock_total":500,"n_hist_holders_cnt":50,"n_hist_top10_conc":186,"n_hist_eoa_whale":92,"n_ref_top10_nov24":445,"n_vistaB_already_listed":285,"raw_snapshot_total_coins":9549},{"code":"D03","date":"2024-09-10","it_label":"10 Set 2024 02:00 CEST","fx_eur_usd":1.10357,"btc_usd":57648.71,"btc_eur":52238.38,"eth_usd":2389.58,"cohort_mcap_usd_b":1878.13,"cohort_vol24h_usd_b":58.1,"cutoff_rank500_sym":"TON","cutoff_rank500_mcap_m":42.33,"n_unlock_official_curve":225,"n_unlock_total":500,"n_hist_holders_cnt":46,"n_hist_top10_conc":180,"n_hist_eoa_whale":104,"n_ref_top10_nov24":446,"n_vistaB_already_listed":305,"raw_snapshot_total_coins":9846},{"code":"D04","date":"2024-11-22","it_label":"22 Nov 2024 01:00 CET","fx_eur_usd":1.046909,"btc_usd":98997.66,"btc_eur":94561.86,"eth_usd":3331.6,"cohort_mcap_usd_b":3155.86,"cohort_vol24h_usd_b":221.7,"cutoff_rank500_sym":"CBK","cutoff_rank500_mcap_m":66.58,"n_unlock_official_curve":220,"n_unlock_total":500,"n_hist_holders_cnt":44,"n_hist_top10_conc":178,"n_hist_eoa_whale":104,"n_ref_top10_nov24":449,"n_vistaB_already_listed":323,"raw_snapshot_total_coins":10156},{"code":"D05","date":"2025-01-24","it_label":"24 Gen 2025 01:00 CET","fx_eur_usd":1.041565,"btc_usd":104819.48,"btc_eur":100636.53,"eth_usd":3309.55,"cohort_mcap_usd_b":3400.21,"cohort_vol24h_usd_b":134.72,"cutoff_rank500_sym":"H2O","cutoff_rank500_mcap_m":69.18,"n_unlock_official_curve":222,"n_unlock_total":500,"n_hist_holders_cnt":44,"n_hist_top10_conc":183,"n_hist_eoa_whale":113,"n_ref_top10_nov24":450,"n_vistaB_already_listed":342,"raw_snapshot_total_coins":10751},{"code":"D06","date":"2025-04-08","it_label":"08 Apr 2025 02:00 CEST","fx_eur_usd":1.091552,"btc_usd":76271.95,"btc_eur":69874.77,"eth_usd":1472.55,"cohort_mcap_usd_b":2213.42,"cohort_vol24h_usd_b":106.89,"cutoff_rank500_sym":"MBX","cutoff_rank500_mcap_m":31.33,"n_unlock_official_curve":233,"n_unlock_total":500,"n_hist_holders_cnt":43,"n_hist_top10_conc":188,"n_hist_eoa_whale":124,"n_ref_top10_nov24":452,"n_vistaB_already_listed":360,"raw_snapshot_total_coins":10360},{"code":"D07","date":"2025-09-19","it_label":"19 Set 2025 02:00 CEST","fx_eur_usd":1.178913,"btc_usd":115688.86,"btc_eur":98131.81,"eth_usd":4470.92,"cohort_mcap_usd_b":3764.6,"cohort_vol24h_usd_b":123.14,"cutoff_rank500_sym":"TOWNS","cutoff_rank500_mcap_m":55.04,"n_unlock_official_curve":248,"n_unlock_total":500,"n_hist_holders_cnt":42,"n_hist_top10_conc":181,"n_hist_eoa_whale":134,"n_ref_top10_nov24":459,"n_vistaB_already_listed":419,"raw_snapshot_total_coins":9508},{"code":"D08","date":"2025-10-07","it_label":"07 Ott 2025 02:00 CEST","fx_eur_usd":1.170966,"btc_usd":121451.38,"btc_eur":103718.96,"eth_usd":4451.15,"cohort_mcap_usd_b":3886.94,"cohort_vol24h_usd_b":212.36,"cutoff_rank500_sym":"WFI","cutoff_rank500_mcap_m":54.25,"n_unlock_official_curve":248,"n_unlock_total":500,"n_hist_holders_cnt":42,"n_hist_top10_conc":180,"n_hist_eoa_whale":139,"n_ref_top10_nov24":460,"n_vistaB_already_listed":430,"raw_snapshot_total_coins":9502},{"code":"D09","date":"2025-12-26","it_label":"26 Dic 2025 01:00 CET","fx_eur_usd":1.178403,"btc_usd":87301.43,"btc_eur":74084.53,"eth_usd":2925.75,"cohort_mcap_usd_b":2665.45,"cohort_vol24h_usd_b":87.83,"cutoff_rank500_sym":"CTSI","cutoff_rank500_mcap_m":29.35,"n_unlock_official_curve":261,"n_unlock_total":500,"n_hist_holders_cnt":326,"n_hist_top10_conc":178,"n_hist_eoa_whale":146,"n_ref_top10_nov24":460,"n_vistaB_already_listed":461,"raw_snapshot_total_coins":8919},{"code":"D10","date":"2026-01-15","it_label":"15 Gen 2026 01:00 CET","fx_eur_usd":1.164502,"btc_usd":95551.19,"btc_eur":82053.26,"eth_usd":3317.1,"cohort_mcap_usd_b":2951.34,"cohort_vol24h_usd_b":115.29,"cutoff_rank500_sym":"TOKAMAK","cutoff_rank500_mcap_m":32.92,"n_unlock_official_curve":247,"n_unlock_total":500,"n_hist_holders_cnt":330,"n_hist_top10_conc":181,"n_hist_eoa_whale":151,"n_ref_top10_nov24":465,"n_vistaB_already_listed":463,"raw_snapshot_total_coins":8947},{"code":"D11","date":"2026-02-13","it_label":"13 Feb 2026 01:00 CET","fx_eur_usd":1.186915,"btc_usd":68857.84,"btc_eur":58014.13,"eth_usd":2048.53,"cohort_mcap_usd_b":2075.01,"cohort_vol24h_usd_b":86.6,"cutoff_rank500_sym":"TAIKO","cutoff_rank500_mcap_m":25.08,"n_unlock_official_curve":245,"n_unlock_total":500,"n_hist_holders_cnt":329,"n_hist_top10_conc":179,"n_hist_eoa_whale":153,"n_ref_top10_nov24":466,"n_vistaB_already_listed":471,"raw_snapshot_total_coins":8870},{"code":"D12","date":"2026-05-12","it_label":"12 Mag 2026 02:00 CEST","fx_eur_usd":1.177952,"btc_usd":80477.5,"btc_eur":68319.84,"eth_usd":2274.64,"cohort_mcap_usd_b":2392.21,"cohort_vol24h_usd_b":76.83,"cutoff_rank500_sym":"ABT","cutoff_rank500_mcap_m":29.09,"n_unlock_official_curve":261,"n_unlock_total":500,"n_hist_holders_cnt":338,"n_hist_top10_conc":186,"n_hist_eoa_whale":170,"n_ref_top10_nov24":471,"n_vistaB_already_listed":491,"raw_snapshot_total_coins":8431},{"code":"D13","date":"2026-07-01","it_label":"01 Lug 2026 23:59 UTC","fx_eur_usd":1.141311,"btc_usd":60003.76,"btc_eur":52574.41,"eth_usd":1608.96,"cohort_mcap_usd_b":1808.13,"cohort_vol24h_usd_b":73.18,"cutoff_rank500_sym":"METIS","cutoff_rank500_mcap_m":20.77,"n_unlock_official_curve":258,"n_unlock_total":500,"n_hist_holders_cnt":334,"n_hist_top10_conc":190,"n_hist_eoa_whale":184,"n_ref_top10_nov24":476,"n_vistaB_already_listed":500,"raw_snapshot_total_coins":8121},{"code":"D14","date":"2026-10-01","it_label":"01 Ott 2026 23:59 UTC","fx_eur_usd":1.132697,"btc_usd":84853.1,"btc_eur":74912.45,"eth_usd":2705.54,"cohort_mcap_usd_b":2625.3,"cohort_vol24h_usd_b":76.53,"cutoff_rank500_sym":"DEGEN","cutoff_rank500_mcap_m":26.27,"n_unlock_official_curve":244,"n_unlock_total":500,"n_hist_holders_cnt":315,"n_hist_top10_conc":167,"n_hist_eoa_whale":162,"n_ref_top10_nov24":446,"n_vistaB_already_listed":499,"raw_snapshot_total_coins":8147},{"code":"D15","date":"2026-11-21","it_label":"21 Nov 2026 05:30 CET","fx_eur_usd":1.096,"btc_usd":55659.47,"btc_eur":50784.19,"eth_usd":1546.77,"cohort_mcap_usd_b":1670.89,"cohort_vol24h_usd_b":101.54,"cutoff_rank500_sym":"BREV","cutoff_rank500_mcap_m":16.41,"n_unlock_official_curve":241,"n_unlock_total":500,"n_hist_holders_cnt":309,"n_hist_top10_conc":161,"n_hist_eoa_whale":158,"n_ref_top10_nov24":433,"n_vistaB_already_listed":500,"raw_snapshot_total_coins":7936}];
-const savedTheme = localStorage.getItem("crypto_hub_theme");
-if (savedTheme) document.documentElement.dataset.theme = savedTheme;
-function toggleTheme() {
-  const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-  document.documentElement.dataset.theme = next;
-  localStorage.setItem("crypto_hub_theme", next);
-}
-let html = "<thead><tr><th class='l'>Cod</th><th class='l'>Data (Ora IT)</th><th>FX EUR/USD</th><th>BTC USD</th><th>ETH USD</th><th>MCap Pure500 (Mld)</th><th>Cutoff #500</th><th>Curve CMC</th><th>Holders Hist</th><th>Top10 Archive/CC</th><th>Vista B Quotate</th></tr></thead><tbody>";
+let html = "<thead><tr><th class='l sticky-col'>Cod</th><th class='l'>Data / Rif. Temporale</th><th>FX EUR/USD</th><th>BTC USD</th><th>ETH USD</th><th>MCap Pure500 (Mld)</th><th class='l'>Cutoff #500</th><th>Curve CMC</th><th>Holders Hist</th><th>Top10 Archive/CC</th><th>Vista B Quotate</th></tr></thead><tbody>";
 for (const c of CENSUS) {
-  html += `<tr><td class='l'><b>${c.code}</b></td><td class='l'>${c.it_label}</td><td>${c.fx_eur_usd.toFixed(4)}</td><td>${c.btc_usd.toLocaleString("it-IT",{maximumFractionDigits:1})}</td><td>${c.eth_usd.toLocaleString("it-IT",{maximumFractionDigits:1})}</td><td>${c.cohort_mcap_usd_b.toFixed(2)}</td><td><b>${c.cutoff_rank500_sym}</b> (${c.cutoff_rank500_mcap_m.toFixed(1)}M)</td><td>${c.n_unlock_official_curve}/500</td><td>${c.n_hist_holders_cnt}/500</td><td>${c.n_hist_top10_conc}/500</td><td>${c.n_vistaB_already_listed}/500</td></tr>`;
+  html += `<tr><td class='l sticky-col'><b>${c.code}</b></td><td class='l'>${c.it_label}</td><td>${FMT.fx(c.fx_eur_usd)}</td><td>${FMT.dec1(c.btc_usd)}</td><td>${FMT.dec1(c.eth_usd)}</td><td>${FMT.dec2(c.cohort_mcap_usd_b)}</td><td class='l'><b>${c.cutoff_rank500_sym}</b> <span class='mut'>(${FMT.dec1(c.cutoff_rank500_mcap_m)} M)</span></td><td>${c.n_unlock_official_curve}/500</td><td>${c.n_hist_holders_cnt}/500</td><td>${c.n_hist_top10_conc}/500</td><td>${c.n_vistaB_already_listed}/500</td></tr>`;
 }
 html += "</tbody>";
 document.getElementById("timelineTbl").innerHTML = html;
+agyRefreshScrollHints();
 </script>
 </body>
 </html>
